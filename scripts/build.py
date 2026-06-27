@@ -209,6 +209,14 @@ def get_ddg_safe_bases() -> set:
     return safe
 
 
+def get_network_rules(rules: set) -> set:
+    """
+    Extracts purely network-based rules from a set of rules.
+    It identifies cosmetic rules by checking for standard injection/hiding delimiters.
+    """
+    return {r for r in rules if "##" not in r and "#?#" not in r and "#@#" not in r and "#$#" not in r and not r.startswith("!")}
+
+
 @functools.lru_cache(maxsize=1)
 def get_ddg_entity_map() -> dict:
     """
@@ -558,7 +566,9 @@ def build_2_without_easylist_optimized() -> None:
     Use alongside EasyList. Do NOT combine with the default AdGuard Base filter.
     """
     log("=== Building: 2_without_easylist_optimized ===")
-    result = fetch(SOURCES["adg_base_optimized"]) & fetch(SOURCES["adg_base_without_easylist"])
+    base_opt = fetch(SOURCES["adg_base_optimized"])
+    base_no_el = fetch(SOURCES["adg_base_without_easylist"])
+    result = (base_opt & base_no_el) | get_network_rules(base_no_el)
     write_both(
         "2_without_easylist_optimized",
         "AdGuard Base Filter - Without EasyList (Optimized)",
@@ -662,6 +672,67 @@ def build_advanced_tracking_protection_optimized() -> None:
     )
 
 
+
+def build_easylist_social_optimized() -> None:
+    log("=== Building: easylist_social_optimized ===")
+    adg = fetch(SOURCES["adg_annoyances_122_optimized"])
+    el = fetch(SOURCES["easylist_social"])
+    result = (adg & el) | get_network_rules(el)
+    write_both(
+        "easylist_social_optimized",
+        "EasyList Social Widgets (Optimized)",
+        "Intersection of AdGuard optimized annoyances and EasyList Social.",
+        result,
+    )
+
+def build_easylist_cookies_optimized() -> None:
+    log("=== Building: easylist_cookies_optimized ===")
+    adg = fetch(SOURCES["adg_annoyances_122_optimized"])
+    el = fetch(SOURCES["easylist_cookies"])
+    result = (adg & el) | get_network_rules(el)
+    write_both(
+        "easylist_cookies_optimized",
+        "EasyList Cookie List (Optimized)",
+        "Intersection of AdGuard optimized annoyances and EasyList Cookies.",
+        result,
+    )
+
+def build_easylist_chat_optimized() -> None:
+    log("=== Building: easylist_chat_optimized ===")
+    adg = fetch(SOURCES["adg_annoyances_122_optimized"])
+    el = fetch(SOURCES["easylist_chat"])
+    result = (adg & el) | get_network_rules(el)
+    write_both(
+        "easylist_chat_optimized",
+        "EasyList Chat Widgets (Optimized)",
+        "Intersection of AdGuard optimized annoyances and EasyList Chat.",
+        result,
+    )
+
+def build_easylist_notifications_optimized() -> None:
+    log("=== Building: easylist_notifications_optimized ===")
+    adg = fetch(SOURCES["adg_annoyances_122_optimized"])
+    el = fetch(SOURCES["easylist_notifications"])
+    result = (adg & el) | get_network_rules(el)
+    write_both(
+        "easylist_notifications_optimized",
+        "EasyList Notifications (Optimized)",
+        "Intersection of AdGuard optimized annoyances and EasyList Notifications.",
+        result,
+    )
+
+def build_easylist_newsletters_optimized() -> None:
+    log("=== Building: easylist_newsletters_optimized ===")
+    adg = fetch(SOURCES["adg_annoyances_122_optimized"])
+    el = fetch(SOURCES["easylist_newsletters"])
+    result = (adg & el) | get_network_rules(el)
+    write_both(
+        "easylist_newsletters_optimized",
+        "EasyList Newsletters (Optimized)",
+        "Intersection of AdGuard optimized annoyances and EasyList Newsletters.",
+        result,
+    )
+
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 def main() -> None:
@@ -670,6 +741,11 @@ def main() -> None:
     build_advanced_tracking_protection_extended()
     build_advanced_tracking_protection_complete()
     build_advanced_tracking_protection_optimized()
+    build_easylist_social_optimized()
+    build_easylist_cookies_optimized()
+    build_easylist_chat_optimized()
+    build_easylist_notifications_optimized()
+    build_easylist_newsletters_optimized()
     log("All builds complete.")
 
 
