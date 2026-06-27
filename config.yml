@@ -18,6 +18,14 @@ sources:
   adg_mail:                   "https://filters.adtidy.org/extension/ublock/filters/25.txt"
   adg_mail_optimized:         "https://filters.adtidy.org/extension/ublock/filters/25_optimized.txt"
 
+  # Annoyances & EasyList optimized targets
+  adg_annoyances_122_optimized: "https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt"
+  easylist_social:              "https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/thirdparties/easylist/easylist-social.txt"
+  easylist_cookies:             "https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/thirdparties/easylist/easylist-cookies.txt"
+  easylist_chat:                "https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/thirdparties/easylist/easylist-chat.txt"
+  easylist_notifications:       "https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/thirdparties/easylist/easylist-notifications.txt"
+  easylist_newsletters:         "https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/thirdparties/easylist/easylist-newsletters.txt"
+
   # DDG Tracker Data Set - official compiled TDS used by DDG browsers and extensions
   # Single HTTP fetch replaces the old sparse git clone of tracker-radar
   ddg_tds_url: "https://staticcdn.duckduckgo.com/trackerblocking/v6/current/extension-tds.json"
