@@ -1,0 +1,28 @@
+# Title: EasyList Newsletters (Optimized) (DNS/hosts format)
+# Version: 2026-06-27T09:16:18Z
+# Homepage: https://github.com/cudios-dev/adfilters
+# Domains: 23
+#
+0.0.0.0 api.pico.tools
+0.0.0.0 app.avada.io
+0.0.0.0 bbc7dcd54670499dbd3ba50c33600830.pages.ubembed.com
+0.0.0.0 confirmsubscription.com
+0.0.0.0 data.reachplc.com
+0.0.0.0 embeds.beehiiv.com
+0.0.0.0 ext.spinwheelapp.com
+0.0.0.0 f.convertkit.com
+0.0.0.0 faves.grow.me
+0.0.0.0 gn-flagpoles.api.bbci.co.uk
+0.0.0.0 ipzmarketing.com
+0.0.0.0 maillist-manage.com
+0.0.0.0 newsletter.beautydea.it
+0.0.0.0 optinly.net
+0.0.0.0 ping.contactpigeon.com
+0.0.0.0 popupsmart.com
+0.0.0.0 sendlane.com
+0.0.0.0 spinasale.com
+0.0.0.0 subscription-forms.smsbump.com
+0.0.0.0 targetbay.com
+0.0.0.0 wheelioapp.azureedge.net
+0.0.0.0 widget.smsinfo.io
+0.0.0.0 yourmarketingemail.com

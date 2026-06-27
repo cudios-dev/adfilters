@@ -1,0 +1,791 @@
+[Adblock Plus 2.0]
+! Title: EasyList Notifications (Optimized)
+! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
+! Version: 2026-06-27T09:16:18Z
+! Expires: 1 day (update frequency)
+! Homepage: https://github.com/cudios-dev/adfilters
+! License: MIT
+! Rules: 782
+!
+-push-notification.$domain=~github.com
+-push-notification/$domain=~github.com
+/FeedifySW.js
+/MobileDownloadBanner.js
+/OneSignalSDK.page.js
+/OneSignalSDKUpdaterWorker.js
+/OneSignalSDKWorker.js
+/PushexSDK.js
+/accusmartwebpush-fire-push-public.js
+/al-fb-notification/assets/scripts/al-main-script.js
+/amp-user-notification-
+/amp-web-push-0.1.js
+/app-banner/*$xmlhttprequest
+/assets/www/notification.
+/bildirimtr-sw.js
+/build/push.js
+/checkPush.js
+/content/js/push.js
+/fcmPush.js
+/firebase-messaging.js$script,domain=tribunnews.com
+/flying_push.js
+/ilabspush.min.js
+/inpl.webpush.js
+/jquery-notification.js
+/jquery.androidbanner.js
+/js-mobile-*/header_$script
+/js/jquery.smartbanner.js|
+/js/jquery.smartbanner.min.js|
+/jsb/pushnotifications?
+/list_notificaciones.php
+/maximizly-push.js
+/mobile-app-invite-banner.umd.min.js
+/mobile-welcome-overlay/*$script
+/mp-web-notification.js
+/notifee/notifee.js
+/notification-prod-sw.js
+/notification-sw.js
+/notification/notify.js
+/notifyme.js
+/notifyme.min.js
+/one-signal.js
+/one-signal.min.js
+/onesignal.js
+/onesignal.min.
+/onesignal/manifest.
+/onesignalfix.js
+/partytown-sw.js
+/perfecty-push-sdk.min.js
+/plugins/tfnotifier-wp/swloader.php
+/push-notification.js
+/push-notification.min.js
+/push-notification/*$domain=~upwork.com
+/push-notifications.$~stylesheet
+/push-notifications/*
+/push-notifications?
+/push-sw.js
+/push-worker-$script
+/push-wrap.js
+/push/sbscr.js
+/push/sbscrp.js
+/push/subscribe.js
+/pushNotification.js
+/pushNotificationSdkJS.js
+/pushNotifications.js
+/push_app.js
+/push_notification.js
+/push_notification.min.js
+/push_notification/*
+/push_notifications.js
+/push_subscription.js
+/pushengine.js
+/pushes/firebase.js
+/pushes/notification.js
+/pushly-sdk.min.js
+/pushnotifications/*
+/pushpro-lib.js
+/pushsubscribe.js
+/pushup-notification/push-app.js
+/pushup-notification/push-messaging.js
+/pushv2.js
+/pushwoosh-service-worker.js
+/pushwoosh-web-notifications.js
+/pushwoosh-web-pushes-http-sdk.js
+/pushy-ver.js
+/site-notification-desk.min.js
+/smart-app-banner.js
+/smio-push-notification/js/frontend_webpush.js
+/subscribe-push-notifications.js
+/web-push-notifications.js
+/web-push.js
+/web-push/init.min.js
+/webPushNotifications.js
+/webalert-notification.js
+/webnotf.js
+/webnotification.js
+/webpush-client/webpush-client.min.js
+/webpush-production.js
+/webpush.js
+/webpush.min.js
+/webpush_register.php
+/webpush_service-worker.js
+/wonderpush-loader.min.js
+/wonderpush.js
+/wonderpush.min.js
+/wordpress-fire-push-public.js
+/wp-notification-bars-public.js
+1019therock.com,101theeagle.com,1023thebullfm.com,1025kiss.com,1027kord.com,1033thegoat.com,1035kissfmboise.com,1037theloon.com,1037theriver.com,103gbfrocks.com,103kkcn.com,103wjod.com,1043wowcountry.com,1045theteam.com,1051theblock.com,1057thehawk.com,1061evansville.com,1063nowfm.com,1063thebuzz.com,1073kissfmtexas.com,1073popcrush.com,1075thepeak.com,1079ishot.com,107jamz.com,1130thetiger.com,1340thehawk.com,1390granitecitysports.com,1420wbec.com,1440wrok.com,1470kyyw.com,1520theticket.com,560kmon.com,610kona.com,710keel.com,890kdxu.com,925kaar.com,925theranch.com,929nin.com,929thebull.com,929thelake.com,929theticket.com,92moose.fm,943litefm.com,943thepoint.com,945maxcountry.com,949whom.com,94kix.com,953thebear.com,955kmbr.com,95rockfm.com,961theeagle.com,963theblaze.com,965kvki.com,965therock.com,965thewalleye.com,967theeagle.net,969zoofm.com,973espn.com,973kkrc.com,973thedawg.com,975kgkl.com,975now.com,979kickfm.com,97rockonline.com,97x.com,97zokonline.com,981thehawk.com,983thesnake.com,987jack.com,987kissfmsanangelo.com,987thebomb.com,987thegrand.com,995theapple.com,999bigskysports.com,999ktdy.com,999thepoint.com,99wfmk.com,allhitskzmk.com,alternativemissoula.com,antennamag.com,awesome98.com,b100quadcities.com,b1027.com,b105country.com,b921hits.com,b93.net,b985.fm,banana1015.com,bigcat921.com,bigcat953.com,bigcountry969.com,bigfrog104.com,bigstack1039.com,billingsmix.com,bozemanskissfm.com,caspercowboy.com,catcountry1029.com,catcountry1073.com,catcountryutah.com,catfishtuscaloosa.com,classicrock1051.com,classicrock961.com,club937.com,cnynews.com,cool987fm.com,dakotacountry961.com,danburycountry.com,dave1077.com,eagle1023fm.com,eagle933.com,espn960sanangelo.com,espnquadcities.com,espnsiouxfalls.com,espnwesterncolorado.com,foxsports1510.com,foxsportsutahradio.com,fun1043.com,fun107.com,fun947.com,gator995.com,highway989.com,hot1047.com,hot975fm.com,hot991.com,hudsonvalleycountry.com,i95rock.com,i95rocks.com,jackfmcasper.com,juan925fm.com,juanhudsonvalley.com,k2radio.com,k923.fm,k945.com,k96fm.com,k99.com,k99hits.com,katsfm.com,kbat.com,kbulnewstalk.com,kcrr.com,kdat.com,kdhlradio.com,keanradio.com,kekbfm.com,keyj.com,keyw.com,keyzradio.com,kezj.com,kffm.com,kfilradio.com,kfmx.com,kfox95.com,kfyo.com,kgab.com,kgrzmissoula.com,khak.com,khmoradio.com,kickam1530.com,kicks105.com,kidotalkradio.com,kikn.com,kingfm.com,kisscasper.com,kisselpaso.com,kissfm1053.com,kissfm969.com,kissin977.com,kixs.com,kkam.com,kkyr.com,klaq.com,klaw.com,klubtejano.com,kmhk.com,kmmsam.com,knue.com,koel.com,kool1017.com,kool1079.com,kool929fm.com,kool965.com,koolfmabilene.com,kowb1290.com,kpel965.com,kpq.com,kqvt.com,krfofm.com,krforadio.com,krna.com,kroc.com,krocnews.com,krod.com,ksenam.com,ksfa860.com,ksisradio.com,ksub590.com,ktemnews.com,kubcthecanyon.com,kw3.com,kwcdcountry.com,kxkx.com,kxrb.com,kxtl.com,kygl.com,kyssfm.com,lite987.com,litefm955.com,liteonline.com,live959.com,lonestar923.com,lonestar995fm.com,mega993online.com,minnesotasnewcountry.com,mix1043fm.com,mix106radio.com,mix108.com,mix931fm.com,mix941kmxj.com,mix949.com,mix951.com,mix957gr.com,mix979fm.com,montanastatenews.com,mooseradio.com,my1053wjlt.com,myb106.com,mybeachradio.com,mycountry955.com,myjuan1017.com,mykiss1031.com,mykisscountry937.com,mymagicgr.com,mymajic933.com,mymix923.com,myq1075.com,newsradio1310.com,newstalk1280.com,newstalk1290.com,newstalk870.am,newstalk940.com,newstalkkgvo.com,newstalkkit.com,nj1015.com,northlandfan.com,popcrush.com,power1029noco.com,power959.com,power96radio.com,powerboise.com,praise933.com,q1057.com,q1065.fm,q1077.com,q961.com,q985.fm,q985online.com,quickcountry.com,retro1025.com,river967.com,rivergrandrapids.com,rock1041.com,rock967online.com,screencrush.com,shark1053.com,sojo1049.com,sportsradio977.com,squatchrocks.com,star939.com,star981.com,supertalk1270.com,talk1067.com,talk1470.com,talkradio960.com,tasteofcountry.com,theboot.com,thebullamarillo.com,thegame730am.com,thequake1021.com,theriver979.com,therockofrochester.com,thunder981.com,tide1009.com,ultimateclassicrock.com,us103.com,us1033.com,us1049quadcities.com,us105fm.com,wbckfm.com,wbkr.com,wblk.com,wblm.com,wbsm.com,wbxxfm.com,wchram.com,wcrz.com,wcyy.com,wdbqam.com,wdea.am,wfnt.com,wfpg.com,wgna.com,wgrd.com,wibx950.com,witl.com,wjbq.com,wjimam.com,wjon.com,wkdq.com,wkfr.com,wkmi.com,wmmq.com,wnaw.com,wnbf.com,wobm.comm,wokq.com,womiowensboro.com,wour.com,wpdh.com,wpst.com,wrkr.com,wrrv.com,wsbs.com,wsrkfm.com,wtug.com,wupe.com,wyrk.com,wzozfm.com,xlcountry.com,y105fm.com,y105music.com,y95country.com,z100missoula.com,z1073.com,z94.com,zoey1039.com##.widget-branded_app_promo
+9animetv.to##img[alt="App Download"]
+9gag.com##.use-app
+9gag.com##body:style(overflow: auto !important;)
+@@||anadolu.edu.tr/assets/js/jquery.smartbanner.js$~third-party
+@@||assure.ameli.fr^*/smart-app-banner.js$~third-party
+@@||bostonherald.com^*/webpush.js$script,~third-party
+@@||braze.com/api/$domain=dairyqueen.com|deezer.com
+@@||creator.klarna.com/plugins/onesignal-cordova-plugin/www/onesignal.js$~third-party
+@@||fortnitedb.com/js/v3/oneSignal.js$~third-party
+@@||frankonia.de/js/lib/smart-app-banner.js$~third-party
+@@||inevent.com/js/wizard/pushNotification.js$script,~third-party
+@@||kinepolis.*/js/smart-app-banner.js$~third-party
+@@||ledevoir.com/js/web-push.js$script,~third-party
+@@||mafia.ua/js/jquery.smartbanner.js$script,~third-party
+@@||mirage.ru/js/jquery.smartbanner.js$script,~third-party
+@@||oakley.com^*/notifications.js$~third-party
+@@||snrcdn.net/sdk/3.0/synerise-javascript-sdk.min.js$domain=komputronik.pl
+@@||st.mycdn.me/static/*/WebPush.js$script,domain=ok.ru
+@@||webpush.jp/js/browserpushv3.js$domain=zakzak.co.jp
+@@||weekend.ee/static/*/push-notifications.chunk.js$~third-party
+abendzeitung-muenchen.de###webpush-app
+adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.com.ar,catalogosofertas.com.br,catalogosofertas.com.co,catalogosofertas.com.ec,catalogosofertas.com.mx,catalogosofertas.com.pe,catalogueoffers.co.uk,catalogueoffers.com.au,flugblattangebote.at,flyerdeals.ca,folderz.nl,folhetospromocionais.com,folletosofertas.es,gazetki.pl,kundeavisogtilbud.no,ofertelecatalog.ro,offertevolantini.it,promocatalogues.fr,promotiez.be,promotions.ae,prospektangebote.de,reklambladerbjudanden.se,tilbudsaviseronline.dk###mobile-app-popup
+adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.com.ar,catalogosofertas.com.br,catalogosofertas.com.co,catalogosofertas.com.ec,catalogosofertas.com.mx,catalogosofertas.com.pe,catalogueoffers.co.uk,catalogueoffers.com.au,flugblattangebote.at,flyerdeals.ca,folderz.nl,folhetospromocionais.com,folletosofertas.es,gazetki.pl,kundeavisogtilbud.no,ofertelecatalog.ro,offertevolantini.it,promocatalogues.fr,promotiez.be,promotions.ae,prospektangebote.de,reklambladerbjudanden.se,tilbudsaviseronline.dk##.js-page-promotion-container
+agoda.com##.redirectToAppBar
+airasia.com##.QRPopUp__QRPopUpWrapper-sc-8gx7le-0
+aliexpress.com,aliexpress.us##._3KrBP
+aljazeera.com##.user-accounts-tooltip.closable
+aljazeera.com,aljazeera.net##.nudge
+amazon.com##.sparkle-container
+apkpure.com,apkpure.net##.chrome-install-pop
+app.uniswap.org##+js(set-session-storage-item, hideMobileAppPromoBanner, true)
+arabbank.com.au,color4care.co.uk,color4care.dk,color4care.fi,color4care.no,operon.pl,vardvaskan.se#@#.push-wrapper:not(body):not(html)
+asbclassic.co.nz,envirowaste.co.nz,harmoney.co.nz,harmoney.com.au,mstream.io,rocketlabusa.com,underconsideration.com#@#.push-wrap:not(body):not(html)
+asia.nikkei.com,businesspost.ie,rappler.com##body:style(height: auto !important; overflow: auto !important)
+atlasobscura.com##.app-store-heading
+atlasobscura.com##.apple-store-icon
+atptour.com##.atp_apps
+atptour.com##[href^="https://www.atptour.com/en/apps"]
+audionetwork.com,carlsenfritzoe.no#@##push-container:not(body):not(html)
+audius.co##+js(rc, scrollLock, , stay)
+autoevolution.com##body,html:style(height: auto !important; overflow: auto !important)
+banggood.com##.bottom-app-contain
+behance.net##.PrimaryNav-appLinkContainer-bhx
+behance.net##body,html:style(overflow: auto !important; position: initial !important;)
+belstad.com##+js(set-local-storage-item, is_announcement_closed, true)
+bestbuy.com###smartbannerContainer
+bestbuy.com##+js(set-local-storage-item, smartBannerDismissed, 1)
+bestbuy.com##body:style(margin-top:0px !important)
+bing.com##.b_bnp_bopc
+blog.google##.feedback-survey-container
+booking.com##.gta-link-track
+boredpanda.com,citizen.com,coincodex.com##.get-app
+business-standard.com##.notification-col
+businessinsider.com,insider.com##.app-button
+businessinsider.com,insider.com##body:style(overflow: auto !important; position: initial !important;)
+canva.com##body:style(overflow: auto !important; position: initial !important;)
+cba24n.com.ar##view-firebase-prompt
+chaturbate.com##.RoomSignupPopup
+cheaptickets.com,orbitz.com,travelocity.com,wotif.com##.CustomerNotificationsWrapper
+chess.com##.ready-to-play-banner-component
+clubd.co.jp###footerBanner
+cnet.com##.c-globalModal
+cnet.com##body:style(height: auto !important; overflow: auto !important)
+coincodex.com##.app
+coincodex.com##.download-coincodex-app
+coinmarketcap.com##.app-banner-new
+coinpaprika.com##body:style(overflow: auto !important; position: initial !important;)
+computrabajo.com###pop-up-webpush-background
+computrabajo.com###pop-up-webpush-sub
+consumerreports.org###mtRoundupPaywallPopup
+copilot.microsoft.com##body,html:style(overflow: auto !important; position: initial !important;)
+cosmos.so##+js(set, Object.prototype.disablePaginationLimitForLoggedOut, true)
+crealitycloud.com##+js(set-local-storage-item, closeGuideRegisterTime, 1)
+crealitycloud.com##+js(set-local-storage-item, permission_open_push, 1)
+crunchbase.com##+js(set-local-storage-item, entity-limiter-views, $remove$)
+cryptonews.net##.download_the_app
+daadscholarship.com##+js(abort-on-property-write, LaraPush)
+dawn.com###consent-dialog
+deepl.com###callout-subtitle-chromeExtensionPromo
+deepl.com##+js(set-session-storage-item, LMT_browserExtensionPromo.displayed, true)
+delta.com##idp-dynamic-banner
+deribit.com##+js(set-local-storage-item, appCardSeen, true)
+discogs.com##.mobile-apps
+downace.com##+js(acis, requestPermission)
+duckduckgo.com##.ddg-extension-hide
+duckduckgo.com##.js-atb-banner
+duckduckgo.com##.legacyMobileHomepage_atbBadge__Wau98
+ebay.at,ebay.co.uk,ebay.com,ebay.com.au,ebay.de,ebay.es,ebay.fr,ebay.it,ebay.nl,ebay.pl##.gadget-banner-wrapper
+ebay.com##.pc-dweb
+ebay.com##html:style(overflow: auto !important; position: initial !important;)
+eksisozluk.com##body,html:style(overflow: auto !important; position: initial !important;)
+emailnator.com##.top-banner
+epark.jp##.header_app_banner
+expedia.at,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.hk,expedia.com.sg,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.it,expedia.nl,expedia.no,expedia.se,hotels.com##body,html:style(overflow: auto !important; position: initial !important;)
+expedia.at,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.hk,expedia.com.sg,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.it,expedia.nl,expedia.no,expedia.se,hotels.com,vrbo.com##.customer-notification-container
+expedia.com##.uitk-bottom-sheet
+facebook.com##+js(rc, prevent-scrolling, body, stay)
+fanblogs.jp##.aff-notice
+fandom.com##.marketing-notifications
+fdoc.jp##.appli_banner_box
+fedex.com##fedex-smart-banner
+fedex.com##trk-shared-smart-app-banner
+filmarks.com##.c-header-download-banner
+filmarks.com##.js-induce-banner
+filmora.wondershare.jp###appboxWrapper
+flightradar24.com##+js(set-cookie, map_new_features_new_flightradar24_com_label_options, 1)
+flightradar24.com##.open-in-app-button
+flvto.biz##.push-offer
+flypgs.com##.app-b
+flypgs.com##.c-pgs-app
+focus.de###wpBreakingNewsBanner
+fogaonet.com##+js(set-cookie, fn_cookie_whatsapp_alert, 1)
+food.ndtv.com##+js(set-cookie, ndtvfood_isSubscribed_elex_v1, no)
+fortnitetracker.com##.mobile-app-preview
+fortnitetracker.com##.trn-site-appbar__apps
+foundit.com.ph##+js(set-session-storage-item, isDownloadAppBannerClosed, true)
+foxnews.com##.push-alert-notify
+gadgets360.com###bnotify
+gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.soft-notification-modal_modal__8KcpZ
+ganganonline.com##.Base_banner__UbMI_
+geeksforgeeks.org###openInApp-modal
+gemini.google.com##.get-app-banner
+genius.com##.android_banner
+gigabaito.com##.app_bottom_banner
+glas-javnosti.rs##.skini
+google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
+gptoday.net##.webpush_popup
+gq.co.za##+js(set-cookie, PromptLater, true)
+gumtree.com##.image-app-banner
+gumtree.com.au##.app-download-wrapper
+hindustantimes.com##.app__link
+hindustantimes.com##.openAppButtonEcho
+homes.co.jp##aside[aria-label="LIFULL HOME'S 無料アプリでもっと便利に"]
+iclarified.com##.pushmodal
+ifunny.co##body,html:style(overflow: auto !important; position: initial !important;)
+imgur.com###getAppButton
+imgur.com##.SmartAppBanner-wrapper
+inews.hket.com##+js(rc, no-scroll, html, stay)
+insider-gaming.com###ig-app-cta
+instacart.com##body:style(height: auto !important; overflow: auto !important)
+instagram.com##+js(set-session-storage-item, lodum, 1)
+instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
+instagram.com##._acc8
+ivoox.com##.bg-lightest.wrapper
+iwate-np.co.jp###widget-webpush-popup
+izi.travel##.app_message
+joinhandshake.com,online.rsb.ru#@#.notifications-wrapper
+jp-m.banggood.com##+js(rc, show-app-bar, , stay)
+klook.com##.app-download
+kogan.com###footer-native-banner
+kraken.com,ryan216q.org###smart-app-banner
+ktoo.org##+js(set-cookie, modalDismissed, 1)
+lemon8-app.com##.pc-reflow
+lightinthebox.com##.top_open_app
+lightnovelworld.com##html:style(overflow: auto !important;)
+linkedin.com##.overlay
+linkedin.com##body:style(overflow: auto !important; position: initial !important;)
+livemint.com##.echoOpeninApp
+livesportsontv.com##+js(set-local-storage-item, promotion-popup-closed, 1)
+m.aiscore.com###appLink
+m.bilibili.com##.m-video2-awaken-btn
+m.bilibili.com##.mplayer-widescreen-callapp
+m.bilibili.com##.openapp-dialog
+m.bilibili.com##div[class*="-openapp"]
+m.economictimes.com###appDwnldBanner
+m.economictimes.com###footer_banner
+m.economictimes.com###wapFooter
+m.economictimes.com##+js(set-session-storage-item, nudgeStickyBannerHide, true)
+m.economictimes.com##._2YmFf
+m.economictimes.com##._2rMIm
+m.economictimes.com##body,html:style(overflow: auto !important; position: initial !important;)
+m.hoyolab.com##.guide-download-drawer
+m.iyf.tv##.container:has(> div.download-title)
+m.kaskus.co.id##+js(set-session-storage-item, open_in_browser, 1)
+m.twitch.tv##+js(set-session-storage-item, twilight.custom-smart-banner-dismissed, true)
+m.yelp.be,m.yelp.ca,m.yelp.co.jp,m.yelp.co.nz,m.yelp.co.uk,m.yelp.com,m.yelp.com.au,m.yelp.com.br,m.yelp.com.mx,m.yelp.com.tr,m.yelp.com.tw,m.yelp.cz,m.yelp.de,m.yelp.dk,m.yelp.es,m.yelp.fi,m.yelp.fr,m.yelp.ie,m.yelp.it,m.yelp.nl,m.yelp.no,m.yelp.pt,m.yelp.se##[data-testid="OpenAppButton"]
+m.yelp.be,m.yelp.ca,m.yelp.co.jp,m.yelp.co.nz,m.yelp.co.uk,m.yelp.com,m.yelp.com.au,m.yelp.com.br,m.yelp.com.mx,m.yelp.com.tr,m.yelp.com.tw,m.yelp.cz,m.yelp.de,m.yelp.dk,m.yelp.es,m.yelp.fi,m.yelp.fr,m.yelp.ie,m.yelp.it,m.yelp.nl,m.yelp.no,m.yelp.pt,m.yelp.se##body,html:style(overflow: auto !important; position: initial !important;)
+mail.google.com###sdppromo
+makemytrip.com##body:style(overflow: unset !important)
+makerworld.com##body:style(overflow: auto !important; position: initial !important;)
+mamanoko.jp###js-actamDownloadModal
+me-qr.com##.modal-apps
+medscape.com##.rel-links-media
+mega.nz#@#.notification-button
+mercari.com###getTheAppFooter
+metar-taf.com##.download-info
+minne.com##.smartAppBanner
+mobi24.net#@#a[href^="http://www.mobi24.net/"]
+mobi24.net#@#a[href^="https://www.mobi24.net/"]
+moneycontrol.com##.get_app_sticky_btn
+moovitapp.com##.moovit-banner
+msn.com##views-promo-card
+my-best.com##[href="https://mybest.go.link/dW75E"]
+myanimelist.net##.footer-app
+mydramalist.com##+js(rc, smartbanner-active, body)
+myhome.nifty.com##.bottom-follow-modal
+mypenndentist.org##+js(set-cookie, undefinedpopup-pdfpcouponoffer, 1)
+newegg.com##.our-apps
+news18.com##+js(acis, serviceworker.register)
+news24.com##.footer__app-links
+newsbreak.com##.bottom-0.fixed
+newsbreak.com##body:style(height: auto !important; overflow: auto !important)
+newsmax.com###SMSbanner
+nextdoor.com##body:style(overflow: auto !important; position: initial !important;)
+nhl.com##.-promo
+noovo.info##+js(set-cookie, pushNotifications_popup_displayed_v2, true)
+nzpost.co.nz###block-applaunchbanner
+onedio.com##+js(set-cookie, o-push-alert, 1)
+onlineradiobox.com##.playmarket
+otvet.mail.ru#@#.js-notifications-button
+patreon.com##+js(aeld, touchmove, preventDefault)
+paypal.com###PPAppDownloadBannerContainer
+pbtech.co.nz##.pb-app
+pdf.wondershare.jp##.b-downloadbox
+people.com##.people-sc-block-featuredlink--people-app-promo
+perplexity.ai##+js(set-session-storage-item, appDownloadBannerDismissed, true)
+phonearena.com##body:style(overflow: auto !important; position: initial !important;)
+player.fm##.bottom-promo-overlay
+player.fm##body,html:style(overflow: auto !important; position: initial !important;)
+pnas.org##.pop-notification
+pnas.org##.signup-alert-ad
+podbean.com##.download-dialog
+post-gazette.com##.pg-notifybox
+qatarairways.com##.appstore
+realestate.co.nz##body:style(height: auto !important; overflow: auto !important)
+redbull.com###bottom-notifications
+reddit.com###app-upsell-blocking-bottom-sheet-seo
+reddit.com###xpromo-bottom-sheet[aria-label*="See Reddit in..."]
+reddit.com###xpromo-bottom-sheet[aria-label*="See this post in..."]
+reddit.com###xpromo-small-header.mr-xs
+reddit.com##+js(aeld, block-body-scrolling)
+reddit.com##+js(rc, scroll-disabled, body, stay)
+reddit.com##+js(remove-class, rpl-scroll-lock, body, stay)
+reddit.com##+js(remove-class, scroll-is-blocked, body, stay)
+reddit.com##+js(set-local-storage-item, xpromo-consolidation, 1)
+reddit.com##.PreviewDrawer
+reddit.com##[slot="use-app"]
+reddit.com##body:style(pointer-events:auto !important;)
+rekhta.org##.rt_AppBtn
+relax-job.com##.js-smartapp-banner
+rescuetime.com#@#.web-notification
+rugbypass.com###app-install
+s.tabelog.com##+js(set-cookie, ignore_language_guide, true)
+s.tabelog.com##body,html:style(overflow-y: auto !important;)
+sammobile.com##+js(set-local-storage-item, request-permission-modal, 1)
+sauna-ikitai.com##.l-headerApp
+shazam.com##.info
+shop-apotheke.com##+js(set-session-storage-item, ErxModal, true)
+shufoo.net##+js(rc, is-hidden, body)
+sigmalive.com##+js(set-local-storage-item, push-notifications, no)
+similarweb.com##+js(rc, app-banner-parent, body, stay)
+similarweb.com##.app-header:style(top:0 !important)
+slickdeals.net##body:style(overflow: auto !important; position: initial !important;)
+smocca.jp##+js(set, history.state, undefined)
+soundcloud.com##.l-front-mobile-teaser
+soundcloud.com##.mobileApps
+spacedaily.com##[aria-label="Keep up with Space Daily"]
+speedtest.net##.modal-overlay
+speedtest.net##.result-area-ad
+sports.ndtv.com##body,html:style(overflow: auto !important; position: initial !important;)
+sportskeeda.com##.sidebar-app-download
+sunday-webry.com##.app-read-content
+swisscows.com##.home-link-instruction
+techwalla.com##.component-push-notification
+teller.jp##.pos_sticky.z_header.backface_hidden > div.lgDown\:d_flex.bg_surface_secondary.h_44px
+temu.com##div[style="height:0.66rem"]
+tenor.com##.LanguageBanner
+tenor.com##.UpsellPill
+thehindu.com##.read-in-app-floating-btn
+thehindu.com,thehindubusinessline.com###gsi_overlay
+themonthly.com.au##+js(set-local-storage-item, rn, $remove$)
+thestar.com##+js(rc, kumulos-background-mask-blur, , stay)
+threads.com##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)
+threads.net##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)
+ticketswap.com##.styles_container_U6otX
+tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
+toy-people.com###notification_alert_container
+trip.com##.m-chromePlugin__pop-wrap
+trip.com##.oh-pwa
+trip.com##body:style(overflow: auto !important; position: initial !important;)
+tt.com##ttwww-emarsys-push-notification
+tubitv.com##+js(set-local-storage-item, windows_prompt_shown_v3, 1)
+tunein.com##+js(set-cookie, hideMacDesktopDialog, true)
+tunein.com##+js(set-cookie, navBasedDialogManager, true)
+tvtropes.org##+js(set-cookie, app-announcement-banner-count-guest, 1)
+tvtropes.org##+js(set-cookie, app-announcement-banner-guest, true)
+vk.com###page_bottom_banners_root
+voicy.jp##v-sp-download
+vrbo.com##+js(rc, has-uitk-sheet, body, stay)
+waze.com##.wz-downloadbar
+web.quizknock.com###header_iosapp_link
+webnovel.com##.m_down_app_wrap
+whosampled.com##.spSlot
+windy.com###open-in-app
+wondershare.com##.upload-box
+wowhead.com##.notifications-dialog
+wunderground.com##+js(rc, enable-sda, body, stay)
+www.google.com##.tCroyc
+www.reddit.com###configured-xpromo-blocking_xpromo_nsfw_blocking
+www.reddit.com###configured-xpromo-unrated_block
+x.com##html:style(overflow: auto !important;)
+yandex.com##.Distribution-Popup
+youtube.com##.ytmPaidContentOverlayHost
+zaim.net##.top-fix
+ziare.com##.modal-backdrop
+ziare.com##.modal__wp
+zillow.com###local-app-upsell
+zillow.com###pfs-upsell:remove()
+zillow.com##+js(aeld, /^(mouseout|mouseleave)$/)
+zillow.com##+js(ra, oncontextmenu|ondragstart|onselectstart|onkeydown|oncopy|oncut|onclick)
+zillow.com##.exposed-filters:style(top:0 !important)
+zora.bg##cc-web-push-popup
+||0564.ua/assets/d6ade384/js/alertsWidget.js
+||9to5terminal.com/push.js
+||abendpoint.com/dist/js/push.js
+||acquire.io/assets/sound/
+||actirinius.com^$third-party
+||ad-hoc-news.de/js/push.js
+||agazeta.com.br/assets/javascript/notification.js
+||aimtell.com^$third-party
+||alertme.news^$third-party
+||alerts.ndtv.com^
+||alerts.thedailystar.net^
+||alibaba.com/sw.js
+||amazonaws.com/alive5cdn/$media
+||amazonaws.com/cdn.aimtell.com/
+||anewz.tv/firebase-messaging-sw.js
+||annahar.com/assets/js/notifications.js
+||apex.live/media/$media
+||api-push.com^$third-party
+||app.adjust.net.in/smart_banner
+||app.chaport.com/sounds/
+||app.chatwoot.com/audio/
+||app.onlim.com/app/assets/audios/
+||appspot.com/sounds/chatmsg.mp3
+||asiae.co.kr/js/asia_fcm.js
+||assets.chaport.com/sounds/
+||assets.ilcdn.fi/questback.popup-$script,domain=iltalehti.fi
+||assetscdn-wchat.freshchat.com/static/assets/$media
+||astian.org/?push_notification_sw
+||aswpsdkeu.com^$third-party
+||aswpsdkus.com^$third-party
+||azureedge.net/js/cookie_notificacao.min.js
+||azureedge.neti^$media,domain=oct8ne.com
+||baby-calendar.jp/nazuke/img/app/header_
+||bac-assets.com/chat/spa-assets/$media,domain=bankofamerica.com
+||bac-assets.com/spa/widgets/www-chat/$media,domain=bankofamerica.com
+||bdstatic.com/linksubmit/push.js
+||bildirim.com.tr^$third-party
+||bildirimat.com^$third-party
+||bildirnet.com^$third-party
+||bildirt.com^$third-party
+||bosspush.com^$third-party
+||braze.com^$third-party
+||browser.geekbench.com/assets/ads/
+||browserpusher.com^$third-party
+||callback24.io/sounds/
+||camel1.tv/media/$media
+||cappushino.com^$third-party
+||carchat24.com/inpagechat/audio/$media
+||cariai.com/webclient/pages/3$media
+||carrotquest.app/sounds/
+||cdn-sitegainer.com^$third-party
+||cdn-widget.callpage.io/build/sounds/
+||cdn.24liveblog.com/audio/$media
+||cdn.p-n.io^$third-party
+||cdn.qgr.ph^$third-party
+||cdn.qgraph.io^$third-party
+||cdnapps.avada.io/faq/sounds/
+||centrnotify.com^$third-party
+||channel.io/plugin/$media
+||chat.octadesk.services/embed/static/media/$media
+||chatango.com/pcache/sounds/
+||chatbot.denizbank.com/Content/media/$media
+||chatplus.jp/app/s/sound/
+||chatwidget-prod.web.app/sounds/
+||cleverpush.com^$third-party
+||cleversite.ru/client/default/sound/
+||cliengo.com^$media
+||client.salesmartly.com/setting/sounds/
+||cloudfront.net/prod/media/$domain=birdeye.com
+||clustertextilzgz.com/CatalogoBorman/ca-web/mobile/style/raw/flipsound.ogg
+||cnnindonesia.com/sw.js
+||collectcdn.com^$media
+||confirmit.com^$third-party
+||conforama-push.com^$third-party
+||contentsitesrv.com/js/push/$third-party
+||contivio.com/Chat2/audio/
+||controlpush.com^$third-party
+||copush.com^$third-party
+||cpmlink.net/audio.mp3
+||cpmlink.net/go/assets/audio/audio.mp3
+||cracataum.com^$third-party
+||crisp.chat/static/sounds/
+||css.xcss.me^
+||css.xjsx.lol^$third-party
+||czater.pl/assets/sounds/
+||d7keiwzj12p9.cloudfront.net/widget-sounds/$media
+||dailymail.co.uk/api/web-push-notification/
+||danorenius.com^$third-party
+||dcnews.ro/sm-
+||diabetes.co.uk/wp-content/themes/spotlight/src/sw.js
+||digipush.io^$third-party
+||digitalpush.org^$third-party
+||dpns-notifications.com^$third-party
+||driftqa.com/conductor/assets/media/
+||echatsys.com/sounds/
+||edrone.me^$third-party
+||elpais.com.uy/utms.js
+||evolok.net^$third-party
+||face-push.com^$third-party
+||farteniuson.com^$third-party
+||feedify.net^$third-party
+||feraciumus.com^$third-party
+||fernomius.com^$third-party
+||fkondate.com^$third-party
+||flashscore.fr^*/build/notifications.
+||formilla.com/remoteAssets/media/
+||foxpush.com^$third-party
+||foxpush.net^$third-party
+||futura-sciences.com/clientscript/push.js
+||fxcity.pl/images/mp4/$media
+||gadgetsnow.com/sw.cms
+||getback.ch^$third-party
+||getnotification.me^$third-party
+||getpush.net^$third-party
+||getpushmonkey.com^$third-party
+||goftino.com/static/assets/$media
+||gravitec.net^$third-party
+||gstatic.com/firebasejs/$domain=joins.com|kompas.com|novayagazeta.eu|packaginginsights.com
+||gubagoo.io/v4/media/
+||helpcrunch.com/sounds/
+||helpscout.net/static/ui-sounds/
+||heroesdom.com^$third-party
+||hindustantimes.com/messaging-sw.js
+||hindustantimes.com/sw.js
+||hindustantimes.com^*/ht-notification-
+||horoscope.fr/notifications/
+||hulkprod.anm.co.uk/api/web-push-notification/
+||imyfone.com/*/notification/$script
+||indiatimes.com/pn/
+||informazione.it/wr/promo-miainfo.js
+||intelliticks.com/prod/common/$media
+||iol.co.za/sw.js
+||irpush.com^$third-party
+||jack.bio/click.mp3
+||japan.cnet.com/static/js/webpush/push.js
+||jeeng.com^$third-party
+||jivo.ru/sounds/
+||jivosite.com/sounds/
+||js.driftt.com/conductor/assets/media/
+||js.driftt.com/deploy/assets/static/audio/
+||js.intercomcdn.com/audio/
+||jubi.ai/buttonbot/$script,third-party
+||kattepush.com^$third-party
+||kogan.com/sw.js
+||kommunicate.io/kommunicate/$media
+||kompas.com/firebase-messaging-sw.js
+||krakenoptimize.com^$third-party
+||larapush.com^$third-party
+||latestdeals.co.uk/sw.js
+||leadback.ru/sounds/$media
+||leadgenic.ru/production/$media
+||linker.hr^$third-party
+||live2support.com/uploads/sound/
+||livebeep.com/visitor/events/$media
+||livechatinc.com/widget/static/media/
+||lpsnmedia.net/le_unified_window/$media
+||luravius.com^$third-party
+||master-push.com^$third-party
+||master-push.net^$third-party
+||me-talk.ru/support/sounds/
+||medallia.com^*/onsite/embed.js
+||metrobilbao.eus/firebase-messaging-sw.js
+||misrepush.com^$third-party
+||mobi24.net^$third-party
+||moengage.com^$third-party
+||mp3vizor.com^$third-party
+||msn.com/bundles/v1/homePage/latest/experiences_conditional-banner
+||my-pu.sh^
+||najva.com^$third-party
+||nativesubscribe.pro^$third-party
+||ndtv.com/js/breaking_pushalert_revised.js
+||ndtv.com/sw.js
+||neopush.io^$third-party
+||news2day.me^$third-party
+||newsukraine.rbc.ua/sworker.js
+||nice-incontact.com/inContact/ChatClient/$media
+||nookazon.com/firebase-messaging-sw.js
+||notifadz.com^$third-party
+||notifee-manager.cz^$third-party
+||notificaciones-web.com^
+||notification.tubecup.net^
+||notifications.ltd^$third-party
+||notifications.viafoura.co^
+||notifikuj.cz^$third-party
+||notifpush.com^$third-party
+||notifstation.com^$third-party
+||notify.solutions^$third-party
+||notix.io^$third-party
+||ntvsw.com^$third-party
+||olgtex.com^$third-party
+||on-push.com^$third-party
+||onepush.app^$third-party
+||partishion.com^$third-party
+||pathlime.com^$third-party
+||pcguide.com/sp-push-worker-fb.js
+||phenompeople.com/txm-bot/prod/$media
+||pinterest.com/sw.js
+||polaria.ai/sounds/
+||popmechanic.ru^$third-party
+||propush.net^$third-party
+||provesrc.com^$third-party
+||psh.one^$third-party
+||pt.appirits.com^$third-party
+||purechatcdn.com/Content/Audio/
+||puscomosca.com^$third-party
+||push-ad.com^$third-party
+||push-engage.com^$third-party
+||push-free.com^$third-party
+||push-notifications.top^$third-party
+||push.asahiinteractive.com^
+||push.brownbrothers.io^
+||push.bytesignal.com^
+||push.cnnindonesia.com^
+||push.daksham.in^$third-party
+||push.delivery.ethinking.de^
+||push.delivery^$third-party
+||push.esputnik.com^
+||push.getbeamer.com^
+||push.ictsd.org^
+||push.idowa.de^
+||push.intreface.com^
+||push.knd.ro^
+||push.neko-san.fr^
+||push.newscraft.io^
+||push.reamaze.com^
+||push.rollout.io^$third-party
+||push.world^$third-party
+||pushaddict.com^$third-party
+||pushalert.co^$third-party
+||pushango.com^$third-party
+||pushassist.com^$third-party
+||pushaya.com^$third-party
+||pushbaza.com^$third-party
+||pushbird.com^$third-party
+||pushbots.com^$third-party
+||pushbox.info^$third-party
+||pushbullet.com^$third-party
+||pushchev.info^$third-party
+||pushcrew.com^$third-party
+||pushdealer.com^$third-party
+||pushe.co^$third-party
+||pushengage.com^$third-party
+||pusherapp.com^$third-party
+||pushible.com^$third-party
+||pushify.com^$third-party
+||pushinpage.com^$third-party
+||pushinstruments.com^$third-party
+||pushio.com^$third-party
+||pushjunky.com^$third-party
+||pushkahouse.com^$third-party
+||pushkaplus.com^$third-party
+||pushloop.io^$third-party
+||pushly.com^$third-party
+||pushmaster-cdn.xyz^$third-party
+||pushme.magellanotech.it^
+||pushmejs.com^$third-party
+||pushnews.eu^$third-party
+||pushnotifications.click^$third-party
+||pushouse.com^$third-party
+||pushowl.com^$third-party
+||pushpad.xyz^$third-party
+||pushpanda.io^$third-party
+||pushpro.io^$third-party
+||pushprofit.ru^$third-party
+||pushprospush.com^$third-party
+||pushpushgo.com^$third-party
+||pushstack.it^$third-party
+||pushtide.com^$third-party
+||pushvip.ru^$third-party
+||pushwhy.com^$third-party
+||pushwoosh.com^$third-party
+||pushy.ai^$third-party
+||puuush.me^
+||qualified.com/packs/$media
+||quarepush.com^$third-party
+||quaruzon.com^$third-party
+||quicktext.im/assets/audio/
+||qushad.com^$third-party
+||raychat.io/assets/widget/audio/
+||realpush.media^$third-party
+||realpush.network^$third-party
+||reamaze.com/audio/
+||renaultsport.com/spip.php?page=sw.js
+||reprocautious.com^$third-party
+||revechat.com/client/sound/
+||revpusher.com^$third-party
+||richpanel.com/audio/
+||rottentomatoes.com/service-worker/sw.js
+||rt.com/homescreen-sw.js
+||salesmartly.com/sounds/
+||sammobile.com/wp-content/plugins/sam-push-notifications/
+||sckxppzdm.com^$third-party
+||scmp.com/sw.js
+||seattletimes.com/wp-content/plugins/st-user-messaging/$script
+||sendpulse.com^$third-party
+||setrowid.com^$third-party
+||shroughtened.com^$third-party
+||signaly.co^$third-party
+||smartsuppcdn.com/assets/sounds/
+||snapengage.com/sounds/
+||snd.tc^$third-party
+||snrcdn.net^$third-party
+||spacepush.ru^$third-party
+||sportskeeda.com/js/production/web-notifications/
+||static.chrono24.com/lib/generated/js/app-hint-layer.
+||static.olark.com/jsclient/sounds/
+||static.widget.trengo.eu/assets/$media
+||streamwood.ru/img/$media
+||strettoweb.com/Notifiche/
+||subscribers.com^$third-party
+||surveymonkey.com/fides.js
+||system-notify.app^$third-party
+||tapcart.com/mobile-download-banner/banner-min.js
+||tars-file-upload.s3.amazonaws.com^$media
+||tawk.to/*/audio/
+||techwalla.com/push-service-worker.js
+||ternairsoftware.com/publicwebpush/
+||tidiochat.com^$media
+||timesnownews.com/sw.js
+||tio.ch/js/api.push.js
+||titanpush.com.br^$third-party
+||topswp.com^$third-party
+||truenat.bid^$third-party
+||truepush.com^$third-party
+||tutto.tv/wp-content/plugins/plugin-notifiche-
+||uchubiz.com/wp-content/themes/uchubiz/assets/js/push.js
+||ultimedia.com/js/common/notification.js
+||unative.com^$third-party
+||unherd.com/push-worker.js
+||urbanairship.com^$third-party
+||userbot.ai/widget-chat/dist/audio/
+||userway.org/widgetapp/sounds/
+||viafoura.net/push_handlers.js
+||viapush.com^$third-party
+||virtualpushplatform.com^$third-party
+||weather.com/*.MedalliaSurvey.
+||webpu.sh^$third-party
+||webpush.jp^$third-party
+||webpushr.com^$third-party
+||webpushs.com^$third-party
+||wepc.com/sp-push-worker-fb.js
+||whiteclick.biz^$third-party
+||widget.awhy.it/chat/img/$media
+||widget.insent.ai/static/media/
+||widget.push.forja.ma^
+||widgets.binotel.com/w/chat/$media
+||winnipegfreepress.com/firebase-messaging-sw.js
+||wnpbdan.bid^$third-party
+||wonderpush.com^$third-party
+||worldpush.co^$third-party
+||wpengine.com/wp-content/mu-plugins/wpengine-dotcom/audio/
+||wps.relateddigital.com^$third-party
+||wpush.biz^$third-party
+||wpushsdk.com^$third-party
+||wwclicknews.club^$third-party
+||wwclicktm.club^$third-party
+||xedo.me^$third-party
+||xtremepush.com^$third-party
+||youlead.pl/webpushprompt.js
+||zdassets.com/web_widget/$media
+||zohocdn.com/salesiq/*/sound/
+||zopim.com/widget/sounds/
+||zyratalk.com/contractorschatbot/$media

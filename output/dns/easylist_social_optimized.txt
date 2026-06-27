@@ -1,0 +1,65 @@
+# Title: EasyList Social Widgets (Optimized) (DNS/hosts format)
+# Version: 2026-06-27T09:16:18Z
+# Homepage: https://github.com/cudios-dev/adfilters
+# Domains: 60
+#
+0.0.0.0 addnow.com
+0.0.0.0 addthis.com
+0.0.0.0 addtoany.com
+0.0.0.0 b.hatena.ne.jp
+0.0.0.0 badge.facebook.com
+0.0.0.0 badges.instagram.com
+0.0.0.0 bshare.cn
+0.0.0.0 button-share.zalo.me
+0.0.0.0 button.like.co
+0.0.0.0 buttons.googlesyndication.com
+0.0.0.0 connect.ok.ru
+0.0.0.0 crowdynews.com
+0.0.0.0 figshare.com
+0.0.0.0 filamentapp-assets.s3.amazonaws.com
+0.0.0.0 filamentapp.s3.amazonaws.com
+0.0.0.0 fireworkapi.com
+0.0.0.0 fireworktv.com
+0.0.0.0 followistic.com
+0.0.0.0 fwcdn2.com
+0.0.0.0 fwcdn3.com
+0.0.0.0 gotchosen.com
+0.0.0.0 gplusapi.appspot.com
+0.0.0.0 handll.com
+0.0.0.0 hn-button.herokuapp.com
+0.0.0.0 insidesoci.al
+0.0.0.0 jsoon.digitiminimi.com
+0.0.0.0 lessbuttons.com
+0.0.0.0 likebtn.com
+0.0.0.0 loveclaw.com
+0.0.0.0 markerly.com
+0.0.0.0 massrelevance.com
+0.0.0.0 meebo.com
+0.0.0.0 messengerpeople.com
+0.0.0.0 milotree.com
+0.0.0.0 newsharecounts.com
+0.0.0.0 opensharecount.com
+0.0.0.0 pepper.com
+0.0.0.0 platform.foursquare.com
+0.0.0.0 platform.linkedin.com
+0.0.0.0 reactandshare.com
+0.0.0.0 revinate.com
+0.0.0.0 scoop.it
+0.0.0.0 sekomums.lv
+0.0.0.0 share.itraffic.su
+0.0.0.0 shareaholic.com
+0.0.0.0 sharedcount.com
+0.0.0.0 sharethis.com
+0.0.0.0 sharexy.com
+0.0.0.0 sharpay.io
+0.0.0.0 shpg.org
+0.0.0.0 simplesharebuttons.com
+0.0.0.0 softwebzone.com
+0.0.0.0 statigr.am
+0.0.0.0 t.pridat.eu
+0.0.0.0 trendemon.com
+0.0.0.0 usocial.pro
+0.0.0.0 w.uptolike.com
+0.0.0.0 widget.weibo.com
+0.0.0.0 widget.whatshelp.io
+0.0.0.0 xing-share.com

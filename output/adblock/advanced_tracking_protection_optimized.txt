@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Advanced Tracking Protection (Optimized)
 ! Description: AdGuard Tracking Protection (optimized), EasyPrivacy (optimized), AdGuard Mail Tracking (optimized), DDG TDS (safe categories, 1% prevalence). For DNS resolvers, routers, and mobile.
-! Version: 2026-06-27T07:26:59Z
+! Version: 2026-06-27T09:16:18Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 220,129
+! Rules: 220,132
 !
 $3p,xhr,domain=opensubtitles.org
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
@@ -120588,6 +120588,7 @@ zonedirector.avadacom.com$image
 ||birdsend.net/pixel
 ||birnbaum.net.anwalt.de^
 ||birthdaybelief.com^
+||bis.org/metrics/web.gif?
 ||bisko.mall.tv^
 ||bismetrics.experian.com^
 ||bison.actonservice.com^
@@ -165720,6 +165721,7 @@ zonedirector.avadacom.com$image
 ||morgenpost.de/resources/*/js/webtrekk
 ||morinaga.co.jp/assets/js/ga.js
 ||mormont.gamer-network.net^
+||morningstar.com/api/v1/analytics
 ||morsn.repwearfitness.com^
 ||mortgage.equifax.com^
 ||mortgage.inform.equifax.com^
@@ -178581,6 +178583,7 @@ zonedirector.avadacom.com$image
 ||seguridad.compensar.com/lib/js/fingerprint2.js$script,redirect=fingerprint2.js
 ||seibc.ofirbeauty.com^
 ||seifst.seifenstars.de^
+||seismic.com/playerservice/api/v1/log?
 ||seitwert.de^$3p
 ||sejdfu.coeur.de^
 ||sekaopi.nocre.jp^
