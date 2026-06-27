@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Advanced Tracking Protection (Optimized)
 ! Description: AdGuard Tracking Protection (optimized), EasyPrivacy (optimized), AdGuard Mail Tracking (optimized), DDG TDS (safe categories, 1% prevalence). For DNS resolvers, routers, and mobile.
-! Version: 2026-06-23T16:15:48Z
+! Version: 2026-06-27T07:26:59Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 220,098
+! Rules: 220,129
 !
 $3p,xhr,domain=opensubtitles.org
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
@@ -1596,6 +1596,7 @@ $ping,3p
 /fbevents.min.js
 /fbpix-events-
 /fbpixel.js
+/fcp/v1/i
 /fdmg-tag-manager/tags.js
 /fe_logger?
 /feature/metrics$xhr
@@ -1822,6 +1823,7 @@ $ping,3p
 /gtag/js?
 /gtag/js?id=
 /gtagv4.js
+/gtgcore/?id=
 /gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com|koinbulteni.com|teknop.net
 /gtm-data-layer-$script
 /gtm-listeners.js
@@ -5596,6 +5598,7 @@ $ping,3p
 @@||amazoncustomerservice.d2.sc.omtrdc.net^$domain=amazon.es
 @@||amc-widgets.crowdtwist.com/widgets/t/account-
 @@||amplitude.com/libs/$script,domain=b2c.voegol.com.br|elconfidencial.com|kink.com|pdfexpert.com|xe.com
+@@||an-sm.naughtycdn.com/js/lti-analytics-*.min.js$domain=members.naughtyamerica.com
 @@||analysys.cn^$domain=analysys.cn
 @@||analytics-*.clickdimensions.com/*/pages/*.html$subdocument,domain=nhs.uk
 @@||analytics-*.clickdimensions.com/*/pages/*.html$subdocument,domain=techuk.org
@@ -6884,6 +6887,7 @@ $ping,3p
 @@||googletagmanager.com/gtm.js$domain=givingfuel.com|regfox.com|ticketspice.com|redpodium.com
 @@||googletagmanager.com/gtm.js$domain=glamusha.ru
 @@||googletagmanager.com/gtm.js$domain=globo.com
+@@||googletagmanager.com/gtm.js$domain=gocomics.com
 @@||googletagmanager.com/gtm.js$domain=gratis.com
 @@||googletagmanager.com/gtm.js$domain=gumtree.com
 @@||googletagmanager.com/gtm.js$domain=haisenryakuzu.net
@@ -8774,7 +8778,7 @@ airlift.net##+js(abort-on-property-read, posthog)
 akali.webspecmail.com$image
 akamai.webspecmail.com$image
 akshare.moseasia.com$image
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -8832,7 +8836,7 @@ apkpure.*##+js(set-constant, $$.analytics, {})
 apkpure.*##+js(set-constant, $$.analytics.send, noopFunc)
 apkpure.com##+js(remove-node-text, script, /deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i)
 apkpure.com##+js(set-local-storage-item, __BEACON_deviceId, $remove$)
-apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com##+js(acs, document.getElementsByTagName, .pubads)
+apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com##+js(acs, document.getElementsByTagName, .pubads)
 apo-prod.adobe.io/po-server/link/open$image
 app.businessmaking.progress.net/e/*?elq=$image
 app.c.bloomberg.com$image
@@ -106823,7 +106827,7 @@ zonedirector.avadacom.com$image
 ||1pel.com^$3p
 ||1ps6e7sort397gy9.edge46.testandtarget.omniture.com^
 ||1rer.hummel.net^
-||1rx.io^$third-party
+||1rx.io^$third-party,domain=~allmovie.com|~allmusic.com|~burstnet.com|~gwallet.com|~po.st|~rhythmone.com|~sidereel.com|~yume.com|~yumenetworks.com
 ||1sb.illusionsplasticsurgery.com^
 ||1stparty.equifax.co.uk^
 ||1to1.bbva.com^
@@ -106893,11 +106897,11 @@ zonedirector.avadacom.com$image
 ||2ip.io/sbar/$3p
 ||2ip.ru/sbar/$3p
 ||2l6ddsmnm.de^
-||2mdn.net^$third-party
+||2mdn.net^$third-party,domain=~0m66lx69dx.com|~1e100cdn.net|~1emn.com|~1enm.com|~2enm.com|~8d1f.com|~accurateshooter.net|~adgoogle.net|~admeld.com|~admob.com|~adsense.com|~adtrafficquality.google|~advertisercommunity.com|~advertiserscommunity.com|~adwords-community.com|~adwordsexpress.com|~ai.google|~alooma.com|~ampproject.net|~ampproject.org|~android.com|~angulardart.org|~anvato.com|~anvato.net|~api.ai|~apigee.net|~app-ads-services.com|~app-analytics-services-att.com|~app-analytics-services.com|~app-measurement.com|~appbridge.ca|~appbridge.io|~appbridge.it|~appspot.com|~apture.com|~area120.com|~asp-cc.com|~bandpage.com|~baselinestudy.com|~baselinestudy.org|~bazel.build|~beatthatquote.com|~blink.org|~blog.google|~blogblog.com|~blogger.com|~blogspot.com|~brotli.org|~bumpshare.com|~bumptop.ca|~bumptop.com|~bumptop.net|~bumptop.org|~bumptunes.com|~campuslondon.com|~cc-dt.com|~certificate-transparency.org|~chrome.com|~chromecast.com|~chromeexperiments.com|~chromium.org|~cloudburstresearch.com|~cloudfunctions.net|~cloudrobotics.com|~conscrypt.com|~conscrypt.org|~cookiechoices.org|~coova.com|~coova.net|~coova.org|~crashlytics.com|~crr.com|~cs4hs.com|~dartlang.org|~dartpad.dev|~dartsearch.net|~debug.com|~debugproject.com|~design.google|~dialogflow.com|~dmtry.com|~domains.google|~doubleclickusercontent.com|~e0mn.com|~elections.google|~em0n.com|~emn0.com|~environment.google|~episodic.com|~fabric.io|~fastlane.tools|~feedburner.com|~fflick.com|~financeleadsonline.com|~firebase.com|~firebaseapp.com|~firebaseio.com|~flutter.io|~flutterapp.com|~forms.gle|~g-tun.com|~g.co|~gerritcodereview.com|~getbumptop.com|~getmdl.io|~ggpht.cn|~ggpht.com|~gipscorp.com|~gkecnapps.cn|~globaledu.org|~gmail.com|~gmodules.com|~godoc.org|~golang.org|~gonglchuangl.net|~goo.gl|~google.ac|~google.ad|~google.ae|~google.af|~google.ag|~google.ai|~google.al|~google.am|~google.as|~google.at|~google.az|~google.ba|~google.be|~google.berlin|~google.bf|~google.bg|~google.bi|~google.bj|~google.bs|~google.bt|~google.by|~google.ca|~google.cat|~google.cc|~google.cd|~google.cf|~google.cg|~google.ch|~google.ci|~google.cl|~google.cm|~google.cn|~google.co.ao|~google.co.bw|~google.co.ck|~google.co.cr|~google.co.hu|~google.co.id|~google.co.il|~google.co.im|~google.co.in|~google.co.je|~google.co.jp|~google.co.ke|~google.co.kr|~google.co.ls|~google.co.ma|~google.co.mz|~google.co.nz|~google.co.th|~google.co.tz|~google.co.ug|~google.co.uk|~google.co.uz|~google.co.ve|~google.co.vi|~google.co.za|~google.co.zm|~google.co.zw|~google.com|~google.com.af|~google.com.ag|~google.com.ai|~google.com.ar|~google.com.au|~google.com.bd|~google.com.bh|~google.com.bn|~google.com.bo|~google.com.br|~google.com.by|~google.com.bz|~google.com.cn|~google.com.co|~google.com.cu|~google.com.cy|~google.com.do|~google.com.ec|~google.com.eg|~google.com.et|~google.com.fj|~google.com.ge|~google.com.gh|~google.com.gi|~google.com.gr|~google.com.gt|~google.com.hk|~google.com.iq|~google.com.jm|~google.com.jo|~google.com.kh|~google.com.kw|~google.com.lb|~google.com.ly|~google.com.mm|~google.com.mt|~google.com.mx|~google.com.my|~google.com.na|~google.com.nf|~google.com.ng|~google.com.ni|~google.com.np|~google.com.nr|~google.com.om|~google.com.pa|~google.com.pe|~google.com.pg|~google.com.ph|~google.com.pk|~google.com.pl|~google.com.pr|~google.com.py|~google.com.qa|~google.com.sa|~google.com.sb|~google.com.sg|~google.com.sl|~google.com.sv|~google.com.tj|~google.com.tn|~google.com.tr|~google.com.tw|~google.com.ua|~google.com.uy|~google.com.vc|~google.com.ve|~google.com.vn|~google.cv|~google.cz|~google.de|~google.dj|~google.dk|~google.dm|~google.dz|~google.ee|~google.es|~google.eus|~google.fi|~google.fm|~google.fr|~google.frl|~google.ga|~google.gal|~google.ge|~google.gg|~google.gl|~google.gm|~google.gp|~google.gr|~google.gy|~google.hk|~google.hn|~google.hr|~google.ht|~google.hu|~google.ie|~google.im|~google.in|~google.info|~google.iq|~google.ir|~google.is|~google.it|~google.it.ao|~google.je|~google.jo|~google.jobs|~google.jp|~google.kg|~google.ki|~google.kz|~google.la|~google.li|~google.lk|~google.lt|~google.lu|~google.lv|~google.md|~google.me|~google.mg|~google.mk|~google.ml|~google.mn|~google.ms|~google.mu|~google.mv|~google.mw|~google.ne|~google.ne.jp|~google.net|~google.ng|~google.nl|~google.no|~google.nr|~google.nu|~google.off.ai|~google.org|~google.pk|~google.pl|~google.pn|~google.ps|~google.pt|~google.ro|~google.rs|~google.ru|~google.rw|~google.sc|~google.se|~google.sh|~google.si|~google.sk|~google.sm|~google.sn|~google.so|~google.sr|~google.st|~google.td|~google.tel|~google.tg|~google.tk|~google.tl|~google.tm|~google.tn|~google.to|~google.tt|~google.ua|~google.us|~google.uz|~google.ventures|~google.vg|~google.vu|~google.ws|~googleadapis.com|~googleads.com|~googleapps.com|~googleblog.com|~googlecnapps.com|~googlecode.com|~googlecompare.co.uk|~googledanmark.com|~googledrive.com|~googlefiber.net|~googlefinland.com|~googlegroups.com|~googlehosted.com|~googlemail.com|~googlemaps.com|~googlenestcommunity.com|~googlephotos.com|~googleplay.com|~googleplus.com|~googlesource.com|~googlesverige.com|~googleusercontent.cn|~googleusercontent.com|~googleventures.com|~googleweblight.com|~grpc.io|~gsrc.io|~gstatic.cn|~gstatic.com|~gstaticcnapps.cn|~gsuite.com|~gvt1.com|~gvt2.com|~hdrplusdata.org|~hindiweb.com|~howtogetmo.co.uk|~html5rocks.com|~hwgo.com|~impermium.com|~itasoftware.com|~j2objc.org|~kaggle.com|~keytransparency.com|~keytransparency.foo|~keytransparency.org|~listentoyoutube.com|~looker.com|~lura.live|~markerly.com|~material.io|~mdialog.com|~meebo.com|~mfg-inspector.com|~mn0e.com|~mobileview.page|~moodstocks.com|~near.by|~nest.com|~oauthz.com|~on.here|~on2.com|~oneworldmanystories.com|~page.link|~pagespeedmobilizer.com|~pageview.mobi|~partylikeits1986.org|~paxlicense.org|~pittpatt.com|~pki.goog|~polymerproject.org|~postini.com|~projectara.com|~projectbaseline.com|~questvisual.com|~quickoffice.com|~quiksee.com|~recaptcha.net|~registry.google|~relaymedia.com|~revolv.com|~ridepenguin.com|~run.app|~saynow.com|~schemer.com|~screenwisetrends.com|~screenwisetrendspanel.com|~shoppingil.co.il|~snapseed.com|~socratic.org|~solveforx.com|~studywatchbyverily.com|~studywatchbyverily.org|~syndicatedsearch.goog|~tensorflow.org|~thecleversense.com|~thinkquarterly.co.uk|~thinkquarterly.com|~translate.goog|~txcloud.net|~txvia.com|~unfiltered.news|~urchin.com|~useplannr.com|~v8project.org|~verily.com|~verilylifesciences.com|~verilystudyhub.com|~verilystudywatch.com|~verilystudywatch.org|~wallet.com|~waymo.com|~waze.com|~web.app|~web.dev|~webappfieldguide.com|~weltweitwachsen.de|~whatbrowser.org|~widevine.com|~withgoogle.com|~womenwill.com|~womenwill.com.br|~womenwill.id|~womenwill.in|~womenwill.mx|~x.company|~x.team|~xn--9trs65b.com|~youtu.be|~zukunftswerkstatt.de
 ||2no.co^$3p
 ||2o7.net^
 ||2o7.net^$3p
-||2o7.net^$third-party
+||2o7.net^$third-party,domain=~acrobat.com|~acrobatusers.com|~adobe-students.com|~adobe.com|~adobe.io|~adobeccstatic.com|~adobecqms.net|~adobedc.net|~adobedtm.com|~adobejanus.com|~adobelogin.com|~adobepressrelease.com|~adobeprimetime.com|~adobesign.com|~adobetag.com|~adobetarget.com|~assetsadobe.com|~assetsadobe2.com|~assetsadobe3.com|~atomz.com|~auditude.com|~behance.net|~bizible.com|~bizibly.com|~businesscatalyst.com|~creativecloud.com|~demdex.net|~echosign.com|~edgefonts.net|~everestads.net|~everestjs.net|~everesttech.net|~fotolia.com|~fotolia.net|~ftcdn.net|~fyre.co|~hitbox.com|~livefyre.com|~macromedia.com|~marketo.com|~marketo.net|~mktoresp.com|~mktoutil.com|~mktoweb.com|~nedstat.net|~omniture.com|~omtrdc.net|~photoshop.com|~scene7.com|~sitestat.com|~ss-omtrdc.net|~storify.com|~tubemogul.com|~typekit.com|~typekit.net|~worldsecuresystems.com
 ||2parale.ro^$3p
 ||2performant.com^$3p
 ||2rid9fii9chx.www.atlaslane.com^
@@ -106912,7 +106916,7 @@ zonedirector.avadacom.com$image
 ||3347.wolf-gordon.com^
 ||3347.wolfgordon.com^
 ||33across.com^
-||33across.com^$third-party
+||33across.com^$third-party,domain=~tynt.com
 ||34.215.155.61^
 ||3565433061881492849.academyofconsciousleadership.com^
 ||3587285621425460184.academyofconsciousleadership.net^
@@ -106922,7 +106926,7 @@ zonedirector.avadacom.com$image
 ||360i.com^$3p
 ||360tag.com^$3p
 ||360tag.net^$3p
-||360yield.com^$third-party
+||360yield.com^$third-party,domain=~360yield-basic.com|~improvedigital.com
 ||365dmp.com^$3p
 ||3889082.dev.att.llabs.io^
 ||3935128650935608632.academyofconsciousleadership.org^
@@ -106945,7 +106949,7 @@ zonedirector.avadacom.com$image
 ||3j0pw4ed7uac-a.akamaihd.net^
 ||3l0zszdzjhpw.www.comicleaks.com^
 ||3li5a.elisacavaletti.it^
-||3lift.com^$third-party
+||3lift.com^$third-party,domain=~1plusx.com|~1plusx.io|~opecloud.com|~triplelift.com
 ||3mark.actonservice.com^
 ||3ng6p6m0.de^$3p
 ||3p-geo.yahoo.com^
@@ -107319,6 +107323,7 @@ zonedirector.avadacom.com$image
 ||a.jobup.ch^
 ||a.jolieride.com^
 ||a.justlodges.com^
+||a.klaviyo.com/forms/api/v3/geo-ip
 ||a.klaviyo.com/onsite/track-analytics
 ||a.koodomobile.com^
 ||a.kupibilet.ru^
@@ -111743,7 +111748,7 @@ zonedirector.avadacom.com$image
 ||abt.nike.com^
 ||abt.nl.bauhaus^
 ||abt.s3.yandex.net^
-||abtasty.com^$third-party
+||abtasty.com^$third-party,domain=~flagship.io
 ||abtest.mistat.xiaomi.com^
 ||abtshield.com^$3p
 ||abuaac.suzette-shop.jp^
@@ -112056,7 +112061,7 @@ zonedirector.avadacom.com$image
 ||actuallysheep.com^
 ||actuallysnake.com^
 ||acuityplatform.com^$3p
-||acuityplatform.com^$third-party
+||acuityplatform.com^$third-party,domain=~acuityads.com
 ||acuris.com/wat/v2/data-event
 ||acustomizedgift.com^$redirect=noop.js,script
 ||acustomizedgift.com^$script,redirect=noop.js
@@ -112481,7 +112486,7 @@ zonedirector.avadacom.com$image
 ||adf.rettungshunde-sealdogs.com^
 ||adfenix.com^$3p
 ||adfgdsd2.adskiller.com^
-||adform.net^$third-party
+||adform.net^$third-party,domain=~adform.com|~adformdsp.net
 ||adfox.ru^$3p
 ||adfox.yandex.ru^
 ||adfstat.yandex.ru^
@@ -112494,7 +112499,7 @@ zonedirector.avadacom.com$image
 ||adgeek.net^
 ||adgocoo.com^$3p
 ||adgreed.com^$3p
-||adgrx.com^$third-party
+||adgrx.com^$third-party,domain=~adgear.com
 ||adguard*/-/event/
 ||adguard.com/-/event/
 ||adh.byeten.com^
@@ -112510,7 +112515,7 @@ zonedirector.avadacom.com$image
 ||adinsight.co.kr^$3p
 ||adinsight.com^$3p
 ||adinte.jp^$3p
-||adition.com^$third-party
+||adition.com^$third-party,domain=~adclear.net|~batch.ba|~movad.net|~t4ft.de|~theadex.com|~virtualminds.de|~vm.de|~yieldlab.com|~yieldlab.de|~yieldlab.net
 ||aditude.cloud^
 ||aditude.prebid-server.com^
 ||adixkr.culturekings.com.au^
@@ -112574,7 +112579,7 @@ zonedirector.avadacom.com$image
 ||adnkronos.com/isf-rum/
 ||adnl.bk.mufg.jp^
 ||adnlb.sprayground.com^
-||adnxs.com^$third-party
+||adnxs.com^$third-party,domain=~1drv.com|~1drv.ms|~3plearning.com|~adnxs-simple.com|~adnxs.net|~adsymptotic.com|~afx.ms|~ageofempires.com|~aka.ms|~appcenter.ms|~appnexus.com|~asp.net|~aspnetcdn.com|~assets-yammer.com|~atmrum.net|~azure-api.net|~azure-dns.com|~azure-dns.info|~azure-dns.net|~azure-dns.org|~azure.com|~azure.net|~azureedge.net|~azurefd.net|~azurestaticapps.net|~azurewebsites.net|~b2clogin.com|~beam.pro|~bing-int.com|~bing.at|~bing.ca|~bing.ch|~bing.co.at|~bing.co.id|~bing.co.in|~bing.co.jp|~bing.co.uk|~bing.co.za|~bing.com|~bing.com.ar|~bing.com.au|~bing.com.br|~bing.com.cn|~bing.com.es|~bing.com.hk|~bing.com.mx|~bing.com.my|~bing.com.pl|~bing.com.sa|~bing.com.tr|~bing.de|~bing.es|~bing.fr|~bing.gen.tr|~bing.in|~bing.it|~bing.jp|~bing.net|~bing.nl|~bing.no|~bing.pl|~bing.ru|~bing.se|~bingapis.com|~bingsandbox.com|~bizographics.com|~botframework.com|~buildmypinnedsite.com|~carpoint.ca|~carpoint.com|~ch9.ms|~clarity.ms|~cloud.microsoft|~cloudapp.net|~customsearch.ai|~detelefoonvanbritt.nl|~digitaldemocracy.tv|~digitalwpc.com|~discovermsn.com|~doterracertifiedsite.com|~dynamics.com|~edgesv.net|~footprintdns.com|~forzamotorsport.net|~gamepass.com|~gfx.ms|~gigjam.com|~gpslab.net|~groupme.com|~halocdn.com|~halowaypoint.com|~hockeyapp.net|~hololens.com|~hotmail.com|~hotmail.fr|~hotmail.hu|~hotmail.it|~hotmail.jp|~hotmail.la|~hotmail.nl|~hotmail.no|~hotmail.ph|~hotmail.pt|~hotmail.se|~hotmail.sk|~howzitmsn.com|~iis.net|~imaginecup.pl|~irbi.de|~k-msedge.net|~licdn.com|~liga-tippgemeinschaft.de|~linkedin.com|~linkedinmobileapp.com|~live-int.com|~live.co.uk|~live.com|~live.com.au|~live.fr|~live.jp|~live.net|~live.sg|~livespacevision.com|~livevz.net|~lync.com|~lynda.com|~messenger.fr|~microsoft-falcon.io|~microsoft.az|~microsoft.be|~microsoft.by|~microsoft.ca|~microsoft.cat|~microsoft.ch|~microsoft.cl|~microsoft.com|~microsoft.cz|~microsoft.de|~microsoft.dk|~microsoft.ee|~microsoft.es|~microsoft.eu|~microsoft.fi|~microsoft.fr|~microsoft.ge|~microsoft.hu|~microsoft.is|~microsoft.it|~microsoft.jp|~microsoft.lt|~microsoft.lu|~microsoft.lv|~microsoft.md|~microsoft.pl|~microsoft.pt|~microsoft.ro|~microsoft.rs|~microsoft.ru|~microsoft.se|~microsoft.si|~microsoft.tv|~microsoft.ua|~microsoft.uz|~microsoft.vn|~microsoft365.com|~microsoftadcentre.ca|~microsoftapp.net|~microsoftcloud.com|~microsoftedge.com|~microsoftlinc.com|~microsoftonline-p.com|~microsoftonline.com|~microsoftpartnernetwork.com|~microsoftstore.com|~microsoftstudios.com|~microsofttranslator.com|~mileiq.com|~mixer.com|~mono-project.com|~msauth.net|~msdn.com|~msecnd.net|~msedge.net|~msftauth.net|~msftconnecttest.com|~msn.ae|~msn.at|~msn.be|~msn.ca|~msn.ch|~msn.cn|~msn.co.cr|~msn.co.id|~msn.co.il|~msn.co.in|~msn.co.jp|~msn.co.kr|~msn.co.nz|~msn.co.th|~msn.co.uk|~msn.co.za|~msn.com|~msn.com.au|~msn.com.br|~msn.com.cn|~msn.com.gr|~msn.com.hk|~msn.com.mx|~msn.com.my|~msn.com.sg|~msn.com.tr|~msn.com.tw|~msn.cr|~msn.de|~msn.dk|~msn.es|~msn.fi|~msn.fr|~msn.gr|~msn.hu|~msn.ie|~msn.it|~msn.jp|~msn.kz|~msn.net|~msn.net.ru|~msn.nl|~msn.no|~msn.pl|~msn.pt|~msn.ru|~msn.se|~msn.sg|~msnarabia.com|~msnautos.com|~msncricket.com|~msnlatino.com|~msnnews.com|~msnsports.com|~msnstars.dk|~msntravel.com|~msnweather.com|~msocdn.com|~nuance.com|~nuget.org|~office.com|~office.net|~office365.com|~officeppe.net|~onedrive.com|~onenote.co|~onenote.co.uk|~onenote.com|~onenote.mobi|~onenote.net|~onenote.org|~onestore.ms|~outlook.at|~outlook.be|~outlook.bg|~outlook.bz|~outlook.cl|~outlook.cm|~outlook.co|~outlook.co.cr|~outlook.co.id|~outlook.co.il|~outlook.co.nz|~outlook.co.th|~outlook.com|~outlook.com.ar|~outlook.com.au|~outlook.com.br|~outlook.com.es|~outlook.com.gr|~outlook.com.hr|~outlook.com.pe|~outlook.com.py|~outlook.com.tr|~outlook.com.ua|~outlook.com.vn|~outlook.cz|~outlook.de|~outlook.dk|~outlook.ec|~outlook.fr|~outlook.hn|~outlook.ht|~outlook.hu|~outlook.ie|~outlook.in|~outlook.it|~outlook.jp|~outlook.kr|~outlook.la|~outlook.lv|~outlook.mx|~outlook.my|~outlook.pa|~outlook.ph|~outlook.pk|~outlook.pt|~outlook.ro|~outlookmobile.com|~passport.net|~peer5.com|~playfabapi.com|~powerbi.com|~prodigymsn.com.mx|~revolution-computing.com|~revolutionanalytics.com|~s-microsoft.com|~s-msft.com|~s-msn.com|~seaofthieves.com|~securitymap.de|~sharepoint-df.com|~sharepoint.com|~sharepoint.de|~sharepointonline.com|~sharept.ms|~skype.com|~skypeassets.com|~slideshare.net|~slidesharecdn.com|~spoppe.com|~start.com|~static.microsoft|~surface.com|~svc.ms|~sway-cdn.com|~swiftkey.com|~sysinternals.com|~t1msn.com.mx|~tagdelivery.com|~trafficmanager.net|~trouter.io|~typescriptlang.org|~video2brain.com|~virtualearth.net|~visualstudio.com|~vsassets.io|~wbd.ms|~whiteboard.ms|~windows.com|~windows.de|~windows.net|~windows.nl|~windowslive.be|~windowslive.com.br|~windowslive.it|~windowsmarketplace.com|~windowsphone.com|~windowssearch-exp.com|~windowssearch.com|~windowsupdate.com|~winhec.com|~winhec.net|~wunderlist.com|~xamarin.com|~xbox.com|~xboxab.com|~xboxemea.com|~xboxlive.com|~xboxservices.com|~yupimsn.com
 ||adnz.co/api/ws-events-sink/
 ||adnz.co/dmp/publisher.js
 ||adnz.co/header.js
@@ -112679,7 +112684,7 @@ zonedirector.avadacom.com$image
 ||adobecorp.data.adobedc.net^
 ||adobedc.net/collector/
 ||adobedtm.com^$3p,domain=~adobe.com|~costco.com
-||adobedtm.com^$third-party
+||adobedtm.com^$third-party,domain=~2o7.net|~acrobat.com|~acrobatusers.com|~adobe-students.com|~adobe.com|~adobe.io|~adobeccstatic.com|~adobecqms.net|~adobedc.net|~adobejanus.com|~adobelogin.com|~adobepressrelease.com|~adobeprimetime.com|~adobesign.com|~adobetag.com|~adobetarget.com|~assetsadobe.com|~assetsadobe2.com|~assetsadobe3.com|~atomz.com|~auditude.com|~behance.net|~bizible.com|~bizibly.com|~businesscatalyst.com|~creativecloud.com|~demdex.net|~echosign.com|~edgefonts.net|~everestads.net|~everestjs.net|~everesttech.net|~fotolia.com|~fotolia.net|~ftcdn.net|~fyre.co|~hitbox.com|~livefyre.com|~macromedia.com|~marketo.com|~marketo.net|~mktoresp.com|~mktoutil.com|~mktoweb.com|~nedstat.net|~omniture.com|~omtrdc.net|~photoshop.com|~scene7.com|~sitestat.com|~ss-omtrdc.net|~storify.com|~tubemogul.com|~typekit.com|~typekit.net|~worldsecuresystems.com
 ||adobedtm.com^*/satelliteLib-$script,domain=allrecipes.com|nvidia.at|nvidia.be|nvidia.cn|nvidia.co.jp|nvidia.co.kr|nvidia.co.uk|nvidia.com|nvidia.com.br|nvidia.com.mx|nvidia.com.tr|nvidia.com.tw|nvidia.cz|nvidia.de|nvidia.dk|nvidia.es|nvidia.fi|nvidia.fr|nvidia.in|nvidia.it|nvidia.nl|nvidia.no|nvidia.pl|nvidia.ru|nvidia.se
 ||adobeedge.dva-acc.csda.gov.au^
 ||adobeedge.morganstanley.com^
@@ -112722,7 +112727,7 @@ zonedirector.avadacom.com$image
 ||adorableattention.com^
 ||adoric-om.com^$3p
 ||adoric.com^
-||adotmob.com^$third-party
+||adotmob.com^$third-party,domain=~we-are-adot.com
 ||adpaths.com^$3p
 ||adpay.ssg.com/adpayapi/pay/send.ssg
 ||adpia.client.adpinfo.com^
@@ -112781,11 +112786,11 @@ zonedirector.avadacom.com$image
 ||ads.win555capi.com^
 ||ads2.tadalaspray.com.br^
 ||adsaccount.appcpi.net^
-||adsafeprotected.com^$third-party
+||adsafeprotected.com^$third-party,domain=~getpublica.com|~iasds01.com|~publica-ctv.com|~publica-project.com|~publica-stream.com
 ||adsave.co^$3p
-||adscale.de^$third-party
+||adscale.de^$third-party,domain=~interactivemedia.net|~m6r.eu|~stroeerdigitalgroup.de|~stroeerdigitalmedia.de|~stroeerdp.de|~stroeermediabrands.de
 ||adschoom.com^$3p
-||adsco.re^$third-party
+||adsco.re^$third-party,domain=~ad-score.com|~adscore.com
 ||adscore.com^
 ||adscourses.inaraatech.com^
 ||adscz.calendars.com^
@@ -112811,7 +112816,7 @@ zonedirector.avadacom.com$image
 ||adspsp.com^
 ||adspsp.com^$3p
 ||adsrvr.org^$3p
-||adsrvr.org^$third-party
+||adsrvr.org^$third-party,domain=~adbrain.com|~adbrn.com|~uidapi.com
 ||adssistem.com^$3p
 ||adst.asstylish.com^
 ||adst.citchenware.com^
@@ -112822,7 +112827,7 @@ zonedirector.avadacom.com$image
 ||adstax-cdn.adrtx.net^
 ||adstk.io^
 ||adsunflower.com^
-||adswizz.com^$third-party
+||adswizz.com^$third-party,domain=~p-cdn.com|~p-cdn.us|~pandora.com|~simplecast.com|~simplecastaudio.com|~siriusxm.ca|~siriusxm.com|~stitcher.com
 ||adsximg.com^
 ||adsystem.dailyissue.co.kr/show/logs.php
 ||adtarget.barcainnovationhub.com^
@@ -113480,7 +113485,7 @@ zonedirector.avadacom.com$image
 ||agitos.de/content/track?
 ||agkfv.ecco.com^
 ||agkn.com^
-||agkn.com^$third-party
+||agkn.com^$third-party,domain=~berks.pa.us|~btstatic.com|~comal.tx.us|~confsettings.com|~contra-costa.ca.us|~forsyth.nc.us|~home.neustar|~iesnare.com|~iovation.com|~launchkey.com|~neustar.biz|~neustar.com|~onetag.io|~script.ag|~signal.co|~thebrighttag.com|~transunion.com|~ultratools.com|~washington.mn.us
 ||agma-analytics.de^
 ||agmgvp.723hoog.com^
 ||agnes.travelpro.ca^
@@ -114189,7 +114194,7 @@ zonedirector.avadacom.com$image
 ||amavalet.com^$3p
 ||amavik.site^
 ||amazingcounters.com^$3p
-||amazon-adsystem.com^$third-party
+||amazon-adsystem.com^$third-party,domain=~365bywholefoods.com|~6pm.com|~a.co|~a2z.com|~aiv-cdn.net|~aiv-delivery.net|~alexa.com|~alexametrics.com|~amazon-dss.com|~amazon.ae|~amazon.ca|~amazon.cl|~amazon.cn|~amazon.co.jp|~amazon.co.uk|~amazon.co.za|~amazon.com|~amazon.com.au|~amazon.com.be|~amazon.com.br|~amazon.com.co|~amazon.com.mx|~amazon.com.ng|~amazon.com.tr|~amazon.de|~amazon.dev|~amazon.eg|~amazon.es|~amazon.eu|~amazon.fr|~amazon.ie|~amazon.in|~amazon.it|~amazon.jobs|~amazon.lu|~amazon.nl|~amazon.pl|~amazon.sa|~amazon.se|~amazon.sg|~amazon.work|~amazonadsystem.com|~amazonalexa.com|~amazonappservices.com|~amazonaws.com|~amazonforum.com|~amazonmusic.com|~amazonpay.com|~amazontrust.com|~amazonvideo.com|~amazonwebservices.com|~amz.onl|~amzn.asia|~amzn.co.uk|~amzn.com|~amzn.eu|~amzn.in|~amzn.to|~api.aws|~assoc-amazon.co.uk|~assoc-amazon.com|~assoc-amazon.de|~assoc-amazon.jp|~associates-amazon.com|~audible.ca|~audible.co.uk|~audible.com|~audible.de|~aws.dev|~awsapps.com|~awsevents.com|~awsstatic.com|~awswaf.com|~boxofficemojo.com|~cloudfront.net|~dpreview.com|~elasticbeanstalk.com|~forgecdn.net|~goodreads.com|~gr-assets.com|~graphiq.com|~images-amazon.com|~imdb.com|~imdbws.com|~img-dpreview.com|~jtvnw.net|~kindle.com|~media-amazon.com|~media-imdb.com|~mturk.com|~payments-amazon.com|~peer39.com|~peer39.net|~prime.com|~primevideo.com|~ring.com|~s3-accelerate.amazon|~serving-sys.com|~siege-amazon.com|~signin.aws|~sizmek.com|~skillbuilder.aws|~ssl-images-amazon.com|~ttvnw.net|~twitch.tv|~twitchcdn.net|~twitchsvc.net|~wfm.com|~wholecitiesfoundation.org|~wholefoodsmarket.com|~wholekidsfoundation.org|~wholeplanetfoundation.org|~woot.com|~z.cn|~zappos.com|~zapposcouture.com
 ||amazon-email.branch.rocks^
 ||amazon.*/*/track_framework_metrics?
 ||amazon.*/1/p13n-shared-components/*/batch/action
@@ -114341,7 +114346,6 @@ zonedirector.avadacom.com$image
 ||ampltd.top.gg^
 ||ampltd2.medal.tv^
 ||ampproject.org/preconnect.gif
-||ampscamp.net^
 ||amptrack-dailymail-co-uk.cdn.ampproject.org^
 ||amqbl.ballarddesigns.com^
 ||ams-beacons.xumo.com^
@@ -115809,6 +115813,7 @@ zonedirector.avadacom.com$image
 ||analytics.wildlifestudios.com^
 ||analytics.wildtangent.com^
 ||analytics.winter.ink^
+||analytics.wispbyte.com^
 ||analytics.witglobal.net^
 ||analytics.wondershare.cc^
 ||analytics.wrc.nic.in^
@@ -118232,7 +118237,7 @@ zonedirector.avadacom.com$image
 ||appgax.optica-optima.com^
 ||appia.com^
 ||appier.net^$3p
-||appier.net^$third-party
+||appier.net^$third-party,domain=~adnw.xyz|~adsappier.com|~aiqua.io|~appier.com|~appiersig.com|~qgr.ph|~qgraph.io|~quantumgraph.com
 ||appinfosoryz.carte-gr.total.fr^
 ||appinthestore.com/click/
 ||applaus.buehnen-graz.com^
@@ -118444,6 +118449,7 @@ zonedirector.avadacom.com$image
 ||apptracker.torob.com^
 ||apptus.actonservice.com^
 ||appuat.intermiles.com^
+||appview.fafafa.ai^
 ||appvtexio.weni.ai/pixel.js
 ||appvua.jetcost.nl^
 ||apqcjj.celford.com^
@@ -118719,7 +118725,7 @@ zonedirector.avadacom.com$image
 ||ask.wearelistening.co.nz^
 ||askanydifference.com/beardeddragon/gilamonster.js
 ||askdoctors.jp/assets/packs/js/impression_tracker-
-||askdriver.com^
+||askdriver.com^$redirect=noop.js,script
 ||aslkv.yarn.com^
 ||aslscc.globehunters.ie^
 ||asmail.renkim.com^
@@ -119101,7 +119107,7 @@ zonedirector.avadacom.com$image
 ||attivoconsulting.actonservice.com^
 ||attn.tv/tag/
 ||attn.tv^
-||attn.tv^$third-party
+||attn.tv^$third-party,domain=~attentivemobile.com
 ||attn.tv^*/dtag.js
 ||attr-2p.com^$3p
 ||attr-logs.*.amazonaws.com^
@@ -119894,7 +119900,7 @@ zonedirector.avadacom.com$image
 ||basilisk.community-arts.net^
 ||basilisk.laosima.com^
 ||basis.net/assets/up.js
-||basis.net^$third-party
+||basis.net^$third-party,domain=~adbrite.com|~centro.net|~pixel.ad|~sitescout.com
 ||basket.mondo.link^
 ||basketballbelieve.com^
 ||baskettexture.com^
@@ -120106,7 +120112,6 @@ zonedirector.avadacom.com$image
 ||bea.feestkleding365.be^
 ||bea.feestkleding365.nl^
 ||bea.feestwinkelxl.be^
-||beacon-*.helpscout.net^
 ||beacon-1.newrelic.com^
 ||beacon-api.aliyuncs.com^
 ||beacon-fullpage-predictor.goguardian.com^
@@ -120472,11 +120477,11 @@ zonedirector.avadacom.com$image
 ||bidphysics.com^$3p
 ||bidr.io^
 ||bidr.io^$3p
-||bidr.io^$third-party
+||bidr.io^$third-party,domain=~beeswax.com
 ||bidrbu.bett1.at^
 ||bidsimulator.com^$3p
 ||bidswitch.net^
-||bidswitch.net^$third-party
+||bidswitch.net^$third-party,domain=~bidswitch.com|~iponweb.com|~iponweb.net|~mfadsrvr.com|~perf-serving.com
 ||bienvenido.americanindustriesgroup.com^
 ||bienvivre.chartwell.com^
 ||biesn.crossrope.com^
@@ -120551,7 +120556,7 @@ zonedirector.avadacom.com$image
 ||bing.com/mouselog
 ||bing.com/notifications/render?
 ||bing.com/rewardsapp/reportActivity?
-||bing.com^$third-party
+||bing.com^$third-party,domain=~1drv.com|~1drv.ms|~3plearning.com|~adnxs-simple.com|~adnxs.com|~adnxs.net|~adsymptotic.com|~afx.ms|~ageofempires.com|~aka.ms|~appcenter.ms|~appnexus.com|~asp.net|~aspnetcdn.com|~assets-yammer.com|~atmrum.net|~azure-api.net|~azure-dns.com|~azure-dns.info|~azure-dns.net|~azure-dns.org|~azure.com|~azure.net|~azureedge.net|~azurefd.net|~azurestaticapps.net|~azurewebsites.net|~b2clogin.com|~beam.pro|~bing-int.com|~bing.at|~bing.ca|~bing.ch|~bing.co.at|~bing.co.id|~bing.co.in|~bing.co.jp|~bing.co.uk|~bing.co.za|~bing.com.ar|~bing.com.au|~bing.com.br|~bing.com.cn|~bing.com.es|~bing.com.hk|~bing.com.mx|~bing.com.my|~bing.com.pl|~bing.com.sa|~bing.com.tr|~bing.de|~bing.es|~bing.fr|~bing.gen.tr|~bing.in|~bing.it|~bing.jp|~bing.net|~bing.nl|~bing.no|~bing.pl|~bing.ru|~bing.se|~bingapis.com|~bingsandbox.com|~bizographics.com|~botframework.com|~buildmypinnedsite.com|~carpoint.ca|~carpoint.com|~ch9.ms|~clarity.ms|~cloud.microsoft|~cloudapp.net|~customsearch.ai|~detelefoonvanbritt.nl|~digitaldemocracy.tv|~digitalwpc.com|~discovermsn.com|~doterracertifiedsite.com|~dynamics.com|~edgesv.net|~footprintdns.com|~forzamotorsport.net|~gamepass.com|~gfx.ms|~gigjam.com|~gpslab.net|~groupme.com|~halocdn.com|~halowaypoint.com|~hockeyapp.net|~hololens.com|~hotmail.com|~hotmail.fr|~hotmail.hu|~hotmail.it|~hotmail.jp|~hotmail.la|~hotmail.nl|~hotmail.no|~hotmail.ph|~hotmail.pt|~hotmail.se|~hotmail.sk|~howzitmsn.com|~iis.net|~imaginecup.pl|~irbi.de|~k-msedge.net|~licdn.com|~liga-tippgemeinschaft.de|~linkedin.com|~linkedinmobileapp.com|~live-int.com|~live.co.uk|~live.com|~live.com.au|~live.fr|~live.jp|~live.net|~live.sg|~livespacevision.com|~livevz.net|~lync.com|~lynda.com|~messenger.fr|~microsoft-falcon.io|~microsoft.az|~microsoft.be|~microsoft.by|~microsoft.ca|~microsoft.cat|~microsoft.ch|~microsoft.cl|~microsoft.com|~microsoft.cz|~microsoft.de|~microsoft.dk|~microsoft.ee|~microsoft.es|~microsoft.eu|~microsoft.fi|~microsoft.fr|~microsoft.ge|~microsoft.hu|~microsoft.is|~microsoft.it|~microsoft.jp|~microsoft.lt|~microsoft.lu|~microsoft.lv|~microsoft.md|~microsoft.pl|~microsoft.pt|~microsoft.ro|~microsoft.rs|~microsoft.ru|~microsoft.se|~microsoft.si|~microsoft.tv|~microsoft.ua|~microsoft.uz|~microsoft.vn|~microsoft365.com|~microsoftadcentre.ca|~microsoftapp.net|~microsoftcloud.com|~microsoftedge.com|~microsoftlinc.com|~microsoftonline-p.com|~microsoftonline.com|~microsoftpartnernetwork.com|~microsoftstore.com|~microsoftstudios.com|~microsofttranslator.com|~mileiq.com|~mixer.com|~mono-project.com|~msauth.net|~msdn.com|~msecnd.net|~msedge.net|~msftauth.net|~msftconnecttest.com|~msn.ae|~msn.at|~msn.be|~msn.ca|~msn.ch|~msn.cn|~msn.co.cr|~msn.co.id|~msn.co.il|~msn.co.in|~msn.co.jp|~msn.co.kr|~msn.co.nz|~msn.co.th|~msn.co.uk|~msn.co.za|~msn.com|~msn.com.au|~msn.com.br|~msn.com.cn|~msn.com.gr|~msn.com.hk|~msn.com.mx|~msn.com.my|~msn.com.sg|~msn.com.tr|~msn.com.tw|~msn.cr|~msn.de|~msn.dk|~msn.es|~msn.fi|~msn.fr|~msn.gr|~msn.hu|~msn.ie|~msn.it|~msn.jp|~msn.kz|~msn.net|~msn.net.ru|~msn.nl|~msn.no|~msn.pl|~msn.pt|~msn.ru|~msn.se|~msn.sg|~msnarabia.com|~msnautos.com|~msncricket.com|~msnlatino.com|~msnnews.com|~msnsports.com|~msnstars.dk|~msntravel.com|~msnweather.com|~msocdn.com|~nuance.com|~nuget.org|~office.com|~office.net|~office365.com|~officeppe.net|~onedrive.com|~onenote.co|~onenote.co.uk|~onenote.com|~onenote.mobi|~onenote.net|~onenote.org|~onestore.ms|~outlook.at|~outlook.be|~outlook.bg|~outlook.bz|~outlook.cl|~outlook.cm|~outlook.co|~outlook.co.cr|~outlook.co.id|~outlook.co.il|~outlook.co.nz|~outlook.co.th|~outlook.com|~outlook.com.ar|~outlook.com.au|~outlook.com.br|~outlook.com.es|~outlook.com.gr|~outlook.com.hr|~outlook.com.pe|~outlook.com.py|~outlook.com.tr|~outlook.com.ua|~outlook.com.vn|~outlook.cz|~outlook.de|~outlook.dk|~outlook.ec|~outlook.fr|~outlook.hn|~outlook.ht|~outlook.hu|~outlook.ie|~outlook.in|~outlook.it|~outlook.jp|~outlook.kr|~outlook.la|~outlook.lv|~outlook.mx|~outlook.my|~outlook.pa|~outlook.ph|~outlook.pk|~outlook.pt|~outlook.ro|~outlookmobile.com|~passport.net|~peer5.com|~playfabapi.com|~powerbi.com|~prodigymsn.com.mx|~revolution-computing.com|~revolutionanalytics.com|~s-microsoft.com|~s-msft.com|~s-msn.com|~seaofthieves.com|~securitymap.de|~sharepoint-df.com|~sharepoint.com|~sharepoint.de|~sharepointonline.com|~sharept.ms|~skype.com|~skypeassets.com|~slideshare.net|~slidesharecdn.com|~spoppe.com|~start.com|~static.microsoft|~surface.com|~svc.ms|~sway-cdn.com|~swiftkey.com|~sysinternals.com|~t1msn.com.mx|~tagdelivery.com|~trafficmanager.net|~trouter.io|~typescriptlang.org|~video2brain.com|~virtualearth.net|~visualstudio.com|~vsassets.io|~wbd.ms|~whiteboard.ms|~windows.com|~windows.de|~windows.net|~windows.nl|~windowslive.be|~windowslive.com.br|~windowslive.it|~windowsmarketplace.com|~windowsphone.com|~windowssearch-exp.com|~windowssearch.com|~windowsupdate.com|~winhec.com|~winhec.net|~wunderlist.com|~xamarin.com|~xbox.com|~xboxab.com|~xboxemea.com|~xboxlive.com|~xboxservices.com|~yupimsn.com
 ||bing.com^*/GLinkPingPost.aspx$ping,xhr
 ||bing.com^*/glinkping.aspx$ping,xhr
 ||binocule21c.merriam-webster.com^
@@ -120724,7 +120729,7 @@ zonedirector.avadacom.com$image
 ||blinks.outcomes4me.com^
 ||blinkstest.mindoktor.se^
 ||blip.bizrate.com^$script
-||blismedia.com^$third-party
+||blismedia.com^$third-party,domain=~blis.com
 ||blisscalendar.com^
 ||blissfulcrescendo.com^
 ||blissfullagoon.com^
@@ -120843,7 +120848,7 @@ zonedirector.avadacom.com$image
 ||bluebusiness.actonservice.com^
 ||bluecava.com^$3p
 ||blueconic.net^$3p
-||blueconic.net^$third-party
+||blueconic.net^$third-party,domain=~blueconic.com
 ||bluecore-email.branch.rocks^
 ||bluecore.com^$3p
 ||bluecounter.de^$3p
@@ -121122,7 +121127,7 @@ zonedirector.avadacom.com$image
 ||bounce-ads.de^$3p
 ||bounceexchange.com^
 ||bounceexchange.com^$3p
-||bounceexchange.com^$third-party
+||bounceexchange.com^$third-party,domain=~bouncex.net|~cdnbasket.net
 ||bouncepilot.com^$3p
 ||bouncex.com^$3p
 ||bouncex.net^
@@ -121286,7 +121291,7 @@ zonedirector.avadacom.com$image
 ||branch.hyr.work^
 ||branch.indi.com^
 ||branch.io^$3p
-||branch.io^$third-party
+||branch.io^$third-party,domain=~app.link|~appipv4.link|~bnc.lt|~hastrk1.com|~hastrk2.com|~hastrk3.com|~impression.link|~launch1.co|~mobileapptracking.com|~test-app.link|~tlnk.io
 ||branch.kastapp.link^
 ||branch.kiddom.co^
 ||branch.lacarte.com^
@@ -121626,7 +121631,7 @@ zonedirector.avadacom.com$image
 ||bttmkj.diesel.com^
 ||bttn.io^$3p
 ||bttrack.com^
-||bttrack.com^$third-party
+||bttrack.com^$third-party,domain=~bidtellect.com
 ||bttrp.aimsindustrial.com.au^
 ||btttag.com^$3p
 ||btucf.ryleeandcru.com^
@@ -122313,6 +122318,7 @@ zonedirector.avadacom.com$image
 ||canvas.*.edu/api/v1/courses/*/ping
 ||canvas.*.edu/page_views
 ||canvasandsocks.com^
+||canyonpizza.net^
 ||caowuq.babyliss-romania.ro^
 ||cap.88ads.xyz^
 ||capcush.net.anwalt.de^
@@ -122807,7 +122813,7 @@ zonedirector.avadacom.com$image
 ||cas.yuniqstore.com^
 ||casa2.casabergan.com.br^
 ||casalemedia.com^
-||casalemedia.com^$third-party
+||casalemedia.com^$third-party,domain=~indexww.com
 ||cascadion.thermo.com^
 ||cascadion.thermofisher.com^
 ||cashbeet.com^
@@ -123108,6 +123114,7 @@ zonedirector.avadacom.com$image
 ||cdn.evgnet.com/beacon/*/scripts/evergage.min.js$script,redirect=noop.js
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
 ||cdn.firstpromoter.com^$3p
+||cdn.flowplayer.com/releases/native/3/stable/plugins/ga4.min.js
 ||cdn.fugu-it.com/web/script.js
 ||cdn.gamedock.io/gamedock-web-tracker/
 ||cdn.gamer-network.net/*/scripts/mormont
@@ -123469,6 +123476,7 @@ zonedirector.avadacom.com$image
 ||cfm.kt.com/js/common/global/oms.js
 ||cfmediaview.com/API/MV_Visit.ashx
 ||cfmediaview.com^$3p
+||cfparequest.pcpartpicker.com/api/event
 ||cfpwood.actonservice.com^
 ||cfqkop.jaked.com^
 ||cfrnyp.kars4kids.org^
@@ -123555,7 +123563,7 @@ zonedirector.avadacom.com$image
 ||chart.dk^$3p
 ||chartaca.com^$3p
 ||chartbeat.com^$3p
-||chartbeat.com^$third-party
+||chartbeat.com^$third-party,domain=~chartbeat.net
 ||chartbeat.net^
 ||chartbeat.net^$3p
 ||chartec.actonservice.com^
@@ -125145,7 +125153,7 @@ zonedirector.avadacom.com$image
 ||community.pikminbloom.com/*/vanillaanalytics$script
 ||community.theta360.guide/assets/google-universal-analytics-v4
 ||company-target.com^$3p
-||company-target.com^$third-party
+||company-target.com^$third-party,domain=~demandbase.com
 ||compare-static.climate-data.org/tag.js
 ||compare-static.flightconnections.com/tag.js
 ||compare.easyviaggio.com^
@@ -125664,7 +125672,7 @@ zonedirector.avadacom.com$image
 ||contentsfeed.com^$3p
 ||contentspread.net^$3p
 ||contentsquare.net^$3p
-||contentsquare.net^$third-party
+||contentsquare.net^$third-party,domain=~content-square.net|~contentsquare.com|~csq.io|~csqtrk.net|~heap-api.com|~heap.io|~heapanalytics.com
 ||contextweb.com^$third-party
 ||contiamo.com^$3p
 ||contineljs.com^$3p
@@ -126177,7 +126185,7 @@ zonedirector.avadacom.com$image
 ||cpx.golem.de^
 ||cpx.smind.si^
 ||cpx.to^
-||cpx.to^$third-party
+||cpx.to^$third-party,domain=~captify.co.uk
 ||cpxl.golem.de/gif
 ||cpxl.golem.de^
 ||cq.hq1.influitive.com^
@@ -126215,7 +126223,7 @@ zonedirector.avadacom.com$image
 ||cqubdd.thisismoney.co.uk^
 ||cqubdd.thisismoneyint.co.uk^
 ||cquotient.com^$3p
-||cquotient.com^$third-party
+||cquotient.com^$third-party,domain=~appcloud.com|~appexchange.com|~apptegic.com|~attic.io|~beyondcore.com|~brighteroption.com|~buddymedia.com|~chatter.com|~cloudcraze.com|~cloudforce.com|~cotweet.com|~data.com|~database.com|~demandware.com|~demandware.net|~desk.com|~documentforce.com|~dreamforce.com|~einstein.com|~evergage.com|~evgcdn.com|~evgnet.com|~exacttarget.com|~exct.net|~force.com|~forceusercontent.com|~fuelcdn.com|~go1ev.com|~govforce.com|~gravitytank.com|~heroku.com|~herokuapp.com|~herokucdn.com|~heywire.com|~igodigital.com|~krux.com|~krxd.net|~lightning.com|~marketingcloud.com|~marketingcloudapis.com|~metamind.io|~pardot.com|~quotable.com|~radian6.com|~relateiq.com|~salesforce-communities.com|~salesforce-sites.com|~salesforce.com|~salesforceiq.com|~salesforceliveagent.com|~salesforcemarketingcloud.com|~semver.io|~sequence.com|~sfdcstatic.com|~sforce.com|~site.com|~social.com|~steelbrick.com|~trailblazer.me|~twinprime.com|~visualforce.com|~weinvoiceit.com
 ||cqz6fn6aox.aporia.com^
 ||cr-eec.etp-prod.com^$domain=crunchyroll.com
 ||cr-nielsen.com^$3p
@@ -126251,7 +126259,7 @@ zonedirector.avadacom.com$image
 ||crayfish.spotlessconcepts.com^
 ||crazyclickstats.com^$3p
 ||crazyegg.com^$3p
-||crazyegg.com^$third-party
+||crazyegg.com^$third-party,domain=~hellobar.com
 ||crbcn.arialattner.com^
 ||crcao.newenglishteas.com^
 ||create.encore-can.com^
@@ -126263,10 +126271,10 @@ zonedirector.avadacom.com$image
 ||createdip.com^
 ||creately.com/static/js/creately-analytics-
 ||creationagency.actonservice.com^
-||creative-serving.com^$third-party
+||creative-serving.com^$third-party,domain=~p161.net|~platform161.com
 ||creativeassets.asosservices.com^
 ||creativecdn.com^$3p
-||creativecdn.com^$third-party
+||creativecdn.com^$third-party,domain=~inventorycdn.com|~rtbhouse.com
 ||creativefactory.zalando.de/impressions^
 ||creatives.sunmedia.tv^
 ||creator-spring.com/ngjj/
@@ -126294,10 +126302,10 @@ zonedirector.avadacom.com$image
 ||criteo.com/event?$3p
 ||criteo.com^$3p
 ||criteo.com^$domain=spiegel.de
-||criteo.com^$third-party
+||criteo.com^$third-party,domain=~criteo.net|~emailretargeting.com|~hlserve.com|~manage.com
 ||criteo.gap.ae^
 ||criteo.net^$3p
-||criteo.net^$third-party
+||criteo.net^$third-party,domain=~criteo.com|~emailretargeting.com|~hlserve.com|~manage.com
 ||criteo.topchaleur.com^
 ||critictruck.com^
 ||crittercism.com/api/
@@ -126372,7 +126380,7 @@ zonedirector.avadacom.com$image
 ||crvayw.kagunosato.com^
 ||crvpqt.srrk.co.kr^
 ||crwdcntrl.net^
-||crwdcntrl.net^$third-party
+||crwdcntrl.net^$third-party,domain=~lotame.com
 ||crwxun.24mx.co.uk^
 ||cryo.socialblade.com^
 ||cryp-o.online^$all
@@ -126898,7 +126906,7 @@ zonedirector.avadacom.com$image
 ||cxense.com/cx.js$script,redirect=noop.js,domain=nlab.itmedia.co.jp,important
 ||cxense.com^
 ||cxense.com^$3p
-||cxense.com^$third-party
+||cxense.com^$third-party,domain=~emediate.dk|~emediate.eu|~npttech.com|~piano.io|~tinypass.com
 ||cxeugu.nationaltoolwarehouse.com^
 ||cxgpt1.goindigo.in/forward/v2/track
 ||cxjuqd.floriosport.it^
@@ -127378,6 +127386,7 @@ zonedirector.avadacom.com$image
 ||d2fuc4clr7gvcn.cloudfront.net^
 ||d2g2u2795e3fzw.cloudfront.net^
 ||d2gbtcuv3w9qyv.cloudfront.net^
+||d2gt2ux04o03l1.cloudfront.net^
 ||d2hrivdxn8ekm8.cloudfront.net^$3p
 ||d2i34c80a0ftze.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
@@ -131781,6 +131790,7 @@ zonedirector.avadacom.com$image
 ||ddhhbh.alfaromeo.fr^
 ||ddiamond.com.tr/tom8/
 ||ddioce.wolverine.com^
+||dditsadn.com^$domain=livesex.com
 ||dditscdn.com/*fingerprints
 ||dditscdn.com/?a=
 ||dditscdn.com/log/
@@ -131992,7 +132002,7 @@ zonedirector.avadacom.com$image
 ||demandscience.com^$3p
 ||demandware.edgesuite.net/*/dwanalytics.js
 ||demdex.net^
-||demdex.net^$third-party
+||demdex.net^$third-party,domain=~2o7.net|~acrobat.com|~acrobatusers.com|~adobe-students.com|~adobe.com|~adobe.io|~adobeccstatic.com|~adobecqms.net|~adobedc.net|~adobedtm.com|~adobejanus.com|~adobelogin.com|~adobepressrelease.com|~adobeprimetime.com|~adobesign.com|~adobetag.com|~adobetarget.com|~assetsadobe.com|~assetsadobe2.com|~assetsadobe3.com|~atomz.com|~auditude.com|~behance.net|~bizible.com|~bizibly.com|~businesscatalyst.com|~creativecloud.com|~echosign.com|~edgefonts.net|~everestads.net|~everestjs.net|~everesttech.net|~fotolia.com|~fotolia.net|~ftcdn.net|~fyre.co|~hitbox.com|~livefyre.com|~macromedia.com|~marketo.com|~marketo.net|~mktoresp.com|~mktoutil.com|~mktoweb.com|~nedstat.net|~omniture.com|~omtrdc.net|~photoshop.com|~scene7.com|~sitestat.com|~ss-omtrdc.net|~storify.com|~tubemogul.com|~typekit.com|~typekit.net|~worldsecuresystems.com
 ||demeter-tr-core-collect.trendyol.com^
 ||demo-mktg.vodafone.com^
 ||demo.elqpod.relationshipone.com^
@@ -133103,7 +133113,7 @@ zonedirector.avadacom.com$image
 ||dotmetrics.net^$3p
 ||dotnet.microsoft.com/static/js/analytics.min.js
 ||dotomi.com^$3p
-||dotomi.com^$third-party
+||dotomi.com^$third-party,domain=~anrdoezrs.net|~awltovhc.com|~cj.com|~conversantmedia.com|~dtmpub.com|~emjcd.com|~epsilon.com|~fastclick.net|~ftjcfx.com|~greystripe.com|~jdoqocy.com|~kqzyfj.com|~lduhtrp.net|~mczbf.com|~mediaplex.com|~mplxtms.com|~qksrv.net|~tkqlhce.com|~tqlkg.com|~yceml.net
 ||dotserver.douyucdn.cn^
 ||dotshellmain.com^
 ||dotvox.actonservice.com^
@@ -133112,14 +133122,14 @@ zonedirector.avadacom.com$image
 ||doubleclick.net/json?$3p
 ||doubleclick.net/pixel?$3p
 ||doubleclick.net^$image,3p
-||doubleclick.net^$third-party
+||doubleclick.net^$third-party,domain=~doubleclick.com|~googleadservices.com|~googleadsserving.cn|~googleapis.cn|~googleapis.co|~googleapis.com|~googlecommerce.com|~googleoptimize.com|~googlesyndication.com|~googletagmanager.com|~googletagservices.com|~googletraveladservices.com|~goooglesyndication.com|~invitemedia.com
 ||doubleclick.net^*/trackimp/$3p
 ||doubleclick.uk.net^
 ||doubledefend.com^
 ||doublepimp.com/Scripts/Analytics/
 ||doublestat.info^
 ||doubleverify.com^$3p
-||doubleverify.com^$third-party
+||doubleverify.com^$third-party,domain=~besafe.global|~meetrics.com|~meetrics.de|~meetrics.net|~mxcdn.net|~openslate.com|~openslatedata.com|~research.de.com
 ||doubtdrawer.com^
 ||douyucdn.cn/fish3/1.gif
 ||dove.com*/Assets/JS/udm.js
@@ -133446,7 +133456,7 @@ zonedirector.avadacom.com$image
 ||dts-log.anker.com^
 ||dts.suchmeisterei.de^
 ||dtscout.com^$3p
-||dtscout.com^$third-party
+||dtscout.com^$third-party,domain=~dtscdn.com|~dtssrv.com
 ||dttin.inhhair.com^
 ||dttrk.com^
 ||dtwfcizn.konner-sohnen.at^
@@ -133621,7 +133631,7 @@ zonedirector.avadacom.com$image
 ||dwglgp.dunelm.com^
 ||dwh-prod.moz.de^
 ||dwin1.com^
-||dwin1.com^$third-party
+||dwin1.com^$third-party,domain=~awin.com|~awin1.com|~contentfeed.net|~digitalwindow.com|~dwin2.com|~html-links.com|~reussissonsensemble.fr|~successfultogether.co.uk|~webmasterplan.com|~zanox-affiliate.de|~zanox.com
 ||dwin2.com^
 ||dwin2.com^$3p
 ||dwizdq.ekosport.nl^
@@ -133714,7 +133724,7 @@ zonedirector.avadacom.com$image
 ||e-learning.brainshark.com^
 ||e-pagerank.fr/bouton.gif?$3p
 ||e-pagerank.net^$3p
-||e-planning.net^$third-party
+||e-planning.net^$third-party,domain=~e-planning.video
 ||e-referrer.com^$3p
 ||e-ssl.apsalar.com^
 ||e-stat.huya.com^
@@ -134679,7 +134689,7 @@ zonedirector.avadacom.com$image
 ||eloqua.brakepartsinc.com^
 ||eloqua.cadriamarketing.com^
 ||eloqua.certiport.com^
-||eloqua.com^$third-party
+||eloqua.com^$third-party,domain=~addthis.com|~addthiscdn.com|~addthisedge.com|~adrsp.net|~atgsvcs.com|~bkrtx.com|~bluekai.com|~bm23.com|~bronto.com|~clearspring.com|~compendium.com|~compendiumblog.com|~custhelp.com|~datalogix.com|~en25.com|~estara.com|~grapeshot.co.uk|~homeip.net|~java.com|~java.net|~livelook.com|~maxymiser.net|~moat.com|~moatads.com|~moatpixel.com|~mysql.com|~netbeans.org|~netsuite.com|~nexac.com|~oracle.com|~oraclecloud.com|~oracleimg.com|~oracleinfinity.com|~oracleinfinity.io|~oracleoutsourcing.com|~q-go.net|~responsys.net|~rightnow.com|~rightnowtech.com|~rnengage.com|~univide.com|~virtualbox.org
 ||eloqua.com^$~stylesheet,3p
 ||eloqua.digitalpi.com^
 ||eloqua.eafit.edu.co^
@@ -135347,7 +135357,7 @@ zonedirector.avadacom.com$image
 ||en.ikmemergent.net.jumia.co.ke^
 ||en2.elvenar.com/game/tracking
 ||en2025.timetoshave.se^
-||en25.com^$third-party
+||en25.com^$third-party,domain=~addthis.com|~addthiscdn.com|~addthisedge.com|~adrsp.net|~atgsvcs.com|~bkrtx.com|~bluekai.com|~bm23.com|~bronto.com|~clearspring.com|~compendium.com|~compendiumblog.com|~custhelp.com|~datalogix.com|~eloqua.com|~estara.com|~grapeshot.co.uk|~homeip.net|~java.com|~java.net|~livelook.com|~maxymiser.net|~moat.com|~moatads.com|~moatpixel.com|~mysql.com|~netbeans.org|~netsuite.com|~nexac.com|~oracle.com|~oraclecloud.com|~oracleimg.com|~oracleinfinity.com|~oracleinfinity.io|~oracleoutsourcing.com|~q-go.net|~responsys.net|~rightnow.com|~rightnowtech.com|~rnengage.com|~univide.com|~virtualbox.org
 ||enable.vertikal6.com^
 ||enablement.vmware.com^
 ||enablis.actonservice.com^
@@ -135592,7 +135602,7 @@ zonedirector.avadacom.com$image
 ||ensighten.bhphoto.com^
 ||ensighten.com/error/e.php?
 ||ensighten.com^$3p
-||ensighten.com^$third-party
+||ensighten.com^$third-party,domain=~ebayadvertising.com|~levexis.com|~nc0.co
 ||ensighten.davidyurman.com^
 ||ensighten.distrelec.com^
 ||ensighten.filmstruck.com^
@@ -136598,7 +136608,7 @@ zonedirector.avadacom.com$image
 ||everestjs.net^$3p
 ||everesttech.net^
 ||everesttech.net^$3p
-||everesttech.net^$third-party
+||everesttech.net^$third-party,domain=~2o7.net|~acrobat.com|~acrobatusers.com|~adobe-students.com|~adobe.com|~adobe.io|~adobeccstatic.com|~adobecqms.net|~adobedc.net|~adobedtm.com|~adobejanus.com|~adobelogin.com|~adobepressrelease.com|~adobeprimetime.com|~adobesign.com|~adobetag.com|~adobetarget.com|~assetsadobe.com|~assetsadobe2.com|~assetsadobe3.com|~atomz.com|~auditude.com|~behance.net|~bizible.com|~bizibly.com|~businesscatalyst.com|~creativecloud.com|~demdex.net|~echosign.com|~edgefonts.net|~everestads.net|~everestjs.net|~fotolia.com|~fotolia.net|~ftcdn.net|~fyre.co|~hitbox.com|~livefyre.com|~macromedia.com|~marketo.com|~marketo.net|~mktoresp.com|~mktoutil.com|~mktoweb.com|~nedstat.net|~omniture.com|~omtrdc.net|~photoshop.com|~scene7.com|~sitestat.com|~ss-omtrdc.net|~storify.com|~tubemogul.com|~typekit.com|~typekit.net|~worldsecuresystems.com
 ||evergage.com/beacon/
 ||evergage.com^$3p
 ||evergage1.actonservice.com^
@@ -136713,7 +136723,7 @@ zonedirector.avadacom.com$image
 ||exelator.com/pixel.gif
 ||exelator.com^$3p
 ||exelator.com^$domain=disqus.com
-||exelator.com^$third-party
+||exelator.com^$third-party,domain=~adtwenty.com|~exelate.com|~imrworldwide.com|~myvisualiq.net|~nielsen.com|~nmrodam.com|~vdna-assets.com|~visualdna.com|~visualiq.com|~visualiq.de|~visualiq.fr|~vtwenty.com
 ||exgrub.orthoticshop.com^
 ||exhibit.coteriefashionevents.com^
 ||exhibit.firex.co.uk^
@@ -136823,6 +136833,7 @@ zonedirector.avadacom.com$image
 ||expressvpn.com/__px.gif?
 ||exqrzl.evcloset.com^
 ||exr-mms.expertreviews.co.uk^
+||ext-api.perfluence.net/pixel?
 ||ext-inv-cdn.presage.io^$3p
 ||ext.chtbl.com/trackable.js
 ||ext.clickstream.sberbank.ru/metrics/
@@ -136899,7 +136910,7 @@ zonedirector.avadacom.com$image
 ||ezoeyd.planetahuerto.pt^
 ||ezofv.gesundheit-der-frau.com^
 ||ezoic.net/ezqlog?
-||ezoic.net^$third-party
+||ezoic.net^$third-party,domain=~ezodn.com|~ezoic.com|~ezoiccdn.com
 ||ezoicanalytics.com/analytics.js
 ||ezoicanalytics.com^
 ||ezpls.wearerasa.com^
@@ -137192,6 +137203,7 @@ zonedirector.avadacom.com$image
 ||fastgull.io^
 ||fastly-analytics.com^$3p
 ||fastly-insights.com^$3p
+||fastly.com/metrics/gtm/
 ||fastly.net/i?
 ||fastly.net/sp.js
 ||fastmail.com/api/event/
@@ -137755,8 +137767,6 @@ zonedirector.avadacom.com$image
 ||fjjkh.thelostestate.com^
 ||fjkjaj.peterhahn.nl^
 ||fjnrh.period.co^
-||fjordsand.com^
-||fjordsand.com^$redirect=noop.js,script
 ||fjortk.braun-hamburg.com^
 ||fjqtg.resthavenokc.com^
 ||fjqtyu.bethowen.ru^
@@ -137822,7 +137832,7 @@ zonedirector.avadacom.com$image
 ||flashplayerfeedback.adobe.com^
 ||flashstats.libsyn.com^
 ||flashtalking.com^
-||flashtalking.com^$third-party
+||flashtalking.com^$third-party,domain=~flashtalking.co.uk|~ftstatic.com|~mediaocean.com
 ||flashtexting.com^
 ||flask.us.nextdoor.com^
 ||flaticon.com/_ga?
@@ -138789,7 +138799,7 @@ zonedirector.avadacom.com$image
 ||fwd-mtg.jobrad-loop.com^
 ||fwkwtw.amorossa.com^
 ||fwmqki.eckerle.de^
-||fwmrm.net^$third-party
+||fwmrm.net^$third-party,domain=~freewheel.tv|~stickyadstv.com
 ||fwpdj.kazoo.com.au^
 ||fwpff.salesape.ai^
 ||fwpixel.com^$3p
@@ -140086,7 +140096,7 @@ zonedirector.avadacom.com$image
 ||go-marketing.comed.com^
 ||go-mpulse.net^
 ||go-mpulse.net^$3p
-||go-mpulse.net^$third-party
+||go-mpulse.net^$third-party,domain=~abmr.net|~accdn.com.cn|~akadns.net|~akamai-staging.net|~akamai.com|~akamai.net|~akamaihd-staging.net|~akamaihd.net|~akamaiorigin-staging.net|~akamaiorigin.net|~akamaized-staging.net|~akamaized.net|~akstat.io|~chameleonx.com|~edgekey-staging.net|~edgekey.net|~edgesuite-staging.net|~edgesuite.net|~gw-ec.com|~h264.io|~janrain.com|~janrainbackplane.com|~janrainsso.com|~rpxnow.com|~securetve.com|~seeds.services|~techlab-cdn.com
 ||go-response.thermofisher.com^
 ||go-stage.oracle.com^
 ||go-staging.qantaswellbeing.com^
@@ -140874,6 +140884,7 @@ zonedirector.avadacom.com$image
 ||golem.met.vgwort.de^
 ||golfcartlaws.com^
 ||golfersrow.com^
+||gollum.monotote.com^
 ||gomerchant.groupon.com^
 ||gomoxie.solutions^*/events
 ||gompkg.afm-telethon.fr^
@@ -140966,7 +140977,7 @@ zonedirector.avadacom.com$image
 ||googleadservices.com/pagead/conversion_async.js$redirect=noop.js,domain=ffm.to,important,script
 ||googleadservices.com/pagead/conversion_async.js$script,redirect=noop.js,domain=orcd.co
 ||googleadservices.com^$3p
-||googleadservices.com^$third-party
+||googleadservices.com^$third-party,domain=~doubleclick.com|~doubleclick.net|~googleadsserving.cn|~googleapis.cn|~googleapis.co|~googleapis.com|~googlecommerce.com|~googleoptimize.com|~googlesyndication.com|~googletagmanager.com|~googletagservices.com|~googletraveladservices.com|~goooglesyndication.com|~invitemedia.com
 ||googleapis.com/aam.js
 ||googleapis.com/gadasource/gada.js
 ||googleapis.com/ivc.js
@@ -140978,7 +140989,7 @@ zonedirector.avadacom.com$image
 ||googleoptimize.com^
 ||googlerank.info^$3p
 ||googlesyndication.com/safeframe/$3p
-||googlesyndication.com^$third-party
+||googlesyndication.com^$third-party,domain=~doubleclick.com|~doubleclick.net|~googleadservices.com|~googleadsserving.cn|~googleapis.cn|~googleapis.co|~googleapis.com|~googlecommerce.com|~googleoptimize.com|~googletagmanager.com|~googletagservices.com|~googletraveladservices.com|~goooglesyndication.com|~invitemedia.com
 ||googletagmanager-cn.com^
 ||googletagmanager.com/*=GTM-
 ||googletagmanager.com/gtag/$3p
@@ -141030,13 +141041,13 @@ zonedirector.avadacom.com$image
 ||googletagmanager.com/ns.html?$3p
 ||googletagmanager.com/static/service_worker/
 ||googletagmanager.com^
-||googletagmanager.com^$third-party
+||googletagmanager.com^$third-party,domain=~doubleclick.com|~doubleclick.net|~googleadservices.com|~googleadsserving.cn|~googleapis.cn|~googleapis.co|~googleapis.com|~googlecommerce.com|~googleoptimize.com|~googlesyndication.com|~googletagservices.com|~googletraveladservices.com|~goooglesyndication.com|~invitemedia.com
 ||googletagservices.com/tag/js/gpt.js$domain=epaper.timesgroup.com,redirect=googletagservices_gpt.js,important,script
 ||googletagservices.com/tag/js/gpt.js$domain=sinoptik.ua|gutefrage.net|dt.ua|ngs.ru|unian.net|easybib.com|bohenon.com|linuxtopia.org|newsroom.kh.ua|hclips.com|noticierodigital.com|northumberlandgazette.co.uk|mywebtimes.com|watchuseek.com|telekritika.ua|fontanka.ru|bhub.com.ua|guhoyas.com|rst.ua|hh.ru|buhgalter.com.ua|unocero.com|autonews.com|metropoles.com|okezone.com|m.yeniakit.com.tr|kanalukraina.tv|day.az|knuddels.de
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=dafiti.com.co
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=straitstimes.com
 ||googletagservices.com/tag/js/gpt.js$xhr,script,redirect=googletagservices_gpt.js
-||googletagservices.com^$third-party
+||googletagservices.com^$third-party,domain=~doubleclick.com|~doubleclick.net|~googleadservices.com|~googleadsserving.cn|~googleapis.cn|~googleapis.co|~googleapis.com|~googlecommerce.com|~googleoptimize.com|~googlesyndication.com|~googletagmanager.com|~googletraveladservices.com|~goooglesyndication.com|~invitemedia.com
 ||googleusercontent.com/*/wf/open?upn=$image
 ||googleusercontent.com/tracker/
 ||gooo.al^$3p
@@ -145256,6 +145267,7 @@ zonedirector.avadacom.com$image
 ||happyholidays.coniferhealth.com^
 ||happymoose.sk-webanalytics.de^
 ||happysex.ch/app_jquery/Tracking.js
+||harant-test.ru/statistics.php
 ||harborcaption.com^
 ||harborcontrol.com^
 ||harborcub.com^
@@ -145494,6 +145506,7 @@ zonedirector.avadacom.com$image
 ||heg-cp.com/upm/$3p
 ||hegnl.befashionablygreek.com^
 ||heidy.makeup^$3p
+||heimdall.hearstapps.com^
 ||heimdall.sexafterretirement.com^
 ||heise.de/*/webtrekk
 ||heise.de/avw-bin/ivw/CP^
@@ -145573,6 +145586,7 @@ zonedirector.avadacom.com$image
 ||hepsiburada.com/webcontent/
 ||heraldandtimeslabs.com/sugar.js
 ||herbgreencolumn.com^
+||herbstarsbuilding.com^
 ||hermes.allo-media.net^
 ||hero.shapero.com^
 ||heroesdom.com^$3p
@@ -146126,7 +146140,7 @@ zonedirector.avadacom.com$image
 ||hotelstatic.com/collect
 ||hotelstatic.com/perf
 ||hotjar.com^$3p
-||hotjar.com^$third-party
+||hotjar.com^$third-party,domain=~hotjar.io
 ||hotjar.io^$3p
 ||hotlog.ru^$3p
 ||hotmart.amosermae.site^
@@ -146248,7 +146262,7 @@ zonedirector.avadacom.com$image
 ||hrzn-nxt.com/pxl?
 ||hs-analytics.net^
 ||hs-analytics.net^$3p
-||hs-analytics.net^$third-party
+||hs-analytics.net^$third-party,domain=~getsidekick.com|~getsignals.com|~gettally.com|~grader.com|~hs-analytics.com|~hs-banner.com|~hs-scripts.com|~hsadspixel.net|~hsappstatic.com|~hsappstatic.net|~hscollectedforms.net|~hscta.com|~hscta.net|~hsforms.com|~hsforms.net|~hsleadflows.net|~hsstatic.com|~hsstatic.net|~hubapi.com|~hubspot.com|~hubspot.de|~hubspot.es|~hubspot.fr|~hubspot.jp|~hubspot.net|~hubspotanalytics.com|~hubspotcentral.com|~hubspotdocuments.com|~hubspoteditor.com|~hubspoteditorqa.com|~hubspotfeedback.com|~hubspotgearqa.com|~hubspotpreview-ap1.com|~hubspotpreview-eu1.com|~hubspotpreview-na1.com|~hubspotpreview-na2.com|~hubspotpreview-na3.com|~hubspotpreviewqa-ap1.com|~hubspotpreviewqa-eu1.com|~hubspotpreviewqa-na1.com|~hubspotpreviewqa-na2.com|~hubspotpreviewqa-na3.com|~hubspotqa.com|~inbound.com|~leadin.com|~li.me|~minitab.com|~readthink.com|~thinkgrowth.org|~usemessages.com
 ||hs-scripts.com^$3p
 ||hs.fi/stats
 ||hsa.wageworks.info^
@@ -146359,7 +146373,7 @@ zonedirector.avadacom.com$image
 ||hubspot.com/img/trackers/
 ||hubspot.com/tracking/
 ||hubspot.com/usage-logging/
-||hubspot.com^$third-party
+||hubspot.com^$third-party,domain=~getsidekick.com|~getsignals.com|~gettally.com|~grader.com|~hs-analytics.com|~hs-analytics.net|~hs-banner.com|~hs-scripts.com|~hsadspixel.net|~hsappstatic.com|~hsappstatic.net|~hscollectedforms.net|~hscta.com|~hscta.net|~hsforms.com|~hsforms.net|~hsleadflows.net|~hsstatic.com|~hsstatic.net|~hubapi.com|~hubspot.de|~hubspot.es|~hubspot.fr|~hubspot.jp|~hubspot.net|~hubspotanalytics.com|~hubspotcentral.com|~hubspotdocuments.com|~hubspoteditor.com|~hubspoteditorqa.com|~hubspotfeedback.com|~hubspotgearqa.com|~hubspotpreview-ap1.com|~hubspotpreview-eu1.com|~hubspotpreview-na1.com|~hubspotpreview-na2.com|~hubspotpreview-na3.com|~hubspotpreviewqa-ap1.com|~hubspotpreviewqa-eu1.com|~hubspotpreviewqa-na1.com|~hubspotpreviewqa-na2.com|~hubspotpreviewqa-na3.com|~hubspotqa.com|~inbound.com|~leadin.com|~li.me|~minitab.com|~readthink.com|~thinkgrowth.org|~usemessages.com
 ||hubvisor.io^$3p
 ||hudhno.jdsports.es^
 ||hudong.com/flux.js
@@ -146697,6 +146711,7 @@ zonedirector.avadacom.com$image
 ||icu.newsroom.bi/ingest.php
 ||icu.newsroom.bi^
 ||icugm.wagamama.us^
+||iculture.nl/ic-cgi/report/
 ||iculture.report^$3p
 ||icvihl.cachecoeurlingerie.com^
 ||icwmzb.talisa.fr^
@@ -146852,7 +146867,7 @@ zonedirector.avadacom.com$image
 ||ignhl.aura.com^
 ||ignite.liftigniter.com^
 ||ignse.aroma360.au^
-||igodigital.com^$third-party
+||igodigital.com^$third-party,domain=~appcloud.com|~appexchange.com|~apptegic.com|~attic.io|~beyondcore.com|~brighteroption.com|~buddymedia.com|~chatter.com|~cloudcraze.com|~cloudforce.com|~cotweet.com|~cquotient.com|~data.com|~database.com|~demandware.com|~demandware.net|~desk.com|~documentforce.com|~dreamforce.com|~einstein.com|~evergage.com|~evgcdn.com|~evgnet.com|~exacttarget.com|~exct.net|~force.com|~forceusercontent.com|~fuelcdn.com|~go1ev.com|~govforce.com|~gravitytank.com|~heroku.com|~herokuapp.com|~herokucdn.com|~heywire.com|~krux.com|~krxd.net|~lightning.com|~marketingcloud.com|~marketingcloudapis.com|~metamind.io|~pardot.com|~quotable.com|~radian6.com|~relateiq.com|~salesforce-communities.com|~salesforce-sites.com|~salesforce.com|~salesforceiq.com|~salesforceliveagent.com|~salesforcemarketingcloud.com|~semver.io|~sequence.com|~sfdcstatic.com|~sforce.com|~site.com|~social.com|~steelbrick.com|~trailblazer.me|~twinprime.com|~visualforce.com|~weinvoiceit.com
 ||igofvz.jdsports.at^
 ||igorsgtest.branch.rocks^
 ||igpnt.truereligion.com^
@@ -147718,7 +147733,7 @@ zonedirector.avadacom.com$image
 ||impact.go.economist.com^
 ||impactcdn.com^
 ||impactradius-event.com^
-||impactradius-event.com^$third-party
+||impactradius-event.com^$third-party,domain=~5vju.net|~6noy.net|~7eer.net|~8v4lqg.net|~9zpg.net|~ayph.net|~cbza.net|~cfzu.net|~cmuw.net|~ctuq.net|~dttq.net|~dxax.net|~evyy.net|~ihfo.net|~impact.com|~impactcdn.com|~impactradius.com|~mzte.net|~ngih.net|~njih.net|~ntaf.net|~nvaz.net|~ojrq.net|~pxf.io|~r7ls.net|~ryvx.net|~sjv.io|~syuh.net|~tnu8.net|~vdvm.net|~vocq.net|~vzew.net
 ||impala.vnv.nl^
 ||impdesk.com/smartpix/
 ||impel.io/releases/analytics/
@@ -147750,7 +147765,7 @@ zonedirector.avadacom.com$image
 ||imrworldwide.com^
 ||imrworldwide.com^$3p
 ||imrworldwide.com^$domain=cnet.com,important
-||imrworldwide.com^$third-party
+||imrworldwide.com^$third-party,domain=~adtwenty.com|~exelate.com|~exelator.com|~myvisualiq.net|~nielsen.com|~nmrodam.com|~vdna-assets.com|~visualdna.com|~visualiq.com|~visualiq.de|~visualiq.fr|~vtwenty.com
 ||ims.relationshipone.com^
 ||ims.tescoinsurance.com^
 ||ims2.tescotravelmoney.com^
@@ -147817,7 +147832,7 @@ zonedirector.avadacom.com$image
 ||indexstats.com^$3p
 ||indextools.com^$3p
 ||indexww.com^$3p
-||indexww.com^$third-party
+||indexww.com^$third-party,domain=~casalemedia.com
 ||indgq.simplyearth.com^
 ||indianexpress.com/wp-content/themes/indianexpress/js/ie-events-all.js
 ||indianpornvideotube.com/incnt
@@ -149239,7 +149254,7 @@ zonedirector.avadacom.com$image
 ||intent.macworld.co.uk^
 ||intent.pcworld.idg.com.au^
 ||intent.techadvisor.com^
-||intentiq.com^$third-party
+||intentiq.com^$third-party,domain=~almondnet.com|~datonics.com|~iiqapps.com|~pro-market.net
 ||intentlens.com^
 ||interact-analytics.com^$3p
 ||interact.crmtechnologies.com^
@@ -150809,7 +150824,6 @@ zonedirector.avadacom.com$image
 ||kaminari.click^$3p
 ||kaminoretail.io/tracking/
 ||kamju.cestlavie-newyork.com^
-||kamp.daum.net^$xhr,domain=~kakaotv.daum.net|~video.daum.net
 ||kampaania.aripaevmeedia.ee^
 ||kampanja.bhtelecom.ba^
 ||kampanjat.atea.fi^
@@ -150829,7 +150843,7 @@ zonedirector.avadacom.com$image
 ||kaqzb.fatbikeskopen.nl^
 ||karelcapek.co.jp/Scripts/tracker.js
 ||karelia.info/counter/
-||kargo.com^$third-party
+||kargo.com^$third-party,domain=~adelaidelift.com|~adelaidemetrics.com|~parsec.media|~rhombusads.com|~sledmobile.com|~stitcherads.com
 ||karo.karomallonline.com^
 ||karrot-pixel.business.daangn.com^
 ||karstadt.de/on/demandware.store/*/__Analytics-Tracking?
@@ -151061,6 +151075,8 @@ zonedirector.avadacom.com$image
 ||kian.rockmelon.agency^
 ||kib.hu^
 ||kick.com/*&loaderVersion=
+||kick.com/149e9513-01fa-4fb0-aad4-566afd725d1b/
+||kick.com/UcggFnr2hNhLCwLf/
 ||kickass.cd/analyze*.js
 ||kickass.immunicity.gold/analyze*.js
 ||kickass.unlockproj.party/analyze*.js
@@ -151223,7 +151239,7 @@ zonedirector.avadacom.com$image
 ||klarnaservices.com^$image,3p
 ||klaviyo.com/onsite/js/sentry.
 ||klaviyo.com/onsite/track-analytics?
-||klaviyo.com^$third-party
+||klaviyo.com^$third-party,domain=~klaviyo.tech|~kmail-lists.com
 ||klavjn.niawigs.com^
 ||klcmq.cbdmd.com^
 ||klddt.fredasalvador.com^
@@ -151484,7 +151500,7 @@ zonedirector.avadacom.com$image
 ||krurdm.spao.com^
 ||krvcn.caesarsupps.com^
 ||krxd.net^
-||krxd.net^$third-party
+||krxd.net^$third-party,domain=~appcloud.com|~appexchange.com|~apptegic.com|~attic.io|~beyondcore.com|~brighteroption.com|~buddymedia.com|~chatter.com|~cloudcraze.com|~cloudforce.com|~cotweet.com|~cquotient.com|~data.com|~database.com|~demandware.com|~demandware.net|~desk.com|~documentforce.com|~dreamforce.com|~einstein.com|~evergage.com|~evgcdn.com|~evgnet.com|~exacttarget.com|~exct.net|~force.com|~forceusercontent.com|~fuelcdn.com|~go1ev.com|~govforce.com|~gravitytank.com|~heroku.com|~herokuapp.com|~herokucdn.com|~heywire.com|~igodigital.com|~krux.com|~lightning.com|~marketingcloud.com|~marketingcloudapis.com|~metamind.io|~pardot.com|~quotable.com|~radian6.com|~relateiq.com|~salesforce-communities.com|~salesforce-sites.com|~salesforce.com|~salesforceiq.com|~salesforceliveagent.com|~salesforcemarketingcloud.com|~semver.io|~sequence.com|~sfdcstatic.com|~sforce.com|~site.com|~social.com|~steelbrick.com|~trailblazer.me|~twinprime.com|~visualforce.com|~weinvoiceit.com
 ||ks42zt.spec.fm^
 ||ksamarketing.sedgwick.com^
 ||ksasd.eshopygo.bg^
@@ -152237,6 +152253,7 @@ zonedirector.avadacom.com$image
 ||legitscript.com/seals/$script
 ||lego.com/api/dl-event-ingest
 ||legolas-media.com^$3p
+||legolas.monotote.com^
 ||legoo.simonpearce.com^
 ||leguide.com/js/lgtrk-*.js
 ||leiki.com^$3p
@@ -152430,7 +152447,7 @@ zonedirector.avadacom.com$image
 ||li.rtl2.de^
 ||li3k4d70ig52.resourceya.com^
 ||liadm.com^$3p
-||liadm.com^$third-party
+||liadm.com^$third-party,domain=~liveintent.com
 ||lib.dewanyasver.com^
 ||lib.ikra.de^
 ||lib.onet.pl/s.csr/adp
@@ -152492,6 +152509,7 @@ zonedirector.avadacom.com$image
 ||lightenafterthought.com^
 ||lighterthinnerstronger.fiber-line.com^
 ||lighthouse.edoinc.com^
+||lighthouselabs.eu^$image
 ||lightminer.co^$3p
 ||lightning.ncaa.com/launch/$script
 ||lightstep.medium.systems^
@@ -152501,7 +152519,7 @@ zonedirector.avadacom.com$image
 ||lijha.jardabypalme.com.br^
 ||lijhi.unclereco.com^
 ||lijit.com^$3p
-||lijit.com^$third-party
+||lijit.com^$third-party,domain=~s-onetag.com|~sovrn.com|~sovrnlabs.net|~viglink.com
 ||like.reply.de^
 ||likemore-go.imgsmail.ru^$image
 ||likethedog.com^
@@ -153481,7 +153499,7 @@ zonedirector.avadacom.com$image
 ||listrakbi.com/ModalImpression.ashx?
 ||listrakbi.com/activity/
 ||listrakbi.com/api/ActivityEvents/
-||listrakbi.com^$third-party
+||listrakbi.com^$third-party,domain=~listrak.com
 ||lists-tracking.komando.com^
 ||lists.ccmbg.com^
 ||lit.connatix.com^
@@ -153512,6 +153530,7 @@ zonedirector.avadacom.com$image
 ||live.visually-io.com/api/s?token=
 ||live1.panstellar.shop^
 ||live2support.com^*/js_lstrk.
+||liveball.sx/albert
 ||livechatinc.com^*/control.cgi?
 ||livecounter.dk^$3p
 ||livecounter.theyosh.nl^
@@ -159697,7 +159716,7 @@ zonedirector.avadacom.com$image
 ||mail2.carte-gr.total.fr^
 ||mail2.happ.social^
 ||mail4.adgtrk.com^
-||mailchimp.com^$third-party
+||mailchimp.com^$third-party,domain=~chimpstatic.com|~ckapis.com|~creditkarma.com|~docstoccdn.com|~eep.io|~intuit.ca|~intuit.com|~intuitcdn.net|~intuitconnect.com|~list-manage.com|~mailchi.mp|~mailchimpapp.com|~mint.com|~payroll.com|~quickbooks.com|~quickbooksonline.com|~tradegecko.com|~turbotax.com
 ||mailer.bennubunnies.com^
 ||mailer.carte-gr.total.fr^
 ||mailer.catharsisproductions.com^
@@ -159736,6 +159755,7 @@ zonedirector.avadacom.com$image
 ||majdmw.gigasport.at^
 ||majesticwaterscape.com^
 ||majesticwilderness.com^
+||majikichi.com/js/tracking.js
 ||makbti.bandofboats.com^
 ||makeship.com/ingest/*?compression=
 ||makeship.com/ingest/static/recorder-v2.js
@@ -161636,7 +161656,7 @@ zonedirector.avadacom.com$image
 ||marketo.com/rtp-api/
 ||marketo.com^$3p
 ||marketo.net^$3p
-||marketo.net^$third-party
+||marketo.net^$third-party,domain=~2o7.net|~acrobat.com|~acrobatusers.com|~adobe-students.com|~adobe.com|~adobe.io|~adobeccstatic.com|~adobecqms.net|~adobedc.net|~adobedtm.com|~adobejanus.com|~adobelogin.com|~adobepressrelease.com|~adobeprimetime.com|~adobesign.com|~adobetag.com|~adobetarget.com|~assetsadobe.com|~assetsadobe2.com|~assetsadobe3.com|~atomz.com|~auditude.com|~behance.net|~bizible.com|~bizibly.com|~businesscatalyst.com|~creativecloud.com|~demdex.net|~echosign.com|~edgefonts.net|~everestads.net|~everestjs.net|~everesttech.net|~fotolia.com|~fotolia.net|~ftcdn.net|~fyre.co|~hitbox.com|~livefyre.com|~macromedia.com|~marketo.com|~mktoresp.com|~mktoutil.com|~mktoweb.com|~nedstat.net|~omniture.com|~omtrdc.net|~photoshop.com|~scene7.com|~sitestat.com|~ss-omtrdc.net|~storify.com|~tubemogul.com|~typekit.com|~typekit.net|~worldsecuresystems.com
 ||marketperf.com^$3p
 ||marketplace.anyclip.com/v*/lre-events
 ||marketplace.geniusplus.ai/*/lre-events?cid=*&wid=
@@ -162325,7 +162345,7 @@ zonedirector.avadacom.com$image
 ||media.wave.qburst.com^
 ||media01.eu^$3p
 ||media2.newsobserver.com/newsobserver/products/escenic
-||media6degrees.com^$third-party
+||media6degrees.com^$third-party,domain=~dstillery.com
 ||mediaarmor.com^$3p
 ||mediabong.com/t/
 ||mediabong.net/t/
@@ -162372,7 +162392,7 @@ zonedirector.avadacom.com$image
 ||mediatrend.kr/aiDataScript.js
 ||mediatrend.kr/aiDataTrigger?uri=
 ||mediav.com^$3p
-||mediavine.com^$third-party
+||mediavine.com^$third-party,domain=~grow.me|~moviefanatic.com|~thehollywoodgossip.com|~tvfanatic.com
 ||mediaweaver.jp^$3p
 ||medibot.delling.care/api/counts/
 ||medicalnewstoday.com/structure/javascript/cache/beacon.js
@@ -164910,7 +164930,7 @@ zonedirector.avadacom.com$image
 ||meylercapital.actonservice.com^
 ||meypeg.videdressing.com^
 ||mezzobit.com^$3p
-||mfadsrvr.com^$third-party
+||mfadsrvr.com^$third-party,domain=~bidswitch.com|~bidswitch.net|~iponweb.com|~iponweb.net|~perf-serving.com
 ||mfamcw.sodexobeneficios.com.br^
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
 ||mfbmc.shopmilano.com^
@@ -164937,7 +164957,6 @@ zonedirector.avadacom.com$image
 ||mgaru.dev^$3p
 ||mgbfxr.formongde.com^
 ||mgbivj.hintaopas.fi^
-||mgbsdk*.matrix.easebar.com^
 ||mgclyt.costacruceros.es^
 ||mgcnid.aboutyou.cz^
 ||mgdmqr.parfium.bg^
@@ -165318,7 +165337,7 @@ zonedirector.avadacom.com$image
 ||ml.houzz.com^
 ||ml314.com/csync.ashx^
 ||ml314.com^$3p
-||ml314.com^$third-party
+||ml314.com^$third-party,domain=~bombora.com
 ||ml42.doteasy.com^
 ||ml42.fastcomet.com^
 ||ml42.hosting.com^
@@ -165661,7 +165680,7 @@ zonedirector.avadacom.com$image
 ||montpalatin.handicap.fr^
 ||moo.geopogs.party^
 ||moodlerooms.blackboard.com^
-||mookie1.com^$third-party
+||mookie1.com^$third-party,domain=~247realmedia.com|~groupm.com|~hkstrategies.com|~idealhks.com|~linkpulse.com|~lp4.io|~mookie1.cn|~ogilvy.com|~research-int.se|~wpp.com|~xaxis.com
 ||mooncrustpizza.com^
 ||moonshine.nieucabinetdoors.com^
 ||moorshoes.com^
@@ -166293,9 +166312,9 @@ zonedirector.avadacom.com$image
 ||mxpdsu.bhv.fr^
 ||mxpl.9gag.com^
 ||mxpnl.com^$3p
-||mxpnl.com^$third-party
+||mxpnl.com^$third-party,domain=~mixpanel.com|~mxpnl.net
 ||mxptint.net^$3p
-||mxptint.net^$third-party
+||mxptint.net^$third-party,domain=~brand.net|~valassis.com|~valassis.eu|~valassisdigital.com
 ||mxradon.com^
 ||mxradon.com^$3p
 ||mxsvjc.hackers.ac^
@@ -167138,7 +167157,7 @@ zonedirector.avadacom.com$image
 ||newlog.overwolf.com^
 ||newperspective.americanexpress.com^
 ||newrelic.com^$3p
-||newrelic.com^$third-party
+||newrelic.com^$third-party,domain=~futurestack.com|~newrelic.co.jp|~newrelic.de|~newrelic.fr|~newrelic.jp|~newrelic.org|~newrelic.us|~nr-assets.net|~nr-data.net|~nr-ext.net|~nr-local.net|~nr-ops.net|~nr-tools.net|~opsmatic.com|~opsmatic.net
 ||newrrb.bid^$3p
 ||news-app-events.apple.com^
 ||news-events.apple.com^
@@ -167794,7 +167813,7 @@ zonedirector.avadacom.com$image
 ||nqzvxx.naturekind.co.kr^
 ||nr-beacon.movingimage.com^
 ||nr-data.net^$3p
-||nr-data.net^$third-party
+||nr-data.net^$third-party,domain=~futurestack.com|~newrelic.co.jp|~newrelic.com|~newrelic.de|~newrelic.fr|~newrelic.jp|~newrelic.org|~newrelic.us|~nr-assets.net|~nr-ext.net|~nr-local.net|~nr-ops.net|~nr-tools.net|~opsmatic.com|~opsmatic.net
 ||nr-data.noelleeming.co.nz^
 ||nr-events.taboola.com^
 ||nr-js.imaios.com^
@@ -168655,7 +168674,7 @@ zonedirector.avadacom.com$image
 ||omnit.equinox.com^
 ||omnit.pureyoga.com^
 ||omnitag.omniscientai.com^$3p
-||omnitagjs.com^$third-party
+||omnitagjs.com^$third-party,domain=~adyoulike.com
 ||omniture-dc-sec.cadence.com^
 ||omniture-metrics.amadeus.com^
 ||omniture-secure.valpak.com^
@@ -168798,7 +168817,7 @@ zonedirector.avadacom.com$image
 ||omtrdc.net/id^$redirect=noop.txt,important,image,media,subdocument,stylesheet,script,xhr,other
 ||omtrdc.net/rest/$ping
 ||omtrdc.net^
-||omtrdc.net^$third-party
+||omtrdc.net^$third-party,domain=~2o7.net|~acrobat.com|~acrobatusers.com|~adobe-students.com|~adobe.com|~adobe.io|~adobeccstatic.com|~adobecqms.net|~adobedc.net|~adobedtm.com|~adobejanus.com|~adobelogin.com|~adobepressrelease.com|~adobeprimetime.com|~adobesign.com|~adobetag.com|~adobetarget.com|~assetsadobe.com|~assetsadobe2.com|~assetsadobe3.com|~atomz.com|~auditude.com|~behance.net|~bizible.com|~bizibly.com|~businesscatalyst.com|~creativecloud.com|~demdex.net|~echosign.com|~edgefonts.net|~everestads.net|~everestjs.net|~everesttech.net|~fotolia.com|~fotolia.net|~ftcdn.net|~fyre.co|~hitbox.com|~livefyre.com|~macromedia.com|~marketo.com|~marketo.net|~mktoresp.com|~mktoutil.com|~mktoweb.com|~nedstat.net|~omniture.com|~photoshop.com|~scene7.com|~sitestat.com|~ss-omtrdc.net|~storify.com|~tubemogul.com|~typekit.com|~typekit.net|~worldsecuresystems.com
 ||omtrns.sstats.q8.dk^
 ||omvzcq.vidaxl.be^
 ||omxodt.shredoptics.com^
@@ -168864,7 +168883,7 @@ zonedirector.avadacom.com$image
 ||onesignal.com/sdks/OneSignalSDKWorker
 ||onesignal.com/webPushAnalytics
 ||onesignal.com^$domain=androidauthority.com|iphoneincanada.ca|rockpapershotgun.com|senpa.io|shineads.org
-||onesignal.com^$third-party
+||onesignal.com^$third-party,domain=~os.tc
 ||onesourcebackground.actonservice.com^
 ||onespecify.com^
 ||onespot-tracking.herokuapp.com^
@@ -168991,6 +169010,7 @@ zonedirector.avadacom.com$image
 ||opbvu.getfirstperson.com^
 ||opcqf.analuisa.com^
 ||opecloud.com/ope-pdmp.js
+||opecloud.com^
 ||open-analytics.hrw.org^
 ||open-s.alibaba.com/openservice/userBehaviorProductViewService
 ||open-test.wynk.in^
@@ -169055,7 +169075,7 @@ zonedirector.avadacom.com$image
 ||openvenue.com^$3p
 ||openway.deepseeksvc.com/v*/write/rum
 ||openweb.bid^$3p
-||openx.net^$third-party
+||openx.net^$third-party,domain=~deliverimp.com|~godengo.com|~jump-time.net|~mezzobit.com|~openx.com|~openx.org|~openxadexchange.com|~openxcdn.net|~pixfuture.net|~pubnation.com|~servedbyopenx.com
 ||openxcdn.net^$3p
 ||operationchicken.com^
 ||operationnail.com^
@@ -169445,12 +169465,13 @@ zonedirector.avadacom.com$image
 ||outbrain.com/nanoWidget/externals/cookie/
 ||outbrain.com/widgetOBUserSync/
 ||outbrain.com^$3p
-||outbrain.com^$third-party
+||outbrain.com^$third-party,domain=~content-recommendation.net|~ligadx.com|~ligatus.com|~outbrainimg.com|~veeseo.com|~zemanta.com
 ||outbrain.com^*/widgetStatistics.js
 ||outbrainimg.com^$3p
 ||outdoor.theres.co^
 ||outdoorsoil.com^
 ||outdoorthingy.com^
+||outerwords.com^
 ||outfit.wingsfit1.com^
 ||outfunnel.com^$3p
 ||outlook-1.cdn.office.net/owamini/*/resources/analytics-ping.js
@@ -169962,7 +169983,7 @@ zonedirector.avadacom.com$image
 ||parchment.com/wp-content/themes/wp-parchment/assets/utm-tags.min.js
 ||pardko.pricerunner.com^
 ||pardot.com/pd.js
-||pardot.com^$third-party
+||pardot.com^$third-party,domain=~appcloud.com|~appexchange.com|~apptegic.com|~attic.io|~beyondcore.com|~brighteroption.com|~buddymedia.com|~chatter.com|~cloudcraze.com|~cloudforce.com|~cotweet.com|~cquotient.com|~data.com|~database.com|~demandware.com|~demandware.net|~desk.com|~documentforce.com|~dreamforce.com|~einstein.com|~evergage.com|~evgcdn.com|~evgnet.com|~exacttarget.com|~exct.net|~force.com|~forceusercontent.com|~fuelcdn.com|~go1ev.com|~govforce.com|~gravitytank.com|~heroku.com|~herokuapp.com|~herokucdn.com|~heywire.com|~igodigital.com|~krux.com|~krxd.net|~lightning.com|~marketingcloud.com|~marketingcloudapis.com|~metamind.io|~quotable.com|~radian6.com|~relateiq.com|~salesforce-communities.com|~salesforce-sites.com|~salesforce.com|~salesforceiq.com|~salesforceliveagent.com|~salesforcemarketingcloud.com|~semver.io|~sequence.com|~sfdcstatic.com|~sforce.com|~site.com|~social.com|~steelbrick.com|~trailblazer.me|~twinprime.com|~visualforce.com|~weinvoiceit.com
 ||parentapp.byjus.com^
 ||parentpicture.com^
 ||parents.app.playosmo.com^
@@ -169984,7 +170005,7 @@ zonedirector.avadacom.com$image
 ||parrotfish.wilderworld.com^
 ||parse-ppom-prod.herokuapp.com/parse/events^
 ||parsely.com/keys/$script,3p
-||parsely.com^$third-party
+||parsely.com^$third-party,domain=~parse.ly
 ||parsimoniouspolice.com^
 ||parsley.detik.com^
 ||parte.tv/static/assets/js/pa/lp.js
@@ -170855,7 +170876,7 @@ zonedirector.avadacom.com$image
 ||permutive.app^
 ||permutive.app^$3p
 ||permutive.com^$3p
-||permutive.com^$third-party
+||permutive.com^$third-party,domain=~permutive.app|~prmutv.co
 ||perpetualtracking.lytess.com^
 ||perplexity.ai/rest/event/analytics
 ||perr.h-cdn.com^
@@ -171085,7 +171106,7 @@ zonedirector.avadacom.com$image
 ||pingback.sogou.com^
 ||pingclock.net^$3p
 ||pingdom.net^$3p
-||pingdom.net^$third-party
+||pingdom.net^$third-party,domain=~pingdom.com
 ||pingil.com^$3p
 ||pingjs.qq.com^
 ||pingma.qq.com^
@@ -171502,6 +171523,7 @@ zonedirector.avadacom.com$image
 ||plans.ceteraretirement.com^
 ||plans.fundtherebuild.com^
 ||plantcourse.com^
+||plantet.pl/products/ping/
 ||plants.outsidein.com^
 ||plas.imfeld.dev^
 ||platform-eu.cloud.coveo.com/rest/*/analytics/view?
@@ -172016,7 +172038,7 @@ zonedirector.avadacom.com$image
 ||posthog.tarnkappe.info^
 ||postmates.com/_events$redirect=noop.txt,image,media,subdocument,stylesheet,script,xhr,other
 ||postmates.com/_p/api/setRobotEvents
-||postrelease.com^$third-party
+||postrelease.com^$third-party,domain=~nativo.net|~ntv.io
 ||posty.kr/api/tr|
 ||potatoinvention.com^
 ||potensic.com/npublic/libs/widget/sensors/
@@ -172387,7 +172409,7 @@ zonedirector.avadacom.com$image
 ||prnetwork.de^$3p
 ||prnx.net^$3p
 ||prnzxf.glamira.se^
-||pro-market.net^$third-party
+||pro-market.net^$third-party,domain=~almondnet.com|~datonics.com|~iiqapps.com|~intentiq.com
 ||pro-testing.mektri.com^
 ||pro-testing.moxier.co.uk^
 ||pro-web-metrics.alias.s24cloud.net^$3p
@@ -172809,7 +172831,7 @@ zonedirector.avadacom.com$image
 ||publishflow.com^$3p
 ||publytics.net^$3p
 ||pubmatic.com^$third-party
-||pubnation.com^$third-party
+||pubnation.com^$third-party,domain=~deliverimp.com|~godengo.com|~jump-time.net|~mezzobit.com|~openx.com|~openx.net|~openx.org|~openxadexchange.com|~openxcdn.net|~pixfuture.net|~servedbyopenx.com
 ||pubperf.com^$3p
 ||pubplus.com^$3p
 ||pubstack.io^$3p
@@ -173425,6 +173447,7 @@ zonedirector.avadacom.com$image
 ||qotms.aestheticmanagementpartners.com^
 ||qotnke.natureone.co.kr^
 ||qouxkn.natuurhuisje.nl^
+||qovani.com^
 ||qovbv.thesoutherntrapper.com^
 ||qowfuv.virbacavto.ru^
 ||qoygsv.born2be.pl^
@@ -173563,7 +173586,7 @@ zonedirector.avadacom.com$image
 ||qualtrics.com/jfe/$script,3p
 ||qualtrics.com/jfe/static/dist/c/adobe.
 ||qualtrics.com/sie/$script,3p
-||qualtrics.com^$third-party
+||qualtrics.com^$third-party,domain=~q01.us|~ql.tc|~qualtrics.io|~silverlake.com
 ||qualtrics.com^*/metrics
 ||qualzz.com/assets/trackingScript/webtracking.js
 ||quant.jp/track/
@@ -173575,7 +173598,7 @@ zonedirector.avadacom.com$image
 ||quantserve.com/api/
 ||quantserve.com/pixel$3p
 ||quantserve.com^$script,3p
-||quantserve.com^$third-party
+||quantserve.com^$third-party,domain=~apextag.com|~qccerttest.com|~quantcast.com|~quantcount.com
 ||quantserve.com^$~object,3p
 ||quantserve.com^*.swf?$3p
 ||quantserve.com^*^a=$3p
@@ -173660,7 +173683,7 @@ zonedirector.avadacom.com$image
 ||quora.com/_/ad/
 ||quora.com/ajax/receive_POST
 ||quora.com/qevents.js
-||quora.com^$third-party
+||quora.com^$third-party,domain=~quoracdn.net
 ||quotev.com/ajax/ping
 ||quotiq.ru/api/client_events
 ||qursbq.berceaumagique.com^
@@ -174304,7 +174327,7 @@ zonedirector.avadacom.com$image
 ||reddit.com/static/pixel.png$image
 ||reddit.com/svc/shreddit/perfMetrics
 ||reddit.com/timings/
-||reddit.com^$third-party
+||reddit.com^$third-party,domain=~dubsmash.com|~redd.it|~redditinc.com|~redditmedia.com|~redditstatic.com|~reddituploads.com
 ||redditmedia.com/gtm/
 ||redditmedia.com/gtm/jail?
 ||redditmedia.com/gtm?id=
@@ -174312,7 +174335,7 @@ zonedirector.avadacom.com$image
 ||redditstatic.com/accountmanager/sentry.
 ||redditstatic.com/ads/pixel.js
 ||redditstatic.com/shreddit/sentry-
-||redditstatic.com^$third-party
+||redditstatic.com^$third-party,domain=~dubsmash.com|~redd.it|~reddit.com|~redditinc.com|~redditmedia.com|~reddituploads.com
 ||redditstream.arborapps.io^
 ||reddwarf.till-sanders.de^
 ||redfast.com/ping/
@@ -174934,7 +174957,7 @@ zonedirector.avadacom.com$image
 ||rfgkp.kathrynwilson.com^
 ||rfhjg.millsandboon.co.uk^
 ||rfihub.com^$3p
-||rfihub.com^$third-party
+||rfihub.com^$third-party,domain=~boomtrain.com|~nudgespot.com|~rezync.com|~rfihub.net|~ru4.com|~zetaglobal.com|~zetaglobal.net|~zetazync.com
 ||rfjrih.skinceuticals.com^
 ||rfk.biglots.com^
 ||rfk.dsw.com/api/init/1/init.js
@@ -175123,7 +175146,7 @@ zonedirector.avadacom.com$image
 ||rkdcil.monamenagementmaison.fr^
 ||rkdms.com^
 ||rkdms.com^$3p
-||rkdms.com^$third-party
+||rkdms.com^$third-party,domain=~merklesearch.com
 ||rkeit.livom.at^
 ||rkhsl.loganix.com^
 ||rkioyw.bedstu.com^
@@ -175142,7 +175165,7 @@ zonedirector.avadacom.com$image
 ||rlcar.thrivemarket.com^
 ||rlcdn.com^$3p
 ||rlcdn.com^$domain=autobild.de|widgets.outbrain.com
-||rlcdn.com^$third-party
+||rlcdn.com^$third-party,domain=~acuity-data.com|~arbor.io|~circulate.com|~faktor.io|~liveramp.co.jp|~liveramp.com|~liveramp.com.au|~liveramp.com.cn|~liveramp.de|~liveramp.es|~liveramp.fr|~liveramp.it|~liveramp.org|~liveramp.uk|~pippio.com|~privacymanager.io
 ||rlcoou.reskin.co.kr^
 ||rldcr.madeincookware.com^
 ||rlebg.ugears.us^
@@ -175393,7 +175416,7 @@ zonedirector.avadacom.com$image
 ||rqros.makesy.com^
 ||rqroyh.suitable.de^
 ||rqtrk.eu^$3p
-||rqtrk.eu^$third-party
+||rqtrk.eu^$third-party,domain=~roq.ad
 ||rqvsws.carreblanc.com^
 ||rqyxdk.myanimelist.net^
 ||rqz4.supdigital.fr^
@@ -175712,7 +175735,7 @@ zonedirector.avadacom.com$image
 ||rubelhasanrokib.organicvitalpower.com^
 ||rubelhasanrokib.ruchibazar.com^
 ||rubicon.wellsfargo.com^
-||rubiconproject.com^$third-party
+||rubiconproject.com^$third-party,domain=~chango.com|~dpclk.com|~magnite.com|~mobsmith.com|~nearbyad.com|~sharedid.org
 ||rubiconredirect.com^$3p
 ||rucounter.ru^$3p
 ||rudder-server-prd.arena.im/v1/track
@@ -177281,7 +177304,7 @@ zonedirector.avadacom.com$image
 ||sas15k01.com^$3p
 ||sasc.solidworks.com^
 ||sascdn.com/mh_audience/
-||sascdn.com^$third-party
+||sascdn.com^$third-party,domain=~smartadserver.com|~smartadserver.fr
 ||sat.sanoma.fi^
 ||sat.soluall.net^
 ||satarget.csu.edu.au^
@@ -177377,7 +177400,7 @@ zonedirector.avadacom.com$image
 ||sc-nossl.speakeasy.net^
 ||sc-static.net^
 ||sc-static.net^$3p
-||sc-static.net^$third-party
+||sc-static.net^$third-party,domain=~bitmoji.com|~bitstrips.com|~sc-cdn.net|~sc-jpl.com|~sc-prod.net|~snap.com|~snapads.com|~snapchat.com|~snapkit.com|~zen.ly|~zenly-app.com|~zenly.com
 ||sc.actonservice.com^
 ||sc.blurb.fr^
 ||sc.caffe2go.com^
@@ -177594,7 +177617,7 @@ zonedirector.avadacom.com$image
 ||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch_beacon.js,domain=ofiii.com
 ||scorecardresearch.com^$3p
 ||scorecardresearch.com^$domain=cnet.com,important
-||scorecardresearch.com^$third-party
+||scorecardresearch.com^$third-party,domain=~comscore.com|~e.cl|~mdotlabs.com|~measuread.com|~zqtk.net
 ||scorpion.clare.ink^
 ||scorpion.gamedao.co^
 ||scottstapp.afterlight.co^
@@ -178541,9 +178564,9 @@ zonedirector.avadacom.com$image
 ||segment-api.inrix.com^
 ||segment-cdn.producthunt.com^
 ||segment.com^$3p
-||segment.com^$third-party
+||segment.com^$third-party,domain=~segment.io
 ||segment.io^$3p
-||segment.io^$third-party
+||segment.io^$third-party,domain=~segment.com
 ||segment.lalr.co^
 ||segment.psg.nexstardigital.net/adobeanalytics.js
 ||segmentapis.com/v1/t
@@ -178586,7 +178609,7 @@ zonedirector.avadacom.com$image
 ||semanticverses.com^$3p
 ||semantiqo.com^$3p
 ||semasio.net^$3p
-||semasio.net^$third-party
+||semasio.net^$third-party,domain=~semasio.com
 ||sematext.com^$3p
 ||sembox.it/js/sembox-tracking.js
 ||semcusto.solucaogratuita.site^
@@ -183811,6 +183834,7 @@ zonedirector.avadacom.com$image
 ||share.1stphorm.app^
 ||share.9cdn.net/share/*/js/tracking/
 ||share.9cdn.net/share/long_cache/js/tracking/
+||share.9cdn.net/share/short_cache/js/tracking/$domain=nine.com.au
 ||share.appdater.mobi^
 ||share.appsaround.net^
 ||share.appwinit.com^
@@ -183922,7 +183946,7 @@ zonedirector.avadacom.com$image
 ||sharethis.com/increment_clicks?
 ||sharethis.com/pageviews?
 ||sharethis.com^$third-party
-||sharethrough.com^$third-party
+||sharethrough.com^$third-party,domain=~shareth.ru
 ||sharevault.cloud^$all
 ||sharing.kptncook.com^
 ||shark.getplayback.com^
@@ -184406,7 +184430,7 @@ zonedirector.avadacom.com$image
 ||sitefinity.com/collect/
 ||siteimprove.com^$3p
 ||siteimproveanalytics.com^$3p
-||siteimproveanalytics.com^$third-party
+||siteimproveanalytics.com^$third-party,domain=~siteimprove.com|~siteimprove.net|~siteimproveanalytics.io
 ||siteimproveanalytics.io^$3p
 ||siteintercept.allegiancetech.com^
 ||siteintercept.qualtrics.com^
@@ -184430,7 +184454,7 @@ zonedirector.avadacom.com$image
 ||sitescdn.net/ytag/ytag.min.js
 ||sitescope.kids-up.jp^
 ||sitescout.com^$3p
-||sitescout.com^$third-party
+||sitescout.com^$third-party,domain=~adbrite.com|~basis.net|~centro.net|~pixel.ad
 ||sitest.jp/tracking/
 ||sitest.jp^$3p
 ||siteswithcontent.com^$3p
@@ -184493,6 +184517,7 @@ zonedirector.avadacom.com$image
 ||skalnik.pl/static/*/js/tracking.min.js
 ||skaqaz.witt-weiden.ch^
 ||skat.com.ua/api/collect
+||skateboarding.com/.api/admiral
 ||skbnfa.filorga.com^
 ||skbs.kettlebellbigsix.com^
 ||skbx.aariclothing.com^
@@ -184542,7 +184567,7 @@ zonedirector.avadacom.com$image
 ||skillshare.com/events/track
 ||skillshouse.actonservice.com^
 ||skimresources.com^$3p
-||skimresources.com^$third-party
+||skimresources.com^$third-party,domain=~redirectingat.com|~skimlinks.com
 ||skin.gleamglows.com^
 ||skin.skindeli.com^
 ||skincare.faiyazshop.com^
@@ -184687,7 +184712,7 @@ zonedirector.avadacom.com$image
 ||sm.susthatarkendro.shop^
 ||sm.sylectus.com^
 ||sm.trb.com^
-||smaato.net^$third-party
+||smaato.net^$third-party,domain=~smaato.com
 ||smade.otisopse.com^
 ||smade.quellilainitaly.com^
 ||smaero.jp/js/access.js
@@ -184718,7 +184743,7 @@ zonedirector.avadacom.com$image
 ||smart46.lplnow.com^
 ||smart62.lplnow.com^
 ||smart98.lplnow.com^
-||smartadserver.com^$third-party
+||smartadserver.com^$third-party,domain=~sascdn.com|~smartadserver.fr
 ||smartcam.adt-worldwide.com^
 ||smartcard.apps.coloros.com^
 ||smartclip-services.com^$3p
@@ -189018,7 +189043,7 @@ zonedirector.avadacom.com$image
 ||snapchat.com/report-metrics/
 ||snapchat.com/web-analytics
 ||snapchat.com/web/metrics
-||snapchat.com^$third-party
+||snapchat.com^$third-party,domain=~bitmoji.com|~bitstrips.com|~sc-cdn.net|~sc-jpl.com|~sc-prod.net|~sc-static.net|~snap.com|~snapads.com|~snapkit.com|~zen.ly|~zenly-app.com|~zenly.com
 ||snapdeal.biz^$3p
 ||snapkit.com/v1/sdk/metrics/
 ||snappyreport.com^
@@ -190089,7 +190114,7 @@ zonedirector.avadacom.com$image
 ||springmetrics.com^$3p
 ||springolive.com^
 ||springserve.com^$3p
-||springserve.com^$third-party
+||springserve.com^$third-party,domain=~springserve.net
 ||springsister.com^
 ||springsnails.com^
 ||sprinklr.com/api/livechat/prompt/browse/event
@@ -197173,7 +197198,7 @@ zonedirector.avadacom.com$image
 ||staape.rizqoon.com^
 ||stack-sonar.com^
 ||stack-sonar.com^$3p
-||stackadapt.com^$third-party
+||stackadapt.com^$third-party,domain=~qvdt3feo.com|~stackadapt.tech
 ||stackoverflow.com/_/client-timings
 ||stackoverflow.com/gps/event
 ||stackshare.io/analytics.
@@ -202039,7 +202064,7 @@ zonedirector.avadacom.com$image
 ||stormwind.actonservice.com^
 ||stormyflower.com^
 ||storygize.net^$3p
-||storygize.net^$third-party
+||storygize.net^$third-party,domain=~storygize.com
 ||storystack.com^$3p
 ||storytelling.nzz.ch/track-manager^
 ||stp.4d-society.com^
@@ -203867,6 +203892,7 @@ zonedirector.avadacom.com$image
 ||t.mm-uxrv.com^
 ||t.mma-adl.com^
 ||t.mmaeast.com^
+||t.mmganalytics.com^
 ||t.montecarlosbm.com^
 ||t.moonstreet.pl^
 ||t.morvextoys.com^
@@ -204224,7 +204250,7 @@ zonedirector.avadacom.com$image
 ||tabletki.ua/analyticsdata/
 ||taboola.com.cn^$3p
 ||taboola.com^$3p
-||taboola.com^$third-party
+||taboola.com^$third-party,domain=~admailtiser.com|~basebanner.com|~cmbestsrv.com|~convertmedia.com|~taboolanews.com|~taboolasyndication.com|~tsdtocl.com|~vidfuture.com|~zorosrv.com
 ||taboolasyndication.com^$3p
 ||tackytrains.com^
 ||tacojournal.com^
@@ -205452,6 +205478,7 @@ zonedirector.avadacom.com$image
 ||tbjzg.coastguardgear.com^
 ||tbk.p61gallery.com^
 ||tbknig.ecc.jp^
+||tblcontent.com^
 ||tbmgyz.centerparcs.de^
 ||tbp.be-performance.com^
 ||tbqyl.axparis.com^
@@ -205680,7 +205707,7 @@ zonedirector.avadacom.com$image
 ||tea.tescobank.com^
 ||tea2.tescobank.com^
 ||teach.graduateprogram.org^
-||teads.tv^$third-party
+||teads.tv^$third-party,domain=~ebz.io
 ||teal.cdt.santander.com.co^
 ||teal.openbank.de^
 ||teal.openbank.es^
@@ -205694,7 +205721,7 @@ zonedirector.avadacom.com$image
 ||tealium.cbsnews.com^
 ||tealiumiq.com^$3p
 ||tealiumiq.com^$domain=autobild.de
-||tealiumiq.com^$third-party
+||tealiumiq.com^$third-party,domain=~tealium.com|~tiqcdn.com
 ||tealjewel.com^
 ||tealm-c.crocs.ca^
 ||tealm-c.crocs.co.jp^
@@ -205755,7 +205782,7 @@ zonedirector.avadacom.com$image
 ||technologyservices.inform.equifax.com^
 ||technolutions.net/ping?
 ||technorati.com/technoratimedia-pixel.js
-||technoratimedia.com^$third-party
+||technoratimedia.com^$third-party,domain=~syn-api.com|~syn-cdn.com|~synacor.com|~synacormedia.com|~technorati.com|~zimbra.org
 ||techpowerup.com/__botcheck
 ||techprovider.intel.com^
 ||techpump.com^
@@ -205819,6 +205846,7 @@ zonedirector.avadacom.com$image
 ||telemetry.bowflex.ca^
 ||telemetry.bowflex.com^
 ||telemetry.boxt.co.uk^
+||telemetry.bydata.com^
 ||telemetry.canva.com^
 ||telemetry.cardfactory.co.uk^
 ||telemetry.cfraresearch.com^
@@ -206507,7 +206535,7 @@ zonedirector.avadacom.com$image
 ||tiq.monash.edu.au^
 ||tiq.monash.edu^
 ||tiq.sunlife.com^
-||tiqcdn.com^$third-party
+||tiqcdn.com^$third-party,domain=~tealium.com|~tealiumiq.com
 ||tirandoalmedio.net.anwalt.de^
 ||tireinside.com^
 ||tiresomethunder.com^
@@ -211495,7 +211523,7 @@ zonedirector.avadacom.com$image
 ||trialapp.live-english.co.jp^
 ||trialfire.com^$3p
 ||trib.al^$image,3p
-||tribalfusion.com^$third-party
+||tribalfusion.com^$third-party,domain=~exponential.com
 ||tribdss.com/meter/$3p
 ||tribl.io/_t.gif?
 ||tribl.io/analytics*.js^
@@ -211706,6 +211734,7 @@ zonedirector.avadacom.com$image
 ||trk.e.mailchimp.com^
 ||trk.e.underarmour.com^
 ||trk.earthday.org^
+||trk.edf.fr^
 ||trk.elmlea.com^
 ||trk.elmorietschle.cn^
 ||trk.elmorietschle.com^
@@ -212310,7 +212339,7 @@ zonedirector.avadacom.com$image
 ||trustisimportant.fun^
 ||trustmary.io/agg-event
 ||trustpilot.com/stats/
-||trustpilot.com^$third-party
+||trustpilot.com^$third-party,domain=~trustpilot.net
 ||trustradius.com/api/v1/pageview
 ||trustradius.com/api/v2/collectMetrics
 ||trustx.org^$third-party
@@ -212418,6 +212447,7 @@ zonedirector.avadacom.com$image
 ||ts.winninghunter.com^
 ||ts.wurm.com^
 ||ts.x18.is^
+||tsa-f.webex.com^
 ||tsa.taxslayer.com^
 ||tsa.webex.com^
 ||tsbkht.puritan.com^
@@ -212489,7 +212519,7 @@ zonedirector.avadacom.com$image
 ||tsukuba.ac.jp/assets/js/ga4.js
 ||tsuubf.waysidegardens.com^
 ||tswafl.lascana.nl^
-||tsyndicate.com^$third-party
+||tsyndicate.com^$third-party,domain=~trafficstars.com
 ||tszisd.beliani.pt^
 ||tt.andbam.care^
 ||tt.basicabaya.com^
@@ -212647,7 +212677,7 @@ zonedirector.avadacom.com$image
 ||turkey.tella.tv^
 ||turkiyegazetesi.com.tr/item/hit?
 ||turn.com^$3p
-||turn.com^$third-party
+||turn.com^$third-party,domain=~amgdgt.com|~tidaltv.com
 ||turner.com/analytics/comscore/streamsense.
 ||turnsocial.com^$3p
 ||turnto.com/event
@@ -212828,7 +212858,7 @@ zonedirector.avadacom.com$image
 ||tygem.com/js/tad/tadlog.min.js
 ||tyler-brown.com/api/stats?
 ||tynt.com^$3p
-||tynt.com^$third-party
+||tynt.com^$third-party,domain=~33across.com
 ||typeform-sst.bukischool.com.ua^
 ||typeform.com/*/insights/events^
 ||typepad.com/t/stats?
@@ -213460,7 +213490,7 @@ zonedirector.avadacom.com$image
 ||unleash-edge-prod.penpencil.co/api/frontend/client/metrics
 ||unleash-edge.wrtn.ai/api/frontend/client/metrics|
 ||unleash.livepix.gg^
-||unloadyourself.com^
+||unloadyourself.com^$redirect=noop.js,script
 ||unlock.eleganceclothing.co^
 ||unm.emol.com^
 ||unpkg.com/@topsort/analytics.js
@@ -215123,7 +215153,7 @@ zonedirector.avadacom.com$image
 ||visualwebsiteoptimizer.com/gv.gif?
 ||visualwebsiteoptimizer.com/server-side/track-user?
 ||visualwebsiteoptimizer.com^$3p
-||visualwebsiteoptimizer.com^$third-party
+||visualwebsiteoptimizer.com^$third-party,domain=~pushcrew.com|~vwo.com|~wingify.com
 ||visumo.jp/Content/js/tracking.js
 ||visumo.jp/MediaManagement/WebApi/PageView?
 ||visx.net^$3p
@@ -215625,7 +215655,7 @@ zonedirector.avadacom.com$image
 ||w4m.rs/tracker.js
 ||w4o7aea80ss3-a.akamaihd.net^
 ||w55c.net^
-||w55c.net^$third-party
+||w55c.net^$third-party,domain=~dataxu.com|~ravm.net|~ravm.tv|~roku.com|~rokulabs.net|~rokutime.com
 ||w6.chabad.org^
 ||w7.berlin.de^
 ||w740.newstimes.com^
@@ -218557,7 +218587,7 @@ zonedirector.avadacom.com$image
 ||xplosion.de^
 ||xplosion.de^$3p
 ||xplosion.de^$domain=spiegel.de
-||xplosion.de^$third-party
+||xplosion.de^$third-party,domain=~emetriq.com|~emetriq.de
 ||xprt.afzuigkapfilterexpert.nl^
 ||xprt.dunstabzugshauben-ersatzfilter.de^
 ||xprt.neue-wasserfilter.de^
@@ -218806,7 +218836,7 @@ zonedirector.avadacom.com$image
 ||yahoo.co.jp/js/s_retargeting.js
 ||yahoo.co.jp/p?
 ||yahoo.co.jp/s?s=
-||yahoo.co.jp^$third-party
+||yahoo.co.jp^$third-party,domain=~geocities.jp|~line-apps-beta.com|~line-apps.com|~line-cdn.net|~line-scdn.net|~line-website.com|~line.biz|~line.me|~lineblog.me|~linecorp.com|~linepluscorp.com|~lycorp.co.jp|~storage-yahoo.jp|~yahoo-help.jp|~yahooapis.jp|~yimg.jp|~yjtag.jp
 ||yahoo.com/_td/api/resource/NativeAdService
 ||yahoo.com/_td/api/resource/StreamService.ads;ads=
 ||yahoo.com/_td/api/resource/StreamService;ads=
@@ -218821,7 +218851,7 @@ zonedirector.avadacom.com$image
 ||yahoo.com/pageview
 ||yahoo.com/pageview?
 ||yahoo.com/sync/casale/
-||yahoo.com^$third-party
+||yahoo.com^$third-party,domain=~24-7.pet|~247.vacations|~5min.com|~5to1.com|~aabacosmallbusiness.com|~ad.com|~adap.tv|~adsonar.com|~adtech.de|~adtechjp.com|~adtechus.com|~advertising.com|~ahoo.com|~alephd.com|~alfrasha.com|~alltheweb.com|~altavista.com|~anyprice.com|~aol.ca|~aol.co.uk|~aol.com|~aol.de|~aol.fr|~aol.jp|~aolcdn.com|~aolp.jp|~aolsearch.com|~atdn.net|~athenz.cloud|~athenz.io|~athenz.net|~athenz.org|~atwola.com|~autoblog.com|~autos.parts|~autos24-7.com|~baby.guide|~blogsmithmedia.com|~bluelithium.com|~brightroll.com|~btrll.com|~buildseries.com|~cashay.com|~chowist.com|~citypedia.com|~contactnumberyahoosupport.com|~contactyahoosupport.com|~contactyahoosupport.us|~convertro.com|~couponbear.com|~diylife.com|~dvd4arab.com|~engadget.com|~enow.com|~fashion.life|~fast.rentals|~find.furniture|~flurry.com|~foodbegood.com|~furniture.deals|~gamer.site|~geocities.com|~glamorbank.com|~going.com|~golocal.guru|~greendaily.com|~health.zone|~health247.com|~homesessive.com|~hostingprod.com|~housingwatch.com|~insurance24-7.com|~intoautos.com|~job-sift.com|~joystiq.com|~js7k.com|~jsyk.com|~kimo.com|~kimo.com.tw|~kitchepedia.com|~know-legal.com|~launch.com|~learn-247.com|~lexity.com|~love.com|~luminate.com|~luxist.com|~majdah.com|~makers.com|~makersconference.com|~maktoob.com|~maktoobblog.com|~money-a2z.com|~mqcdn.com|~mybloglog.com|~mydaily.com|~netdeals.com|~netfind.com|~netscape.com|~nexage.com|~oath.cloud|~oath.com|~oathadplatform.com|~oathadplatforms.com|~oathssp.com|~ouroath.com|~overture.com|~parentdish.ca|~pets.world|~pictela.net|~pollster.com|~pulsemgr.com|~rivals.com|~rmxads.com|~rocketmail.com|~ryot.org|~ryotlab.com|~ryotstudio.co.uk|~ryotstudio.com|~searchjam.com|~see-it.live|~shelterpop.com|~shopfone.com|~sport-king.com|~sport4ever.com|~sre-perim.com|~streampad.com|~stylelist.com|~tastefullyoffensive.com|~teamaol.com|~tech24.deals|~tech247.co|~techcrunch.cn|~techcrunch.com|~tecnoactual.net|~thatsfit.ca|~thegifts.co|~think24-7.com|~thisisoath.com|~travel4arab.com|~uplynk.com|~verizonmedia.co.nz|~verizonmedia.com|~verizonmedia.com.au|~videovore.com|~vidible.tv|~viral.site|~vzbuilders.com|~when.com|~wmconnect.com|~wow.com|~wretch.cc|~y7mail.com|~yahoo.bg|~yahoo.ca|~yahoo.cn|~yahoo.co.in|~yahoo.co.nz|~yahoo.co.th|~yahoo.co.uk|~yahoo.com.ar|~yahoo.com.au|~yahoo.com.br|~yahoo.com.cn|~yahoo.com.es|~yahoo.com.hk|~yahoo.com.mx|~yahoo.com.my|~yahoo.com.ph|~yahoo.com.sg|~yahoo.com.tw|~yahoo.com.vn|~yahoo.de|~yahoo.ee|~yahoo.es|~yahoo.finance|~yahoo.fr|~yahoo.hk|~yahoo.hu|~yahoo.ie|~yahoo.in|~yahoo.it|~yahoo.mx|~yahoo.net|~yahoo.ph|~yahoo.pt|~yahoo.sg|~yahoo.tw|~yahoo7.com.au|~yahooapis.com|~yahoobillboard.com|~yahoodns.net|~yahooemailsupport.us|~yahoofinance.com|~yahoofs.com|~yahoohealth.com|~yahoomail.com|~yahoomusic.com|~yahooosupport.com|~yahoosandbox.com|~yahoosearch.com|~yahoosmallbusiness.com|~yahoosportsbook.com|~yahoostyle.com|~yahootechsupportnumber.com|~ycorpblog.com|~yho.com|~yieldmanager.com|~yieldmanager.net|~yimg.com|~ymail.com|~yqlblog.net|~ysearchblog.com|~yusercontent.com|~zenfs.com
 ||yahoo.net/pixel*.gif
 ||yahoo.net/pixel.gif
 ||yahoodns.net/pixel.gif
@@ -218855,7 +218885,7 @@ zonedirector.avadacom.com$image
 ||yandex.ru/cycounter?
 ||yandex.ru/log?
 ||yandex.ru/metrika/
-||yandex.ru^$third-party
+||yandex.ru^$third-party,domain=~adfox.me|~adfox.ru|~admetrica.ru|~auto.ru|~cloud.yandex|~eda.yandex|~go.yandex|~kinopoisk.ru|~loginza.ru|~metrika-informer.com|~playhop.com|~webvisor.net|~webvisor.org|~ya.ru|~yads.tech|~yandex-bank.net|~yandex-net.ru|~yandex.by|~yandex.cloud|~yandex.com|~yandex.com.tr|~yandex.net|~yandex.st|~yandex.sx|~yandex.ua|~yandexadexchange.net|~yandexcloud.net|~yandexgo.com|~yandexmetrica.com|~yango.com|~yastatic.net|~ymetrica1.com
 ||yandexadexchange.net^
 ||yandexcdn.com/ajax.php
 ||yandexcdn.com/cdn-cgi/trace
@@ -219021,7 +219051,7 @@ zonedirector.avadacom.com$image
 ||yieldlift.com^$3p
 ||yieldmo-builds.s3.amazonaws.com^
 ||yieldmo.com^$third-party
-||yieldoptimizer.com^$third-party
+||yieldoptimizer.com^$third-party,domain=~adamruinseverything.com|~adultswim.com|~adventuretime.com|~animalplanet.com|~bleacherreport.com|~bleacherreport.net|~cartoonnetwork.com|~cartoonnetworkhotel.com|~chasingthecurelive.com|~cnn.com|~cnn.io|~cnnarabic.com|~cnnlabs.com|~cnnmoney.ch|~cnnmoney.com|~cnnmoneystream.com|~cnnphilippines.com|~cnnpolitics.com|~crimefeed.com|~cwtv.com|~dccomics.com|~ddmcdn.com|~discovery.com|~discoveryeducation.com|~discoveryuk.com|~dmax.de|~dplay.com|~extratv.com|~fantasticbeasts.com|~filmstruck.com|~getmetohollywood.com|~greatbig.com|~greatbigstory.com|~greatbigstory.se|~hbo.com|~hboespana.com|~hbogo.com|~hbomax.com|~hbonordic.com|~hbonow.com|~heaveninc.com|~hitman.com|~iamthenight.com|~impracticaljokers.com|~impracticaljokersmovie.com|~impracticaljokersthemovie.com|~investigationdiscovery.com|~jokersmovie.com|~max.com|~ml-attr.com|~ncaa.com|~ngtv.io|~outturner.com|~pga.com|~powerpuffgirls.com|~realmedia.com|~samanthabee.com|~sambee.com|~sciencechannel.com|~shaqtoons.com|~stevenuniversethemovie.com|~summercampisland.com|~superstation.com|~tbs.com|~tcm.com|~telepicturestv.com|~thealienist.com|~tlc.com|~tmz.com|~tntdrama.com|~toofab.com|~trutv.com|~turner.com|~ugdturner.com|~velocity.com|~warnerbros.com|~warnermediacdn.com|~warnermediafitnation.com|~warnermediagroup.com|~warnermediaready.com|~warnermediasupplierdiversity.com|~wbd.com|~wbdtv.com|~wbstudiotour.co.uk|~webarebears.com|~wilfordindustries.com|~wmcdp.io
 ||yieldsoftware.com^$3p
 ||yiferh.nursemates.com^
 ||yigao.com^$3p
@@ -219115,6 +219145,7 @@ zonedirector.avadacom.com$image
 ||ynagqs.vidaxl.pl^
 ||yndhi.com^
 ||ynemmp.goertz.de^
+||ynet-pic1.yit.co.il/Common/Api/Scripts/GA4/ga4-ynetnews-*.js
 ||yngnwe.8division.com^
 ||yniabq.kemptener-jobanzeiger.de^
 ||ynsimp.denley.pl^
@@ -219611,7 +219642,7 @@ zonedirector.avadacom.com$image
 ||zelim.milezbracelets.nl^
 ||zelle.odencat.com^
 ||zelten.fritz-berger.de^
-||zemanta.com^$third-party
+||zemanta.com^$third-party,domain=~content-recommendation.net|~ligadx.com|~ligatus.com|~outbrain.com|~outbrainimg.com|~veeseo.com
 ||zenaps.com^
 ||zenback.jp^*/tracking.html
 ||zendesk.com/embeddable_blip?type=analytics&data=
