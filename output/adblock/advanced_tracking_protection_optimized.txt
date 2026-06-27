@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Advanced Tracking Protection (Optimized)
 ! Description: AdGuard Tracking Protection (optimized), EasyPrivacy (optimized), AdGuard Mail Tracking (optimized), DDG TDS (safe categories, 1% prevalence). For DNS resolvers, routers, and mobile.
-! Version: 2026-06-27T09:16:18Z
+! Version: 2026-06-27T17:07:20Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 220,132
+! Rules: 220,117
 !
 $3p,xhr,domain=opensubtitles.org
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
@@ -5552,7 +5552,6 @@ $ping,3p
 @@||adobedc.demdex.net/*/identity/acquire?$domain=westjet.com
 @@||adobedc.demdex.net/ee/v1/identity/$xhr,domain=cibc.com|westjet.com
 @@||adobedc.demdex.net^$xhr,domain=sc.com
-@@||adobedtm.com/assets^$third-party
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com|xfinity.com
 @@||adobedtm.com/launch-$script,xhr
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
@@ -6729,7 +6728,6 @@ $ping,3p
 @@||google.com/js/gweb/analytics/doubletrack.js$domain=android.com
 @@||google.com/usability/$domain=google.com,document
 @@||googleads.g.doubleclick.net/pagead/html$domain=repo.hackyouriphone.org
-@@||googleadservices.com/googleadservices^$third-party
 @@||googleadservices.com/pagead/conversion_async.js$domain=kizi.com
 @@||googleadservices.com/pagead/conversion_async.js$domain=knowledgecity.com
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
@@ -6740,7 +6738,6 @@ $ping,3p
 @@||googleoptimize.com/optimize.js$domain=revv.co.in
 @@||googleoptimize.com/optimize.js$domain=tehnomanija.rs
 @@||googleoptimize.com/optimize.js?$domain=eventim.de
-@@||googletagmanager.com/googletagmanager^$third-party
 @@||googletagmanager.com/gtag/$domain=globo.com
 @@||googletagmanager.com/gtag/$domain=usnews.com
 @@||googletagmanager.com/gtag/destination$script,domain=musinsa.com
@@ -7202,8 +7199,6 @@ $ping,3p
 @@||howtonote.jp/google-analytics/$image,~3p
 @@||hr-online.de/website/includes/webanalyse/xtcore.js
 @@||hse24.de^*/emos2.js
-@@||hubspot.com/app^$third-party
-@@||hubspot.com/hubspot^$third-party
 @@||huntress.com/assets/snowplow.tracker-*.js$domain=huntress.com
 @@||hvemder.no/js/hitcount.min.js$~3p
 @@||i.onthe.io^$script,image,stylesheet,domain=nur.kz
@@ -7375,7 +7370,6 @@ $ping,3p
 @@||link.theplatform.com/*/tracker.log?
 @@||link.theplatform.com/*?affiliate=
 @@||linksynergy.com/minified_logic.js$xhr
-@@||listrakbi.com/cdn^$third-party
 @@||live.indiatimes.com/trackjs.cms
 @@||live.mrf.io/statics/marfeel/gardac-sync.js$domain=muylinux.com
 @@||live.rezync.com^$script,domain=batteriesplus.com
@@ -7609,9 +7603,7 @@ $ping,3p
 @@||omtrdc.net/*/mbox/json$domain=apps.pnc.com
 @@||omtrdc.net/b/ss/$domain=macworld.com
 @@||omtrdc.net/b/ss/$image,domain=ba.com|britishairways.com|halifax-online.co.uk
-@@||omtrdc.net/cbsi^$third-party
 @@||omtrdc.net/rest/$xhr
-@@||omtrdc.net/snow^$third-party
 @@||omtrdc.net^$domain=abbyy.ru
 @@||omtrdc.net^$domain=geico.com
 @@||omtrdc.net^$domain=nydailynews.com
@@ -7666,8 +7658,6 @@ $ping,3p
 @@||pals.pa.gov/vendor/analytics/$~3p
 @@||panel.flops.ru/js/member/evercookie_init.js
 @@||parcel.app/webtrack.php?$~3p
-@@||pardot.com/go^$third-party
-@@||parsely.com/cdn^$third-party
 @@||parsely.com/keys/$script,domain=wmmr.com|wrif.com
 @@||partner.googleadservices.com/gpt/pubads_$domain=mlb.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=ukr.net
@@ -7801,7 +7791,6 @@ $ping,3p
 @@||recs.richrelevance.com/rrserver/p13n_generated.js$domain=bergfreunde.de
 @@||recs.richrelevance.com/rrserver/p13n_generated.js$domain=drogaraia.com.br
 @@||redbull.com/gtm.js$~3p
-@@||reddit.com/oauth^$third-party
 @@||redditenhancementsuite.com/js/jquery.google-analytics.js
 @@||redfin.com/stingray/clicktracker.jsp?
 @@||redirect.appmetrica.yandex.com^
@@ -8218,7 +8207,6 @@ $ping,3p
 @@||tinkoffcreditsystems.d3.sc.omtrdc.net/b/ss/$domain=tinkoff.ru
 @@||tinypass.com^*/logAutoMicroConversion?$domain=chicago.suntimes.com
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~3p
-@@||tiqcdn.com/tiqcdn^$third-party
 @@||tiscali.it/js/webtrends/$script,domain=mail.tiscali.it
 @@||tm.jsuol.com.br/modules/dmp-uol-sync.js$domain=uol.com.br
 @@||tm.jsuol.com.br/uoltm.js$domain=uol.com.br
@@ -8432,16 +8420,11 @@ $ping,3p
 @@||xiaosaas.com/org/RecordScreen/rrweb.min.js$~3p
 @@||xp.audience.io/sdk.js$script,domain=foxla.com
 @@||xykpay.3d2.icbc.com.cn/acs-auth-web/js/fingerprint2.min.js$~3p
-@@||yandex.ru/frontend^$third-party
-@@||yandex.ru/geocode-maps^$third-party
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
 @@||yandex.ru/metrika/watch.js$domain=anoncer.net
-@@||yandex.ru/money^$third-party
-@@||yandex.ru/pay^$third-party
 @@||yandex.ru/watch/$xhr,domain=anoncer.net
 @@||yandex.ru/webvisor/$xhr,domain=anoncer.net
-@@||yandex.ru/yandex^$third-party
 @@||yelpcdn.com/assets/public/snowplow.*.chunk.js$domain=yelp.com
 @@||yieldlove.com/v2/yieldlove-stroeer.js$domain=kino.de
 @@||yimg.com/bm/lib/fi/common/*/yfi_comscore.js$domain=finance.yahoo.com
@@ -114868,6 +114851,7 @@ zonedirector.avadacom.com$image
 ||analytics.disneyplus.com^
 ||analytics.distributednews.com^
 ||analytics.diversitybestpractices.com^
+||analytics.divulg.org^
 ||analytics.dns-shop.ru^
 ||analytics.dollybeauty.com^
 ||analytics.dollymusical.com^
@@ -132629,6 +132613,7 @@ zonedirector.avadacom.com$image
 ||directelia.monexetmoi.com^
 ||directelia.my-loverelationship.com^
 ||directelia.premiumtarot.com^
+||directg.jp/js/fingerprint2.js$script,redirect=fingerprint2.js
 ||directions.mdanderson.org^
 ||directnews.co.uk/feedtrack/
 ||directory.cookieyes.com/api/v*/ip

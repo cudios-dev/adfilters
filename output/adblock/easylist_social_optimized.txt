@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Social Widgets (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Social.
-! Version: 2026-06-27T09:16:18Z
+! Version: 2026-06-27T17:07:20Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 1,722
+! Rules: 1,721
 !
 -ShareButton2.
 -Social-Sidebar/
@@ -1132,7 +1132,6 @@ megacurioso.com.br##div[class^="styles_shareLinks_"]
 megaup.net##.socialsider
 meiobit.com##.socialfloating
 memuplay.com###fixed-share
-merlininkazani.com#@#.author-share
 merriam-webster.com##.social-link
 meteoblue.com##.footer-options
 meteofrance.com###block-publicmenusocial

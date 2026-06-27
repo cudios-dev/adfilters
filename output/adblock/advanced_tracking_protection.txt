@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Advanced Tracking Protection
 ! Description: AdGuard Tracking Protection, EasyPrivacy, AdGuard Mail Tracking, DDG TDS (excludes Embedded Content and Social, path-precise rules), Ghostery Tracker DB (advertising and analytics categories), Privacy Badger (hard-blocked, filtered).
-! Version: 2026-06-27T09:16:18Z
+! Version: 2026-06-27T17:07:20Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 230,586
+! Rules: 230,571
 !
 $3p,xhr,domain=opensubtitles.org
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
@@ -5545,7 +5545,6 @@ $ping,3p
 @@||adidas.com^*/adidasAnalytics.js?
 @@||admin.corrata.com/console/dcconsolews/event-log?$~3p
 @@||admin.memberspace.com/sites/*/analytics/views$~3p
-@@||adnami.io/macro^$third-party
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobe.com.ssl.d1.sc.omtrdc.net^$xhr,domain=www.adobe.com
@@ -5553,9 +5552,6 @@ $ping,3p
 @@||adobedc.demdex.net/*/identity/acquire?$domain=westjet.com
 @@||adobedc.demdex.net/ee/v1/identity/$xhr,domain=cibc.com|westjet.com
 @@||adobedc.demdex.net^$xhr,domain=sc.com
-@@||adobedc.net/1wcp0yo5s7^$third-party
-@@||adobedc.net/adobedc^$third-party
-@@||adobedtm.com/assets^$third-party
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com|xfinity.com
 @@||adobedtm.com/launch-$script,xhr
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
@@ -6420,8 +6416,6 @@ $ping,3p
 @@||extreme-ip-lookup.com/json/$xhr,domain=skaitv.gr
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 @@||ezodn.com/cmp/gvl.json$xhr
-@@||ezoic.com/video-streaming^$third-party
-@@||ezoic.com/videosvc^$third-party
 @@||f-gear.ec-optimizer.com/img/spacer.gif$image,domain=ec.f-gear.co.jp
 @@||f-gear.ec-optimizer.com/search4.do$script,domain=ec.f-gear.co.jp
 @@||f-gear.ec-optimizer.com/speights/searchresult2fgear.js$script,domain=ec.f-gear.co.jp
@@ -6734,7 +6728,6 @@ $ping,3p
 @@||google.com/js/gweb/analytics/doubletrack.js$domain=android.com
 @@||google.com/usability/$domain=google.com,document
 @@||googleads.g.doubleclick.net/pagead/html$domain=repo.hackyouriphone.org
-@@||googleadservices.com/googleadservices^$third-party
 @@||googleadservices.com/pagead/conversion_async.js$domain=kizi.com
 @@||googleadservices.com/pagead/conversion_async.js$domain=knowledgecity.com
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
@@ -6745,7 +6738,6 @@ $ping,3p
 @@||googleoptimize.com/optimize.js$domain=revv.co.in
 @@||googleoptimize.com/optimize.js$domain=tehnomanija.rs
 @@||googleoptimize.com/optimize.js?$domain=eventim.de
-@@||googletagmanager.com/googletagmanager^$third-party
 @@||googletagmanager.com/gtag/$domain=globo.com
 @@||googletagmanager.com/gtag/$domain=usnews.com
 @@||googletagmanager.com/gtag/destination$script,domain=musinsa.com
@@ -7207,7 +7199,6 @@ $ping,3p
 @@||howtonote.jp/google-analytics/$image,~3p
 @@||hr-online.de/website/includes/webanalyse/xtcore.js
 @@||hse24.de^*/emos2.js
-@@||humix.com/video-meta^$third-party
 @@||huntress.com/assets/snowplow.tracker-*.js$domain=huntress.com
 @@||hvemder.no/js/hitcount.min.js$~3p
 @@||i.onthe.io^$script,image,stylesheet,domain=nur.kz
@@ -7260,7 +7251,6 @@ $ping,3p
 @@||inpref.s3.amazonaws.com/sites/eventim_$script,3p
 @@||inspsearchapi.com^$domain=zoo.com|dogpile.com
 @@||integrations.fitanalytics.com/shop/modivo/pdp.js$domain=modivo.*
-@@||intelligems.io/intelligems^$third-party
 @@||interia.hit.gemius.pl/hitredir/$domain=interia.pl
 @@||interia.hit.gemius.pl/redot.gif?$domain=m.interia.pl
 @@||intersport.peerius.com/tracker/*.page$domain=intersport.de
@@ -7380,7 +7370,6 @@ $ping,3p
 @@||link.theplatform.com/*/tracker.log?
 @@||link.theplatform.com/*?affiliate=
 @@||linksynergy.com/minified_logic.js$xhr
-@@||listrakbi.com/cdn^$third-party
 @@||live.indiatimes.com/trackjs.cms
 @@||live.mrf.io/statics/marfeel/gardac-sync.js$domain=muylinux.com
 @@||live.rezync.com^$script,domain=batteriesplus.com
@@ -7614,9 +7603,7 @@ $ping,3p
 @@||omtrdc.net/*/mbox/json$domain=apps.pnc.com
 @@||omtrdc.net/b/ss/$domain=macworld.com
 @@||omtrdc.net/b/ss/$image,domain=ba.com|britishairways.com|halifax-online.co.uk
-@@||omtrdc.net/cbsi^$third-party
 @@||omtrdc.net/rest/$xhr
-@@||omtrdc.net/snow^$third-party
 @@||omtrdc.net^$domain=abbyy.ru
 @@||omtrdc.net^$domain=geico.com
 @@||omtrdc.net^$domain=nydailynews.com
@@ -7671,7 +7658,6 @@ $ping,3p
 @@||pals.pa.gov/vendor/analytics/$~3p
 @@||panel.flops.ru/js/member/evercookie_init.js
 @@||parcel.app/webtrack.php?$~3p
-@@||parsely.com/cdn^$third-party
 @@||parsely.com/keys/$script,domain=wmmr.com|wrif.com
 @@||partner.googleadservices.com/gpt/pubads_$domain=mlb.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=ukr.net
@@ -8217,12 +8203,10 @@ $ping,3p
 @@||thron.com/shared/plugins/tracking/current/tracking-library-min.js$domain=dainese.com
 @@||tianyancha.com^*/sensorsdata.$script,~3p
 @@||ticketmaster.sc.omtrdc.net/b/ss/
-@@||tiktok.com/www^$third-party
 @@||timvision.it/libs/fingerprint/fingerprint.js
 @@||tinkoffcreditsystems.d3.sc.omtrdc.net/b/ss/$domain=tinkoff.ru
 @@||tinypass.com^*/logAutoMicroConversion?$domain=chicago.suntimes.com
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~3p
-@@||tiqcdn.com/tiqcdn^$third-party
 @@||tiscali.it/js/webtrends/$script,domain=mail.tiscali.it
 @@||tm.jsuol.com.br/modules/dmp-uol-sync.js$domain=uol.com.br
 @@||tm.jsuol.com.br/uoltm.js$domain=uol.com.br
@@ -8313,7 +8297,6 @@ $ping,3p
 @@||ups.xplosion.de/ctx$domain=ingame.de
 @@||ups.xplosion.de/ctx?event_id=$domain=tz.de
 @@||urlcheck.hulu.com/crossdomain.xml
-@@||us-central1.run.app/us-central1^$third-party
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||user.edenredplus.com/assets/packages/mixpanel_flutter/assets/mixpanel.js$script,~3p
 @@||user.userguiding.com/sdk/identify$xhr,domain=xaris.ai
@@ -116413,6 +116396,7 @@ zonedirector.avadacom.com$image
 ||analytics.disneyplus.com^
 ||analytics.distributednews.com^
 ||analytics.diversitybestpractices.com^
+||analytics.divulg.org^
 ||analytics.dns-shop.ru^
 ||analytics.dollybeauty.com^
 ||analytics.dollymusical.com^
@@ -136159,6 +136143,7 @@ zonedirector.avadacom.com$image
 ||directelia.monexetmoi.com^
 ||directelia.my-loverelationship.com^
 ||directelia.premiumtarot.com^
+||directg.jp/js/fingerprint2.js$script,redirect=fingerprint2.js
 ||directions.mdanderson.org^
 ||directnews.co.uk/feedtrack/
 ||directory.cookieyes.com/api/v*/ip

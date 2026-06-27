@@ -1,7 +1,7 @@
 # Title: Advanced Tracking Protection (DNS/hosts format)
-# Version: 2026-06-27T09:16:18Z
+# Version: 2026-06-27T17:07:20Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 108,325
+# Domains: 108,326
 #
 0.0.0.0 -084-gls-223-www-9-k-0brasil.net.daraz.com
 0.0.0.0 -access-logs-1.net.daraz.com
@@ -8412,6 +8412,7 @@
 0.0.0.0 analytics.disneyplus.com
 0.0.0.0 analytics.distributednews.com
 0.0.0.0 analytics.diversitybestpractices.com
+0.0.0.0 analytics.divulg.org
 0.0.0.0 analytics.dns-shop.ru
 0.0.0.0 analytics.dollybeauty.com
 0.0.0.0 analytics.dollymusical.com
