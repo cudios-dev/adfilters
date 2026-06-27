@@ -414,13 +414,6 @@ def fetch_ddg_rules(mode: str) -> set:
         if default == "block":
             rules.add(format_rule(domain, entity_map))
             n_block += 1
-            for r in tds_rules:
-                if r.get("action") != "ignore":
-                    continue
-                path = _ddg_regex_to_path(domain, r.get("rule", ""))
-                if path:
-                    rules.add(f"@@{path}^$third-party")
-                    n_exc += 1
 
         elif mode != "optimized":
             # default=ignore or None: block only specific tracking paths
