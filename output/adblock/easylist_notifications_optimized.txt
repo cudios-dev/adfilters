@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Notifications (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
-! Version: 2026-06-27T17:07:20Z
+! Version: 2026-06-28T10:55:16Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 782
+! Rules: 781
 !
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -224,7 +224,6 @@ flightradar24.com##.open-in-app-button
 flvto.biz##.push-offer
 flypgs.com##.app-b
 flypgs.com##.c-pgs-app
-focus.de###wpBreakingNewsBanner
 fogaonet.com##+js(set-cookie, fn_cookie_whatsapp_alert, 1)
 food.ndtv.com##+js(set-cookie, ndtvfood_isSubscribed_elex_v1, no)
 fortnitetracker.com##.mobile-app-preview
