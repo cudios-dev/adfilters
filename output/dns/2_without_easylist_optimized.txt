@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-06-28T10:55:16Z
+# Version: 2026-07-05T10:53:53Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 9,607
+# Domains: 9,618
 #
 0.0.0.0 0.www.0ul1wlo58s-vu69us-r1u.xyz
 0.0.0.0 0.www.2wu0m0ms098w7148.xyz
@@ -1380,6 +1380,7 @@
 0.0.0.0 6.www.sn2rrlv57qpss5w-qk8llu.xyz
 0.0.0.0 6.www.wqq881m8uwq1k5m-4p7lv7.xyz
 0.0.0.0 6003ed4af4.947e33602e.com
+0.0.0.0 600fiber.net
 0.0.0.0 6027471f0e.d6b1c430ca.com
 0.0.0.0 6093ac4972.82067251a6.com
 0.0.0.0 60ah.com
@@ -2109,6 +2110,7 @@
 0.0.0.0 adb.voyeur-house.org
 0.0.0.0 adbite.com
 0.0.0.0 adbkacpmu.com
+0.0.0.0 adblendr.io
 0.0.0.0 adc.interia.pl
 0.0.0.0 adclickxpress.com
 0.0.0.0 adconsole.bidspotter.co.uk
@@ -2124,6 +2126,7 @@
 0.0.0.0 add.luffy.my.id
 0.0.0.0 addin1.name
 0.0.0.0 addurance-delivery.reviveservers.com
+0.0.0.0 adeqmedia.com
 0.0.0.0 adf.underhentai.net
 0.0.0.0 adflyer.media
 0.0.0.0 adgebra.net
@@ -2895,7 +2898,6 @@
 0.0.0.0 buyer.dspx.tv
 0.0.0.0 buzzard.donotresearch.net
 0.0.0.0 buzzard.ficabo.com.au
-0.0.0.0 buzzer.xhamster.com
 0.0.0.0 buzzer.xhofficial.com
 0.0.0.0 bx5.tubemaximum.com
 0.0.0.0 by.addrecipes.com
@@ -4010,6 +4012,7 @@
 0.0.0.0 defa27b393.bb2c68869a.com
 0.0.0.0 defeat05032026.shop
 0.0.0.0 delete05032026.shop
+0.0.0.0 delightlintlunatic.com
 0.0.0.0 deliver.vkcdnservice.com
 0.0.0.0 delivery.2d.net.co
 0.0.0.0 delivery.ads.fantagiroditalia.it
@@ -4056,6 +4059,7 @@
 0.0.0.0 digitalcaramel.com
 0.0.0.0 dilute08062025.shop
 0.0.0.0 dingywearyfortress.com
+0.0.0.0 direct-push.com
 0.0.0.0 discobar.space
 0.0.0.0 discourage072925.shop
 0.0.0.0 display.additionalmedia.com
@@ -5055,6 +5059,7 @@
 0.0.0.0 hetcash.com
 0.0.0.0 hgads.com
 0.0.0.0 hgcustom-ad.xyz
+0.0.0.0 hhvhpxvuu.com
 0.0.0.0 highway.18manwa.com
 0.0.0.0 hindilivecomic.leftmany.pro
 0.0.0.0 hit2k.com
@@ -5228,6 +5233,7 @@
 0.0.0.0 imbdemfjjduu.cdnvideo3.com
 0.0.0.0 imp.mgronline.com
 0.0.0.0 impala.vnv.nl
+0.0.0.0 impassableretainerexplained.com
 0.0.0.0 import.notifysrv.com
 0.0.0.0 impruads.com
 0.0.0.0 in.fuckhardclips.com
@@ -5499,6 +5505,7 @@
 0.0.0.0 limpet.eddiehinkle.com
 0.0.0.0 limpet.pioneerlandscapingllc.com
 0.0.0.0 limpet.yago.dev
+0.0.0.0 lineare.net
 0.0.0.0 link.metaadserving.com
 0.0.0.0 linkads.me
 0.0.0.0 linker.ba
@@ -5802,6 +5809,7 @@
 0.0.0.0 meerkat.bigcrazylife.com
 0.0.0.0 meerkat.inprivy.io
 0.0.0.0 megacomstore.fumblingvacation.pro
+0.0.0.0 mellow-habit.com
 0.0.0.0 member.javtvnow.xyz
 0.0.0.0 members.adoptim.com
 0.0.0.0 mepirtedic.com
@@ -6211,6 +6219,7 @@
 0.0.0.0 podawacz.cmcmedia.pl
 0.0.0.0 polarbear.codeday.org
 0.0.0.0 polarbear.conermurphy.com
+0.0.0.0 politicallygreek.com
 0.0.0.0 pool.supportxmr.com
 0.0.0.0 pop.lovingsiren.com
 0.0.0.0 pop.verplusonline.com
@@ -6288,6 +6297,7 @@
 0.0.0.0 profitshare.ro
 0.0.0.0 programattik.com
 0.0.0.0 proll.shemrec.cc
+0.0.0.0 prologguisedputid.qpon
 0.0.0.0 promediaspace.my
 0.0.0.0 promo.evvnt.com
 0.0.0.0 promote.melangeandco.com
@@ -8331,6 +8341,7 @@
 0.0.0.0 vidops.zeeker.com
 0.0.0.0 vidwestxyz.com
 0.0.0.0 vil2.er2o6ctg6eniu3cb54g6ghlpo3.cyou
+0.0.0.0 villagybullion.cyou
 0.0.0.0 vip-hd-movies.xyz
 0.0.0.0 vipads.live
 0.0.0.0 viper.kyrelldixon.com

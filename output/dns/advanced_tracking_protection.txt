@@ -1,7 +1,7 @@
 # Title: Advanced Tracking Protection (DNS/hosts format)
-# Version: 2026-06-28T10:55:16Z
+# Version: 2026-07-05T10:53:53Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 108,326
+# Domains: 108,357
 #
 0.0.0.0 -084-gls-223-www-9-k-0brasil.net.daraz.com
 0.0.0.0 -access-logs-1.net.daraz.com
@@ -445,7 +445,6 @@
 0.0.0.0 8ue4rp6yxyis.www.tapmyback.com
 0.0.0.0 8vwxqg.tapin.gg
 0.0.0.0 9189.pandasuite.io
-0.0.0.0 91app.com
 0.0.0.0 91app.io
 0.0.0.0 9544702.kazooby.com
 0.0.0.0 9693.pandasuite.io
@@ -6511,6 +6510,7 @@
 0.0.0.0 adtegrity.com
 0.0.0.0 adtegrity.net
 0.0.0.0 adtelligence.de
+0.0.0.0 adtelligent.com
 0.0.0.0 adten.eu
 0.0.0.0 adthink.com
 0.0.0.0 adthletic.com
@@ -8044,6 +8044,7 @@
 0.0.0.0 analyticcdn.globalmailer.com
 0.0.0.0 analyticcdn.wlmediahub.com
 0.0.0.0 analytics-1.cavai.com
+0.0.0.0 analytics-api-s.cloudinary.com
 0.0.0.0 analytics-api.a-f.io
 0.0.0.0 analytics-api.gemcommerce.com
 0.0.0.0 analytics-api.invideo.io
@@ -8074,6 +8075,7 @@
 0.0.0.0 analytics-event.com
 0.0.0.0 analytics-events.inshorts.com
 0.0.0.0 analytics-fe.digital-cloud-prem.medallia.com
+0.0.0.0 analytics-fe.digital-cloud-prem.medallia.eu
 0.0.0.0 analytics-fe.digital-cloud-west.medallia.com
 0.0.0.0 analytics-fe.digital-cloud.medallia.ca
 0.0.0.0 analytics-fe.digital-cloud.medallia.com
@@ -8212,6 +8214,7 @@
 0.0.0.0 analytics.atara.sa
 0.0.0.0 analytics.ateeq-sa.com
 0.0.0.0 analytics.athome.com
+0.0.0.0 analytics.atlas5.co
 0.0.0.0 analytics.atlassian.com
 0.0.0.0 analytics.atom.com
 0.0.0.0 analytics.audioeye.com
@@ -9675,6 +9678,7 @@
 0.0.0.0 api-metric.gosweb.gosuslugi.ru
 0.0.0.0 api-notify.markarch.com
 0.0.0.0 api-pixels.easyadsapp.com
+0.0.0.0 api-production.polaranalytics.com
 0.0.0.0 api-shrek.net.jumia.com.gh
 0.0.0.0 api-stape.bennimoda.com.br
 0.0.0.0 api-stape.inglesparadesesperados.com
@@ -12866,6 +12870,7 @@
 0.0.0.0 baitbaseball.com
 0.0.0.0 bakercommunications.actonservice.com
 0.0.0.0 bal.balciselahattin.com
+0.0.0.0 balancenotes.com
 0.0.0.0 baldeagle.e-ma.re
 0.0.0.0 balkog.withmoment.co.kr
 0.0.0.0 ballantine.actonservice.com
@@ -15859,6 +15864,7 @@
 0.0.0.0 cdn-fc.com
 0.0.0.0 cdn-gw-dv.vip
 0.0.0.0 cdn-net.com
+0.0.0.0 cdn-production.polaranalytics.com
 0.0.0.0 cdn-px-v1.metrix.az
 0.0.0.0 cdn-ra.rockcontent.com
 0.0.0.0 cdn-redirector.glopal.com
@@ -17217,6 +17223,7 @@
 0.0.0.0 coffee.brandzaak.nl
 0.0.0.0 coffee.garageroasted.co.uk
 0.0.0.0 coffee.seducaoinvisivel.store
+0.0.0.0 coffeefire.net
 0.0.0.0 coffeesidehustle.com
 0.0.0.0 coffeycomm.actonservice.com
 0.0.0.0 coframe.com
@@ -18826,6 +18833,7 @@
 0.0.0.0 cs.analytics.lego.com
 0.0.0.0 cs.avito.ru
 0.0.0.0 cs.bankmillennium.pl
+0.0.0.0 cs.cdn.linkster.co
 0.0.0.0 cs.chaussea.com
 0.0.0.0 cs.coopeservidores.fi.cr
 0.0.0.0 cs.hot.net.il
@@ -24012,6 +24020,7 @@
 0.0.0.0 dckiwt.eataly.com
 0.0.0.0 dclnxirp001cou.net.jumia.co.tz
 0.0.0.0 dcloud.net.cn
+0.0.0.0 dclsrv.com
 0.0.0.0 dcluc.boxousa.com
 0.0.0.0 dcmgd.bristlehealth.com
 0.0.0.0 dcmn.com
@@ -25536,6 +25545,7 @@
 0.0.0.0 dsoxjxin5jji.controlconceptsusa.com
 0.0.0.0 dsp-adcreative.mobshark.net
 0.0.0.0 dsp-service.admatic.de
+0.0.0.0 dsp-track-global.zmaticoo.com
 0.0.0.0 dsp.groupminteraction.ru
 0.0.0.0 dsp.io
 0.0.0.0 dsp.logly.co.jp
@@ -29585,6 +29595,7 @@
 0.0.0.0 fiqdivrz.channable.com
 0.0.0.0 fiqns.mfimedical.com
 0.0.0.0 fire.solutions.jci.com
+0.0.0.0 fireanalytics.firestream.to
 0.0.0.0 firebaselogging-pa.googleapis.com
 0.0.0.0 firebaselogging.googleapis.com
 0.0.0.0 firecatfilms.com
@@ -30347,6 +30358,7 @@
 0.0.0.0 freshcounter.com
 0.0.0.0 freshlyhuman.com
 0.0.0.0 freshmarketer.com
+0.0.0.0 freshpaint-cdn.com
 0.0.0.0 freshpaint-impression.com
 0.0.0.0 freshplum.com
 0.0.0.0 freshrelevance.com
@@ -30487,6 +30499,7 @@
 0.0.0.0 fudo.fudoshin.co
 0.0.0.0 fudrf.titan.fitness
 0.0.0.0 fueldeck.com
+0.0.0.0 fuelfever.net
 0.0.0.0 fuelinspector.com
 0.0.0.0 fuelx.com
 0.0.0.0 fufbgj.pazzo.com.tw
@@ -44419,6 +44432,7 @@
 0.0.0.0 lists-tracking.komando.com
 0.0.0.0 lists.ccmbg.com
 0.0.0.0 lit.connatix.com
+0.0.0.0 litags.feedblitz.com
 0.0.0.0 lite.lchfarkivet.se
 0.0.0.0 literally-analytics.appspot.com
 0.0.0.0 litix.io
@@ -44512,6 +44526,7 @@
 0.0.0.0 lkqce.dermaflash.com
 0.0.0.0 lkqd.com
 0.0.0.0 lkqd.net
+0.0.0.0 lkqivtsnfvriw.website
 0.0.0.0 lkr.reply.eu
 0.0.0.0 lksiz.mydancerbox.com
 0.0.0.0 lksrhj.green-acres.pt
@@ -57599,6 +57614,7 @@
 0.0.0.0 netmng.com
 0.0.0.0 netmonitor.fi
 0.0.0.0 netnatives.com
+0.0.0.0 netpoint-media.de
 0.0.0.0 netpub.media
 0.0.0.0 netratings.com
 0.0.0.0 netrefer.com
@@ -59638,6 +59654,7 @@
 0.0.0.0 originblocks.com
 0.0.0.0 origo.hu
 0.0.0.0 oriol.pro
+0.0.0.0 orion.bendingspoons.com
 0.0.0.0 orionember.com
 0.0.0.0 orionmarketing.actonservice.com
 0.0.0.0 orlmarketing.nfp.com
@@ -60983,6 +61000,7 @@
 0.0.0.0 pcspeedup.com
 0.0.0.0 pculb.upheal.io
 0.0.0.0 pcuud.replacements.com
+0.0.0.0 pcx-events.revbox.co
 0.0.0.0 pcykgc.onetravel.com
 0.0.0.0 pd.bppeloqua.com
 0.0.0.0 pd.lavloss.com
@@ -61398,6 +61416,7 @@
 0.0.0.0 pixanalytics.com
 0.0.0.0 pixazza.com
 0.0.0.0 pixel-a.basis.net
+0.0.0.0 pixel-api.polaranalytics.com
 0.0.0.0 pixel-cdp.sberhealth.ru
 0.0.0.0 pixel-config.reddit.com
 0.0.0.0 pixel-conversion.apps.seabroadnet.com
@@ -61664,6 +61683,7 @@
 0.0.0.0 pl.noartmusic.com
 0.0.0.0 pl.paradiesgartenfestival.at
 0.0.0.0 pl.paradisecity.be
+0.0.0.0 pl.primis.tech
 0.0.0.0 pl.scandal.events
 0.0.0.0 pl.schaatsbaanmuseumplein.nl
 0.0.0.0 pl.sharpmarketing.eu
@@ -61865,6 +61885,7 @@
 0.0.0.0 play.waka8et.com
 0.0.0.0 play.wavelength.zone
 0.0.0.0 playbook.convio.com
+0.0.0.0 playdigo.com
 0.0.0.0 player-analytics.mp.lura.live
 0.0.0.0 player-feedback-v1.glomex.com
 0.0.0.0 player-feedback.p7s1video.net
@@ -62140,6 +62161,7 @@
 0.0.0.0 postgraduate.smu.edu.sg
 0.0.0.0 postgraduate2.smu.edu.sg
 0.0.0.0 posthog.com
+0.0.0.0 posthog.football24.ua
 0.0.0.0 posthog.lingvanex.com
 0.0.0.0 posthog.tarnkappe.info
 0.0.0.0 postindustria.com
@@ -62165,6 +62187,7 @@
 0.0.0.0 powerrobotflower.com
 0.0.0.0 powerstarsbuilding.com
 0.0.0.0 powertips.idera.com
+0.0.0.0 powertoolwiki.com
 0.0.0.0 powerup.rsaworks.com
 0.0.0.0 pozdl.bigfigmattress.com
 0.0.0.0 pp.fitnesshubbd.xyz
@@ -64565,6 +64588,7 @@
 0.0.0.0 reporting.autographapp.me
 0.0.0.0 reporting.cdndex.io
 0.0.0.0 reporting.singlefeed.com
+0.0.0.0 reportmyads.com
 0.0.0.0 reports-api.sqreen.io
 0.0.0.0 reports-tsi.tangerine.io
 0.0.0.0 reports.hibu.com
@@ -64745,6 +64769,7 @@
 0.0.0.0 ressources.promoneuve.fr
 0.0.0.0 ressources.usine-digitale.com
 0.0.0.0 ressources.usine-nouvelle.com
+0.0.0.0 rest.comfy.ua
 0.0.0.0 rest.wildstar-online.com
 0.0.0.0 restfultools.com
 0.0.0.0 restrainstorm.com
@@ -79403,6 +79428,7 @@
 0.0.0.0 spc.personalcreations.com
 0.0.0.0 spcfl.belongdesigns.com
 0.0.0.0 spcollect.sunflex.de
+0.0.0.0 spea.eko.com
 0.0.0.0 speaker.paco-benitez.com
 0.0.0.0 speakol.com
 0.0.0.0 spearad.video
@@ -91562,6 +91588,7 @@
 0.0.0.0 stream.neonail.pl
 0.0.0.0 stream.supersportowy.pl
 0.0.0.0 streamray.com
+0.0.0.0 streams-scores.rbl.ms
 0.0.0.0 streams.cablecar.sph.com.sg
 0.0.0.0 streamsend.com
 0.0.0.0 streamstats.prd.dlive.tv
@@ -92772,6 +92799,7 @@
 0.0.0.0 t.evocsports.ch
 0.0.0.0 t.evoriel.fr
 0.0.0.0 t.experienceandamans.com
+0.0.0.0 t.experte.de
 0.0.0.0 t.fabulousfox.com
 0.0.0.0 t.factorform.com
 0.0.0.0 t.fairparkdallas.com
@@ -94898,6 +94926,7 @@
 0.0.0.0 telemetry-eastus.trafficmanager.inmobi.com
 0.0.0.0 telemetry-in.battle.net
 0.0.0.0 telemetry.adobe.io
+0.0.0.0 telemetry.adsninja.ca
 0.0.0.0 telemetry.algolia.com
 0.0.0.0 telemetry.am.pictet.com
 0.0.0.0 telemetry.api.playstation.com
@@ -98594,6 +98623,7 @@
 0.0.0.0 tracker-remp.active.radio
 0.0.0.0 tracker-remp.premiumtimesng.com
 0.0.0.0 tracker-server.high-cdn.com
+0.0.0.0 tracker-shr.ortb.net
 0.0.0.0 tracker-v4.gamedock.io
 0.0.0.0 tracker.3dissue.com
 0.0.0.0 tracker.520call.me
@@ -107016,6 +107046,7 @@
 0.0.0.0 xsswcg.moglix.com
 0.0.0.0 xstat.gazeta.bo
 0.0.0.0 xstats.net
+0.0.0.0 xstats.st
 0.0.0.0 xt.haircompounds.com
 0.0.0.0 xtargeting.com
 0.0.0.0 xtazfx.50factory.com

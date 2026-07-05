@@ -1,7 +1,7 @@
 # Title: EasyList Chat Widgets (Optimized) (DNS/hosts format)
-# Version: 2026-06-28T10:55:16Z
+# Version: 2026-07-05T10:53:53Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 176
+# Domains: 177
 #
 0.0.0.0 247-inc.net
 0.0.0.0 24nettbutikk.chat
@@ -39,6 +39,7 @@
 0.0.0.0 chat-widget.hiverhq.com
 0.0.0.0 chat.24liveblog.com
 0.0.0.0 chat.broadly.com
+0.0.0.0 chat.cdn-plain.com
 0.0.0.0 chat.gosquared.com
 0.0.0.0 chat.octadesk.services
 0.0.0.0 chatbot.com
