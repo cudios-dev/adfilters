@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-07-05T10:53:53Z
+# Version: 2026-07-12T09:29:53Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 9,618
+# Domains: 9,635
 #
 0.0.0.0 0.www.0ul1wlo58s-vu69us-r1u.xyz
 0.0.0.0 0.www.2wu0m0ms098w7148.xyz
@@ -2036,7 +2036,6 @@
 0.0.0.0 abodealley.com
 0.0.0.0 aboutstephenking.foolhardywear.pro
 0.0.0.0 aboveaveragefinallycast.com
-0.0.0.0 aboveboardcomplicate.com
 0.0.0.0 abz.latelust.site
 0.0.0.0 ac.4wank.com
 0.0.0.0 ac.fapnado.xxx
@@ -2081,6 +2080,7 @@
 0.0.0.0 ad.pornimg.xyz
 0.0.0.0 ad.santa.lv
 0.0.0.0 ad.serv1for.pro
+0.0.0.0 ad.sexplex.com
 0.0.0.0 ad.slimspots.com
 0.0.0.0 ad.srvupads.com
 0.0.0.0 ad.tubelegion.com
@@ -2613,6 +2613,7 @@
 0.0.0.0 averoconnector.com
 0.0.0.0 awrfds3.pornpapa.com
 0.0.0.0 ax4.xmoviesland.com
+0.0.0.0 axmaxhsa.com
 0.0.0.0 az-neverblock.aznude.workers.dev
 0.0.0.0 az.tbllem.com
 0.0.0.0 az413505.vo.msecnd.net
@@ -2899,6 +2900,7 @@
 0.0.0.0 buzzard.donotresearch.net
 0.0.0.0 buzzard.ficabo.com.au
 0.0.0.0 buzzer.xhofficial.com
+0.0.0.0 buzzoola.com
 0.0.0.0 bx5.tubemaximum.com
 0.0.0.0 by.addrecipes.com
 0.0.0.0 bz-24.fin.ovh
@@ -4119,6 +4121,7 @@
 0.0.0.0 dragonfly.jala-one.com
 0.0.0.0 drainmayhem.click
 0.0.0.0 dre81lzpy0s7q.cloudfront.net
+0.0.0.0 driftsbabbleswandery.cfd
 0.0.0.0 drt.cliomovies.com
 0.0.0.0 druxxo.com
 0.0.0.0 dsh1ct2zrfakt.cloudfront.net
@@ -4278,6 +4281,7 @@
 0.0.0.0 emu.motala.no
 0.0.0.0 emu.pin13.net
 0.0.0.0 encza.fumblingvacation.pro
+0.0.0.0 enfacesplaineddeglory.qpon
 0.0.0.0 engagedhits.com
 0.0.0.0 engine.gettopple.com
 0.0.0.0 engine.partylemons.com
@@ -4767,6 +4771,7 @@
 0.0.0.0 floorforce.streetinteractive.com
 0.0.0.0 floors.dev
 0.0.0.0 flurryad.com
+0.0.0.0 fluxivetsknummus.cyou
 0.0.0.0 fluxtech.ai
 0.0.0.0 flw.camcaps.ac
 0.0.0.0 flyingfish.whoisrepresented.org
@@ -5244,6 +5249,7 @@
 0.0.0.0 informed.belocalnwa.com
 0.0.0.0 infospace-val.looksmart.com
 0.0.0.0 injectshrslinkblog.com
+0.0.0.0 injusticebakery.com
 0.0.0.0 inlekv5kmf5.hfvn6kcfykruk79p337e69h8pnrw.cfd
 0.0.0.0 inoyan.fumblingvacation.pro
 0.0.0.0 insensitiveshoweraudible.com
@@ -5761,6 +5767,7 @@
 0.0.0.0 manatee.biodom.bio
 0.0.0.0 mandrill.castingcollective.net
 0.0.0.0 mandrill.yellowfruit.co
+0.0.0.0 mantis-awx.com
 0.0.0.0 maphuahin.com
 0.0.0.0 marfeelcache.com
 0.0.0.0 marketingtowomenonline.fumblingvacation.pro
@@ -6374,6 +6381,7 @@
 0.0.0.0 qwfh39851jtfvkurf21hf.com
 0.0.0.0 qwooxrmixmzi.com
 0.0.0.0 qx0.xnxxtubevideos.com
+0.0.0.0 qxif497o6q61e2nep.cyou
 0.0.0.0 qxm3f13x.zq4pngk51onmbp89i1f9.cfd
 0.0.0.0 r.archertube.com
 0.0.0.0 r.biotrck.com
@@ -7290,6 +7298,7 @@
 0.0.0.0 sailfish.kentcdodds.com
 0.0.0.0 sailfish.the-psychedelicatessen.com
 0.0.0.0 sailfish.youracademycommunity.com
+0.0.0.0 sainwertapr.com
 0.0.0.0 salamander.augmentedmind.io
 0.0.0.0 salamander.gimbal.st
 0.0.0.0 salamander.showandtelldata.com
@@ -7469,6 +7478,7 @@
 0.0.0.0 sk.transhero.com
 0.0.0.0 sk.trashreality.com
 0.0.0.0 sk.zatube.com
+0.0.0.0 ski.leftnewsex.com
 0.0.0.0 skimresources.com
 0.0.0.0 skink.asorman.io
 0.0.0.0 sktskt.aisfokgqw.online
@@ -8244,6 +8254,7 @@
 0.0.0.0 turtle.mydataroom.io
 0.0.0.0 turtle.sid.scot
 0.0.0.0 tw.wpu.sh
+0.0.0.0 twigcrucialpal.com
 0.0.0.0 txoswd4i.xyz
 0.0.0.0 typicallyuncovernull.com
 0.0.0.0 tzw.kokzjh29wnttolm.cfd
@@ -8266,10 +8277,13 @@
 0.0.0.0 uk.boffinsoft.com
 0.0.0.0 uktgg.dev-tester.com
 0.0.0.0 umtpopxcsedc.cdnvideo3.com
+0.0.0.0 unalaskamiaskitewormproof.monster
+0.0.0.0 unblockia.com
 0.0.0.0 unicorn.bloblohub.com
 0.0.0.0 unix.notifysrv.com
 0.0.0.0 unpin.hothomefuck.com
 0.0.0.0 unpydqpidsfb.cdnvideo3.com
+0.0.0.0 untimely-proof.pro
 0.0.0.0 uo2g3vczk.bu9945gvxw4qhv4.cfd
 0.0.0.0 up.aciesx.com
 0.0.0.0 up.admoxi.com
@@ -8340,6 +8354,7 @@
 0.0.0.0 videoads.hotstar.com
 0.0.0.0 vidops.zeeker.com
 0.0.0.0 vidwestxyz.com
+0.0.0.0 vietadx.net
 0.0.0.0 vil2.er2o6ctg6eniu3cb54g6ghlpo3.cyou
 0.0.0.0 villagybullion.cyou
 0.0.0.0 vip-hd-movies.xyz
@@ -8350,6 +8365,7 @@
 0.0.0.0 viralltopics.com
 0.0.0.0 virtual2.notifysrv.com
 0.0.0.0 visualize-beta.bloblohub.com
+0.0.0.0 vivotzrigtry.com
 0.0.0.0 vjs.selecttopoff.com
 0.0.0.0 vkcdnservice.com
 0.0.0.0 vkysno.leftmany.pro
@@ -9621,3 +9637,4 @@
 0.0.0.0 zyz429.t95xfj43ol1162lcb3qzv75t6xkcgxew21.cfd
 0.0.0.0 zz.shat1.com
 0.0.0.0 zzlocalsquared.com
+0.0.0.0 zzyqkeniw.com

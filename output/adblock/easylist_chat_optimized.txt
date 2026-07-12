@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Chat Widgets (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Chat.
-! Version: 2026-07-05T10:53:53Z
+! Version: 2026-07-12T09:29:53Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 241
+! Rules: 240
 !
 /creame-whatsapp-me/public/js/joinchat.min.js
 /wp-content/plugins/click-to-chat-for-whatsapp/*
@@ -161,7 +161,6 @@
 ||onwebchat.com^$third-party
 ||pageview.activengage.com^
 ||paradox.ai^$third-party
-||personaclick.com^$third-party
 ||phenompeople.com/txm-bot/prod/prod.js
 ||phplivesupport.com^$third-party
 ||podium.com^$third-party
