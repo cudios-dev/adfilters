@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Chat Widgets (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Chat.
-! Version: 2026-07-12T09:29:53Z
+! Version: 2026-07-19T05:43:46Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT

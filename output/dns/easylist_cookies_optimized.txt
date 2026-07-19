@@ -1,7 +1,7 @@
 # Title: EasyList Cookie List (Optimized) (DNS/hosts format)
-# Version: 2026-07-12T09:29:53Z
+# Version: 2026-07-19T05:43:46Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 310
+# Domains: 311
 #
 0.0.0.0 9jdq2a.poco.de
 0.0.0.0 acconsento.click
@@ -25,6 +25,7 @@
 0.0.0.0 ccpa-script.psg.nexstardigital.net
 0.0.0.0 ccpa.sp-prod.net
 0.0.0.0 cdn.cookie.pii.ai
+0.0.0.0 cdntranscend.eventbrite.com
 0.0.0.0 cerezgo.com
 0.0.0.0 choices.truste.com
 0.0.0.0 clickiocmp.com

@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-07-12T09:29:53Z
+# Version: 2026-07-19T05:43:46Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 9,635
+# Domains: 9,648
 #
 0.0.0.0 0.www.0ul1wlo58s-vu69us-r1u.xyz
 0.0.0.0 0.www.2wu0m0ms098w7148.xyz
@@ -3254,6 +3254,7 @@
 0.0.0.0 cdn.tahwox.com
 0.0.0.0 cdn.tazlo.cloud
 0.0.0.0 cdn.tcwrf.com
+0.0.0.0 cdn.testdomain12345xyz.com
 0.0.0.0 cdn.thk4.com
 0.0.0.0 cdn.throatbulge.com
 0.0.0.0 cdn.tia-tanaka.blog
@@ -4270,6 +4271,7 @@
 0.0.0.0 elk.okcrowd.co
 0.0.0.0 elk.ritterhilgerstuetz.de
 0.0.0.0 elk.techphotoguy.com
+0.0.0.0 elogecoptersabacot.cfd
 0.0.0.0 elpushnot.com
 0.0.0.0 embed.name
 0.0.0.0 embedx.name
@@ -4317,6 +4319,7 @@
 0.0.0.0 evil.infinitybet.win
 0.0.0.0 evnhigkzgp.club
 0.0.0.0 evoandproud.foolhardywear.pro
+0.0.0.0 evolutionadv.it
 0.0.0.0 ewrerwe.s3m4m.lol
 0.0.0.0 ex8.lostporntube.com
 0.0.0.0 exchange.adkernel.com
@@ -4775,6 +4778,7 @@
 0.0.0.0 fluxtech.ai
 0.0.0.0 flw.camcaps.ac
 0.0.0.0 flyingfish.whoisrepresented.org
+0.0.0.0 fnozzitywh.com
 0.0.0.0 foisonad.com
 0.0.0.0 footy.to
 0.0.0.0 forgivefireextinguisher.com
@@ -4796,6 +4800,7 @@
 0.0.0.0 fuckers.nieuws.xxx
 0.0.0.0 fuckyeahsociallyawkwardpenguin.lovingforever.pro
 0.0.0.0 fukity44.fumblingvacation.pro
+0.0.0.0 funny-tooth.com
 0.0.0.0 funnyimagesclip.foolhardywear.pro
 0.0.0.0 fusion.sydsvenskan.se
 0.0.0.0 fuwn782kk.alphaporno.com
@@ -4854,6 +4859,7 @@
 0.0.0.0 gjc.gjirafa.com
 0.0.0.0 gjxmcla.pro
 0.0.0.0 glass.notifysrv.com
+0.0.0.0 glidersreplume.qpon
 0.0.0.0 glimmerleblonde.foolhardywear.pro
 0.0.0.0 global.notifysrv.com
 0.0.0.0 globlemath.com
@@ -5061,6 +5067,7 @@
 0.0.0.0 herring.artemis.cloud
 0.0.0.0 herring.panda.network
 0.0.0.0 hesads.akamaized.net
+0.0.0.0 hestherchiffer.com
 0.0.0.0 hetcash.com
 0.0.0.0 hgads.com
 0.0.0.0 hgcustom-ad.xyz
@@ -5305,6 +5312,7 @@
 0.0.0.0 jcdn.tsyndicate.com
 0.0.0.0 jcgdhqusv.com
 0.0.0.0 jcpjfyikk.dogbonemarket.com
+0.0.0.0 jdvzwpsfnjphs.com
 0.0.0.0 je4y15ji.xyz
 0.0.0.0 jellyfish.therapieplatz-finden.de
 0.0.0.0 jfilter.popxml.com
@@ -5453,6 +5461,7 @@
 0.0.0.0 kxcz.kqjgwwuebmmcpfebkg4jb3hq9uwg.cfd
 0.0.0.0 kxlay45a.xyz
 0.0.0.0 ky1amps1loy8iabe.pleasedonotblockme.com
+0.0.0.0 kyemnphpymnyv.website
 0.0.0.0 l.bloblohub.com
 0.0.0.0 l.cdn-fileserver.com
 0.0.0.0 l0nrjph1.xyz
@@ -6291,6 +6300,7 @@
 0.0.0.0 primate.philipithomas.com
 0.0.0.0 primate.productcolors.com
 0.0.0.0 prince08062025.shop
+0.0.0.0 prizefamily.com
 0.0.0.0 prl.adasgsts.cc
 0.0.0.0 prl.adasgxsp.cc
 0.0.0.0 prl.asgadmp.cc
@@ -7010,6 +7020,7 @@
 0.0.0.0 rubird.ru
 0.0.0.0 runtingsproper.lovingforever.pro
 0.0.0.0 ruradura.com
+0.0.0.0 rvmessage.online
 0.0.0.0 rwdb.asianxhub.com
 0.0.0.0 rwdh.asianxhub.com
 0.0.0.0 rwdn.asianxhub.com
@@ -8319,6 +8330,7 @@
 0.0.0.0 v7fb7.6hpebv4bicm5e78ewyiwvzyczz9q6ki.cfd
 0.0.0.0 v83h6.gaymale.xxx
 0.0.0.0 v8h5n35o.t6riol5563pyzlbqvnpiq1j3cbbn.cfd
+0.0.0.0 vahqmyowjp.com
 0.0.0.0 vampirebat.datingmedellin.com
 0.0.0.0 vampirebat.febolos.es
 0.0.0.0 vampirebat.git-tower.com
@@ -8452,6 +8464,7 @@
 0.0.0.0 weekkenty.lovingforever.pro
 0.0.0.0 wgjvg8m86x33gwb2.ioo2ypx31xfwnck285w5n8.cfd
 0.0.0.0 whale.gdebrauwer.dev
+0.0.0.0 whatdidheseehe.com
 0.0.0.0 wheelroot.com
 0.0.0.0 wheelwheel.space
 0.0.0.0 whehilru.com

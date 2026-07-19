@@ -1,5 +1,5 @@
 # Title: EasyList Social Widgets (Optimized) (DNS/hosts format)
-# Version: 2026-07-12T09:29:53Z
+# Version: 2026-07-19T05:43:46Z
 # Homepage: https://github.com/cudios-dev/adfilters
 # Domains: 60
 #
