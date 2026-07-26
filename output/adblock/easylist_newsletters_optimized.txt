@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Newsletters (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Newsletters.
-! Version: 2026-07-19T05:43:46Z
+! Version: 2026-07-26T05:53:06Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 1,063
+! Rules: 1,060
 !
 -footer-newsletter.
 /BannerNewsletter.jpg
@@ -83,10 +83,10 @@
 /xwpblocks-newsletter-subscription-style.css?
 01net.it,2gb.com,4investors.de,aawsat.com,addictivetips.com,administradores.com.br,adventures.com,advisoronline.it,advocate.com,aeroporto.net,agenziacasaclima.it,airliners.de,airqualitynews.com,aiscoop.com,alattefood.com,aldianews.com,alexander-wallasch.de,algemeiner.com,allclassical.org,antlionaudio.com,apracticalwedding.com,arab24.com,arsenalinsider.com,artnews.com,asteriskmag.com,astrooroscopo.it,atlantadailyworld.com,atlatszo.hu,autocasion.com,autoguide.com,automotive-fleet.com,baguete.com.br,basketinside.com,bestlifeonline.com,billboard.com,bintmusic.it,biometricupdate.com,bit.pt,bitmag.com.br,boardgameprices.co.uk,boerse-express.com,bolzano-bozen.it,bostonglobe.com,bostonmagazine.com,brindisisera.it,brooklynbased.com,buoyant.io,businessfleet.com,businessinsider.com,capx.co,carolinajournal.com,carpicalcionews.it,ccmagazine.es,cdt.ch,cheapies.nz,chicagodefender.com,chiesadimilano.it,cittaceleste.it,clevelandclinic.org,clubic.com,cmjornal.pt,cnn.com,comicsands.com,commondreams.org,condominioweb.com,corsedimoto.com,crn.com,cronista.com,crypto.news,cuisineetvinsdefrance.com,culture.pl,cyberscoop.com,dazeddigital.com,defensescoop.com,delamar.de,denofgeek.com,diepresse.com,digiday.com,dissipatio.it,dn.pt,dojacat.com,doktersvandewereld.org,dreambigtravelfarblog.com,dri.es,edscoop.com,electricfencing.co.uk,electronicsweekly.com,elmostrador.cl,enstarz.com,epicurious.com,estadao.com.br,estrelando.com.br,etonline.com,euractiv.com,euractiv.de,eventfinda.co.nz,evz.ro,familyhandyman.com,fandom.com,fantamagazine.com,fashionotes.com,fcinter1908.it,fdr.com.br,fedscoop.com,fliegermagazin.de,fmc.hu,focusardegna.com,forbesafrica.com,forzaroma.info,futura-sciences.com,gault-millau.nl,gaultmillau.be,gaultmillau.lu,giornaledibrescia.it,gizchina.com,gogedizioni.it,golssip.it,goodbye.be,goodnet.org,goodrx.com,gooieneemlander.nl,government-fleet.com,greatbritishchefs.com,greenbot.com,haarlemsdagblad.nl,hacks.mozilla.org,handdoekentoiletpapier.nl,hannity.com,hausgeraete-test.de,hcb.net,hdwallpapers.in,heimwerker-test.de,hifitest.de,historic-uk.com,hits973.com,hngn.com,hodinkee.com,hollywoodreporter.com,horse-canada.com,hottopics.ht,huffpost.com,i24news.tv,icij.org,ilgiorno.it,ilmilanista.it,ilposticipo.it,ilrestodelcarlino.it,ilsecoloxix.it,ilsussidiario.net,iltascabile.com,imasters.com.br,indypendent.org,infoq.com,insidehighered.com,inthesetimes.com,investopedia.com,israeltoday.co.il,itechpost.com,jewishjournal.com,jfrog.com,jornaldebrasilia.com.br,jornaldenegocios.pt,jornaldocomercio.com,juvenews.eu,key4biz.it,kipparilehti.fi,kleinezeitung.at,klimahaus.it,kpfa.org,lanazione.it,lanutrition.fr,laopinion.com,laprensafl.com,laraza.com,lavoz.com.ar,legab.it,leidschdagblad.nl,lescienze.it,life.com,linkiesta.it,lintellettualedissidente.it,livability.com,longislandpress.com,lvh.it,maplin.co.uk,maritimejobs.com,massivesci.com,mcsweeneys.net,mediagol.it,meteolive.it,metro-magazine.com,michiganchronicle.com,micura.it,mlb.com,mmajunkie.usatoday.com,mondoudinese.it,moodiedavittreport.com,motorionline.com,muscleandfitness.com,muslimnews.co.uk,mymodernmet.com,nationalgeographic.com.es,nationalgeographic.pt,nationalinterest.org,newbeauty.com,newpittsburghcourier.com,newrepublic.com,news18.com,nieuwrechts.nl,nofilmschool.com,noordhollandsdagblad.nl,nooun.net,noticiasrcn.com,numericalcio.it,offresasaisir.fr,oilcity.news,omelete.com.br,out.com,ozbargain.com.au,padovasport.tv,participaties.nl,passioneinter.com,phillymag.com,phonandroid.com,pianetagenoa1893.net,pianetamilan.it,pitchfork.com,pomade.com,portalinsights.com.br,pride.com,profil.at,prospectmagazine.co.uk,psfk.com,quickanddirtytips.com,quotidiano.net,rainbowplantlife.com,recombu.com,record.pt,redsharknews.com,responsiblestatecraft.org,revealnews.org,reynardsec.com,rivistacontrasti.it,rollingstone.com,sabado.pt,salon.com,sangbadpratidin.in,sapo.pt,sassuolocalcionews.it,saucemagazine.com,sayrodigital.net,schoolbusfleet.com,screencrush.com,serieously.com,servus.com,sfitalianheritage.org,shacknews.com,sheknows.com,silicon.co.uk,silicon.de,silicon.es,slashfilm.com,sourcingjournal.com,speedcafe.com,sportavellino.it,sportico.com,spy.com,startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion,statescoop.com,superfly.fm,surfer.com,swz.it,syria.tv,taste.com.au,tasteofhome.com,tasty.co,tech.trivago.com,tenniscircus.com,the-decoder.com,the-decoder.de,the-star.co.ke,theblaze.com,thedp.com,thedrinknation.com,thefulcrum.us,theitaliantimes.it,themeshreport.com,thenevadaindependent.com,theodysseyonline.com,thepointsguy.com,thetruthaboutcars.com,thrillercafe.it,tiempoar.com.ar,time.com,timeslive.co.za,timesofisrael.com,topdocumentaryfilms.com,toronews.net,torresette.news,toutelanutrition.com,transworld.net,travelweekly.com,trendy.letudiant.fr,truthdig.com,tuasaude.com,turkiyetoday.com,tuttobolognaweb.it,tvquran.com,twitchy.com,ukraine-nachrichten.de,undercurrentnews.com,unsolved.com,usatoday.com,usopen.org,utoronto.ca,valori.it,variety.com,verdesmares.com.br,verportugal.net,vibe.com,videogamer.com,violanews.com,voetbalnieuws.be,voxeurop.eu,vtvgujarati.com,wccftech.com,web3wire.news,welivesecurity.com,wielernieuws.be,wikihow.com,wizworkwear.com,workscoop.com,worktruckonline.com,wwd.com,ziarulevenimentul.ro##.newsletter
 12tomatoes.com###sg_email
+1stplace4trophies.co.uk,arcade1up.com,bigmammagroup.com,bodybuildingwarehouse.co.uk,crazysales.com.au,deichmann.com,ditano.com,electroeshop.com,everymarket.com,fatalmodel.shop,grandandtoy.com,herroom.com,hisroom.com,hunterboots.co.uk,jdpower.com,jumbosports.com,kippersrijssen.nl,libreriascolastica.it,libreriauniversitaria.it,madeincucina.com,nb.co.za,niepoort.pt,primainfanzia.it,qualitymobilevideo.com,ramim.com.br,roguefitness.com,salewa.com,sapstjean.com,scarpescarpestore.com,servers4less.com,skyairline.com,solofutbol.com,surveillance-video.com,technologygalaxy.com,teksavvy.com,thewolseley.com,tuffshop.co.uk,wellnesswarehouse.com##.newsletter
 247sports.com,4029tv.com,abovethelaw.com,asmartbear.com,asteriskmag.com,bookriot.com,breakingdefense.com,carsguide.com.au,christianitytoday.com,citiblog.co.uk,citusdata.com,citynews.ca,click2houston.com,clickorlando.com,cockroachlabs.com,creation.com,currentaffairs.org,dailybee.com,dailysignal.com,dallasinnovates.com,eltrecetv.com.ar,euobserver.com,exceljet.net,feadship.nl,fox10phoenix.com,fox13news.com,fox13seattle.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox6now.com,fox7austin.com,fox9.com,foxla.com,freedom.press,frommers.com,hedgehogreview.com,hiphopdx.com,hot97.com,japantimes.co.jp,jta.org,kantinepraat.nl,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,komando.com,ksbw.com,ktvu.com,livescience.com,local10.com,medcitynews.com,morningstar.com.au,motherjones.com,mynbc5.com,pogo.org,progressive.org,propublica.org,publicdomainreview.org,readbetting.com,readcars.co,readceltic.com,readfashion.co,readfilm.co,readfood.co,readgaming.co,readmanutd.com,readmotorsport.com,readmusic.co,readshowbiz.co,readtv.co,samvirke.dk,san.com,slate.com,sportsworldnews.com,tastecooking.com,techfinitive.com,thebeliever.net,thedailyeconomy.org,thekitchenmagpie.com,tn.com.ar,tomsguide.com,toofab.com,tvtropes.org,undark.org,voetbalverslaafd.nl,wapt.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,womanandhome.com,wooon.com,worksinprogress.co,wpbf.com,wqxr.org,wtae.com,wvtm13.com,wxii12.com,wyff4.com,zeit.de##.newsletter-signup
 30seconds.com##+js(set-cookie, uf_signup_bar, 1)
 404media.co,972mag.com,a-z-animals.com,al-shabaka.org,alexandracooks.com,alhurra.com,android.gs,artscanvas.org,attn.com,bamargera.com,bcg.com,blackagendareport.com,boardingarea.com,bottradionetwork.com,briefly.co.za,broadwayworld.com,chicagomag.com,cityandstateny.com,coincodex.com,coinspeaker.com,cointelegraph.com,cybernews.com,dailyfeed.co.uk,damndelicious.net,defenseone.com,delishknowledge.com,divascancook.com,downshiftology.com,electronicsweekly.com,finews.ch,foxnews.com,freshersworld.com,gadgets360.com,gellerreport.com,gimmesomeoven.com,gotquestions.org,govexec.com,greece-is.com,greenbot.com,healthyseasonalrecipes.com,howsweeteats.com,hpcwire.com,idiallo.com,irishpost.com,jessicainthekitchen.com,jewishinsider.com,kitchentreaty.com,kristineskitchenblog.com,lafiamma.com.au,lindsaypleskot.com,littlespicejar.com,livewellbakeoften.com,luzmedia.co,melskitchencafe.com,messynessychic.com,mouser.com,mpr.org,mumbrella.com.au,mygaming.co.za,nationalpost.com,ndtv.com,news.adidas.com,newsmaxtv.com,newsthump.com,nextgov.com,noticiabrasil.net.br,notquitenigella.com,out.com,player.one,politicsweb.co.za,professionearchitetto.it,rbth.com,realfoodwholelife.com,recipetineats.com,restaurantguru.com,roadbook.com,route-fifty.com,seasonsandsuppers.ca,selenagomez.com,stereogum.com,stream.org,tasteandtellblog.com,ted.com,thechunkychef.com,thehighwire.com,today.ucsd.edu,u24.gov.ua,up.com,venezuelastar.com,viewfromthewing.com,wackymania.com,words.filippo.io,wttw.com##.subscribe
-404media.co,broadbandbreakfast.com##body,html:style(overflow: auto !important; position: initial !important;)
 7digital.com,aawsat.com,acento.com.do,acpm.fr,actu-juridique.fr,alligator-sunglasses.com,atalanta.it,bloomberg.com,boldsky.com,codefresh.io,cshl.edu,dailymaverick.co.za,download3k.com,drivespark.com,envol-vert.org,filmibeat.com,food.com,fundatiacaleavictoriei.ro,gainkit.com,gizbot.com,heraldextra.com,hispantv.com,hsrail.org,icliniq.com,iclnoticias.com.br,ilfattoalimentare.it,iol.pt,katholisch.de,lacnews24.it,langenscheidt.com,largus.fr,lintellettualedissidente.it,mattinonline.ch,misya.info,modern-banking.at,modern-banking.de,monitorimmobiliare.it,nativeplanet.com,ohmyrockness.com,oneindia.com,opendemocracy.net,pdfcoffee.com,penny-arcade.com,quantamagazine.org,radiospeaker.it,raileurope.com,rivistastudio.com,royalsociety.org,salemnews.net,scottishrugby.org,silhouettedonna.it,soldioggi.it,sscnapoli.it,telesurtv.net,termometropolitico.it,terranuova.it,thetruthaboutcars.com,tnpetroleo.com.br,transportandenergy.com,trueriders.it,valgardena.it,vidaextra.com,wdcb.org###newsletter
 80.lv##._3Gr3h
 91mobiles.com###newsletter_subscribe
@@ -113,19 +113,16 @@ addictivetips.com,additudemag.com,armytimes.com,biblegateway.com,biopharmadive.c
 additudemag.com##.signup-global
 admonsters.com###adm-signupbar
 advocate.com,avclub.com,cnevpost.com,jezebel.com,life.com,nextplz.fr,out.com,popsci.com,pride.com,qhubomedellin.com,san.com,spendless.com.au,tctmd.com,weeklyrecess.com##.newsletter-container
-advocate.com,businessairnews.com,thesuburbansoapbox.com##.subscribe
-advocate.com,comicsands.com,out.com,thefulcrum.us##.newsletter-aside
-advocate.com,metro.co.uk##.newsletter-overlay
 adweek.com,avclub.com,bloomberglinea.com,chicoer.com,coloradodaily.com,coloradohometownweekly.com,corriere.it,dailybreeze.com,dailybulletin.com,dailycamera.com,dailydemocrat.com,dailynews.com,deadspin.com,denverpost.com,detroitnews.com,dw.com,eastbaytimes.com,eco-business.com,euobserver.com,eurweb.com,gizmodo.com,helpnetsecurity.com,infowars.com,jalopnik.com,japantoday.com,jezebel.com,kake.com,lifehacker.com,lowellsun.com,marinij.com,mendocinobeacon.com,mercurynews.com,montereyherald.com,ocregister.com,orovillemr.com,pap.pl,paradisepost.com,pasadenastarnews.com,pe.com,post-gazette.com,presstelegram.com,readingeagle.com,record-bee.com,redbluffdailynews.com,redlandsdailyfacts.com,santacruzsentinel.com,scotsman.com,spokesman.com,stuff.co.nz,telegraph.co.uk,thereporter.com,theroot.com,thetakeout.com,times-standard.com,timesheraldonline.com,ukiahdailyjournal.com,web.dev,whittierdailynews.com,willitsnews.com,wsj.com##a[href*="/newsletter"]
 aeon.co,psyche.co##.NLFormInsertFromCMS
 aerotelegraph.com##.widget--newsletter
-afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com##+js(rc, has-intro-popup, html, stay)
-afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com##+js(rc, modal-in, html, stay)
-afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com##+js(rc, show-intro-popup, html, stay)
-afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com##div[class*="subscribeDialog-"]
-afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com##div[class^="background-"]
+afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,thedebriefnetwork.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com,zeteo.com##+js(rc, has-intro-popup, html, stay)
+afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,thedebriefnetwork.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com,zeteo.com##+js(rc, modal-in, html, stay)
+afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,thedebriefnetwork.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com,zeteo.com##+js(rc, show-intro-popup, html, stay)
+afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,thedebriefnetwork.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com,zeteo.com##.intro-popup
+afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,thedebriefnetwork.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com,zeteo.com##div[class*="subscribeDialog-"]
+afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,thedebriefnetwork.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com,zeteo.com##div[class^="background-"]
 agenziaimpress.it,aheadofthyme.com,alreporter.com,americanmilitarynews.com,appleinsider.com,austindailyherald.com,benwajdi.com,biznews.com,bowenislandundercurrent.com,californiasunday.com,capitolhillseattle.com,caribjournal.com,chinafile.com,cinainitalia.com,circuitdigest.com,cjr.org,convertingcolors.com,cordcuttersnews.com,cppstories.com,culturemap.com,current.org,dailycal.org,dailyfreepress.com,dailytimes.com.pk,davidemaggio.it,delta-optimist.com,demokraatti.fi,denvergazette.com,dreadcentral.com,dv.is,ebar.com,echofm.online,eletric-vehicles.com,engineering.columbia.edu,euromaidanpress.com,firstpost.com,francescocosta.net,funcheap.com,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.no,gamereactor.se,grapevine.is,idropnews.com,iihs.org,ilfarosulmondo.it,ilprimatonazionale.it,indiaclimatedialogue.net,informagiovani-italia.com,iowapublicradio.org,jweekly.com,kliknijwzdrowie.pl,kyivpost.com,lacapital.com.ar,lapatilla.com,lascimmiapensa.com,lasillarota.com,leoweekly.com,magnoliastatelive.com,majorgeeks.com,mediaweek.com.au,meteonetwork.it,metrotime.be,mg.co.za,midhudsonnews.com,moked.it,money.it,news.virginmediao2.co.uk,newsshooter.com,newzimbabwe.com,nextbigfuture.com,nhpr.org,nsnews.com,ny1.com,onorient.com,pallacanestrotrieste.it,pcgamesn.com,pharmacyscanner.it,planetware.com,playstationbit.com,politifact.com,portlandmercury.com,prescouter.com,publinews.gt,punchng.com,redandblack.com,richmond-news.com,russia-insider.com,scoop.co.nz,sfpublicpress.org,sociologicalscience.com,techzilla.it,thedrinknation.com,thegrayzone.com,theloadout.com,thespacereview.com,thestandnews.com,thestar.com.my,thestranger.com,thethaiger.com,thinkpol.ca,ticotimes.net,today.it,trancentral.tv,tvsvizzera.it,union-bulletin.com,vvox.it,wayfm.com,winedharma.com,worldhistory.org,wpr.org###mc_embed_signup
-agrarheute.com##.single-newsletter
 agriaffaires.it,harem69.com.br,intersport.com.au,petroleumservicecompany.com###newsletter
 aibusiness.com,channelfutures.com,darkreading.com,gamedeveloper.com,iotworldtoday.com,itprotoday.com##.SubscribeBanner
 aif.ru##.overlay
@@ -136,7 +133,8 @@ airlinegeeks.com,avweb.com,chicagomag.com,flyingmag.com,planeandpilotmag.com,usm
 aiscoop.com,cyberscoop.com,defensescoop.com,edscoop.com,fedscoop.com,statescoop.com##.site-header__subscribe
 alarabiya.net,ambito.com,deutschland.de,intego.com,letrap.com.ar,netwerk24.com,news24.com,ourworldindata.org,phonearena.com,recepty.cz##.newsletter-subscription
 alaraby.co.uk,fbi.gov,newarab.com,puck.news##.sticky-footer
-alexandracooks.com,artificialintelligence-news.com,australiangolfdigest.com.au,childrenshealthdefense.org,coloradotimesrecorder.com,fatgirlskinny.net,hypebot.com,matomo.org,moneymagpie.com,thecanary.co,thurrott.com,verdadeiroolhar.pt##html:style(overflow:auto !important)
+alexandracooks.com,artificialintelligence-news.com,australiangolfdigest.com.au,childrenshealthdefense.org,coloradotimesrecorder.com,fatgirlskinny.net,hypebot.com,matomo.org,moneymagpie.com,savingadvice.com,thecanary.co,thurrott.com,verdadeiroolhar.pt##.pum
+alexandracooks.com,artificialintelligence-news.com,australiangolfdigest.com.au,childrenshealthdefense.org,coloradotimesrecorder.com,fatgirlskinny.net,hypebot.com,matomo.org,moneymagpie.com,savingadvice.com,thecanary.co,thurrott.com,verdadeiroolhar.pt##html:style(overflow:auto !important)
 algemeiner.com##.formnews
 all3dp.com##+js(rc, root-modal-container-open, body, stay)
 allevents.in##.bottom-right-subscribe
@@ -165,11 +163,11 @@ anthropologie.com,freepeople.com,urbanoutfitters.com##.c-pwa-email-signup--foote
 aol.com##.m-newsletter
 aol.com##.m-newsletter-base
 aol.com##.rmp-module__newsletter-signup
+aorus.com,nutritioninsight.com,packaginginsights.com##.subscribe-div
 apnews.com,heraldnet.com,inquirer.com,newsnationnow,njbiz.com,parent.com,thehill.com,therecord.com##body,html:style(overflow: auto !important; position: initial !important;)
 app.perusall.com,varma.fi#@#.needsclick[aria-label][style]
 ar15.com##.notify
 arabnews.com,castanet.net,onmeda.de,tribalfootball.com##.mc_embed_signup
-arcadeheroes.com,wyofile.com###block-11
 arcamax.com##.channel-subscribe
 arrowheadpride.com,badlefthook.com,barcablaugranes.com,bavarianfootballworks.com,bleedinggreennation.com,bloggingtheboys.com,bloodyelbow.com,brightsideofthesun.com,cagesideseats.com,celticsblog.com,eater.com,goldenstateofmind.com,libertyballers.com,managingmadrid.com,mmafighting.com,mmamania.com,polygon.com,silverscreenandroll.com,sounderatheart.com##.c-toaster
 artnet.com,bandt.com.au,bellhelmets.com,bibleportal.com,boredpanda.com,fermatslibrary.com,insauga.com,lensculture.com,media4growth.com,moneycontrol.com,moroccoworldnews.com,nycgo.com,patch.com,pbsamerica.co.uk,projectcbd.org,thecradle.co,thepostmillennial.com,uinterview.com,vegnews.com,wateronline.com,worlddogfinder.com,zorbabooks.com##.modal
@@ -183,26 +181,27 @@ askleo.com###block-14
 askleo.com###block-16
 askleo.com,musically.com###block-15
 assos.com##+js(set-cookie, popup-newsletter, true)
+atgames.us##+js(set-local-storage-item, theme:popup-appeared, true)
 athlonsports.com,mensjournal.com,thestreet.com##.smart-slot-newsletters
 atlasobscura.com##.js-email-ask-form
 atlasobscura.com##body:style(overflow: auto !important; position: initial !important;)
 atlasobscura.com,churchpop.com,headforpoints.com,hindustantimes.com,howsweeteats.com##.footer-subscribe
 audialab.com##+js(set-local-storage-item, user_closed_pop_up, true)
 audioholics.com,theconversation.com##body:style(overflow: auto !important;)
-autoblog.com,thestreet.com##.container-inline
 awardsradar.com##+js(set-cookie, g1_popup_disabled, 1)
 awardswatch.com###magnitude_store_call_to_action-4
 awardswatch.com##.award-popup-and-layer-ads
 babiesrus.ca,toysrus.ca##+js(set-cookie, isNewsletterPopupShown, false, , reload, 1)
 bancone.co.uk,gingerbreadfactory.com,holiday-whimsy.com,ooshtush.com,rgmwatches.com##.yui-popup-container-node
 bangkokpost.com##.box-informed
-bankbazaar.com##body:style(overflow: auto !important; position: initial !important;)
 bankinfosecurity.com###section-newsletter-blk
 barax.de##.twt-element-newsletter
 barnesandnoble.com##.for-email
 battlefordsnow.com,everythinggp.com,farmnewsnow.com,fraservalleytoday.ca,larongenow.com,lethbridgenewsnow.com,meadowlakenow.com,nanaimonewsnow.com,panow.com,rdnewsnow.com###website_ticker
 bbc.com###zephr-message
 bcliquorstores.com##+js(set-session-storage-item, enews_popup_session, 1)
+becleverwithyourcash.com##div[class*="email-signup"]
+becleverwithyourcash.com,circuitbasics.com,loyaltylobby.com,makingthymeforhealth.com###custom_html-2
 bedbathandbeyond.com###page_triggers
 bedbathandbeyond.com##body,html:style(overflow: auto !important; position: initial !important;)
 beforeitsnews.com,celebrity.red,codastory.com,dailygood.org,databricks.com,evero.com,fjolt.com,homeofdirectcommerce.com,knowledge.wharton.upenn.edu,marineelectronics.com,swimswam.com,technostall.com,u.today###subscribe
@@ -216,11 +215,11 @@ bigbearrealestateagent.com,nzherald.co.nz##.cta-container
 bitcoinist.com,darkreading.com,everydayhealth.com,gamedeveloper.com,historyextra.com,radiotimes.com##.newsletter-sign-up
 bitwarden.com##.bw-newsletter
 bizcommunity.com##.bottom-slideIn
-biznews.com,opindia.com###custom_html-7
+biztimes.com,browneyedbaker.com,budgetbytes.com,cookincanuck.com,davidlebovitz.com,delishknowledge.com,iambaker.net,lexiscleankitchen.com,littlespicejar.com,luzmedia.co,peanutbutterandjilly.com,thebuckeyeflame.com,traditionalcookingschool.com,wholesomeyum.com,yellowblissroad.com##.cp-popup-container
+blog.codinghorror.com##.gh-subscribe-form
 blog.google##.uni-newsletter-toast
 blog.hydroponictrash.solar###announcement-bar-root
 blog.mozilla.org,blog.nightly.mozilla.org###newsletter-subscribe
-blog.oup.com,christiantoday.co.nz,christiantoday.com.au,designboom.com,faithpot.com,heatmap.news,infoq.com,insidehighered.com,mamamia.com.au,ms.now,onmilwaukee.com,paloaltonetworks.com,save.ca,theenergymix.com,twistedsifter.com##.subscribe-box
 bloomberg.com##.inline-newsletter-top
 bobvila.com,futurism.com##.newsletter-container
 bodyweightwarrior.co.uk,brucelee.com,clereviewofbooks.com,eli.org.nz,fridaythings.com,genelmag.com,itp.nz,jphs.org,myvetcandy.com,paleofuture.com,prohousingpgh.org,rai.ac.uk,recoveryguru.com.au,stability.ai,unifiedpatents.com,ursulakleguin.com,worldofreel.com##.yui-popup-container-node
@@ -235,6 +234,7 @@ breakingdefense.com,colombiapress.co,deadline.com,deghi.it,fextralife.com,inside
 brighteon.com##.VideoNewsletter
 brighteon.com##body,html:style(overflow: auto !important; position: initial !important;)
 bringatrailer.com##.bat-theme-widget-constant-contact
+britannica.com##.inline-email-capture-placeholder
 brookings.edu##.article-newsletter-bottom-toolbar
 browserstack.com##.guide-newsletter
 businessinsider.com##.newsletter-dynamic
@@ -249,7 +249,7 @@ canadiantire.ca##.nl-email-sticky-banner
 capital.fr##.pmcInsert
 carboncredits.com##body,html:style(overflow: auto !important; position: initial !important;)
 carnegieendowment.org,iranwire.com,lifesitenews.com,payloadspace.com,proofpoint.com,sciencetimes.com,techtimes.com##.subscribe-block
-carnewschina.com##.block__newsletter
+cartoonbrew.com,technology.org,tourscanner.com##.sib_signup_form
 cbssports.com##.Newsletter-container
 ccm.net,commentcamarche.net,journaldesfemmes.fr,journaldunet.com,linternaute.com##.nl-box
 census.gov##.uscb-email-subscription
@@ -267,6 +267,7 @@ cityandstateny.com##+js(rc, interstitial, aside, stay)
 clarin.com,github.blog,governing.com,govtech.com,who.com.au##.Newsletter
 clevercreations.org##+js(set-cookie, mailerlite:forms:shown:109925949413262377, 1)
 cloudflare.com##.mt6.ph2.bg-blue4
+cloudwards.net##.cws-lead-magnet
 clubic.com##.eFAwfk.sc-a0d67cb1-0
 clutchpoints.com##+js(set-local-storage-item, nbaSIBWidgetSeen, true)
 cnbc.com##.CNBCFooter-info
@@ -291,18 +292,17 @@ commondreams.org##+js(set-cookie, popupShown, true)
 commondreams.org##.black_newsletter
 commondreams.org##.newsletter-button-top
 commondreams.org##.popup--backdrop
-commonwealmagazine.org,countryroadsmagazine.com,processengineering.co.uk##.ub-emb-container
 commonwealmagazine.org,foxnews.com,outkick.com##.item-newsletter
 complex.com##.article_newsletter
 consumerreports.org###yeGivingTuesAlertContainer
 consumerreports.org##.cda-newsletter
 consumerreports.org##.cda-newsletter-sign-up
+consumerreports.org##.inline-cta-marker
 context.news,defector.com,dirt.fyi,goop.com,hellgatenyc.com,nationalworld.com,streetsblog.org,which.co.uk##div[class*="NewsletterSign"]
 cookiesfordays.com,cookthestory.com,downshiftology.com,girlgonegourmet.com,halfbakedharvest.com,healthyrecipesblogs.com,itdoesnttastelikechicken.com,momontimeout.com,momsdish.com,mygorgeousrecipes.com,myquietkitchen.com,preppykitchen.com,spendwithpennies.com,theflavorbender.com,toriavey.com##.slick-on-page
 core.app##+js(set-local-storage-item, show-email-intake-form, false)
 correiobraziliense.com.br##.revue-embed
 costco.com##[data-testid="emailsignupform--all"]
-countryroadsmagazine.com##.mp-html
 cremaoggi.it,cremonaoggi.it,cremonasport.it,crypto.news,diocese.mc,heelhollandbakt.nl,ici.radio-canada.ca,mikebloomberg.com,miningweekly.com,oglioponews.it,patijinich.com,smnovella.com,solidaarisuus.fi,superdeluxeedition.com,trustedreviews.com##.newsletter-popup
 crooksandliars.com,drewberquist.com,kentuckytoday.com,keysnews.com,ktbs.com,kulr8.com,lifezette.com,montanarightnow.com,msmagazine.com,newsmirror.net,newsnow.co.uk,northcentralpa.com,novaramedia.com,redvoicemedia.com,technicianonline.com,trueachievements.com,truetrophies.com,urbanmilwaukee.com,zarar.dev##.email-signup
 crowdsupply.com##.section-email-signup
@@ -312,6 +312,7 @@ cryptopotato.com###mo_optin_widgets-2
 cryptoslate.com###cs-newsletter
 csmonitor.com###ezve-inbody-newsletter-widget
 ctvnews.ca##.b-promo-medium-manual-custom
+cultofmac.com###center-modal-popup
 culture.pl##.node-banner
 culturewhisper.com###subscribe_black_box
 curiosmos.com,geopoliticalfutures.com,iafrica.com,kdnuggets.com,labourlist.org,macdailynews.com,marijuanamoment.net,naturalblaze.com,wakingtimes.com##.boxzilla-container
@@ -345,6 +346,7 @@ dinnerthendessert.com##.recipe-footer
 disqus.com###email-signup
 dlnews.com,interestingengineering.com,inverse.com,straitstimes.com,todaysparent.com,worldpopulationreview.com,zaui.com##+js(aeld, /^(mouseout|mouseleave)$/)
 doctissimo.fr##.doc-newsletter-banner-wrapper
+doctornerdlove.com,ofdollarsanddata.com,whitecoatinvestor.com##.widget_convertkit_form
 doctorofcredit.com#@#.wpdiscuz-subscribe-bar
 drive.com.au###drive-subscribe-newsletter
 drive.com.au##.subscribe_drive-subscribe-content__wrapper__H5Hu0
@@ -359,7 +361,6 @@ eater.com,shakira.com##.newsletter_signup
 eatingbirdfood.com,joyfoodsunshine.com,spendwithpennies.com##.block-ebook
 eatthis.com##.newsletter-window
 eatwell101.com###flyinbutton
-economipedia.com##.cta-suscripcion
 edweek.org,francebleu.fr,telegraaf.nl##.NewsletterForm
 eenewseurope.com###newsletter-register
 egopowerplus.com##+js(set-cookie, newsletterModal, true)
@@ -392,6 +393,8 @@ expressvpn.com##.wrap-subscribe
 extendoffice.com##.eo-subscribe
 fanatical.com##.small-usp-bar
 fastweb.it##.tuplus-newsletter
+fatalmodel.shop,humankinetics.com##.fancybox-overlay
+fatalmodel.shop,humankinetics.com##body,html:style(overflow: auto !important; position: initial !important;)
 fatherly.com,mic.com,romper.com##.BMP
 filhub.gr##+js(abort-on-property-read, pum_popups)
 filmaffinity.com###top-anch
@@ -424,9 +427,8 @@ freesmsgateway.com##+js(acs, $, modal_newsletter)
 freshfromcache.com###ffc-sticky
 freshfromcache.com##.ffc-inline-cta
 frommybowl.com,lgbtqnation.com##.is-style-default
-frontrunners.ca,fruugo.co.uk,lull.com,otterbox.com,pulseuniform.com,saksfifthavenue.com,shop.pbs.org,szucstermekek.com,trutone.ca,zumub.com##.modal
-frontrunners.ca,fruugo.co.uk,lull.com,otterbox.com,pulseuniform.com,saksfifthavenue.com,shop.pbs.org,szucstermekek.com,trutone.ca,zumub.com##body:style(overflow: auto !important; position: initial !important;)
 frvr.com##.signup-banner
+fsf.org##.portlet-static-supporter
 ft.com##.article__content-sign-up
 ft.com##.n-sliding-popup
 funko.com,loungefly.com##+js(set-cookie, welcome_modal_email_ts, 1)
@@ -455,7 +457,6 @@ gobankingrates.com##.newsletter-module-optin--container
 gobankingrates.com##.newsletter-right-rail-optin
 goldmansachs.com##.gs-subscribe
 goodrx.com###placement-replace-newsletter-inline
-goodrx.com##.\[\&_\[data-qa\=searchbar\]\>button\]\:md\:mt-4:has([data-qa="newsletter-form"])
 gothamist.com##.newsletter-home
 gourmetfoodstore.com##+js(set-cookie, SuppressInterstitial, true, , reload, 1)
 graeters.com,netshoes.com.br,oficialfarma.com.br,shoestock.com.br##.newsletter-container
@@ -466,6 +467,7 @@ gurufocus.com##.el-dialog__wrapper
 gurufocus.com##.v-modal
 habr.com##.digest-subscription
 hackaday.com##.widget-had-subscribe
+happymoneysaver.com,sugarandsoul.co,thebuckeyeflame.com,togetherasfamily.com##.sidebar-newsletter
 harborfreight.com##body:style(overflow: auto !important; position: initial !important;)
 harveynorman.co.nz##.wufoo-form-container
 hbr.org##.persistent-banner
@@ -482,20 +484,20 @@ hmart.com##.vtex-flex-layout-0-x-flexRow--newsletter
 honichi.com##.modal-open:style(overflow: auto !important;)
 hotelspecials.nl,londondrugs.com,reverb.com,thetasteofgermany.com##.newsletter-signup
 hp.com###inside_holder
+hp.com##.subscribe-btn-container
 hrw.org###block-rollupnewslettersignup
 huckmag.com##+js(set-cookie, huck-newsletter-popup, true)
 huffingtonpost.es##.c-newsletter
 humblebundle.com###newsletter-sign-up
 hypebae.com###newsletter-popup-fullscreen
 hypebeast.com##.article-email-signup-wrapper
-hyrax.dev##.w-full.lg\:max-w-sm.lg\:text-right:has(#newsletter-email-hero)
 ibm.com##.ibm-marketo-form
 ibtimes.co.uk,ibtimes.com,latintimes.com,musictimes.com##.newsletter-in-article
 ibtimes.com##[href="https://newsletter.ibt.com/"]
 iflscience.com##.header-secondary
-iflscience.com##.subscribeBox
 igeeksblog.com##.quick-tips
 ign.com###pit-below-all-content
+ign.com##.box-wrapper:has(> .promo-card)
 iherb.com##.email-subscription-container
 in.investing.com##+js(set-cookie, r_p_s_n, 1)
 independent.co.uk###article-im-prompt
@@ -521,6 +523,7 @@ itsfoss.com##.cta__inner
 itweb.co.za##.subscribe-input-box
 jared.com,zales.com##.join-list
 jcrew.com##.module-footer__signup
+jerseyvindicator.org,zmescience.com##.fb-inst
 jingdaily.com##+js(set-cookie, newsletter, true)
 jns.org##body,html:style(overflow: auto !important; position: initial !important;)
 jocooks.com##.block-media-feature-image
@@ -529,7 +532,6 @@ jpost.com###premium-link
 jsdelivr.com##.main-right-container
 jumia.ci,jumia.co.ke,jumia.com.eg,jumia.com.gh,jumia.com.ng,jumia.com.tn,jumia.ma,jumia.sn,jumia.ug##.popup
 jumia.ci,jumia.co.ke,jumia.com.eg,jumia.com.gh,jumia.com.ng,jumia.com.tn,jumia.ma,jumia.sn,jumia.ug##body,html:style(position: static !important; overflow: auto !important; width: auto !important;)
-justataste.com##.block-sidebar-subscribe
 justgeek.fr##.cs-entry__subscribe
 juventus.com##.jcom-c-promo-newsletter
 kcrw.com##.CTAnewsletter
@@ -538,7 +540,6 @@ keychron.com##.footer-col--newsletter
 khaleejtimes.com##.newletter-widget-wrapper
 kissanadu.com##.member-register
 knowyourmeme.com##.beehiiv-newsletter-signup-container
-kongnews.it,petitchef.com,petitchef.es,petitchef.it,ptitchef.com##.form-nl
 krone.at##.nl-footer
 krone.at##.nl-sidebar
 ksl.com##.newsSignup
@@ -592,7 +593,6 @@ metro.co.uk##.spot-im-spotlight
 metropoles.com###m-newsletter
 metv.com##.side-newsletter-wrap
 miamiherald.com,sacbee.com##newsletter-signup-feature
-middleeasteye.net##[style^="display: flex; align-items: center; justify-content: center;"]
 middleeastmonitor.com##.memo-newsletter-wrap
 mightyape.co.nz##+js(rc, modal-open, body, stay)
 milenio.com##html:style(overflow: auto !important; position: initial !important;)
@@ -622,7 +622,6 @@ motherjones.com###homepage-newsletter-promo
 motherjones.com###homepage-subscription-promo
 motherjones.com##.mj-text-cta
 motor.elpais.com##.bloque-newsletter
-ms.now##body,html:style(overflow: auto !important; position: initial !important;)
 muenchen.de##.m-newsletter-registration
 musicbusinessworldwide.com##.mb-newsletter
 musicbusinessworldwide.com##.mbw-stickybar
@@ -682,7 +681,6 @@ oneesports.gg##html,body:style(overflow: auto !important; position: initial !imp
 onepercentclub.co.uk#@#.et_pb_newsletter
 opendemocracy.net##.donation-cta-contenttop
 openspeedtest.com###footBox3
-opindia.com##.tdi_174
 otakumode.com##.guest-mail
 otisoatmilk.co.nz,socialitelife.com##html:style(overflow:auto !important)
 outdoorlife.com##.newsletter-content
@@ -690,9 +688,6 @@ overstock.com##body:style(overflow: auto !important; position: initial !importan
 oxygen.com##.insider-exclusive__container
 oxygen.com##.site-footer__insider-promo
 ozbargain.com.au###visitor-notice
-palestinechronicle.com###newsletter_subscribition_box
-palestinechronicle.com##.jquery-modal
-palestinechronicle.com##body,html:style(overflow: auto !important; position: initial !important;)
 parade.com##.m-flex-nav--right-engagement
 patch.com##div[class^="ContentBlocks_CardDetail__SubscribeBlock"]
 patheos.com##.simple-signup
@@ -722,7 +717,6 @@ polygon.com##[class]:has(> .duet--cta--newsletter)
 polygon.com,theverge.com##.duet--cta--newsletter
 popsugar.com,thedodo.com##.EmailAcquisitonstyles__EmailAcquisitionOuterContainer-sc-1b9duud-0
 porndoe.com##.-footer-subscribe
-postandcourier.com,starlocalmedia.com###tncms-region-article_instory_bottom
 ppc.land##.form-subscribe
 press-start.com.au##.block-wrap-mailing
 press.moviewalker.jp##.un_newsDetail_mailmagazine_wrap
@@ -735,13 +729,14 @@ psychcentral.com###modal-host
 psychcentral.com##body,html:style(overflow: auto !important; position: initial !important;)
 psychologytoday.com##.blog-entry--subscribe-form
 publicdomainreview.org##.exit-modal__shade
+pushmycart.com,shutterfly.com##body,html:style(overflow: auto !important; position: initial !important;)
 racketboy.com###rb-newsletter
 radaronline.com##.sc-xGAYn
 railsnotes.xyz##+js(set-cookie, exit-intent, true)
 rawstory.com###piano-infobar-container
+reactormag.com##.desktop\:mb-\[27px\]:has(> hubspot-newsletter)
 reason.com##.single-post-signup-box
 recipetineats.com##.wprm-entry-footer
-refurbed.at,refurbed.de,refurbed.dk,refurbed.fr,refurbed.ie,refurbed.it,refurbed.nl,refurbed.se##.bg-refurbed-blue
 rei.com,stylist.co.uk##.email-signup__container
 remindmagazine.com###query-modal
 responsiblestatecraft.org##.highlight-wrapper--newsletter
@@ -790,7 +785,6 @@ silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt###nl-overlay
 silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt##.register-newsletter-form
 similarweb.com##+js(remove-cookie, sgID)
 simonandschuster.com##.signup-background
-slashfilm.com##.newsletter-btn
 smashingmagazine.com##.c-garfield__nl
 smithsonianmag.com##.in-article-newsletter
 snexplores.org##.wp-block-newsletter-signup
@@ -802,12 +796,10 @@ somu-lier.jp##.popup-mailmaga
 soundandvision.com###sub_pop
 sourceforge.net###get-updates
 space.com##.newsletter-branded-widget
-spacedaily.com##.sdlm-wrap
 sportskeeda.com##.newsletter-ui
 sportskeeda.com##.nl-inline-form-container
 sportskeeda.com##body:style(overflow: auto !important; position: initial !important;)
-startupfortune.com##.sf-newsletter
-statcounter.com###email-subscribe
+stackexchange.com###newsletter-ad
 statista.com###infographicNewsletter
 statista.com##body,html:style(overflow: auto !important; position: initial !important;)
 statnews.com##.stat-hubspot-signup
@@ -818,17 +810,20 @@ substack.com,theshortcut.com##.container-jsOc9L
 suzukicycles.com##+js(rc, modal-open, body, stay)
 sweet-shop.si##+js(set-cookie, aonehidepopupnewsletter1727208240, 1)
 sweetwater.com##+js(set-cookie, sws-gwpop, 1)
+swissinfo.ch##.--is-open
+swissinfo.ch##body,html:style(overflow: auto !important; position: initial !important;)
 syfy.com##body,html:style(overflow: auto !important; position: initial !important;)
 takealot.com##.Toastify
 takimag.com##.subscription-section
-talkiatry.com##[data-wf--footer-signup-banner--variant]
 taskandpurpose.com,thedrive.com,twz.com##.recurrent-newsletter-block
 tastemade.com##+js(set-local-storage-item, hide-cookbook-modal-0, true)
 tastesbetterfromscratch.com##.block-meal-plan
 tastesbetterfromscratch.com##.wprm-custom-cta
 techcrunch.com##.wp-block-techcrunch-newsletter-signup-compact
 technologynetworks.com##.base_subscribe_footer
+techrepublic.com##.pt-\[20px\]
 techrepublic.com##.ta-campaign-widget__popup-wrapper
+techrepublic.com##.z-10000
 tecnoblog.net##.tb-newsletter
 telecom.economictimes.indiatimes.com##+js(nostif, show-login-layer-article)
 temu.com###bg-simple-portal-container
@@ -849,6 +844,7 @@ thecooldown.com##.cool_newsletter
 thecooldown.com##.popup-box
 thecradle.co##.footer-Newsletter-input
 theepochtimes.com##body,html:style(overflow: auto !important; position: initial !important;)
+thefader.com##.footer_content
 thefederalist.com##+js(set-cookie, pum-276000, true)
 thefp.com##body:style(overflow: scroll !important)
 thefreedictionary.com###SubscrSlider
@@ -858,11 +854,11 @@ thehackernews.com###email-outer
 thehackernews.com,yardbarker.com##.sub-button
 thehill.com##.network-footer__newsletter
 theinformation.com##+js(set-cookie, marketing-modal-closed-1, 2)
+thejc.com##.flex.self-start.flex-col.gap-24.p-24.bg-black.text-white.rounded-md.\[\&_\.account-exists-message\]\:text-white
 thelensnola.org##+js(set-cookie, pum-605611, true)
 theletter.jp###js-sticky-footer
 thelogic.co##.wpcf7-form
 thelondoneconomic.com,washingtoncitypaper.com##.widget_mc4wp_form_widget
-themedialine.org##.tml-in-content-block--subscribe
 themoscowtimes.com##.newsletterbanner
 thenewstack.io###tns-post-newsletter
 thenextweb.com##.c-channel__cta
@@ -887,7 +883,6 @@ timesnownews.com##+js(set-local-storage-item, useExitIntent, true)
 timesnownews.com##._37K4.RUE6
 timesofisrael.com##.nlsignup
 tirerack.com###footerNewEmail
-tmcnet.com##.subscribe-feed
 tmz.com###browser-notifications-prompt
 tmz.com###newsletter-subscription__sidebar
 tn.com.ar##.sticky_top
@@ -899,6 +894,7 @@ tonkosti.ru##.journal-subscribe
 topgear.com##[data-testid="NewsletterFooter"]
 topuniversities.com##.subscribe_news_letter
 tp-link.com##.tp-follow-container
+tracxn.com##.txn--midpage-cta-wrapper-v4
 trendhunter.com##.lp__formPopCont
 triblive.com##.related
 tunepocket.com##.lp-wide-bar
@@ -936,6 +932,8 @@ walgreens.com##.footer__email-sign-up
 wallhere.com##.hub-newsletter
 washingtontimes.com##.email-alerts
 washingtontimes.com##.piano-fixed-footer-two
+we-news.com##.nl-card
+we-news.com##.optin
 webmd.com##.hp-nl-main
 wellplated.com##.block-join
 wellplated.com##.cpro-overlay
@@ -948,7 +946,6 @@ whitehouse.gov##.wp-block-whitehouse-newsletter
 whosampled.com###js-blog-subscription
 wikihow.com###hp_newsletter
 windowslatest.com###newsletter-nav
-wionews.com##.article-registration-form
 wired.com##.consumer-marketing-unit--cm-footer
 wired.com##.newsletter-one-click-wrapper--SlimStacked
 wired.com##div[class^="ConsumerMarketingUnitThemedWrapper-"]

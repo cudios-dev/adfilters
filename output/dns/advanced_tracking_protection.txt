@@ -1,7 +1,7 @@
 # Title: Advanced Tracking Protection (DNS/hosts format)
-# Version: 2026-07-19T05:43:46Z
+# Version: 2026-07-26T05:53:06Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 108,424
+# Domains: 108,456
 #
 0.0.0.0 -084-gls-223-www-9-k-0brasil.net.daraz.com
 0.0.0.0 -access-logs-1.net.daraz.com
@@ -12149,6 +12149,7 @@
 0.0.0.0 athena-event-provider.n11.com
 0.0.0.0 athena-tech.eu
 0.0.0.0 athena.accsc.com.au
+0.0.0.0 athena.archive.org
 0.0.0.0 athena.nederlandseloterij.nl
 0.0.0.0 athena.toto.nl
 0.0.0.0 athenainstitute.biz
@@ -13274,6 +13275,7 @@
 0.0.0.0 beeketing.com
 0.0.0.0 beeline.beeline-tire.co.jp
 0.0.0.0 beeline.ru
+0.0.0.0 beelinecolor.com
 0.0.0.0 beemray.com
 0.0.0.0 beemrdwn.com
 0.0.0.0 beencounter.com
@@ -13313,6 +13315,7 @@
 0.0.0.0 beneficios.davivienda.hn
 0.0.0.0 beneficios.davivienda.sv
 0.0.0.0 benefits.aon.com
+0.0.0.0 benefitssense.com
 0.0.0.0 benelph.de
 0.0.0.0 benelux2.secureforms.mcafee.com
 0.0.0.0 bentengine.com
@@ -14102,6 +14105,7 @@
 0.0.0.0 bownow.jp
 0.0.0.0 box.bossdata.be
 0.0.0.0 box.kryptotrejder.sk
+0.0.0.0 boxandcover.com
 0.0.0.0 boxever.com
 0.0.0.0 boxypluckunrelated.com
 0.0.0.0 bp.danielleguiziony.com
@@ -15559,6 +15563,7 @@
 0.0.0.0 capitalopera.com
 0.0.0.0 capitfes.andrefilipe.com.br
 0.0.0.0 capitp.teacherpimenta.com
+0.0.0.0 caplights.com
 0.0.0.0 capping.sirius.press
 0.0.0.0 capplanllc.actonservice.com
 0.0.0.0 capra.solutions
@@ -16941,6 +16946,7 @@
 0.0.0.0 cloisteredcurve.com
 0.0.0.0 clothing.blue-industry.com
 0.0.0.0 clothing.pinglelifestyle.com
+0.0.0.0 clothsense.com
 0.0.0.0 cloud-exploration.com
 0.0.0.0 cloud-iq.com
 0.0.0.0 cloud-journey.com
@@ -19749,6 +19755,7 @@
 0.0.0.0 d1m6l9dfulcyw7.cloudfront.net
 0.0.0.0 d1miwkthq39xj8.cloudfront.net
 0.0.0.0 d1n00d49gkbray.cloudfront.net
+0.0.0.0 d1qmrxg9gbf226.cloudfront.net
 0.0.0.0 d1qnmu4nrib73p.cloudfront.net
 0.0.0.0 d1qpxk1wfeh8v1.cloudfront.net
 0.0.0.0 d1r27qvpjiaqj3.cloudfront.net
@@ -19785,6 +19792,7 @@
 0.0.0.0 d250.baltimoresun.com
 0.0.0.0 d25082025.rastreadordecarro.com.br
 0.0.0.0 d276.ourmidland.com
+0.0.0.0 d27623md02evp.cloudfront.net
 0.0.0.0 d28082025.entrelogik.com.br
 0.0.0.0 d2c-lp.mobilefirst.digital
 0.0.0.0 d2c.ne.jp
@@ -19795,6 +19803,7 @@
 0.0.0.0 d2e0sxz09bo7k2.cloudfront.net
 0.0.0.0 d2ezz24t9nm0vu.cloudfront.net
 0.0.0.0 d2fuc4clr7gvcn.cloudfront.net
+0.0.0.0 d2fw3s7rfepszt.cloudfront.net
 0.0.0.0 d2g2u2795e3fzw.cloudfront.net
 0.0.0.0 d2gbtcuv3w9qyv.cloudfront.net
 0.0.0.0 d2gt2ux04o03l1.cloudfront.net
@@ -19837,6 +19846,7 @@
 0.0.0.0 d34ko97cxuv4p7.cloudfront.net
 0.0.0.0 d34r8q7sht0t9k.cloudfront.net
 0.0.0.0 d35u1vg1q28b3w.cloudfront.net
+0.0.0.0 d37l98t2r94go6.cloudfront.net
 0.0.0.0 d39ion77s0ucuz.cloudfront.net
 0.0.0.0 d39yds8oe4n4jq.cloudfront.net
 0.0.0.0 d3aicbrzoy14kh.cloudfront.net
@@ -24107,7 +24117,6 @@
 0.0.0.0 dd.garena.com
 0.0.0.0 dd.leboncoin.fr
 0.0.0.0 dd.nytimes.com
-0.0.0.0 dd.qwant.com
 0.0.0.0 dd.reuters.com
 0.0.0.0 dd.seloger-bureaux-commerces.com
 0.0.0.0 dd.seloger.com
@@ -25467,6 +25476,7 @@
 0.0.0.0 dragon.sh2.com
 0.0.0.0 dragonbats.com
 0.0.0.0 dragonfly.jala-one.com
+0.0.0.0 dragontamer.net
 0.0.0.0 drainpaste.com
 0.0.0.0 dramaticdirection.com
 0.0.0.0 drau.viessmann.si
@@ -25703,6 +25713,7 @@
 0.0.0.0 dtx.delcasas.com.br
 0.0.0.0 dtxngr.com
 0.0.0.0 dtxtngytz5im1.cloudfront.net
+0.0.0.0 dty0ycn35t4d2.cloudfront.net
 0.0.0.0 dtzrrz.green-japan.com
 0.0.0.0 dtzru.colorescience.com
 0.0.0.0 du4rq1xqh3i1k.cloudfront.net
@@ -26152,6 +26163,7 @@
 0.0.0.0 eat.newtrina.com
 0.0.0.0 eat9.thebeat925.ca
 0.0.0.0 eatablesquare.com
+0.0.0.0 eatinglate.com
 0.0.0.0 eatjav.ekosport.fr
 0.0.0.0 eatmycookies.mockingbirdcinema.com
 0.0.0.0 eatonaero.advancedtech.com
@@ -26367,6 +26379,7 @@
 0.0.0.0 echoacloud.com
 0.0.0.0 echoenabled.com
 0.0.0.0 echoinghaven.com
+0.0.0.0 echoturkey.com
 0.0.0.0 ecjsot.aosom.es
 0.0.0.0 eck.brettspieleck.de
 0.0.0.0 eckbu.santascoffee.com
@@ -27982,6 +27995,7 @@
 0.0.0.0 esqxrp.bonprix-fl.be
 0.0.0.0 esri.nl.actonservice.com
 0.0.0.0 essaygiants.com
+0.0.0.0 essayplanet.com
 0.0.0.0 essayspin.com
 0.0.0.0 essen.essentia-bd.com
 0.0.0.0 essencereferencetummy.com
@@ -29550,6 +29564,7 @@
 0.0.0.0 final02.watchhubbd.com
 0.0.0.0 finalid.com
 0.0.0.0 finalizeforce.com
+0.0.0.0 finaloptics.com
 0.0.0.0 finalyticsdata.com
 0.0.0.0 financefear.com
 0.0.0.0 financialcontent.com
@@ -30571,7 +30586,6 @@
 0.0.0.0 funoverflow.com
 0.0.0.0 funsdata.com
 0.0.0.0 funstage.com
-0.0.0.0 funtoyplanet.com
 0.0.0.0 fuooms.aetrex.com
 0.0.0.0 fuoqr.comfortorthowear.com
 0.0.0.0 fupbi.gopurebeauty.com
@@ -37027,6 +37041,7 @@
 0.0.0.0 helal.heelshoes.co.uk
 0.0.0.0 helens.actonservice.com
 0.0.0.0 helfen.famev.de
+0.0.0.0 helios.g2a.com
 0.0.0.0 helios.undergroundgameshow.com
 0.0.0.0 helix.bitformations.ca
 0.0.0.0 hello.bpost.be
@@ -37277,6 +37292,7 @@
 0.0.0.0 hit2map.com
 0.0.0.0 hitachi-hightech-as.actonservice.com
 0.0.0.0 hitbox.com
+0.0.0.0 hitboxdesigns.com
 0.0.0.0 hitcount.dk
 0.0.0.0 hitcountersonline.com
 0.0.0.0 hitcounterstats.com
@@ -42930,6 +42946,7 @@
 0.0.0.0 lab.prodesp.sp.gov.br
 0.0.0.0 lab.sensilia.com
 0.0.0.0 labadena.com
+0.0.0.0 labelsensor.com
 0.0.0.0 laboredlocket.com
 0.0.0.0 labs.jlplanner.co
 0.0.0.0 labs.laboostudio.com
@@ -43017,6 +43034,7 @@
 0.0.0.0 landsnail.garasjeport1.no
 0.0.0.0 landsnail.motin.eu
 0.0.0.0 landstar.actonservice.com
+0.0.0.0 landsuites.com
 0.0.0.0 landuscooperative.actonservice.com
 0.0.0.0 landwestern.com
 0.0.0.0 lanistaads.com
@@ -49695,6 +49713,7 @@
 0.0.0.0 loopa.net.au
 0.0.0.0 loopcybersec.com
 0.0.0.0 loopfuse.net
+0.0.0.0 looprecycled.com
 0.0.0.0 loopwidget.com
 0.0.0.0 loosecase.com
 0.0.0.0 looseloaf.com
@@ -53266,6 +53285,7 @@
 0.0.0.0 mennoc.mezlan.com
 0.0.0.0 mensch.ekd.de
 0.0.0.0 mentad.com
+0.0.0.0 menteechain.com
 0.0.0.0 mentor.adrianscalper.com
 0.0.0.0 mentor.direitocomprado.com.br
 0.0.0.0 mentor.fatimafinanzas.com
@@ -59333,6 +59353,7 @@
 0.0.0.0 onelinksmartscript.appsflyer.com
 0.0.0.0 onelinksmartscript.appsflyersdk.com
 0.0.0.0 onem.marketing.onemarketinguxp.com
+0.0.0.0 onemorebump.com
 0.0.0.0 onenet.gakujutsu.com
 0.0.0.0 onenetworkdirect.net
 0.0.0.0 onepush.app
@@ -59396,6 +59417,7 @@
 0.0.0.0 onlinevacationcenter.actonservice.com
 0.0.0.0 onlinewebstat.com
 0.0.0.0 onlinewebstats.com
+0.0.0.0 onlystreets.com
 0.0.0.0 onlywoofs.com
 0.0.0.0 onmlkjiion.carte-gr.total.fr
 0.0.0.0 onmuf.eshopygo.it
@@ -61943,6 +61965,7 @@
 0.0.0.0 player.pepsia.com
 0.0.0.0 player.stats.live-video.net
 0.0.0.0 playerhappy.com
+0.0.0.0 playerscache.com
 0.0.0.0 playfulriver.com
 0.0.0.0 playground.xyz
 0.0.0.0 playstream.media
@@ -62814,6 +62837,7 @@
 0.0.0.0 providentcrm.actonservice.com
 0.0.0.0 providers.mhc.net
 0.0.0.0 provify.io
+0.0.0.0 provingmagic.com
 0.0.0.0 provize.3dfitness.cz
 0.0.0.0 provize.brilas.cz
 0.0.0.0 provize.dzumdzum.cz
@@ -63937,6 +63961,7 @@
 0.0.0.0 rabbit.meitustat.com
 0.0.0.0 rabbit.radicalxchange.org
 0.0.0.0 rabbit.upwardhomes.net
+0.0.0.0 rabbitboots.com
 0.0.0.0 rabbitbreath.com
 0.0.0.0 rabbitrifle.com
 0.0.0.0 rabiul.petalcalyx.com
@@ -66303,6 +66328,7 @@
 0.0.0.0 s02.bestsecret.com
 0.0.0.0 s1.barrosbueno.com.br
 0.0.0.0 s1.bkjn.nl
+0.0.0.0 s1.bss.2gis.com
 0.0.0.0 s1.carnext.com
 0.0.0.0 s1.carryonx.de
 0.0.0.0 s1.ecofino.nl
@@ -73935,6 +73961,7 @@
 0.0.0.0 siivqn.bricoman.it
 0.0.0.0 silentcredit.com
 0.0.0.0 silentjackal.com
+0.0.0.0 silentsingle.com
 0.0.0.0 siliconslow.com
 0.0.0.0 silimbompom.com
 0.0.0.0 silkafter.com
@@ -78543,6 +78570,7 @@
 0.0.0.0 smrtads.com
 0.0.0.0 smrtb.com
 0.0.0.0 smrtlnks.com
+0.0.0.0 smrtwheel.com
 0.0.0.0 sms-cuc.e2eprod.repackage.test.ajo.adobe.com
 0.0.0.0 sms-cuc.e2eprod.repackageaus5.test.ajo.adobe.com
 0.0.0.0 sms-cuc.e2eprod.repackagecan2.test.ajo.adobe.com
@@ -78703,6 +78731,7 @@
 0.0.0.0 snipe.mizzuu.co
 0.0.0.0 sniperlog.ru
 0.0.0.0 sniphub.com
+0.0.0.0 snippet.affilimate.io
 0.0.0.0 snitcher.com
 0.0.0.0 snjvh.calecimprofessional.com
 0.0.0.0 snljxd.tdarsenal.ru
@@ -78785,6 +78814,7 @@
 0.0.0.0 socialannex.com
 0.0.0.0 socialflow.branch.rocks
 0.0.0.0 socialprofitmachine.com
+0.0.0.0 socialsend.net
 0.0.0.0 socialtrack.co
 0.0.0.0 socialtwist.com
 0.0.0.0 sociaplus.com
@@ -89576,6 +89606,7 @@
 0.0.0.0 stat.guiasjuridicas.es
 0.0.0.0 stat.indidata.com
 0.0.0.0 stat.interestfree.com.au
+0.0.0.0 stat.ip.sb
 0.0.0.0 stat.iteye.com
 0.0.0.0 stat.jetsetter.com
 0.0.0.0 stat.jogaszvilag.hu
@@ -92600,6 +92631,7 @@
 0.0.0.0 t-test.esvdigital.com
 0.0.0.0 t.10er-tagesticket.de
 0.0.0.0 t.12thman.com
+0.0.0.0 t.2x.nz
 0.0.0.0 t.360.audion.fm
 0.0.0.0 t.360playvid.info
 0.0.0.0 t.451.io
@@ -95573,6 +95605,7 @@
 0.0.0.0 tinybluewhale.com
 0.0.0.0 tinyclues.com
 0.0.0.0 tinycounter.com
+0.0.0.0 tinylytics.app
 0.0.0.0 tinystat.ir
 0.0.0.0 tinyswans.com
 0.0.0.0 tinytendency.com
@@ -103496,7 +103529,6 @@
 0.0.0.0 vertigovitalitywieldable.com
 0.0.0.0 vertster.com
 0.0.0.0 veruta.com
-0.0.0.0 verybark.com
 0.0.0.0 verybouncy.com
 0.0.0.0 verypopularwebsite.com
 0.0.0.0 vet.mexicoveterinario.com.mx

@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Notifications (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
-! Version: 2026-07-19T05:43:46Z
+! Version: 2026-07-26T05:53:06Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 783
+! Rules: 791
 !
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -177,10 +177,10 @@ chess.com##.ready-to-play-banner-component
 clubd.co.jp###footerBanner
 cnet.com##.c-globalModal
 cnet.com##body:style(height: auto !important; overflow: auto !important)
+coincodex.com##.app
 coincodex.com##.download-coincodex-app
 coincodex.com##.get-app-wrapper
 coinmarketcap.com##.app-banner-new
-coinpaprika.com##body:style(overflow: auto !important; position: initial !important;)
 computrabajo.com###pop-up-webpush-background
 computrabajo.com###pop-up-webpush-sub
 consumerreports.org###mtRoundupPaywallPopup
@@ -206,6 +206,7 @@ ebay.at,ebay.co.uk,ebay.com,ebay.com.au,ebay.de,ebay.es,ebay.fr,ebay.it,ebay.nl,
 ebay.com##.pc-dweb
 ebay.com##html:style(overflow: auto !important; position: initial !important;)
 eksisozluk.com##body,html:style(overflow: auto !important; position: initial !important;)
+emailnator.com##.top-banner
 epark.jp##.header_app_banner
 expedia.at,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.hk,expedia.com.sg,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.it,expedia.nl,expedia.no,expedia.se,hotels.com##body,html:style(overflow: auto !important; position: initial !important;)
 expedia.at,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.hk,expedia.com.sg,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.it,expedia.nl,expedia.no,expedia.se,hotels.com,vrbo.com##.customer-notification-container
@@ -214,6 +215,7 @@ facebook.com##+js(rc, prevent-scrolling, body, stay)
 fanblogs.jp##.aff-notice
 fandom.com##.marketing-notifications
 fdoc.jp##.appli_banner_box
+fdownload.app##.section-app-fb
 fedex.com##fedex-smart-banner
 fedex.com##trk-shared-smart-app-banner
 filmarks.com##.c-header-download-banner
@@ -226,12 +228,14 @@ flypgs.com##.app-b
 flypgs.com##.c-pgs-app
 fogaonet.com##+js(set-cookie, fn_cookie_whatsapp_alert, 1)
 food.ndtv.com##+js(set-cookie, ndtvfood_isSubscribed_elex_v1, no)
+fortnitetracker.com##.trn-site-appbar__apps
 foundit.com.ph##+js(set-session-storage-item, isDownloadAppBannerClosed, true)
 foxnews.com##.push-alert-notify
 gadgets360.com###bnotify
 gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.soft-notification-modal_modal__8KcpZ
 geeksforgeeks.org###openInApp-modal
 gemini.google.com##.get-app-banner
+genius.com##.android_interstitial:remove()
 ghpage.com##.tds-call-to-action1
 glas-javnosti.rs##.skini
 goo-net.com###app_info_area
@@ -270,6 +274,8 @@ lightnovelworld.com##html:style(overflow: auto !important;)
 linkedin.com##.overlay
 linkedin.com##body:style(overflow: auto !important; position: initial !important;)
 livemint.com##.echoOpeninApp
+livescore.com##.android
+livescore.com##.ios
 livesportsontv.com##+js(set-local-storage-item, promotion-popup-closed, 1)
 m.aiscore.com###appLink
 m.bilibili.com##.m-video2-awaken-btn
@@ -334,6 +340,7 @@ pnas.org##.signup-alert-ad
 podbean.com##.download-dialog
 post-gazette.com##.pg-notifybox
 qatarairways.com##.appstore
+re-katsu.jp##.appli
 redbull.com###bottom-notifications
 reddit.com###app-upsell-blocking-bottom-sheet-seo
 reddit.com###xpromo-bottom-sheet
@@ -358,7 +365,6 @@ s.tabelog.com##body,html:style(overflow-y: auto !important;)
 sammobile.com##+js(set-local-storage-item, request-permission-modal, 1)
 sauna-ikitai.com##.l-headerApp
 search.brave.com###usage-metrics-notice
-shazam.com##.info
 shop-apotheke.com##+js(set-session-storage-item, ErxModal, true)
 shufoo.net##+js(rc, is-hidden, body)
 sigmalive.com##+js(set-local-storage-item, push-notifications, no)
@@ -369,7 +375,6 @@ smocca.jp##+js(set, history.state, undefined)
 soundcloud.com##.l-front-mobile-teaser
 soundcloud.com##.mobileApps
 sp.nicovideo.jp##div[style="height: 56px;"]:has(> a[href^="https://nicovideo.applink.nicovideo.jp/?link"])
-spacedaily.com##[aria-label="Keep up with Space Daily"]
 speedtest.net##.modal-overlay
 speedtest.net##.result-area-ad
 sports.ndtv.com##body,html:style(overflow: auto !important; position: initial !important;)
@@ -396,6 +401,7 @@ trip.com##.oh-pwa
 trip.com##body:style(overflow: auto !important; position: initial !important;)
 tt.com##ttwww-emarsys-push-notification
 tubitv.com##+js(set-local-storage-item, windows_prompt_shown_v3, 1)
+tumblr.com##.y8Hml
 tunein.com##+js(set-cookie, hideMacDesktopDialog, true)
 tunein.com##+js(set-cookie, navBasedDialogManager, true)
 tvtropes.org##+js(set-cookie, app-announcement-banner-count-guest, 1)
@@ -405,6 +411,7 @@ vk.com###page_bottom_banners_root
 voicy.jp##v-sp-download
 vrbo.com##+js(rc, has-uitk-sheet, body, stay)
 waze.com##.wz-downloadbar
+we-news.com##.optin
 web.quizknock.com###header_iosapp_link
 webnovel.com##.m_down_app_wrap
 whosampled.com##.spSlot
@@ -441,6 +448,7 @@ zora.bg##cc-web-push-popup
 ||amazonaws.com/alive5cdn/$media
 ||amazonaws.com/cdn.aimtell.com/
 ||anewz.tv/firebase-messaging-sw.js
+||animatebookstore.com/js/smartbanner/smart-app-banner.js
 ||annahar.com/assets/js/notifications.js
 ||apex.live/media/$media
 ||api-push.com^$third-party

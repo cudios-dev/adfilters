@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-07-19T05:43:46Z
+# Version: 2026-07-26T05:53:06Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 9,648
+# Domains: 9,658
 #
 0.0.0.0 0.www.0ul1wlo58s-vu69us-r1u.xyz
 0.0.0.0 0.www.2wu0m0ms098w7148.xyz
@@ -2343,6 +2343,7 @@
 0.0.0.0 agl008.shop
 0.0.0.0 agl010.pro
 0.0.0.0 agnieszka-scrappassion.fumblingvacation.pro
+0.0.0.0 aifpleasurebeh.org
 0.0.0.0 aigneloa.com
 0.0.0.0 aikhiwnpdff.com
 0.0.0.0 air2s.com
@@ -4258,6 +4259,7 @@
 0.0.0.0 ef88191eb1.14d6b84a5f.com
 0.0.0.0 ef9537a05e.e958252147.com
 0.0.0.0 efb8541ec1.e86ee537fe.com
+0.0.0.0 egmoytcwvwfnc.website
 0.0.0.0 egret.chankaryik.com
 0.0.0.0 egret.hairproject.ch
 0.0.0.0 eh3pix0b.xyz
@@ -4787,6 +4789,7 @@
 0.0.0.0 fowl.teamyap.app
 0.0.0.0 fox.visionaudiovisual.com
 0.0.0.0 fq.f5jmetugzxrkhk.cfd
+0.0.0.0 fqrukpjaahukp.com
 0.0.0.0 free-lesson-on-online-earning.foolhardywear.pro
 0.0.0.0 freebooksnet.fumblingvacation.pro
 0.0.0.0 freebsd1.fumblingvacation.pro
@@ -5140,6 +5143,7 @@
 0.0.0.0 hubrus.com
 0.0.0.0 huffson-delivery.com
 0.0.0.0 huldeeforgoer.com
+0.0.0.0 humiliatedaboveboardwho.com
 0.0.0.0 hungry-exit.com
 0.0.0.0 hvuq2rlw741.jnzkk46yzcuqeo857ppjlt.cfd
 0.0.0.0 hwq7269itnzoc.u62rk4o8k9wv9m5eo3oj.cfd
@@ -5874,6 +5878,7 @@
 0.0.0.0 monkey.tschira-jugendakademie.info
 0.0.0.0 montmena.top
 0.0.0.0 moofoonepaw.com
+0.0.0.0 moonlighthathel.org
 0.0.0.0 moose.octo.app
 0.0.0.0 mosquito.birbs.art
 0.0.0.0 mosquito.iamamandaperez.com
@@ -5951,6 +5956,7 @@
 0.0.0.0 nf1nknlw.mateforevents.com
 0.0.0.0 nfs8nsaf.xyz
 0.0.0.0 nh3l5vb.cuzkqk1z39e749vk18x.cfd
+0.0.0.0 nhgmymxth.com
 0.0.0.0 ni3ebfpqwpq.hcwwgqp7lkmqogu.cyou
 0.0.0.0 nice.tranny.one
 0.0.0.0 nkdccsiwixvzj.world
@@ -8247,6 +8253,7 @@
 0.0.0.0 trout.openfpl.com
 0.0.0.0 trout.travelmassive.com
 0.0.0.0 trustiseverything.de
+0.0.0.0 trustkiwi.com
 0.0.0.0 try.notifysrv.com
 0.0.0.0 ts.sopornvideos.com
 0.0.0.0 tsekouratoi.foolhardywear.pro
@@ -8751,6 +8758,7 @@
 0.0.0.0 xj9gth5i.xyz
 0.0.0.0 xjzu.q64nk7mxenmy1f94.cyou
 0.0.0.0 xk54q65.5lz3n3y4ztroby.cfd
+0.0.0.0 xl-ads.com
 0.0.0.0 xmay6dqh.xyz
 0.0.0.0 xml-console.xapads.com
 0.0.0.0 xml-default.xapads.com
@@ -9564,6 +9572,7 @@
 0.0.0.0 xtits.name
 0.0.0.0 xtmtp.transhero.com
 0.0.0.0 xtraa-secure.reviveservers.com
+0.0.0.0 xwdsofoflwimy.website
 0.0.0.0 xxpirakazxx1.fumblingvacation.pro
 0.0.0.0 xxx.extrablocks.ru
 0.0.0.0 xxx.sdtraff.com
@@ -9592,6 +9601,7 @@
 0.0.0.0 yesadvertising.com
 0.0.0.0 yessearches.com
 0.0.0.0 yfghi1.ven5k12mb81cjklipi8nf.cfd
+0.0.0.0 yjibimcrcylrg.website
 0.0.0.0 yju5.v1kovnyyfzw6jyo1i4hiejwz.cyou
 0.0.0.0 ykhp5q84kfx.xxu6kju3p5lpwx8y6o.cfd
 0.0.0.0 ylfqm4t2b9j.1qmhlwziglrh1x4hbr.cyou
