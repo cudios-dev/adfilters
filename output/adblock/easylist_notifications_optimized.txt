@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Notifications (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
-! Version: 2026-07-26T05:53:06Z
+! Version: 2026-08-02T05:48:53Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 791
+! Rules: 796
 !
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -166,6 +166,7 @@ bestbuy.com##body:style(margin-top:0px !important)
 bing.com##.b_bnp_bopc
 booking.com##.gta-link-track
 boredpanda.com,citizen.com,coincodex.com##.get-app
+business-gazeta.ru##.popupAcceptNotify
 business-standard.com##.notification-col
 businessinsider.com,insider.com##.app-button
 businessinsider.com,insider.com##body:style(overflow: auto !important; position: initial !important;)
@@ -174,7 +175,6 @@ cba24n.com.ar##view-firebase-prompt
 chaturbate.com##.RoomSignupPopup
 cheaptickets.com,orbitz.com,travelocity.com,wotif.com##.CustomerNotificationsWrapper
 chess.com##.ready-to-play-banner-component
-clubd.co.jp###footerBanner
 cnet.com##.c-globalModal
 cnet.com##body:style(height: auto !important; overflow: auto !important)
 coincodex.com##.app
@@ -191,10 +191,10 @@ crealitycloud.com##+js(set-local-storage-item, permission_open_push, 1)
 crunchbase.com##+js(set-local-storage-item, entity-limiter-views, $remove$)
 cryptonews.net##.download_the_app
 daadscholarship.com##+js(abort-on-property-write, LaraPush)
+dailymotion.com##[data-testid="app-promotion-test-id"]
 dawn.com###consent-dialog
 deepl.com###callout-subtitle-chromeExtensionPromo
 deepl.com##+js(set-session-storage-item, LMT_browserExtensionPromo.displayed, true)
-delta.com##idp-dynamic-banner
 deribit.com##+js(set-local-storage-item, appCardSeen, true)
 discogs.com##.mobile-apps
 downace.com##+js(acis, requestPermission)
@@ -239,6 +239,7 @@ genius.com##.android_interstitial:remove()
 ghpage.com##.tds-call-to-action1
 glas-javnosti.rs##.skini
 goo-net.com###app_info_area
+goodreads.com##+js(set-cookie, blocking_sign_in_interstitial, true)
 google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
 gptoday.net##.webpush_popup
 gq.co.za##+js(set-cookie, PromptLater, true)
@@ -260,9 +261,12 @@ instacart.com##body:style(height: auto !important; overflow: auto !important)
 instagram.com##+js(set-session-storage-item, lodum, 1)
 instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
 instagram.com##._acc8
+investing.com,waifulabs.com##.bottom-0.fixed
+iwate-np.co.jp###widget-webpush-popup
 izi.travel##.app_message
 joinhandshake.com,online.rsb.ru#@#.notifications-wrapper
 jp-m.banggood.com##+js(rc, show-app-bar, , stay)
+kariyer.net##.download-app-wrapper
 klook.com##.app-download
 kogan.com###footer-native-banner
 kraken.com,ryan216q.org###smart-app-banner
@@ -283,6 +287,7 @@ m.bilibili.com##.mplayer-widescreen-callapp
 m.bilibili.com##.openapp-dialog
 m.bilibili.com##div[class*="-openapp"]
 m.economictimes.com###appDwnldBanner
+m.economictimes.com###downloadApp
 m.economictimes.com###footer_banner
 m.economictimes.com###wapFooter
 m.economictimes.com##+js(set-session-storage-item, nudgeStickyBannerHide, true)
@@ -300,10 +305,10 @@ makemytrip.com##body:style(overflow: unset !important)
 makerworld.com##body:style(overflow: auto !important; position: initial !important;)
 mamanoko.jp###js-actamDownloadModal
 me-qr.com##.modal-apps
+meet.google.com##[aria-label="Receive desktop notifications from Meet"]
 mega.nz#@#.notification-button
 mercari.com###getTheAppFooter
 metar-taf.com##.download-info
-minne.com##.smartAppBanner
 mixch.tv##.modal.show:has(.move-app-title)
 mobi24.net#@#a[href^="http://www.mobi24.net/"]
 mobi24.net#@#a[href^="https://www.mobi24.net/"]
@@ -322,17 +327,20 @@ newsbreak.com##body:style(height: auto !important; overflow: auto !important)
 newsmax.com###SMSbanner
 nextdoor.com##body:style(overflow: auto !important; position: initial !important;)
 noovo.info##+js(set-cookie, pushNotifications_popup_displayed_v2, true)
+nrwz.de##.perfecty-push-settings-container
+ny1.com##.article-app-prompt
 nzpost.co.nz###block-applaunchbanner
 onedio.com##+js(set-cookie, o-push-alert, 1)
 onlineradiobox.com##.playmarket
 opentable.com##body:style(overflow: auto !important;)
 otvet.mail.ru#@#.js-notifications-button
+pakistantoday.com.pk##.animate-slide-up
 patreon.com##+js(aeld, touchmove, preventDefault)
 paypal.com###PPAppDownloadBannerContainer
-pbtech.co.nz##.pb-app
 pdf.wondershare.jp##.b-downloadbox
 people.com##.people-sc-block-featuredlink--people-app-promo
 perplexity.ai##+js(set-session-storage-item, appDownloadBannerDismissed, true)
+pixlr.com###mobile-variant
 player.fm##.bottom-promo-overlay
 player.fm##body,html:style(overflow: auto !important; position: initial !important;)
 pnas.org##.pop-notification
@@ -352,7 +360,6 @@ reddit.com##+js(remove-class, scroll-is-blocked, body, stay)
 reddit.com##+js(set-local-storage-item, xpromo-consolidation, 1)
 reddit.com##.PreviewDrawer
 reddit.com##.XPromoBlockingModal
-reddit.com##.XPromoPopupRpl
 reddit.com##[slot="use-app"]
 reddit.com##body:style(pointer-events:auto !important;)
 reddit.com##shreddit-experience-tree
@@ -383,7 +390,6 @@ sunday-webry.com##.app-read-content
 swisscows.com##.home-link-instruction
 tbsnews.net###___tbspushdiv
 techwalla.com##.component-push-notification
-teller.jp##.pos_sticky.z_header.backface_hidden > div.lgDown\:d_flex.bg_surface_secondary.h_44px
 temu.com##div[style="height:0.66rem"]
 tenor.com##.LanguageBanner
 tenor.com##.UpsellPill
@@ -399,7 +405,6 @@ toy-people.com###notification_alert_container
 trip.com##.m-chromePlugin__pop-wrap
 trip.com##.oh-pwa
 trip.com##body:style(overflow: auto !important; position: initial !important;)
-tt.com##ttwww-emarsys-push-notification
 tubitv.com##+js(set-local-storage-item, windows_prompt_shown_v3, 1)
 tumblr.com##.y8Hml
 tunein.com##+js(set-cookie, hideMacDesktopDialog, true)

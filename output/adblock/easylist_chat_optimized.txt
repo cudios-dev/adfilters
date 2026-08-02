@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Chat Widgets (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Chat.
-! Version: 2026-07-26T05:53:06Z
+! Version: 2026-08-02T05:48:53Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 240
+! Rules: 245
 !
 /creame-whatsapp-me/public/js/joinchat.min.js
 /wp-content/plugins/click-to-chat-for-whatsapp/*
@@ -33,6 +33,7 @@
 ||astutebot.com^$third-party
 ||awhy.it^$third-party
 ||belco.io^$third-party
+||bestchat.com^$third-party
 ||birdeye.com^$third-party
 ||boei.help^$third-party
 ||boldchat.com^$third-party
@@ -57,6 +58,7 @@
 ||chat.24liveblog.com^
 ||chat.broadly.com^$third-party
 ||chat.cdn-plain.com^
+||chat.connectnowai.com^
 ||chat.gosquared.com^$third-party
 ||chat.octadesk.services^$third-party
 ||chatbase.co/embed.min.js
@@ -66,6 +68,7 @@
 ||chatbox.copilot.livex.ai^$third-party
 ||chatbro.com^$third-party
 ||chatdealer.jp^$third-party
+||chatsir.com^$third-party
 ||chatway.app^$third-party
 ||chatwidget-prod.web.app^
 ||chatwidget.kodif.ai^
@@ -182,6 +185,7 @@
 ||serviceform.com^$third-party
 ||services.leadconnectorhq.com/chat-widget/$third-party
 ||shopify.com^*/shopifyChatV1.js
+||singaporeair.com/assets/chatbotvs/
 ||smart.generaxion.fi^$third-party
 ||smartarget.online^$third-party
 ||smartsuppcdn.com^$third-party
@@ -213,6 +217,7 @@
 ||userway.org^$third-party
 ||vergic.com^$third-party
 ||verint-cdn.com^$third-party
+||virtualspirits.com/vsa/chat.js
 ||visitor.chat^$third-party
 ||wbot.chat^$third-party
 ||web-chat.global.assistant.watson.appdomain.cloud^$third-party

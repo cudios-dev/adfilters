@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-07-26T05:53:06Z
+# Version: 2026-08-02T05:48:53Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 9,658
+# Domains: 9,662
 #
 0.0.0.0 0.www.0ul1wlo58s-vu69us-r1u.xyz
 0.0.0.0 0.www.2wu0m0ms098w7148.xyz
@@ -6102,6 +6102,7 @@
 0.0.0.0 p.aprilads.online
 0.0.0.0 p.bloblohub.com
 0.0.0.0 p.ev7tw2puqz9luy.cfd
+0.0.0.0 p.lbserver.xyz
 0.0.0.0 p.netork.ru
 0.0.0.0 p.octoberads.space
 0.0.0.0 p.popjanuary.shop
@@ -8242,6 +8243,7 @@
 0.0.0.0 traffic.jotterads.com
 0.0.0.0 traffic.styria.hr
 0.0.0.0 traffic.tc-clicks.com
+0.0.0.0 traffinity.pro
 0.0.0.0 treefrog.kaffeknappen.no
 0.0.0.0 treefrog.mii-chi.app
 0.0.0.0 treefrog.walkingwithdaddy.com
@@ -8260,6 +8262,7 @@
 0.0.0.0 tssyakir.xyz
 0.0.0.0 tt.wl-cornholio.com
 0.0.0.0 tubecontext.com
+0.0.0.0 tubexazimebeze.com
 0.0.0.0 tuesdaysale.bid
 0.0.0.0 tulip18.com
 0.0.0.0 tuna.ajaymantri.com
@@ -8437,6 +8440,7 @@
 0.0.0.0 walrus.scalue.com
 0.0.0.0 warbler.resumebuilder.dev
 0.0.0.0 warbler.todoscout.com
+0.0.0.0 warkedmalie.com
 0.0.0.0 warp.media.net
 0.0.0.0 washington.notifysrv.com
 0.0.0.0 wasp.dyrynda.dev
