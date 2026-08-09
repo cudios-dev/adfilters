@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Notifications (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
-! Version: 2026-08-02T05:48:53Z
+! Version: 2026-08-09T04:12:14Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 796
+! Rules: 801
 !
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -28,6 +28,7 @@
 /fcmPush.js
 /firebase-messaging.js$script,domain=tribunnews.com
 /flying_push.js
+/gr-push-notifications/assets/js/push-front.js
 /ilabspush.min.js
 /inpl.webpush.js
 /jquery-notification.js
@@ -121,8 +122,8 @@
 9gag.com##body:style(overflow: auto !important;)
 @@||anadolu.edu.tr/assets/js/jquery.smartbanner.js$~third-party
 @@||assure.ameli.fr^*/smart-app-banner.js$~third-party
-@@||bostonherald.com^*/webpush.js$script,~third-party
 @@||braze.com/api/$domain=dairyqueen.com|deezer.com
+@@||budzetobywatelski.pl/themes/site/js/webpush.js$~third-party
 @@||creator.klarna.com/plugins/onesignal-cordova-plugin/www/onesignal.js$~third-party
 @@||fortnitedb.com/js/v3/oneSignal.js$~third-party
 @@||frankonia.de/js/lib/smart-app-banner.js$~third-party
@@ -141,6 +142,7 @@ adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.co
 adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.com.ar,catalogosofertas.com.br,catalogosofertas.com.co,catalogosofertas.com.ec,catalogosofertas.com.mx,catalogosofertas.com.pe,catalogueoffers.co.uk,catalogueoffers.com.au,flugblattangebote.at,flyerdeals.ca,folderz.nl,folhetospromocionais.com,folletosofertas.es,gazetki.pl,kundeavisogtilbud.no,ofertelecatalog.ro,offertevolantini.it,promocatalogues.fr,promotiez.be,promotions.ae,prospektangebote.de,reklambladerbjudanden.se,tilbudsaviseronline.dk##.js-page-promotion-container
 agoda.com##.redirectToAppBar
 airasia.com##.QRPopUp__QRPopUpWrapper-sc-8gx7le-0
+aliexpress.com,aliexpress.us###header-float-banner
 aljazeera.com##.user-accounts-tooltip.closable
 aljazeera.com,aljazeera.net##.nudge
 amazon.com##.sparkle-container
@@ -179,8 +181,6 @@ cnet.com##.c-globalModal
 cnet.com##body:style(height: auto !important; overflow: auto !important)
 coincodex.com##.app
 coincodex.com##.download-coincodex-app
-coincodex.com##.get-app-wrapper
-coinmarketcap.com##.app-banner-new
 computrabajo.com###pop-up-webpush-background
 computrabajo.com###pop-up-webpush-sub
 consumerreports.org###mtRoundupPaywallPopup
@@ -188,6 +188,7 @@ copilot.microsoft.com##body,html:style(overflow: auto !important; position: init
 cosmos.so##+js(set, Object.prototype.disablePaginationLimitForLoggedOut, true)
 crealitycloud.com##+js(set-local-storage-item, closeGuideRegisterTime, 1)
 crealitycloud.com##+js(set-local-storage-item, permission_open_push, 1)
+cricbuzz.com##.cbz-leaderboard-banner
 crunchbase.com##+js(set-local-storage-item, entity-limiter-views, $remove$)
 cryptonews.net##.download_the_app
 daadscholarship.com##+js(abort-on-property-write, LaraPush)
@@ -232,13 +233,14 @@ fortnitetracker.com##.trn-site-appbar__apps
 foundit.com.ph##+js(set-session-storage-item, isDownloadAppBannerClosed, true)
 foxnews.com##.push-alert-notify
 gadgets360.com###bnotify
+gaitame.com###ad-marketnext
 gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.soft-notification-modal_modal__8KcpZ
+ganganonline.com##.Base_banner__UbMI_
 geeksforgeeks.org###openInApp-modal
 gemini.google.com##.get-app-banner
 genius.com##.android_interstitial:remove()
-ghpage.com##.tds-call-to-action1
+gigabaito.com##.app_bottom_banner
 glas-javnosti.rs##.skini
-goo-net.com###app_info_area
 goodreads.com##+js(set-cookie, blocking_sign_in_interstitial, true)
 google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
 gptoday.net##.webpush_popup
@@ -250,6 +252,7 @@ hindustantimes.com##.openAppButtonEcho
 homes.co.jp##aside[aria-label="LIFULL HOME'S 無料アプリでもっと便利に"]
 huffingtonpost.es##.banner-app__container
 iclarified.com##.pushmodal
+ifunny.co##body,html:style(overflow: auto !important; position: initial !important;)
 imgur.com###getAppButton
 imgur.com##.PopUpDownloadApp
 imgur.com##.PopUpMobile-backdrop
@@ -262,6 +265,7 @@ instagram.com##+js(set-session-storage-item, lodum, 1)
 instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
 instagram.com##._acc8
 investing.com,waifulabs.com##.bottom-0.fixed
+ivoox.com##.bg-lightest.wrapper
 iwate-np.co.jp###widget-webpush-popup
 izi.travel##.app_message
 joinhandshake.com,online.rsb.ru#@#.notifications-wrapper
@@ -362,7 +366,6 @@ reddit.com##.PreviewDrawer
 reddit.com##.XPromoBlockingModal
 reddit.com##[slot="use-app"]
 reddit.com##body:style(pointer-events:auto !important;)
-reddit.com##shreddit-experience-tree
 rekhta.org##.rt_AppBtn
 relax-job.com##.js-smartapp-banner
 relax-job.com##.p-top-app-appeal
@@ -394,9 +397,11 @@ temu.com##div[style="height:0.66rem"]
 tenor.com##.LanguageBanner
 tenor.com##.UpsellPill
 theatlantic.com##[data-testid="games-newsletters"]
+thebeliever.net##.subscriber-popup-container
 thehindu.com##.read-in-app-floating-btn
 thehindu.com,thehindubusinessline.com###gsi_overlay
 themonthly.com.au##+js(set-local-storage-item, rn, $remove$)
+thepinknews.com##.footer__top-bar
 thestar.com##+js(rc, kumulos-background-mask-blur, , stay)
 threads.com##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)
 threads.net##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)

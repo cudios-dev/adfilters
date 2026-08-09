@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-08-02T05:48:53Z
+# Version: 2026-08-09T04:12:14Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 9,662
+# Domains: 9,676
 #
 0.0.0.0 0.www.0ul1wlo58s-vu69us-r1u.xyz
 0.0.0.0 0.www.2wu0m0ms098w7148.xyz
@@ -2815,6 +2815,7 @@
 0.0.0.0 bktpcross.com
 0.0.0.0 bl.orkoj4zgwhbzv2b.cfd
 0.0.0.0 blackbird.docstation.co
+0.0.0.0 blakeunwanted.com
 0.0.0.0 bleua.ecefibwja.xyz
 0.0.0.0 bliss91.com
 0.0.0.0 block.18tube.me
@@ -5261,6 +5262,7 @@
 0.0.0.0 infospace-val.looksmart.com
 0.0.0.0 injectshrslinkblog.com
 0.0.0.0 injusticebakery.com
+0.0.0.0 inklinkor.com
 0.0.0.0 inlekv5kmf5.hfvn6kcfykruk79p337e69h8pnrw.cfd
 0.0.0.0 inoyan.fumblingvacation.pro
 0.0.0.0 insensitiveshoweraudible.com
@@ -5389,6 +5391,7 @@
 0.0.0.0 juliet.fumblingvacation.pro
 0.0.0.0 jumpfiledoor.click
 0.0.0.0 junbi-tracker.com
+0.0.0.0 juneworewyjyna.com
 0.0.0.0 jup9.com
 0.0.0.0 jx3.freepornobook.com
 0.0.0.0 jz8zyg3f.xyz
@@ -5492,6 +5495,7 @@
 0.0.0.0 larasub.conxxx.pro
 0.0.0.0 lasdivinas1.foolhardywear.pro
 0.0.0.0 latifyahia2006.foolhardywear.pro
+0.0.0.0 launcher.disconetwork.com
 0.0.0.0 law.notifysrv.com
 0.0.0.0 layout08062025.shop
 0.0.0.0 ldvuz.org
@@ -5856,6 +5860,7 @@
 0.0.0.0 mite.cotinga.io
 0.0.0.0 mite.tetrameros.com
 0.0.0.0 mlb8ys4v.xyz
+0.0.0.0 mn.browpotware.com
 0.0.0.0 mob.lowtid.fun
 0.0.0.0 mobuppsrtb.com
 0.0.0.0 modeljav09212026.shop
@@ -6295,6 +6300,7 @@
 0.0.0.0 preanalytication.com
 0.0.0.0 prebid-server.newsbreak.com
 0.0.0.0 prebid.scope3.com
+0.0.0.0 prehurl.com
 0.0.0.0 premioamjeemprende.lovingforever.pro
 0.0.0.0 premiumstats.xyz
 0.0.0.0 preroll.hostave3.net
@@ -6360,6 +6366,7 @@
 0.0.0.0 pushche.rabbit.click
 0.0.0.0 pushpad.xyz
 0.0.0.0 pushpop.nativeads.com
+0.0.0.0 pusqfnqjeekvd.website
 0.0.0.0 pw.wpu.sh
 0.0.0.0 pw1zz56d.xyz
 0.0.0.0 pwr-ads.com
@@ -6440,6 +6447,7 @@
 0.0.0.0 rbthre.work
 0.0.0.0 rca.lol
 0.0.0.0 rcx1.l8wo5bjkxtzmbwlnro2k4zr6z5v.cfd
+0.0.0.0 rdipmrbwgvk.com
 0.0.0.0 rdr.wargaming.net
 0.0.0.0 rdv.naruto-base.tv
 0.0.0.0 reachableads.com
@@ -6525,6 +6533,7 @@
 0.0.0.0 rook.grithix.com
 0.0.0.0 rooster.cashforcolumbushouses.com
 0.0.0.0 rooster.ohqcloud.com
+0.0.0.0 ropeshippingcatchy.com
 0.0.0.0 ropsumemu.com
 0.0.0.0 rotate5url.com
 0.0.0.0 rott.mazlspqnn.ru
@@ -7307,6 +7316,7 @@
 0.0.0.0 s5.rtnews.pro
 0.0.0.0 s7227wuo.xyz
 0.0.0.0 sab.fast.ge
+0.0.0.0 sableviolet.com
 0.0.0.0 saderbank.foolhardywear.pro
 0.0.0.0 safelinkconverter.com
 0.0.0.0 sahqtibw.com
@@ -7380,6 +7390,7 @@
 0.0.0.0 serie-vostfr.com
 0.0.0.0 sersh.com
 0.0.0.0 serv.bvsrv.com
+0.0.0.0 serve.affiliate.heurekashopping.sk
 0.0.0.0 serve.bdsmstreak.com
 0.0.0.0 serve.faithlifeads.com
 0.0.0.0 serve.freeonlinegayporn.com
@@ -7646,6 +7657,7 @@
 0.0.0.0 static.100conversions.com
 0.0.0.0 static.9versemedia.com
 0.0.0.0 static.a1.0network.com
+0.0.0.0 static.accesstrade.vn
 0.0.0.0 static.ad-maven.com
 0.0.0.0 static.ad.logic-prod.viasat.io
 0.0.0.0 static.ad.logic-test.viasat.io
@@ -7911,6 +7923,7 @@
 0.0.0.0 subscribe.notifysrv.com
 0.0.0.0 suntcontent.se
 0.0.0.0 sup.srvtax.com
+0.0.0.0 supersedeaccolade.com
 0.0.0.0 support-v2.sweetwaternow.com
 0.0.0.0 support2.notifysrv.com
 0.0.0.0 supporters.redbankgreen.com
@@ -8473,6 +8486,7 @@
 0.0.0.0 webtradingspot.com
 0.0.0.0 wecvhi.ekftei2weudt.info
 0.0.0.0 weekkenty.lovingforever.pro
+0.0.0.0 wellworn-lead.com
 0.0.0.0 wgjvg8m86x33gwb2.ioo2ypx31xfwnck285w5n8.cfd
 0.0.0.0 whale.gdebrauwer.dev
 0.0.0.0 whatdidheseehe.com

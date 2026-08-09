@@ -1,5 +1,5 @@
 # Title: EasyList Notifications (Optimized) (DNS/hosts format)
-# Version: 2026-08-02T05:48:53Z
+# Version: 2026-08-09T04:12:14Z
 # Homepage: https://github.com/cudios-dev/adfilters
 # Domains: 199
 #
