@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-08-09T04:12:14Z
+# Version: 2026-08-16T03:41:26Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 9,676
+# Domains: 9,691
 #
 0.0.0.0 0.www.0ul1wlo58s-vu69us-r1u.xyz
 0.0.0.0 0.www.2wu0m0ms098w7148.xyz
@@ -3065,6 +3065,7 @@
 0.0.0.0 cc513b382d.e8643563e6.com
 0.0.0.0 cc8f653011.17180d187e.com
 0.0.0.0 ccc354db8e.05cb34d5f9.com
+0.0.0.0 ccnsad.com
 0.0.0.0 cd717179d0.569f43f295.com
 0.0.0.0 cda7k-ddok.com
 0.0.0.0 cdclub.net
@@ -3571,6 +3572,7 @@
 0.0.0.0 coinpot.co
 0.0.0.0 coinzillatag.com
 0.0.0.0 colbwxlsfenwn.website
+0.0.0.0 comanicilikeiste.com
 0.0.0.0 comic.fc2ppvv.info
 0.0.0.0 community.jerseyshoreonline.com
 0.0.0.0 community.noozhawk.com
@@ -3781,6 +3783,7 @@
 0.0.0.0 cust126.leftmany.pro
 0.0.0.0 cx6.lastxxxmovies.com
 0.0.0.0 cza4wopwcvdiq6sg.brandnewapp.pro
+0.0.0.0 czilladx.com
 0.0.0.0 czmehjnb.xyz
 0.0.0.0 d.bloblohub.com
 0.0.0.0 d.love4porn.com
@@ -4329,12 +4332,14 @@
 0.0.0.0 exchange.nativeads.com
 0.0.0.0 excuse08062025.shop
 0.0.0.0 exercices-cours.fumblingvacation.pro
+0.0.0.0 exhalesyntheticundefined.com
 0.0.0.0 eximdigital.com
 0.0.0.0 exitintel.com
 0.0.0.0 experience.theassemblync.com
 0.0.0.0 explorads.com
 0.0.0.0 ext.bhol.co.il
 0.0.0.0 eyreinternational.fumblingvacation.pro
+0.0.0.0 ezojs.com
 0.0.0.0 ezycsflow.com
 0.0.0.0 f-g-l-j.22yy6.com
 0.0.0.0 f.57n51vgw9rtufg4t6w.cyou
@@ -4888,6 +4893,8 @@
 0.0.0.0 go.gsrv.dev
 0.0.0.0 go.linkadsnet.com
 0.0.0.0 go.lize.bid
+0.0.0.0 go.mobisla.com
+0.0.0.0 go.mobtrks.com
 0.0.0.0 go.novirtb.com
 0.0.0.0 go.panotads.com
 0.0.0.0 go.qf3lfzqkktcd2auhx3xx3pzlxlj6j1nj.com
@@ -4971,6 +4978,7 @@
 0.0.0.0 gr9w4u.nqjcfe772g56vgxchw.cfd
 0.0.0.0 great.xxxbanglavideo.com
 0.0.0.0 great12.org
+0.0.0.0 greatpuppydogs.com
 0.0.0.0 greenlight-val.looksmart.com
 0.0.0.0 gresrv.com
 0.0.0.0 groovinews.com
@@ -5731,6 +5739,7 @@
 0.0.0.0 lubqzhp4qubvg2p.6epv2lqboiwp3b5zrgcm39zj.cfd
 0.0.0.0 lunar.infinitybet.win
 0.0.0.0 lupon.media
+0.0.0.0 luugy.com
 0.0.0.0 luxatenealibros.lovingforever.pro
 0.0.0.0 lw8.cnkn9g6894j7fjbb6y89j6jz39p8wrz82897.cfd
 0.0.0.0 lx5.homeporntuber.com
@@ -5800,6 +5809,7 @@
 0.0.0.0 marten.joqr.co.jp
 0.0.0.0 marten.supernero.app
 0.0.0.0 masharapova.leftmany.pro
+0.0.0.0 maskmonopoly.com
 0.0.0.0 mastergroove2010.lovingforever.pro
 0.0.0.0 masterlythehague.com
 0.0.0.0 mastodon.internalnewsletters.co
@@ -5833,6 +5843,7 @@
 0.0.0.0 meerkat.bigcrazylife.com
 0.0.0.0 meerkat.inprivy.io
 0.0.0.0 megacomstore.fumblingvacation.pro
+0.0.0.0 megapred.com
 0.0.0.0 mellow-habit.com
 0.0.0.0 member.javtvnow.xyz
 0.0.0.0 members.adoptim.com
@@ -6177,6 +6188,7 @@
 0.0.0.0 pc57.foolhardywear.pro
 0.0.0.0 peafowl.prod.fyi
 0.0.0.0 peafowl.projectstrackt.dev
+0.0.0.0 pecannerous.com
 0.0.0.0 penguin.craftpeak.io
 0.0.0.0 penguin.revolana.com
 0.0.0.0 perch.luckydiff.com
@@ -6275,6 +6287,7 @@
 0.0.0.0 postmedia-ai.wehaacdn.com
 0.0.0.0 postmedia.app
 0.0.0.0 potisje.xyz
+0.0.0.0 powderencouraged.com
 0.0.0.0 power1.bloblohub.com
 0.0.0.0 ppcent.org
 0.0.0.0 ppoi.org
@@ -6344,6 +6357,7 @@
 0.0.0.0 ptwmstc.com
 0.0.0.0 pub.contexthub.net
 0.0.0.0 pub.searchnova.net
+0.0.0.0 pubfuture-ssp.com
 0.0.0.0 pubjelly.nxjmp.com
 0.0.0.0 puffin.leemoody.co.uk
 0.0.0.0 puffin.nex4.net
@@ -7568,6 +7582,7 @@
 0.0.0.0 spider.scottw.com
 0.0.0.0 spider.storiesofchang.com
 0.0.0.0 spirit.notifysrv.com
+0.0.0.0 spitefulmom.com
 0.0.0.0 splash.notifysrv.com
 0.0.0.0 spolecznosci.net
 0.0.0.0 sponsor-v2.lebtown.com
@@ -8262,6 +8277,7 @@
 0.0.0.0 treefrog.walkingwithdaddy.com
 0.0.0.0 treehouse.wwoz.org
 0.0.0.0 trexglobal.fumblingvacation.pro
+0.0.0.0 tri-table.com
 0.0.0.0 trinity.notifysrv.com
 0.0.0.0 tripl3a.com
 0.0.0.0 tron.bbw-porn-video.com
@@ -8486,7 +8502,6 @@
 0.0.0.0 webtradingspot.com
 0.0.0.0 wecvhi.ekftei2weudt.info
 0.0.0.0 weekkenty.lovingforever.pro
-0.0.0.0 wellworn-lead.com
 0.0.0.0 wgjvg8m86x33gwb2.ioo2ypx31xfwnck285w5n8.cfd
 0.0.0.0 whale.gdebrauwer.dev
 0.0.0.0 whatdidheseehe.com
