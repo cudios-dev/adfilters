@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-08-23T03:43:39Z
+# Version: 2026-08-30T08:47:50Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 11,790
+# Domains: 11,804
 #
 0.0.0.0 000c34b44b.1c3139f0ca.com
 0.0.0.0 004f7f2622.d1b0ccfa6c.com
@@ -1833,6 +1833,7 @@
 0.0.0.0 a.playa.to
 0.0.0.0 a.pornchum.com
 0.0.0.0 a.pornhex.com
+0.0.0.0 a.pur.agency
 0.0.0.0 a.q88z1s3.com
 0.0.0.0 a.r8lnet.com
 0.0.0.0 a.rb-ya.ru
@@ -2116,6 +2117,7 @@
 0.0.0.0 ads.datateam.co.uk
 0.0.0.0 ads.digital.disneyadvertising.com
 0.0.0.0 ads.djc.com
+0.0.0.0 ads.dzeko11.st
 0.0.0.0 ads.environmentalleader.com
 0.0.0.0 ads.eurozet.pl
 0.0.0.0 ads.farakav.com
@@ -2615,6 +2617,7 @@
 0.0.0.0 bb78c9691d.233af38553.com
 0.0.0.0 bbe3e16f85.15537cf1f5.com
 0.0.0.0 bbfdc66be1.a4e04bceda.com
+0.0.0.0 bbm-ad-stack-production.up.railway.app
 0.0.0.0 bbnfcfrvjs.com
 0.0.0.0 bc6dc48b743dc5d01.clicknplay.to
 0.0.0.0 bcdn.cpmstar.com
@@ -2824,6 +2827,7 @@
 0.0.0.0 byluizaalfama.go-static.info
 0.0.0.0 byoeg.ck99n4uvwmi73uu.cyou
 0.0.0.0 byoung.goasrv.com
+0.0.0.0 byracucosopenu.com
 0.0.0.0 byznys.goasrv.com
 0.0.0.0 bz-24.fin.ovh
 0.0.0.0 bzcdn.fin.ovh
@@ -3963,6 +3967,7 @@
 0.0.0.0 d2oa97wrxvxm7y.cloudfront.net
 0.0.0.0 d2osk0po1oybwz.cloudfront.net
 0.0.0.0 d2ovgc4ipdt6us.cloudfront.net
+0.0.0.0 d2pf0ys5xus6n.cloudfront.net
 0.0.0.0 d2pppxxtaciku9.cloudfront.net
 0.0.0.0 d2psma0az3acui.cloudfront.net
 0.0.0.0 d2trpg4l6gqit0.cloudfront.net
@@ -4114,6 +4119,7 @@
 0.0.0.0 deer.m1x.co
 0.0.0.0 deer.ray.io
 0.0.0.0 defa27b393.bb2c68869a.com
+0.0.0.0 dehorsshochet.com
 0.0.0.0 delightlintlunatic.com
 0.0.0.0 deliver.vkcdnservice.com
 0.0.0.0 delivery.2d.net.co
@@ -6496,6 +6502,7 @@
 0.0.0.0 lifelinuxbr.goasrv.com
 0.0.0.0 lifeofnett.go-static.info
 0.0.0.0 liftyad.xyz
+0.0.0.0 lightlypowerfulgourmet.com
 0.0.0.0 liiofhwfx.c81mm9t4tkxxk815n2kgwi1twl8.cfd
 0.0.0.0 limpet.pioneerlandscapingllc.com
 0.0.0.0 limpet.yago.dev
@@ -6910,6 +6917,7 @@
 0.0.0.0 meerkat.bigcrazylife.com
 0.0.0.0 meerkat.inprivy.io
 0.0.0.0 megapred.com
+0.0.0.0 mejewusodovuca.com
 0.0.0.0 mellow-habit.com
 0.0.0.0 member.javtvnow.xyz
 0.0.0.0 members.adoptim.com
@@ -7757,6 +7765,7 @@
 0.0.0.0 reklama.teenfuckhd.com
 0.0.0.0 reklammen.spellchecker.lu
 0.0.0.0 relevanceads.com
+0.0.0.0 relieved-understanding.com
 0.0.0.0 reload.hotscopes.org
 0.0.0.0 remark.dirtyships.net
 0.0.0.0 report.seznamzpravy.cz
@@ -7766,6 +7775,7 @@
 0.0.0.0 reryn3ce.com
 0.0.0.0 res.adx.opera.com
 0.0.0.0 res.lintlink.com
+0.0.0.0 res.oa.opera.com
 0.0.0.0 rest.sexypornvideo.net
 0.0.0.0 resu8.hjfile.cn
 0.0.0.0 results.certifyads.com
@@ -8675,9 +8685,11 @@
 0.0.0.0 secure.iqmining.com
 0.0.0.0 secure.notifysrv.com
 0.0.0.0 secureanalytic.com
+0.0.0.0 seeksgironny.com
 0.0.0.0 selectmedia.asia
 0.0.0.0 self.pressize.com
 0.0.0.0 selfservice.adoptim.com
+0.0.0.0 seminarycentral.org
 0.0.0.0 ser.everydayporn.co
 0.0.0.0 serie-vostfr.com
 0.0.0.0 sersh.com
@@ -10133,6 +10145,7 @@
 0.0.0.0 wlrmzcfmrg2it9koclnc.63hgwmuu5ozlxornytw.cyou
 0.0.0.0 wmhn8cpz814zz4.kw5xxgk4kkru2h2ji1zoto4qq.cfd
 0.0.0.0 wn.goasrv.com
+0.0.0.0 wnwtfmpsmslwi.site
 0.0.0.0 wolf.novel.io
 0.0.0.0 wolf.samarasousa.com
 0.0.0.0 wolverine.barac.at
@@ -11782,6 +11795,7 @@
 0.0.0.0 zu.nb.go-static.info
 0.0.0.0 zuanyingbocai.goaserv.com
 0.0.0.0 zucaishijiebeitouzhu.goaserv.com
+0.0.0.0 zugasezuryjoxo.com
 0.0.0.0 zuikuaihuangguanzhengwangkaihu.go-static.info
 0.0.0.0 zuixinzuqiusaishishipin.goaserv.com
 0.0.0.0 zulidoodles.go-static.info

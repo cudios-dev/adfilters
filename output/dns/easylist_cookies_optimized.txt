@@ -1,7 +1,7 @@
 # Title: EasyList Cookie List (Optimized) (DNS/hosts format)
-# Version: 2026-08-23T03:43:39Z
+# Version: 2026-08-30T08:47:50Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 311
+# Domains: 312
 #
 0.0.0.0 9jdq2a.poco.de
 0.0.0.0 acconsento.click
@@ -256,6 +256,7 @@
 0.0.0.0 privacy-center.org
 0.0.0.0 privacy.claytonhomes.com
 0.0.0.0 privacy.clion.agency
+0.0.0.0 privacy.fcbcookies.cat
 0.0.0.0 privacy.footmercato.net
 0.0.0.0 privacy.francoisesaget.com
 0.0.0.0 privacy.heidi.news

@@ -1,5 +1,5 @@
 # Title: EasyList Newsletters (Optimized) (DNS/hosts format)
-# Version: 2026-08-23T03:43:39Z
+# Version: 2026-08-30T08:47:50Z
 # Homepage: https://github.com/cudios-dev/adfilters
 # Domains: 24
 #
