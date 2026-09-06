@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Notifications (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
-! Version: 2026-08-30T08:47:50Z
+! Version: 2026-09-06T07:28:41Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 800
+! Rules: 797
 !
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -153,7 +153,6 @@ apkpure.com,apkpure.net##.chrome-install-pop
 app.uniswap.org##+js(set-session-storage-item, hideMobileAppPromoBanner, true)
 arabbank.com.au,color4care.co.uk,color4care.dk,color4care.fi,color4care.no,operon.pl,vardvaskan.se#@#.push-wrapper:not(body):not(html)
 asbclassic.co.nz,envirowaste.co.nz,harmoney.co.nz,harmoney.com.au,mstream.io,rocketlabusa.com,underconsideration.com#@#.push-wrap:not(body):not(html)
-asia.nikkei.com,businesspost.ie,rappler.com##.tp-modal
 asia.nikkei.com,businesspost.ie,rappler.com##body:style(height: auto !important; overflow: auto !important)
 atlasobscura.com##.app-store-heading
 atlasobscura.com##.apple-store-icon
@@ -161,6 +160,7 @@ atptour.com##.atp_apps
 atptour.com##[href^="https://www.atptour.com/en/apps"]
 audionetwork.com,carlsenfritzoe.no#@##push-container:not(body):not(html)
 audius.co##+js(rc, scrollLock, , stay)
+axios.com##.mt-6:has(> [href="https://www.axios.com/newsletters"])
 banggood.com##.bottom-app-contain
 bank.gov.ua##.widget-pushNotification
 behance.net##.PrimaryNav-appLinkContainer-bhx
@@ -185,7 +185,6 @@ cheaptickets.com,orbitz.com,travelocity.com,wotif.com##.CustomerNotificationsWra
 chess.com##.ready-to-play-banner-component
 cnet.com##.c-globalModal
 cnet.com##body:style(height: auto !important; overflow: auto !important)
-coincodex.com##.app
 coincodex.com##.download-coincodex-app
 coinmarketcap.com##.app-banner-new
 computrabajo.com###pop-up-webpush-background
@@ -199,12 +198,13 @@ cricbuzz.com##.cbz-leaderboard-banner
 crunchbase.com##+js(set-local-storage-item, entity-limiter-views, $remove$)
 cryptonews.net##.download_the_app
 daadscholarship.com##+js(abort-on-property-write, LaraPush)
-dawn.com###consent-dialog
 deepl.com###callout-subtitle-chromeExtensionPromo
 deepl.com##+js(set-session-storage-item, LMT_browserExtensionPromo.displayed, true)
 delta.com##idp-dynamic-banner
 deribit.com##+js(set-local-storage-item, appCardSeen, true)
+dexerto.com##.animate-fadeOut
 downace.com##+js(acis, requestPermission)
+duck.ai##[aria-label="Duck.ai works best in our private and free DuckDuckGo app!"]
 duckduckgo.com##.ddg-extension-hide
 duckduckgo.com##.js-atb-banner
 duckduckgo.com##.legacyMobileHomepage_atbBadge__Wau98
@@ -212,6 +212,7 @@ ebay.at,ebay.co.uk,ebay.com,ebay.com.au,ebay.de,ebay.es,ebay.fr,ebay.it,ebay.nl,
 ebay.com##.pc-dweb
 ebay.com##html:style(overflow: auto !important; position: initial !important;)
 eksisozluk.com##body,html:style(overflow: auto !important; position: initial !important;)
+eltiempo.es##.elt-fb-popup
 emailnator.com##.top-banner
 epark.jp##.header_app_banner
 expedia.at,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.hk,expedia.com.sg,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.it,expedia.nl,expedia.no,expedia.se,hotels.com##body,html:style(overflow: auto !important; position: initial !important;)
@@ -221,7 +222,6 @@ facebook.com##+js(rc, prevent-scrolling, body, stay)
 fanblogs.jp##.aff-notice
 fandom.com##.marketing-notifications
 fdoc.jp##.appli_banner_box
-fdownload.app##.section-app-fb
 fedex.com##fedex-smart-banner
 fedex.com##trk-shared-smart-app-banner
 filmarks.com##.c-header-download-banner
@@ -229,6 +229,7 @@ filmarks.com##.js-induce-banner
 filmora.wondershare.jp###appboxWrapper
 flightradar24.com##+js(set-cookie, map_new_features_new_flightradar24_com_label_options, 1)
 flightradar24.com##.open-in-app-button
+floodlightnews.org##.flp-overlay
 flvto.biz##.push-offer
 flypgs.com##.app-b
 flypgs.com##.c-pgs-app
@@ -237,12 +238,10 @@ food.ndtv.com##+js(set-cookie, ndtvfood_isSubscribed_elex_v1, no)
 foundit.com.ph##+js(set-session-storage-item, isDownloadAppBannerClosed, true)
 foxnews.com##.push-alert-notify
 gadgets360.com###bnotify
-gaitame.com###ad-marketnext
 gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.soft-notification-modal_modal__8KcpZ
 ganganonline.com##.Base_banner__UbMI_
 geeksforgeeks.org###openInApp-modal
 gemini.google.com##.get-app-banner
-genius.com##.android_interstitial:remove()
 gigabaito.com##.app_bottom_banner
 glas-javnosti.rs##.skini
 goo-net.com###app_info_area
@@ -266,7 +265,6 @@ instagram.com##+js(set-session-storage-item, lodum, 1)
 instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
 instagram.com##._acc8
 iol.pt###popover
-ivoox.com##.bg-lightest.wrapper
 iwate-np.co.jp###widget-webpush-popup
 ixigo.com##.app-download-sticky-wrapper
 izi.travel##.app_message
@@ -286,12 +284,12 @@ livemint.com##.echoOpeninApp
 livescore.com##.android
 livescore.com##.ios
 livesportsontv.com##+js(set-local-storage-item, promotion-popup-closed, 1)
+m.aiscore.com###appLink
 m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.mplayer-widescreen-callapp
 m.bilibili.com##.openapp-dialog
 m.bilibili.com##div[class*="-openapp"]
 m.economictimes.com###appDwnldBanner
-m.economictimes.com###downloadApp
 m.economictimes.com###footer_banner
 m.economictimes.com###wapFooter
 m.economictimes.com##+js(set-session-storage-item, nudgeStickyBannerHide, true)
@@ -311,7 +309,6 @@ makerworld.com##body:style(overflow: auto !important; position: initial !importa
 mamanoko.jp###js-actamDownloadModal
 me-qr.com##.modal-apps
 medscape.com##.rel-links-media
-meet.google.com##[aria-label="Receive desktop notifications from Meet"]
 mega.nz#@#.notification-button
 mercari.com###getTheAppFooter
 metar-taf.com##.download-info
@@ -391,7 +388,6 @@ sports.ndtv.com##body,html:style(overflow: auto !important; position: initial !i
 sportskeeda.com##.sidebar-app-download
 sunday-webry.com##.app-read-content
 swisscows.com##.home-link-instruction
-tbsnews.net###___tbspushdiv
 techwalla.com##.component-push-notification
 teller.jp##.pos_sticky.z_header.backface_hidden > div.lgDown\:d_flex.bg_surface_secondary.h_44px
 temu.com##div[style="height:0.66rem"]
@@ -684,6 +680,7 @@ zora.bg##cc-web-push-popup
 ||pushchev.info^$third-party
 ||pushcrew.com^$third-party
 ||pushdealer.com^$third-party
+||pushdeploy.estrema.it^
 ||pushe.co^$third-party
 ||pushengage.com^$third-party
 ||pusherapp.com^$third-party

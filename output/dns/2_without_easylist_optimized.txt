@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-08-30T08:47:50Z
+# Version: 2026-09-06T07:28:41Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 11,804
+# Domains: 11,818
 #
 0.0.0.0 000c34b44b.1c3139f0ca.com
 0.0.0.0 004f7f2622.d1b0ccfa6c.com
@@ -2326,6 +2326,7 @@
 0.0.0.0 antelope.u3a.com.au
 0.0.0.0 antiadblock.info
 0.0.0.0 antiadblock.uiiumovie.in
+0.0.0.0 antiadblockcore.com
 0.0.0.0 antlion.codivores.com
 0.0.0.0 antlion.hendrikhaack.de
 0.0.0.0 anun.comicsarmy.com
@@ -2619,6 +2620,7 @@
 0.0.0.0 bbfdc66be1.a4e04bceda.com
 0.0.0.0 bbm-ad-stack-production.up.railway.app
 0.0.0.0 bbnfcfrvjs.com
+0.0.0.0 bbs.xhamster.com
 0.0.0.0 bc6dc48b743dc5d01.clicknplay.to
 0.0.0.0 bcdn.cpmstar.com
 0.0.0.0 bce61da3e0.158e65a1db.com
@@ -2651,6 +2653,7 @@
 0.0.0.0 beta.adkernel.com
 0.0.0.0 beta.bloblohub.com
 0.0.0.0 beta.tbadni.com
+0.0.0.0 betamountwo.com
 0.0.0.0 bevfpfekwskzg.world
 0.0.0.0 bf4fa209bf.7a2731790d.com
 0.0.0.0 bf76d9778b.7c52629d53.com
@@ -2822,6 +2825,7 @@
 0.0.0.0 by.addrecipes.com
 0.0.0.0 by4.irgbr1ie4vi3m77tx.cyou
 0.0.0.0 bybfb.37ybpmn6ff58yql.cfd
+0.0.0.0 bycsg.oii.la
 0.0.0.0 bygda.go-static.info
 0.0.0.0 bykn27.goaserv.com
 0.0.0.0 byluizaalfama.go-static.info
@@ -2934,6 +2938,7 @@
 0.0.0.0 campinas.jovempanfm.go-static.info
 0.0.0.0 camping-car.goaserv.com
 0.0.0.0 campingcar-taka.goaserv.com
+0.0.0.0 campingfinishvow.com
 0.0.0.0 camplethora.com
 0.0.0.0 campmat.go-static.info
 0.0.0.0 campolimpopaulista.sp.go-static.info
@@ -5150,6 +5155,7 @@
 0.0.0.0 findme.goasrv.com
 0.0.0.0 fineart.go-static.info
 0.0.0.0 finetune32.go-static.info
+0.0.0.0 fingerprint-veri.info
 0.0.0.0 fingersdancing14.goaserv.com
 0.0.0.0 firefly.goasrv.com
 0.0.0.0 firefly.jamesbrowne.me
@@ -5565,6 +5571,7 @@
 0.0.0.0 greenmetric.goaserv.com
 0.0.0.0 greenskyoutside.goaserv.com
 0.0.0.0 gresrv.com
+0.0.0.0 grindsteeplesprung.com
 0.0.0.0 grma.goasrv.com
 0.0.0.0 groestlcoin.goasrv.com
 0.0.0.0 gronatradar.go-static.info
@@ -5673,6 +5680,7 @@
 0.0.0.0 halibut.phytype.com
 0.0.0.0 hamster.consentkit.io
 0.0.0.0 hamster.darstellendekuenste.de
+0.0.0.0 handskeeping.com
 0.0.0.0 hare.felix-schmid.de
 0.0.0.0 hare.startupbootcamp.com.au
 0.0.0.0 harmony.goasrv.com
@@ -6873,6 +6881,7 @@
 0.0.0.0 marten.hvs-consulting.com
 0.0.0.0 marten.joqr.co.jp
 0.0.0.0 marten.supernero.app
+0.0.0.0 masculine-employment.com
 0.0.0.0 maskmonopoly.com
 0.0.0.0 masterlythehague.com
 0.0.0.0 mastodon.internalnewsletters.co
@@ -7596,6 +7605,7 @@
 0.0.0.0 ptarmigan.goudieworks.co
 0.0.0.0 ptarmigan.natalieba.net
 0.0.0.0 ptarmigan.q-free.com
+0.0.0.0 pteknvcm.com
 0.0.0.0 ptp.5lu4m5cwptm69vrw.cyou
 0.0.0.0 ptwmstc.com
 0.0.0.0 pub.contexthub.net
@@ -7813,6 +7823,7 @@
 0.0.0.0 rodent.kevindendievel.com
 0.0.0.0 rodent.livelinor.dk
 0.0.0.0 roewnand.biz
+0.0.0.0 rollgosize.com
 0.0.0.0 rolpenszimocca.com
 0.0.0.0 rook.behmann.at
 0.0.0.0 rook.clarify.io
@@ -8781,6 +8792,7 @@
 0.0.0.0 sharebang.com
 0.0.0.0 shared.notifysrv.com
 0.0.0.0 shark.rockyourlife.de
+0.0.0.0 sharkvidskr.com
 0.0.0.0 sheeme.com
 0.0.0.0 sheep.littleboat.digital
 0.0.0.0 sheep.macka.com.au
@@ -9260,6 +9272,7 @@
 0.0.0.0 submit.notifysrv.com
 0.0.0.0 subs.vingd.com
 0.0.0.0 subscribe.notifysrv.com
+0.0.0.0 sunnyreception.com
 0.0.0.0 suntcontent.se
 0.0.0.0 sup.srvtax.com
 0.0.0.0 supersedeaccolade.com
@@ -10034,6 +10047,7 @@
 0.0.0.0 wawashahab.goasrv.com
 0.0.0.0 waxperts.goasrv.com
 0.0.0.0 ways.go-static.info
+0.0.0.0 waytogrow.com
 0.0.0.0 wb3nh.xpex769p5rt2e3hv8r2ur3ehrjxqqik6.cyou
 0.0.0.0 wblkp4ae.xyz
 0.0.0.0 wbvn66vncfo4nq.39w9ggf5wg98wlic6er8u24.cfd
