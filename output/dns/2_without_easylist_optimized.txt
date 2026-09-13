@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-09-06T07:28:41Z
+# Version: 2026-09-13T07:52:31Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 11,818
+# Domains: 11,834
 #
 0.0.0.0 000c34b44b.1c3139f0ca.com
 0.0.0.0 004f7f2622.d1b0ccfa6c.com
@@ -115,6 +115,7 @@
 0.0.0.0 17mjq.gci4htc7y58on2btb1i.cyou
 0.0.0.0 188.72.219.36
 0.0.0.0 18cfe73bfa.800482112b.com
+0.0.0.0 194.63.143.96
 0.0.0.0 194e1b9846.06f864e06a.com
 0.0.0.0 196a5595bc.e0b2d6a445.com
 0.0.0.0 1978fa25f3.9715e7fea4.com
@@ -2483,6 +2484,7 @@
 0.0.0.0 assets.taghtia.com
 0.0.0.0 astuff.clicknplay.to
 0.0.0.0 at.adtech.redventures.io
+0.0.0.0 atddmn.com
 0.0.0.0 atk.pxointr.com
 0.0.0.0 atrium.notifysrv.com
 0.0.0.0 aucdn.net
@@ -2581,6 +2583,7 @@
 0.0.0.0 baboon.naxon.dev
 0.0.0.0 baboon.vacanti.com
 0.0.0.0 backoffice.tbepc.com
+0.0.0.0 badylenicesist.com
 0.0.0.0 baggyrepackingrocky.com
 0.0.0.0 baldeagle.e-ma.re
 0.0.0.0 ban.bhol.co.il
@@ -2645,6 +2648,7 @@
 0.0.0.0 beetle.enlacepermanente.es
 0.0.0.0 befc77e1a7.bb75d99ef0.com
 0.0.0.0 beixisys.com
+0.0.0.0 bend.frizzsince.com
 0.0.0.0 benefits.sovendus.com
 0.0.0.0 benrif-solutions.com
 0.0.0.0 berangkasilmu.com
@@ -2935,6 +2939,7 @@
 0.0.0.0 camel.gastro-plan.app
 0.0.0.0 camel.nonpopularopinion.com
 0.0.0.0 camel.warvik.no
+0.0.0.0 camp.inc.com
 0.0.0.0 campinas.jovempanfm.go-static.info
 0.0.0.0 camping-car.goaserv.com
 0.0.0.0 campingcar-taka.goaserv.com
@@ -3883,6 +3888,7 @@
 0.0.0.0 cx6.lastxxxmovies.com
 0.0.0.0 cygwin.goasrv.com
 0.0.0.0 cyhz131.goasrv.com
+0.0.0.0 cyicbayqmbz.com
 0.0.0.0 cza4wopwcvdiq6sg.brandnewapp.pro
 0.0.0.0 czilladx.com
 0.0.0.0 d.bloblohub.com
@@ -4294,6 +4300,7 @@
 0.0.0.0 dtasrvr.com
 0.0.0.0 dtent.povvverz.one
 0.0.0.0 dtignite.com
+0.0.0.0 dtipvw.com
 0.0.0.0 dtlt.go-static.info
 0.0.0.0 duanqz.goaserv.com
 0.0.0.0 dubbeldubbel.goaserv.com
@@ -5163,6 +5170,7 @@
 0.0.0.0 firtelbydgoski.go-static.info
 0.0.0.0 fish.muted.io
 0.0.0.0 fitandrec.goasrv.com
+0.0.0.0 fitlivelywhup.com
 0.0.0.0 fitness.goasrv.com
 0.0.0.0 five-nights-at-freddys-sister-location.en.go-static.info
 0.0.0.0 fiverichmugen.blog.goaserv.com
@@ -5291,6 +5299,7 @@
 0.0.0.0 g2-member-qa4.copart.goasrv.com
 0.0.0.0 g2.gsrv.dev
 0.0.0.0 g2007.go-static.info
+0.0.0.0 g3v89.lnbz.la
 0.0.0.0 g4connect.goasrv.com
 0.0.0.0 g4cstudentchallenge.goaserv.com
 0.0.0.0 g52mmrp.q8wx95rvokcwqereglbw.cyou
@@ -6980,6 +6989,7 @@
 0.0.0.0 mite.tetrameros.com
 0.0.0.0 mitec.goasrv.com
 0.0.0.0 miviajeaetthen.goaserv.com
+0.0.0.0 miwxoqcbiswmx.com
 0.0.0.0 mix941fm.goaserv.com
 0.0.0.0 mixcloud-limited.goasrv.com
 0.0.0.0 miy.n34czxxoxkf9frl.cyou
@@ -7189,6 +7199,7 @@
 0.0.0.0 nwhentheautumn.com
 0.0.0.0 nx7.hdxxxclips.com
 0.0.0.0 nyfa-images.reviveservers.com
+0.0.0.0 nyhizyjybawozi.com
 0.0.0.0 o-ogy.go-static.info
 0.0.0.0 o-zrenii.goaserv.com
 0.0.0.0 o.48tube.com
@@ -7226,6 +7237,7 @@
 0.0.0.0 ofbtrorzo.in
 0.0.0.0 offclaydolon.com
 0.0.0.0 offerreality.com
+0.0.0.0 ofroztlmyo.in
 0.0.0.0 oi.429men.com
 0.0.0.0 oi.fapnado.xxx
 0.0.0.0 oi.fapnow.xxx
@@ -7458,6 +7470,7 @@
 0.0.0.0 pinniped.quarantinecup.live
 0.0.0.0 pinniped.resist.bot
 0.0.0.0 pinniped.spacecountdown.com
+0.0.0.0 piousshiners.com
 0.0.0.0 pipa.topvacuumrobot.com
 0.0.0.0 piranha.jsmobiledev.com
 0.0.0.0 piranha.keenanpayne.com
@@ -7535,6 +7548,7 @@
 0.0.0.0 porpoise.kristinholl.com
 0.0.0.0 portal.tastejapan.life
 0.0.0.0 portalfluently.com
+0.0.0.0 portiasaigon.com
 0.0.0.0 postmedia-ai.wehaacdn.com
 0.0.0.0 postmedia.app
 0.0.0.0 potisje.xyz
@@ -9422,6 +9436,7 @@
 0.0.0.0 tarsier.kriterie.se
 0.0.0.0 tb.turbocap.net
 0.0.0.0 tc72vx6m6xqm8jwpoow2yfl9.y7rl72l281fz174.cyou
+0.0.0.0 tcwvvosfnvk.com
 0.0.0.0 tdhvk8we.xyz
 0.0.0.0 tds.bid
 0.0.0.0 te2.t6rce6nnty2y2qewtg3fjvkyf7e88ubrfnt3.cyou
@@ -9793,6 +9808,7 @@
 0.0.0.0 uno-and-friends.br.go-static.info
 0.0.0.0 unpin.hothomefuck.com
 0.0.0.0 unpydqpidsfb.cdnvideo3.com
+0.0.0.0 untimely-hello.com
 0.0.0.0 untimely-proof.pro
 0.0.0.0 uoukc.7kbwiy7yggpiw56vpiz.cyou
 0.0.0.0 uoydzaom.xyz

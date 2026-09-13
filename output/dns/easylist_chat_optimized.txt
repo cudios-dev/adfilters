@@ -1,5 +1,5 @@
 # Title: EasyList Chat Widgets (Optimized) (DNS/hosts format)
-# Version: 2026-09-06T07:28:41Z
+# Version: 2026-09-13T07:52:31Z
 # Homepage: https://github.com/cudios-dev/adfilters
 # Domains: 179
 #
