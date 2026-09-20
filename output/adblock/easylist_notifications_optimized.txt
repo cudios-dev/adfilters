@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Notifications (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
-! Version: 2026-09-13T07:52:31Z
+! Version: 2026-09-20T08:09:51Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 794
+! Rules: 788
 !
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -143,11 +143,9 @@ adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.co
 adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.com.ar,catalogosofertas.com.br,catalogosofertas.com.co,catalogosofertas.com.ec,catalogosofertas.com.mx,catalogosofertas.com.pe,catalogueoffers.co.uk,catalogueoffers.com.au,flugblattangebote.at,flyerdeals.ca,folderz.nl,folhetospromocionais.com,folletosofertas.es,gazetki.pl,kundeavisogtilbud.no,ofertelecatalog.ro,offertevolantini.it,promocatalogues.fr,promotiez.be,promotions.ae,prospektangebote.de,reklambladerbjudanden.se,tilbudsaviseronline.dk##.js-page-promotion-container
 agoda.com##.redirectToAppBar
 airasia.com##.QRPopUp__QRPopUpWrapper-sc-8gx7le-0
-alekhbariya.net##.popup_apps
-alekhbariya.net##.store_logos
-aliexpress.com,aliexpress.us###header-float-banner
 aljazeera.com##.user-accounts-tooltip.closable
 aljazeera.com,aljazeera.net##.nudge
+aljazeera.com,ebay.com##.app-download-banner
 almayadeen.net,discogs.com##.mobile-apps
 amazon.com##.sparkle-container
 apkpure.com,apkpure.net##.chrome-install-pop
@@ -161,6 +159,7 @@ atptour.com##.atp_apps
 atptour.com##[href^="https://www.atptour.com/en/apps"]
 audionetwork.com,carlsenfritzoe.no#@##push-container:not(body):not(html)
 audius.co##+js(rc, scrollLock, , stay)
+autoevolution.com##body,html:style(height: auto !important; overflow: auto !important)
 axios.com##.mt-6:has(> [href="https://www.axios.com/newsletters"])
 banggood.com##.bottom-app-contain
 behance.net##.PrimaryNav-appLinkContainer-bhx
@@ -175,7 +174,6 @@ boredpanda.com,citizen.com,coincodex.com##.get-app
 business-standard.com##.notification-col
 businessinsider.com,insider.com##.app-button
 businessinsider.com,insider.com##body:style(overflow: auto !important; position: initial !important;)
-canva.com##.BB_TDQ[style="height: auto; max-height: 66vh;"]
 canva.com##body:style(overflow: auto !important; position: initial !important;)
 cba24n.com.ar##view-firebase-prompt
 cgtn.com##.openBtn
@@ -199,7 +197,6 @@ cryptonews.net##.download_the_app
 daadscholarship.com##+js(abort-on-property-write, LaraPush)
 deepl.com###callout-subtitle-chromeExtensionPromo
 deepl.com##+js(set-session-storage-item, LMT_browserExtensionPromo.displayed, true)
-delta.com##idp-dynamic-banner
 deribit.com##+js(set-local-storage-item, appCardSeen, true)
 dexerto.com##.animate-fadeOut
 downace.com##+js(acis, requestPermission)
@@ -212,7 +209,6 @@ ebay.com##.pc-dweb
 ebay.com##html:style(overflow: auto !important; position: initial !important;)
 eksisozluk.com##body,html:style(overflow: auto !important; position: initial !important;)
 eltiempo.es##.elt-fb-popup
-emailnator.com##.top-banner
 epark.jp##.header_app_banner
 expedia.at,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.hk,expedia.com.sg,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.it,expedia.nl,expedia.no,expedia.se,hotels.com##body,html:style(overflow: auto !important; position: initial !important;)
 expedia.at,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.hk,expedia.com.sg,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.it,expedia.nl,expedia.no,expedia.se,hotels.com,vrbo.com##.customer-notification-container
@@ -273,6 +269,7 @@ izi.travel##.app_message
 joinhandshake.com,online.rsb.ru#@#.notifications-wrapper
 jp-m.banggood.com##+js(rc, show-app-bar, , stay)
 jpost.com##div[class^="PushNotificationPrompt_"]
+klipy.com##.z-\[60\]
 klook.com##.app-download
 kogan.com###footer-native-banner
 ktoo.org##+js(set-cookie, modalDismissed, 1)
@@ -281,6 +278,7 @@ lemon8-app.com##.pc-reflow
 lightinthebox.com##.top_open_app
 lightnovelworld.com##html:style(overflow: auto !important;)
 linkedin.com##.overlay
+linkedin.com##.upsell-bottom
 linkedin.com##body:style(overflow: auto !important; position: initial !important;)
 livemint.com##.echoOpeninApp
 livescore.com##.android
@@ -313,17 +311,16 @@ me-qr.com##.modal-apps
 medscape.com##.rel-links-media
 mega.nz#@#.notification-button
 mercari.com###getTheAppFooter
+metar-taf.com##.download-info
 mobi24.net#@#a[href^="http://www.mobi24.net/"]
 mobi24.net#@#a[href^="https://www.mobi24.net/"]
 moneycontrol.com##.get_app_sticky_btn
 moovitapp.com##.moovit-banner
-moviewalker.jp##.footerBnr
 msn.com##views-promo-card
 my-best.com##[href="https://mybest.go.link/dW75E"]
 myanimelist.net##.footer-app
 mydramalist.com##+js(rc, smartbanner-active, body)
 mypenndentist.org##+js(set-cookie, undefinedpopup-pdfpcouponoffer, 1)
-navitime.co.jp###midnight-sride-banner
 newegg.com##.our-apps
 news18.com##+js(acis, serviceworker.register)
 news24.com##.footer__app-links
@@ -332,7 +329,6 @@ newsbreak.com##body:style(height: auto !important; overflow: auto !important)
 newsmax.com###SMSbanner
 nextdoor.com##body:style(overflow: auto !important; position: initial !important;)
 noovo.info##+js(set-cookie, pushNotifications_popup_displayed_v2, true)
-ny1.com##.article-app-prompt
 nzpost.co.nz###block-applaunchbanner
 onedio.com##+js(set-cookie, o-push-alert, 1)
 onlineradiobox.com##.playmarket
@@ -354,7 +350,6 @@ podbean.com##.download-dialog
 post-gazette.com##.pg-notifybox
 qatarairways.com##.appstore
 redbull.com###bottom-notifications
-reddit.com###configured-xpromo-mweb3x_mid_funnel_blocking_v1_30s
 reddit.com###xpromo-bottom-sheet
 reddit.com###xpromo-small-header.mr-xs
 reddit.com##+js(aeld, block-body-scrolling)
@@ -363,7 +358,6 @@ reddit.com##+js(remove-class, rpl-scroll-lock, body, stay)
 reddit.com##+js(remove-class, scroll-is-blocked, body, stay)
 reddit.com##+js(set-local-storage-item, xpromo-consolidation, 1)
 reddit.com##.PreviewDrawer
-reddit.com##.rpl-scroll-lock:style(overflow: auto !important;)
 reddit.com##[slot="use-app"]
 reddit.com##body:style(pointer-events:auto !important;)
 rekhta.org##.rt_AppBtn
@@ -391,7 +385,6 @@ swisscows.com##.home-link-instruction
 techwalla.com##.component-push-notification
 temu.com##div[style="height:0.66rem"]
 tenor.com##.LanguageBanner
-thedailystar.net###bellIcon
 thehindu.com##.read-in-app-floating-btn
 thehindu.com,thehindubusinessline.com###gsi_overlay
 themonthly.com.au##+js(set-local-storage-item, rn, $remove$)
@@ -408,6 +401,7 @@ tunein.com##+js(set-cookie, hideMacDesktopDialog, true)
 tunein.com##+js(set-cookie, navBasedDialogManager, true)
 tvtropes.org##+js(set-cookie, app-announcement-banner-count-guest, 1)
 tvtropes.org##+js(set-cookie, app-announcement-banner-guest, true)
+video.twimg-image.com##.app-bar
 vk.com###page_bottom_banners_root
 voicy.jp##v-sp-download
 vrbo.com##+js(rc, has-uitk-sheet, body, stay)

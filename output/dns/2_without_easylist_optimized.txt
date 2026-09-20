@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-09-13T07:52:31Z
+# Version: 2026-09-20T08:09:51Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 11,834
+# Domains: 11,845
 #
 0.0.0.0 000c34b44b.1c3139f0ca.com
 0.0.0.0 004f7f2622.d1b0ccfa6c.com
@@ -2049,6 +2049,7 @@
 0.0.0.0 adk.ezmob.com
 0.0.0.0 adk.mybestclick.net
 0.0.0.0 adkfilter.mybestclick.net
+0.0.0.0 adm.3labs.it
 0.0.0.0 adman.antenna.gr
 0.0.0.0 admarket.network
 0.0.0.0 admaster.cc
@@ -2658,6 +2659,7 @@
 0.0.0.0 beta.bloblohub.com
 0.0.0.0 beta.tbadni.com
 0.0.0.0 betamountwo.com
+0.0.0.0 betorytrackers.com
 0.0.0.0 bevfpfekwskzg.world
 0.0.0.0 bf4fa209bf.7a2731790d.com
 0.0.0.0 bf76d9778b.7c52629d53.com
@@ -4177,6 +4179,7 @@
 0.0.0.0 dicasinclusivas.goasrv.com
 0.0.0.0 dicesuki.goasrv.com
 0.0.0.0 dichvuonline.goasrv.com
+0.0.0.0 diciestchokybuffi.cyou
 0.0.0.0 didna.io
 0.0.0.0 diedreifragezeichen.goaserv.com
 0.0.0.0 diegomenjura.goasrv.com
@@ -4298,6 +4301,7 @@
 0.0.0.0 dsp.xapads.com
 0.0.0.0 dsxlez.com
 0.0.0.0 dtasrvr.com
+0.0.0.0 dtbxnc.com
 0.0.0.0 dtent.povvverz.one
 0.0.0.0 dtignite.com
 0.0.0.0 dtipvw.com
@@ -5570,6 +5574,7 @@
 0.0.0.0 gravesend.goaserv.com
 0.0.0.0 gravidamomentomagico.goaserv.com
 0.0.0.0 gravityandlevity.goaserv.com
+0.0.0.0 gray.unlikebuck.com
 0.0.0.0 graycity312.goasrv.com
 0.0.0.0 graysreadinggroup.go-static.info
 0.0.0.0 grc-x.go-static.info
@@ -6064,6 +6069,7 @@
 0.0.0.0 installp.com
 0.0.0.0 instaread-ads.s3.amazonaws.com
 0.0.0.0 integration-insight.bloblohub.com
+0.0.0.0 interlinecustomroofingllc.com
 0.0.0.0 internal-ui.central.go-static.info
 0.0.0.0 internal.notifysrv.com
 0.0.0.0 intimatediary.com
@@ -7583,6 +7589,7 @@
 0.0.0.0 preanalytication.com
 0.0.0.0 prebid-server.newsbreak.com
 0.0.0.0 prebid.scope3.com
+0.0.0.0 precoxwurzels.qpon
 0.0.0.0 prehurl.com
 0.0.0.0 premiumstats.xyz
 0.0.0.0 preroll.hostave3.net
@@ -8723,6 +8730,7 @@
 0.0.0.0 serve.bdsmstreak.com
 0.0.0.0 serve.faithlifeads.com
 0.0.0.0 serve.freeonlinegayporn.com
+0.0.0.0 serve.omr.com
 0.0.0.0 serve.williamhill.com
 0.0.0.0 servedby-thinkresult.revive-adserver.net
 0.0.0.0 servedby.adbility-media.com
@@ -8815,6 +8823,7 @@
 0.0.0.0 sheep.vaxstandby.com
 0.0.0.0 shitblimp.gasm.ninja
 0.0.0.0 showmethat.click
+0.0.0.0 shypublishedeternity.com
 0.0.0.0 sibergy.com
 0.0.0.0 siewca.topagrar.pl
 0.0.0.0 silimbompom.com
@@ -8825,6 +8834,7 @@
 0.0.0.0 silkworm.westwoodmbc.org
 0.0.0.0 silverfish.djordjevanjek.com
 0.0.0.0 sim.lnsiurd.com
+0.0.0.0 sinceaware.com
 0.0.0.0 sip2.notifysrv.com
 0.0.0.0 sis.facesittingbbw.com
 0.0.0.0 sit.notifysrv.com
@@ -11597,6 +11607,7 @@
 0.0.0.0 yeahmobi.com
 0.0.0.0 yearbook4goiemployees.go-static.info
 0.0.0.0 yearbook4goiemployees.goasrv.com
+0.0.0.0 yearlyartist.com
 0.0.0.0 yeesshh.com
 0.0.0.0 yeezy.go-static.info
 0.0.0.0 yegitek.go-static.info
