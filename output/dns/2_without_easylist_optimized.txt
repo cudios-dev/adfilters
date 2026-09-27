@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-09-20T08:09:51Z
+# Version: 2026-09-27T08:49:07Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 11,845
+# Domains: 11,866
 #
 0.0.0.0 000c34b44b.1c3139f0ca.com
 0.0.0.0 004f7f2622.d1b0ccfa6c.com
@@ -66,6 +66,7 @@
 0.0.0.0 0gjk78xazs6np76r.notifysrv.com
 0.0.0.0 0i.sh-cdn.com
 0.0.0.0 0torrent.com
+0.0.0.0 0xclicks.com
 0.0.0.0 1.ccriff5fggzexg95.cyou
 0.0.0.0 1.lx8boenb9n95ncvgjq.cyou
 0.0.0.0 1.w41fttvhkpti2e42mtvv.cyou
@@ -2266,6 +2267,7 @@
 0.0.0.0 akcdn.nativeadsfeed.com
 0.0.0.0 akm3w.pleasedonotblockme.com
 0.0.0.0 akxml.nativeadsfeed.com
+0.0.0.0 alaphoid.com
 0.0.0.0 albatros.teamground.fr
 0.0.0.0 albatross.creacoon.com
 0.0.0.0 albatross.mypromo.co
@@ -2505,6 +2507,7 @@
 0.0.0.0 az6a8nmuz5vbrgd2.exasrv.com
 0.0.0.0 az708531.vo.msecnd.net
 0.0.0.0 azlej8cdm.pragmaticwebsecurity.com
+0.0.0.0 azlfmivp.in
 0.0.0.0 aznude.workers.dev
 0.0.0.0 b.72ckgctit6mngwqbbo2ln.cyou
 0.0.0.0 b.a0f2l3m.com
@@ -3631,6 +3634,7 @@
 0.0.0.0 colbwxlsfenwn.website
 0.0.0.0 colladovillalba1.go-static.info
 0.0.0.0 collect.go-static.info
+0.0.0.0 colossalteacher.com
 0.0.0.0 com4290976.notify6.com
 0.0.0.0 comanicilikeiste.com
 0.0.0.0 comic.fc2ppvv.info
@@ -3884,6 +3888,7 @@
 0.0.0.0 cuckoo.clientrock.app
 0.0.0.0 cuckoo.jerandky.com
 0.0.0.0 cuckoo.peoplefirstjobs.com
+0.0.0.0 curl.springinure.com
 0.0.0.0 customizers-world.goasrv.com
 0.0.0.0 cwgpmf.mwxl13ezkz6wctmhj7b4y.cyou
 0.0.0.0 cx.tbllprem.com
@@ -4142,6 +4147,7 @@
 0.0.0.0 delivery.gettopple.com
 0.0.0.0 delivery.senvangvn.com
 0.0.0.0 delivery.sexyxxx.biz
+0.0.0.0 delivery.viewsense.ai
 0.0.0.0 demandzoo.com
 0.0.0.0 demkc32bq01ah.cloudfront.net
 0.0.0.0 demoaccount.site
@@ -4406,6 +4412,7 @@
 0.0.0.0 ea56b2625c.c998f1483b.com
 0.0.0.0 ea76c61190.1bb4f2018f.com
 0.0.0.0 eaaf15013f.55eebe8585.com
+0.0.0.0 eadygos.com
 0.0.0.0 eagle.roarfilm.com.au
 0.0.0.0 earnco.in
 0.0.0.0 earthworm.creatifmediagroup.com
@@ -4718,6 +4725,7 @@
 0.0.0.0 fahimahalkayyis.goasrv.com
 0.0.0.0 fahrschule.goasrv.com
 0.0.0.0 fairscrew.com
+0.0.0.0 fairycarboys.qpon
 0.0.0.0 faiz.goasrv.com
 0.0.0.0 falcon.designed.org
 0.0.0.0 falcon.executeprogram.com
@@ -5802,6 +5810,7 @@
 0.0.0.0 holiyo.go-static.info
 0.0.0.0 hom.mq6ropmunwzeog5k1kbqrvlxgi6l4.cyou
 0.0.0.0 home.throne.ink
+0.0.0.0 hoof.absentwhack.com
 0.0.0.0 hookspf.com
 0.0.0.0 hookworm.campaignzee.com
 0.0.0.0 hornet.jeffgable.com
@@ -6176,6 +6185,7 @@
 0.0.0.0 jax-work-archive.go-static.info
 0.0.0.0 jay.brauerei-egg.at
 0.0.0.0 jay.howivscode.com
+0.0.0.0 jazz.abovesave.com
 0.0.0.0 jb.r96h7g97rik8eq8ow.cfd
 0.0.0.0 jc.v7xmmm6e9nb8y2y3k.cyou
 0.0.0.0 jcdn.runative-syndicate.com
@@ -6597,6 +6607,7 @@
 0.0.0.0 loader.motor-talk.de
 0.0.0.0 loader.nyitvatartas24.hu
 0.0.0.0 loadmypath.click
+0.0.0.0 lobe.scv.public.sse-prod-eks-euw1.futureplc.engineering
 0.0.0.0 loc.cli2020.com
 0.0.0.0 loc.cliv2508.com
 0.0.0.0 loc.clivads.com
@@ -7149,6 +7160,7 @@
 0.0.0.0 nhgmymxth.com
 0.0.0.0 ni3ebfpqwpq.hcwwgqp7lkmqogu.cyou
 0.0.0.0 nice.tranny.one
+0.0.0.0 nicelymodulo.com
 0.0.0.0 njytpx44.nwveubi1f3ly4yn63o.cyou
 0.0.0.0 nkdccsiwixvzj.world
 0.0.0.0 nkydma.newbuild.studio
@@ -7749,6 +7761,7 @@
 0.0.0.0 raccoon.alexanderssonlaw.com
 0.0.0.0 raccoon.jaronheard.com
 0.0.0.0 ranking.fc2ppvdb.live
+0.0.0.0 rapidfire.cc
 0.0.0.0 raven.konquadrat.de
 0.0.0.0 raven.omamao.ch
 0.0.0.0 rb.umspecrek.ru
@@ -7785,6 +7798,7 @@
 0.0.0.0 redir.tropicalsummer.xyz
 0.0.0.0 redir.widebluetrue.xyz
 0.0.0.0 referrer.website
+0.0.0.0 referwhen.com
 0.0.0.0 reg.ancensored.com
 0.0.0.0 register.notifysrv.com
 0.0.0.0 regulation.401kspecialistmag.com
@@ -8355,6 +8369,7 @@
 0.0.0.0 rtb.recoilnetwork.com
 0.0.0.0 rtb.traffic-gold.com
 0.0.0.0 rtb.trafficfactory.com
+0.0.0.0 rtb.viewsense.ai
 0.0.0.0 rtb2-apac.affinity.net
 0.0.0.0 rtb2-apac.afkwa.com
 0.0.0.0 rtb2-apac.applabs.live
@@ -8419,6 +8434,7 @@
 0.0.0.0 rtslxo3a.xyz
 0.0.0.0 rtvutrecht-static.reviveservers.com
 0.0.0.0 rubird.ru
+0.0.0.0 rudimentarytheoreticalrome.com
 0.0.0.0 ruradura.com
 0.0.0.0 rvmessage.online
 0.0.0.0 rvzfh.5x8j9lzn1v1min9nhzclmiuztqu11m.cyou
@@ -8671,6 +8687,7 @@
 0.0.0.0 salamander.yourownpay.com
 0.0.0.0 salmon.cedricreeves.com
 0.0.0.0 salmon.thespiritualpsychologist.co.uk
+0.0.0.0 salungavine.com
 0.0.0.0 sam.msn.com
 0.0.0.0 samba.notifysrv.com
 0.0.0.0 samsung.notifysrv.com
@@ -8823,6 +8840,7 @@
 0.0.0.0 sheep.vaxstandby.com
 0.0.0.0 shitblimp.gasm.ninja
 0.0.0.0 showmethat.click
+0.0.0.0 shrillypants.com
 0.0.0.0 shypublishedeternity.com
 0.0.0.0 sibergy.com
 0.0.0.0 siewca.topagrar.pl
@@ -9280,6 +9298,7 @@
 0.0.0.0 streaming.leightonbroadcasting.com
 0.0.0.0 streamvault.top
 0.0.0.0 stripe.rs-1028-a.com
+0.0.0.0 studdisablerely.com
 0.0.0.0 stuff.wikiporno.org
 0.0.0.0 sturgeon.patentfamily.com
 0.0.0.0 sturgeon.petjeaf.net
@@ -9490,6 +9509,7 @@
 0.0.0.0 tigershark.vandevliet.me
 0.0.0.0 tiglon.beyondco.de
 0.0.0.0 tiglon.davidroessli.com
+0.0.0.0 tilerypursers.qpon
 0.0.0.0 timetrack.goasrv.com
 0.0.0.0 timix.go-static.info
 0.0.0.0 tinb.net
@@ -10050,6 +10070,7 @@
 0.0.0.0 walrus.fetzcolor.at
 0.0.0.0 walrus.oscaroarevalo.com
 0.0.0.0 wamaha.goaserv.com
+0.0.0.0 wanlycoxier.com
 0.0.0.0 warbler.resumebuilder.dev
 0.0.0.0 warbler.todoscout.com
 0.0.0.0 warkedmalie.com

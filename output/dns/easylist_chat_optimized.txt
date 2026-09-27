@@ -1,7 +1,7 @@
 # Title: EasyList Chat Widgets (Optimized) (DNS/hosts format)
-# Version: 2026-09-20T08:09:51Z
+# Version: 2026-09-27T08:49:07Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 179
+# Domains: 183
 #
 0.0.0.0 247-inc.net
 0.0.0.0 24nettbutikk.chat
@@ -25,11 +25,13 @@
 0.0.0.0 birdeye.com
 0.0.0.0 boei.help
 0.0.0.0 boldchat.com
+0.0.0.0 booosted.com
 0.0.0.0 bot.leadoo.com
 0.0.0.0 botgenes.org
 0.0.0.0 botmind.io
 0.0.0.0 botsrv2.com
 0.0.0.0 call.chatra.io
+0.0.0.0 callnowbutton.com
 0.0.0.0 callpage.io
 0.0.0.0 carchat24.com
 0.0.0.0 carrotquest.io
@@ -109,10 +111,12 @@
 0.0.0.0 mobilemonkey.com
 0.0.0.0 moustacheai.com
 0.0.0.0 mylivechat.com
+0.0.0.0 neocomapp.com
 0.0.0.0 neurologic.com.br
 0.0.0.0 nice-incontact.com
 0.0.0.0 noem.ai
 0.0.0.0 ocelotbot.com
+0.0.0.0 octaneai.com
 0.0.0.0 olark.com
 0.0.0.0 ommi-prod-widget.web.app
 0.0.0.0 onlim.com
@@ -152,10 +156,10 @@
 0.0.0.0 tidiochat.com
 0.0.0.0 unibuddy.co
 0.0.0.0 userbot.ai
-0.0.0.0 userway.org
 0.0.0.0 vergic.com
 0.0.0.0 verint-cdn.com
 0.0.0.0 visitor.chat
+0.0.0.0 w.replied.chat
 0.0.0.0 wbot.chat
 0.0.0.0 web-chat.global.assistant.watson.appdomain.cloud
 0.0.0.0 web.kodabots.com

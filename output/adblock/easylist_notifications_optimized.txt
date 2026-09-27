@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Notifications (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
-! Version: 2026-09-20T08:09:51Z
+! Version: 2026-09-27T08:49:07Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 788
+! Rules: 786
 !
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -146,7 +146,6 @@ airasia.com##.QRPopUp__QRPopUpWrapper-sc-8gx7le-0
 aljazeera.com##.user-accounts-tooltip.closable
 aljazeera.com,aljazeera.net##.nudge
 aljazeera.com,ebay.com##.app-download-banner
-almayadeen.net,discogs.com##.mobile-apps
 amazon.com##.sparkle-container
 apkpure.com,apkpure.net##.chrome-install-pop
 app.uniswap.org##+js(set-session-storage-item, hideMobileAppPromoBanner, true)
@@ -159,6 +158,8 @@ atptour.com##.atp_apps
 atptour.com##[href^="https://www.atptour.com/en/apps"]
 audionetwork.com,carlsenfritzoe.no#@##push-container:not(body):not(html)
 audius.co##+js(rc, scrollLock, , stay)
+audius.co##body:style(overflow: scroll !important)
+autoevolution.com###notif_asker_div
 autoevolution.com##body,html:style(height: auto !important; overflow: auto !important)
 axios.com##.mt-6:has(> [href="https://www.axios.com/newsletters"])
 banggood.com##.bottom-app-contain
@@ -177,7 +178,6 @@ businessinsider.com,insider.com##body:style(overflow: auto !important; position:
 canva.com##body:style(overflow: auto !important; position: initial !important;)
 cba24n.com.ar##view-firebase-prompt
 cgtn.com##.openBtn
-channel.rakuten.co.jp##rch-app > div[class]:has(> a[rel][href^="https://rchannel.onelink.me/"])
 chaturbate.com##.RoomSignupPopup
 cheaptickets.com,orbitz.com,travelocity.com,wotif.com##.CustomerNotificationsWrapper
 chess.com##.ready-to-play-banner-component
@@ -262,9 +262,7 @@ instacart.com##body:style(height: auto !important; overflow: auto !important)
 instagram.com##+js(set-session-storage-item, lodum, 1)
 instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
 instagram.com##._acc8
-iol.pt###popover
 iwate-np.co.jp###widget-webpush-popup
-ixigo.com##.app-download-sticky-wrapper
 izi.travel##.app_message
 joinhandshake.com,online.rsb.ru#@#.notifications-wrapper
 jp-m.banggood.com##+js(rc, show-app-bar, , stay)
@@ -275,6 +273,7 @@ kogan.com###footer-native-banner
 ktoo.org##+js(set-cookie, modalDismissed, 1)
 kurashiru.com###header_app
 lemon8-app.com##.pc-reflow
+levels.fyi##.download-app-promo-module-scss-module__g5Zuta__downloadAppPromoContent
 lightinthebox.com##.top_open_app
 lightnovelworld.com##html:style(overflow: auto !important;)
 linkedin.com##.overlay
@@ -303,7 +302,6 @@ m.twitch.tv##+js(set-session-storage-item, twilight.custom-smart-banner-dismisse
 m.yelp.be,m.yelp.ca,m.yelp.co.jp,m.yelp.co.nz,m.yelp.co.uk,m.yelp.com,m.yelp.com.au,m.yelp.com.br,m.yelp.com.mx,m.yelp.com.tr,m.yelp.com.tw,m.yelp.cz,m.yelp.de,m.yelp.dk,m.yelp.es,m.yelp.fi,m.yelp.fr,m.yelp.ie,m.yelp.it,m.yelp.nl,m.yelp.no,m.yelp.pt,m.yelp.se##[data-testid="OpenAppButton"]
 m.yelp.be,m.yelp.ca,m.yelp.co.jp,m.yelp.co.nz,m.yelp.co.uk,m.yelp.com,m.yelp.com.au,m.yelp.com.br,m.yelp.com.mx,m.yelp.com.tr,m.yelp.com.tw,m.yelp.cz,m.yelp.de,m.yelp.dk,m.yelp.es,m.yelp.fi,m.yelp.fr,m.yelp.ie,m.yelp.it,m.yelp.nl,m.yelp.no,m.yelp.pt,m.yelp.se##body,html:style(overflow: auto !important; position: initial !important;)
 mail.google.com###sdppromo
-maisfutebol.iol.pt##.footerAPP
 makemytrip.com##body:style(overflow: unset !important)
 makerworld.com##body:style(overflow: auto !important; position: initial !important;)
 mamanoko.jp###js-actamDownloadModal
@@ -334,14 +332,12 @@ onedio.com##+js(set-cookie, o-push-alert, 1)
 onlineradiobox.com##.playmarket
 openstreetmap.org,rescuetime.com#@#.web-notification
 opentable.com##body:style(overflow: auto !important;)
-opto.sic.pt##.socials-stores
 otvet.mail.ru#@#.js-notifications-button
 patreon.com##+js(aeld, touchmove, preventDefault)
 paypal.com###PPAppDownloadBannerContainer
 pdf.wondershare.jp##.b-downloadbox
 people.com##.people-sc-block-featuredlink--people-app-promo
 perplexity.ai##+js(set-session-storage-item, appDownloadBannerDismissed, true)
-phonearena.com##body:style(overflow: auto !important; position: initial !important;)
 player.fm##.bottom-promo-overlay
 player.fm##body,html:style(overflow: auto !important; position: initial !important;)
 pnas.org##.pop-notification
@@ -363,6 +359,7 @@ reddit.com##body:style(pointer-events:auto !important;)
 rekhta.org##.rt_AppBtn
 relax-job.com##.js-smartapp-banner
 s.tabelog.com##+js(set-cookie, ignore_language_guide, true)
+safeway.ca#@#.mobile-app-banner
 sammobile.com##+js(set-local-storage-item, request-permission-modal, 1)
 sauna-ikitai.com##.l-headerApp
 search.brave.com###usage-metrics-notice
@@ -374,7 +371,6 @@ similarweb.com##.app-header:style(top:0 !important)
 slickdeals.net##body:style(overflow: auto !important; position: initial !important;)
 smocca.jp##+js(set, history.state, undefined)
 soundcloud.com##.l-front-mobile-teaser
-soundcloud.com##.mobileApps
 sp.nicovideo.jp##div[style="height: 56px;"]:has(> a[href^="https://nicovideo.applink.nicovideo.jp/?link"])
 speedtest.net##.modal-overlay
 speedtest.net##.result-area-ad
@@ -402,15 +398,16 @@ tunein.com##+js(set-cookie, navBasedDialogManager, true)
 tvtropes.org##+js(set-cookie, app-announcement-banner-count-guest, 1)
 tvtropes.org##+js(set-cookie, app-announcement-banner-guest, true)
 video.twimg-image.com##.app-bar
+vinted.*##[data-testid="app-banner-wrapper"]
 vk.com###page_bottom_banners_root
 voicy.jp##v-sp-download
 vrbo.com##+js(rc, has-uitk-sheet, body, stay)
+w3schools.com##.adventure-footer-banner
 waze.com##.wz-downloadbar
 web.quizknock.com###header_iosapp_link
 webnovel.com##.m_down_app_wrap
 whosampled.com##.spSlot
 windy.com###open-in-app
-winnipegfreepress.com##.notifications-banner
 wondershare.com##.upload-box
 wowhead.com##.notifications-dialog
 wunderground.com##+js(rc, enable-sda, body, stay)
@@ -418,6 +415,7 @@ www.google.com##.tCroyc
 www.reddit.com###configured-xpromo-blocking_xpromo_nsfw_blocking
 x.com##html:style(overflow: auto !important;)
 yandex.com##.Distribution-Popup
+yhteishyva.fi##a[href="http://go.yhteishyva.fi/app"]
 youtube.com##.ytmPaidContentOverlayHost
 zaim.net##.top-fix
 ziare.com##.modal-backdrop
