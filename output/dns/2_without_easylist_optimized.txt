@@ -1,7 +1,7 @@
 # Title: AdGuard Base Filter - Without EasyList (Optimized) (DNS/hosts format)
-# Version: 2026-09-27T08:49:07Z
+# Version: 2026-10-04T09:11:48Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 11,866
+# Domains: 11,885
 #
 0.0.0.0 000c34b44b.1c3139f0ca.com
 0.0.0.0 004f7f2622.d1b0ccfa6c.com
@@ -2239,6 +2239,7 @@
 0.0.0.0 aestivator.com
 0.0.0.0 af03df3f77.8e6c021d8f.com
 0.0.0.0 afcpatrk.com
+0.0.0.0 affectionatestorage.com
 0.0.0.0 affiliate.journeyjp.live
 0.0.0.0 affiliate.k4.tinhte.vn
 0.0.0.0 affiliate.klook.com
@@ -2247,6 +2248,7 @@
 0.0.0.0 afppcvyfyjs.com
 0.0.0.0 afrdtech.com
 0.0.0.0 ag5.xxxwap.pro
+0.0.0.0 agl003.com
 0.0.0.0 agl004.fun
 0.0.0.0 agl008.shop
 0.0.0.0 agl010.pro
@@ -2421,6 +2423,8 @@
 0.0.0.0 arabs.pornarabi.net
 0.0.0.0 arabs.sexalarbda.com
 0.0.0.0 arabs.sexarbda.com
+0.0.0.0 araplhn.org
+0.0.0.0 ardance.org
 0.0.0.0 argo.notifysrv.com
 0.0.0.0 armadillo.axeneo7.qc.ca
 0.0.0.0 armadillo.oceandecadenortheastpacific.org
@@ -2675,6 +2679,7 @@
 0.0.0.0 bid-algorix.com
 0.0.0.0 bid.mbidtg.com
 0.0.0.0 bid.onclcktg.com
+0.0.0.0 bid.pleasedmad.com
 0.0.0.0 bidforclicks.com
 0.0.0.0 bidio.pl
 0.0.0.0 bidmyadz.com
@@ -3589,6 +3594,7 @@
 0.0.0.0 clone.goaserv.com
 0.0.0.0 cloud9games2.goasrv.com
 0.0.0.0 cloudads.tv
+0.0.0.0 cloudfrant.net
 0.0.0.0 cloudinsky70009.tian.go-static.info
 0.0.0.0 cloudli.goaserv.com
 0.0.0.0 cloudscape84.net
@@ -4156,6 +4162,7 @@
 0.0.0.0 deployment-umbrella.goasrv.com
 0.0.0.0 depotstatustool.go-static.info
 0.0.0.0 dersvekuran.goasrv.com
+0.0.0.0 desk.unlesscool.com
 0.0.0.0 detallefacturas.go-static.info
 0.0.0.0 dev-reporting.bloblohub.com
 0.0.0.0 dev.bloblohub.com
@@ -4458,6 +4465,7 @@
 0.0.0.0 eda3cf1f7e.e4d190f9dd.com
 0.0.0.0 edge.ads.twitch.tv
 0.0.0.0 edge.atmtd.com
+0.0.0.0 edge.cuddlybeside.com
 0.0.0.0 edgeadserver-delivery.reviveservers.com
 0.0.0.0 edhmnn.com
 0.0.0.0 edx.goaserv.com
@@ -4539,6 +4547,7 @@
 0.0.0.0 en.elowriderst.com
 0.0.0.0 en.goaserv.com
 0.0.0.0 en.jobs.goasrv.com
+0.0.0.0 enchanted-station.com
 0.0.0.0 enchantevent.com3199023.notify6.com
 0.0.0.0 endosig.go-static.info
 0.0.0.0 energycode.go-static.info
@@ -4550,6 +4559,7 @@
 0.0.0.0 eng.goasrv.com
 0.0.0.0 engabunaser.goasrv.com
 0.0.0.0 engagedhits.com
+0.0.0.0 engine.camconnections.live
 0.0.0.0 engine.gettopple.com
 0.0.0.0 engine.partylemons.com
 0.0.0.0 engine.trialhd.com
@@ -6427,6 +6437,7 @@
 0.0.0.0 kultura.zpravy.goasrv.com
 0.0.0.0 kultvicc.goasrv.com
 0.0.0.0 kumafromtaiwan.go-static.info
+0.0.0.0 kummelsmytilid.cfd
 0.0.0.0 kumo.network-n.com
 0.0.0.0 kumpulanartikelbahasajawa.goaserv.com
 0.0.0.0 kurxabjwulu.in
@@ -7132,6 +7143,7 @@
 0.0.0.0 ndosdelhi.goasrv.com
 0.0.0.0 nel47.y2j5emrkfrm9htbouguh.cfd
 0.0.0.0 neo7x.com
+0.0.0.0 nervousstroke.com
 0.0.0.0 net.contoscn.com
 0.0.0.0 net.contoseroticoscnn.com
 0.0.0.0 net.sexstories69.com
@@ -7140,6 +7152,7 @@
 0.0.0.0 netorarenurse.blog.goaserv.com
 0.0.0.0 netpub.media
 0.0.0.0 netvillage.goasrv.com
+0.0.0.0 new-split.com
 0.0.0.0 new.fc2-ppv.xyz
 0.0.0.0 new.plus-eromanga.com
 0.0.0.0 newchallenges-dsp.com
@@ -7552,6 +7565,7 @@
 0.0.0.0 popcashjs.b-cdn.net
 0.0.0.0 popcent.net
 0.0.0.0 popclck.org
+0.0.0.0 poppyrimpace.com
 0.0.0.0 poptival.com
 0.0.0.0 popupplus.ir
 0.0.0.0 porcupine.dvresolve.com
@@ -7716,6 +7730,7 @@
 0.0.0.0 quelea.llresearch.dev
 0.0.0.0 questico-ads.reviveservers.com
 0.0.0.0 question.hot-step-mom.com
+0.0.0.0 quitcertify.com
 0.0.0.0 quizzicalrun.com
 0.0.0.0 quokka.bulkbuyhosting.com
 0.0.0.0 quokka.joshuawood.net
@@ -7760,6 +7775,7 @@
 0.0.0.0 rabbit.upwardhomes.net
 0.0.0.0 raccoon.alexanderssonlaw.com
 0.0.0.0 raccoon.jaronheard.com
+0.0.0.0 raggedapproaching.com
 0.0.0.0 ranking.fc2ppvdb.live
 0.0.0.0 rapidfire.cc
 0.0.0.0 raven.konquadrat.de
@@ -8671,6 +8687,7 @@
 0.0.0.0 s4.rtnews.pro
 0.0.0.0 s5.rtnews.pro
 0.0.0.0 s7227wuo.xyz
+0.0.0.0 sa7eer.com
 0.0.0.0 sab.fast.ge
 0.0.0.0 sableviolet.com
 0.0.0.0 safelinkconverter.com
@@ -8980,6 +8997,7 @@
 0.0.0.0 st.korlumo.com
 0.0.0.0 st.static-srv.com
 0.0.0.0 st1.bhol.co.il
+0.0.0.0 stackup-ai.com
 0.0.0.0 stacy.hubhubhub.name
 0.0.0.0 stage.bloblohub.com
 0.0.0.0 staging.tbadni.com
@@ -10086,6 +10104,7 @@
 0.0.0.0 waterbill.go-static.info
 0.0.0.0 waterboa.midu.dev
 0.0.0.0 waterboa.nighttrain.co
+0.0.0.0 waterloggedkind.com
 0.0.0.0 waterprogramming.goasrv.com
 0.0.0.0 watwan.goaserv.com
 0.0.0.0 waukeshacounty.goasrv.com

@@ -1,7 +1,7 @@
 # Title: Advanced Tracking Protection (DNS/hosts format)
-# Version: 2026-09-27T08:49:07Z
+# Version: 2026-10-04T09:11:48Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 129,235
+# Domains: 129,267
 #
 0.0.0.0 -084-gls-223-www-9-k-0brasil.net.daraz.com
 0.0.0.0 -access-logs-1.net.daraz.com
@@ -5824,6 +5824,7 @@
 0.0.0.0 addfreestats.com
 0.0.0.0 addictedattention.com
 0.0.0.0 addlvr.com
+0.0.0.0 addmoves.com
 0.0.0.0 addoer.com
 0.0.0.0 addoor.net
 0.0.0.0 addressfriend.com
@@ -10118,6 +10119,7 @@
 0.0.0.0 api-notify.markarch.com
 0.0.0.0 api-pixels.easyadsapp.com
 0.0.0.0 api-production.polaranalytics.com
+0.0.0.0 api-sdk.beaconbank.jp
 0.0.0.0 api-shrek.net.jumia.com.gh
 0.0.0.0 api-stape.bennimoda.com.br
 0.0.0.0 api-stape.biancastore.com.br
@@ -12614,6 +12616,7 @@
 0.0.0.0 arthurbrent.kindencoludens.nl
 0.0.0.0 arthurbrent.vandervelden.com
 0.0.0.0 arthurbrent.werkenbijambiq.nl
+0.0.0.0 arthustler.net
 0.0.0.0 articledemon.com
 0.0.0.0 articles.usa-savings-journal.com
 0.0.0.0 artisan.actonservice.com
@@ -13450,6 +13453,7 @@
 0.0.0.0 axljfv.therosebay.co.kr
 0.0.0.0 axnskz.power-stones.jp
 0.0.0.0 axonix.com
+0.0.0.0 axonsite.com
 0.0.0.0 axoqjt.gommadiretto.it
 0.0.0.0 axoqvl.daf-shoes.com
 0.0.0.0 axp.2822news.com
@@ -15724,6 +15728,7 @@
 0.0.0.0 browserguides.net
 0.0.0.0 browsermine.com
 0.0.0.0 browserpusher.com
+0.0.0.0 browsertdidticket.m.qq.com
 0.0.0.0 browsing.doamore.com
 0.0.0.0 brpayless.eccocar.com
 0.0.0.0 brpdu.lovefitnessapparel.com
@@ -16057,6 +16062,7 @@
 0.0.0.0 bwntyd.neuve-a.net
 0.0.0.0 bwnxh.peaceoutskincare.com
 0.0.0.0 bwpzmo.kipling.com.co
+0.0.0.0 bws.airwallex.com
 0.0.0.0 bws.schoonenberg.nl
 0.0.0.0 bwspqc.bloomonline.jp
 0.0.0.0 bwujxl.yoga-lava.com
@@ -17500,6 +17506,7 @@
 0.0.0.0 cdn-static.formisimo.com
 0.0.0.0 cdn-uk.cxix.com
 0.0.0.0 cdn-v3.conductrics.net
+0.0.0.0 cdn-vitals.com
 0.0.0.0 cdn.1lifefiresafety.com
 0.0.0.0 cdn.3rdmay.com
 0.0.0.0 cdn.9gtb.com
@@ -20534,7 +20541,6 @@
 0.0.0.0 counter-growthbook.minute-ly.com
 0.0.0.0 counter-kostenlos.info
 0.0.0.0 counter-kostenlos.net
-0.0.0.0 counter-mdpr.freetls.fastly.net
 0.0.0.0 counter-treff.de
 0.0.0.0 counter-zaehler.de
 0.0.0.0 counter.1gb.ru
@@ -20931,6 +20937,7 @@
 0.0.0.0 crsspxl.com
 0.0.0.0 crta.and.co.uk
 0.0.0.0 crta.dailymail.co.uk
+0.0.0.0 crta.dailymail.com
 0.0.0.0 crta.metro.co.uk
 0.0.0.0 crtx.info
 0.0.0.0 cruiok.cavage.com.br
@@ -29347,6 +29354,7 @@
 0.0.0.0 dpm.demdex.net.iberostar.com
 0.0.0.0 dpmsrv.com
 0.0.0.0 dpovcw.the-body-shop.co.jp
+0.0.0.0 dppesulohfqre.cloudfront.net
 0.0.0.0 dppublishinginc.actonservice.com
 0.0.0.0 dprwd.adorama.com
 0.0.0.0 dps-reach.com
@@ -29753,6 +29761,7 @@
 0.0.0.0 dustaclean-ss.checkoutera.com
 0.0.0.0 dustapro-ss.topashopo.com
 0.0.0.0 dustavacuum-ss.checkoutera.com
+0.0.0.0 dusthorses.com
 0.0.0.0 dustydime.com
 0.0.0.0 dustyhammer.com
 0.0.0.0 duthc.drshumardworkshop.com
@@ -30849,6 +30858,7 @@
 0.0.0.0 edriving.actonservice.com
 0.0.0.0 edrone.me
 0.0.0.0 edsawa.simplynursery.com
+0.0.0.0 edshowpigs.com
 0.0.0.0 edt02.net
 0.0.0.0 edtp.de
 0.0.0.0 edtrainingcenter.actonservice.com
@@ -31934,6 +31944,7 @@
 0.0.0.0 encuestas.billeteramango.com
 0.0.0.0 endeavorbusinessmedia.actonservice.com
 0.0.0.0 endgl.cgenetool.com
+0.0.0.0 endhairfall.com
 0.0.0.0 endjb.trendozashop.com
 0.0.0.0 endlesshandbaglinked.com
 0.0.0.0 endlesstrust.com
@@ -33259,6 +33270,7 @@
 0.0.0.0 events.s4long.com
 0.0.0.0 events.santander.co.uk
 0.0.0.0 events.sd-nbb.de
+0.0.0.0 events.searchtap.net
 0.0.0.0 events.sevenfiguresecrets.com
 0.0.0.0 events.shareably.net
 0.0.0.0 events.shirrts.com
@@ -36126,6 +36138,7 @@
 0.0.0.0 gateway.yvonthelabel.com
 0.0.0.0 gateway1.ashleyshaw.ca
 0.0.0.0 gather.donga.com
+0.0.0.0 gatherer.m.qq.com
 0.0.0.0 gator.volces.com
 0.0.0.0 gatorapi.com
 0.0.0.0 gatorleads.co.uk
@@ -36996,6 +37009,7 @@
 0.0.0.0 gksqdt.reitmans.com
 0.0.0.0 gktrlv.oryany.co.kr
 0.0.0.0 gkupv.theconsumerdigest.org
+0.0.0.0 gkx.gokwik.co
 0.0.0.0 gkxaay.tontarellishop.com
 0.0.0.0 gkxeea.ssamitbeauty.com
 0.0.0.0 gkxkvp.tumi.co.jp
@@ -37198,7 +37212,6 @@
 0.0.0.0 gnrnc.intermobilifurniture.ro
 0.0.0.0 gnsdp.toms.com
 0.0.0.0 gnshwf.room-park.ru
-0.0.0.0 gnsnpaw.com
 0.0.0.0 gntm.geeen.co.jp
 0.0.0.0 gnuavcpc.woods.se
 0.0.0.0 gnwiwc.store.lapine.co.jp
@@ -44809,6 +44822,7 @@
 0.0.0.0 heartflow.actonservice.com
 0.0.0.0 hearthow.com
 0.0.0.0 heatmap-events-collector.instapage.com
+0.0.0.0 heatmap-tracking-do-to-s3-worker-prod.flipdesk.workers.dev
 0.0.0.0 heatmap.com
 0.0.0.0 heatmap.emma.tools
 0.0.0.0 heatmap.it
@@ -45864,6 +45878,7 @@
 0.0.0.0 hypercounter.com
 0.0.0.0 hyperdisk.actonservice.com
 0.0.0.0 hyperdx.io
+0.0.0.0 hyperfrost.net
 0.0.0.0 hyperlegend.com
 0.0.0.0 hypestat.com
 0.0.0.0 hypnoticwound.com
@@ -58785,6 +58800,7 @@
 0.0.0.0 log.mmstat.com
 0.0.0.0 log.mofa.go.kr
 0.0.0.0 log.musical.ly
+0.0.0.0 log.news.baidu.com
 0.0.0.0 log.newsvine.com
 0.0.0.0 log.nordot.jp
 0.0.0.0 log.oceanzz.xyz
@@ -60212,6 +60228,7 @@
 0.0.0.0 mar.englishkaku.com
 0.0.0.0 marathondataco.com
 0.0.0.0 marblediscussion.com
+0.0.0.0 marbleseeds.com
 0.0.0.0 marceline.wantsext.me
 0.0.0.0 march.landing.ni.com
 0.0.0.0 marchex.com
@@ -68042,6 +68059,7 @@
 0.0.0.0 nanopolix-ss.checkoutera.com
 0.0.0.0 nanostats.nanopress.it
 0.0.0.0 nanthealth.actonservice.com
+0.0.0.0 nao.kagane.to
 0.0.0.0 naoforge.net.jumia.com.ng
 0.0.0.0 naos.ink
 0.0.0.0 nappyattack.com
@@ -68073,6 +68091,7 @@
 0.0.0.0 nativendo.de
 0.0.0.0 nativesdks.mparticle.com
 0.0.0.0 nativesubscribe.pro
+0.0.0.0 natom.app
 0.0.0.0 natpal.com
 0.0.0.0 nats.xing.com
 0.0.0.0 natsp.xing.com
@@ -71361,6 +71380,7 @@
 0.0.0.0 p.raasnet.com
 0.0.0.0 p.redipiufitness.it
 0.0.0.0 p.ryanhalliday.com
+0.0.0.0 p.sa7eer.com
 0.0.0.0 p.sadoc.com.br
 0.0.0.0 p.skimresources.com
 0.0.0.0 p.smartertravel.com
@@ -71503,6 +71523,7 @@
 0.0.0.0 pagedot.deutschepost.de
 0.0.0.0 pagefair.com
 0.0.0.0 pageid.info
+0.0.0.0 pagemetry.com
 0.0.0.0 pagename.care.ummhealth.org
 0.0.0.0 pagerank-linkverzeichnis.de
 0.0.0.0 pagerank-online.eu
@@ -74797,6 +74818,7 @@
 0.0.0.0 pulselog.com
 0.0.0.0 pulsemaps.com
 0.0.0.0 pulsepoint.com
+0.0.0.0 pulsepoint.ideal.house
 0.0.0.0 pulseradius.com
 0.0.0.0 puluk.drinkmagicdose.com
 0.0.0.0 puma.islingtonmecc.org.uk
@@ -79853,6 +79875,7 @@
 0.0.0.0 schinnerer.actonservice.com
 0.0.0.0 schnee.skiamade.com
 0.0.0.0 scholarloop.com
+0.0.0.0 scholarsark.com
 0.0.0.0 schoolpaws.com
 0.0.0.0 schouder.somt.nl
 0.0.0.0 schpa.newroadadvertising.com
@@ -79934,6 +79957,7 @@
 0.0.0.0 scout.bergfreunde.nl
 0.0.0.0 scout.bergfreunde.no
 0.0.0.0 scout.bergfreunde.se
+0.0.0.0 scout.data.funkedigital.de
 0.0.0.0 scout.scoutanalytics.net
 0.0.0.0 scoutanalytics.net
 0.0.0.0 scp.deltadentalwa.com
@@ -110005,6 +110029,7 @@
 0.0.0.0 strawroute.com
 0.0.0.0 strcst.net
 0.0.0.0 stream-log.dditscdn.com
+0.0.0.0 stream-log.profilepassport.jp
 0.0.0.0 stream.borza.com
 0.0.0.0 stream.corporatefinanceinstitute.com
 0.0.0.0 stream.datago.ru
@@ -112924,6 +112949,7 @@
 0.0.0.0 tapjoy.net
 0.0.0.0 taplytics.com
 0.0.0.0 tapnative.com
+0.0.0.0 tapoutmusic.com
 0.0.0.0 tappx.com
 0.0.0.0 taps.io
 0.0.0.0 tapstat.ru
@@ -114241,6 +114267,7 @@
 0.0.0.0 thebdx.actonservice.com
 0.0.0.0 thebestlinks.com
 0.0.0.0 thebestpaints.com
+0.0.0.0 thebicyclehut.com
 0.0.0.0 thebigvan.com
 0.0.0.0 theblogfrog.com
 0.0.0.0 thebrainybulb.com
@@ -117058,6 +117085,7 @@
 0.0.0.0 track.conesulacademy.com
 0.0.0.0 track.connectwise.com
 0.0.0.0 track.contently.com
+0.0.0.0 track.convertfox.com
 0.0.0.0 track.cordial.io
 0.0.0.0 track.cornerstonebuildingbrands.com
 0.0.0.0 track.cosplayware.com
@@ -118490,6 +118518,7 @@
 0.0.0.0 tracking.domapostas.bet
 0.0.0.0 tracking.dominanteladies.de
 0.0.0.0 tracking.doyoulovesalt.com
+0.0.0.0 tracking.dpmlol.com
 0.0.0.0 tracking.dpstampede.com
 0.0.0.0 tracking.dr-10.com
 0.0.0.0 tracking.dr-8.com
@@ -119752,6 +119781,7 @@
 0.0.0.0 traffmovie.com
 0.0.0.0 trafic.ro
 0.0.0.0 trafico.prensaiberica.es
+0.0.0.0 trafik.koopit.ist
 0.0.0.0 trafikkfondet.no
 0.0.0.0 trafit.com
 0.0.0.0 trafix.ro
@@ -122472,6 +122502,7 @@
 0.0.0.0 users-api.com
 0.0.0.0 users.51.la
 0.0.0.0 users.rentbabe.com
+0.0.0.0 users.vidy.st
 0.0.0.0 usersegment.wpdigital.net
 0.0.0.0 usertrack.appcpi.net
 0.0.0.0 usertracks.live
@@ -128130,6 +128161,7 @@
 0.0.0.0 ymvikp.estadao.com.br
 0.0.0.0 ymviwl.just4camper.de
 0.0.0.0 ymvmx.mygrooveguide.com
+0.0.0.0 ymzu9eeo1y.ru
 0.0.0.0 ynagqs.vidaxl.pl
 0.0.0.0 yndhi.com
 0.0.0.0 ynemmp.goertz.de

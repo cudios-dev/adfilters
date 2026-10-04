@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Notifications (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
-! Version: 2026-09-27T08:49:07Z
+! Version: 2026-10-04T09:11:48Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 786
+! Rules: 787
 !
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -143,6 +143,7 @@ adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.co
 adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.com.ar,catalogosofertas.com.br,catalogosofertas.com.co,catalogosofertas.com.ec,catalogosofertas.com.mx,catalogosofertas.com.pe,catalogueoffers.co.uk,catalogueoffers.com.au,flugblattangebote.at,flyerdeals.ca,folderz.nl,folhetospromocionais.com,folletosofertas.es,gazetki.pl,kundeavisogtilbud.no,ofertelecatalog.ro,offertevolantini.it,promocatalogues.fr,promotiez.be,promotions.ae,prospektangebote.de,reklambladerbjudanden.se,tilbudsaviseronline.dk##.js-page-promotion-container
 agoda.com##.redirectToAppBar
 airasia.com##.QRPopUp__QRPopUpWrapper-sc-8gx7le-0
+aliexpress.com,aliexpress.us###header-float-banner
 aljazeera.com##.user-accounts-tooltip.closable
 aljazeera.com,aljazeera.net##.nudge
 aljazeera.com,ebay.com##.app-download-banner
@@ -184,7 +185,6 @@ chess.com##.ready-to-play-banner-component
 cnet.com##.c-globalModal
 cnet.com##body:style(height: auto !important; overflow: auto !important)
 coincodex.com##.download-coincodex-app
-coinmarketcap.com##.app-banner-new
 computrabajo.com###pop-up-webpush-background
 computrabajo.com###pop-up-webpush-sub
 consumerreports.org###mtRoundupPaywallPopup
@@ -198,7 +198,6 @@ daadscholarship.com##+js(abort-on-property-write, LaraPush)
 deepl.com###callout-subtitle-chromeExtensionPromo
 deepl.com##+js(set-session-storage-item, LMT_browserExtensionPromo.displayed, true)
 deribit.com##+js(set-local-storage-item, appCardSeen, true)
-dexerto.com##.animate-fadeOut
 downace.com##+js(acis, requestPermission)
 duck.ai##[aria-label="Duck.ai works best in our private and free DuckDuckGo app!"]
 duckduckgo.com##.ddg-extension-hide
@@ -208,7 +207,6 @@ ebay.at,ebay.co.uk,ebay.com,ebay.com.au,ebay.de,ebay.es,ebay.fr,ebay.it,ebay.nl,
 ebay.com##.pc-dweb
 ebay.com##html:style(overflow: auto !important; position: initial !important;)
 eksisozluk.com##body,html:style(overflow: auto !important; position: initial !important;)
-eltiempo.es##.elt-fb-popup
 epark.jp##.header_app_banner
 expedia.at,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.hk,expedia.com.sg,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.it,expedia.nl,expedia.no,expedia.se,hotels.com##body,html:style(overflow: auto !important; position: initial !important;)
 expedia.at,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.hk,expedia.com.sg,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.it,expedia.nl,expedia.no,expedia.se,hotels.com,vrbo.com##.customer-notification-container
@@ -231,6 +229,8 @@ flypgs.com##.app-b
 flypgs.com##.c-pgs-app
 fogaonet.com##+js(set-cookie, fn_cookie_whatsapp_alert, 1)
 food.ndtv.com##+js(set-cookie, ndtvfood_isSubscribed_elex_v1, no)
+fortnitetracker.com##.mobile-app-preview
+fortnitetracker.com##.trn-site-appbar__apps
 foundit.com.ph##+js(set-session-storage-item, isDownloadAppBannerClosed, true)
 foxnews.com##.push-alert-notify
 gadgets360.com###bnotify
@@ -242,7 +242,6 @@ gemini.google.com##.get-app-banner
 genius.com##.android_banner
 gigabaito.com##.app_bottom_banner
 glas-javnosti.rs##.skini
-goo-net.com###app_info_area
 goodreads.com##+js(set-cookie, blocking_sign_in_interstitial, true)
 google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
 gptoday.net##.webpush_popup
@@ -274,6 +273,7 @@ ktoo.org##+js(set-cookie, modalDismissed, 1)
 kurashiru.com###header_app
 lemon8-app.com##.pc-reflow
 levels.fyi##.download-app-promo-module-scss-module__g5Zuta__downloadAppPromoContent
+levels.fyi##.modal-module-scss-module__jIc2SW__overlay
 lightinthebox.com##.top_open_app
 lightnovelworld.com##html:style(overflow: auto !important;)
 linkedin.com##.overlay
@@ -306,7 +306,6 @@ makemytrip.com##body:style(overflow: unset !important)
 makerworld.com##body:style(overflow: auto !important; position: initial !important;)
 mamanoko.jp###js-actamDownloadModal
 me-qr.com##.modal-apps
-medscape.com##.rel-links-media
 mega.nz#@#.notification-button
 mercari.com###getTheAppFooter
 metar-taf.com##.download-info
@@ -378,6 +377,7 @@ sports.ndtv.com##body,html:style(overflow: auto !important; position: initial !i
 sportskeeda.com##.sidebar-app-download
 sunday-webry.com##.app-read-content
 swisscows.com##.home-link-instruction
+tbsnews.net###___tbspushdiv
 techwalla.com##.component-push-notification
 temu.com##div[style="height:0.66rem"]
 tenor.com##.LanguageBanner
@@ -597,6 +597,7 @@ zora.bg##cc-web-push-popup
 ||my-pu.sh^
 ||najva.com^$third-party
 ||nativesubscribe.pro^$third-party
+||natom.app^$third-party
 ||ndtv.com/js/breaking_pushalert_revised.js
 ||ndtv.com/sw.js
 ||neopush.io^$third-party
