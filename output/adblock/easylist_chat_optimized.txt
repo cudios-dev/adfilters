@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Chat Widgets (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Chat.
-! Version: 2026-10-04T09:11:48Z
+! Version: 2026-10-11T09:32:57Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
@@ -52,6 +52,7 @@
 ||cbot.ai^$third-party
 ||cdn-fe.chatty.net^$third-party
 ||cdn.asksuite.com/infochat.js
+||cdn.crall.io/w/widgets.js
 ||cdn.shopify.com/extensions/*/assets/inbox-chat-loader.js
 ||cdn.shopify.com/extensions/*/manifest-ai-chatbot-548/assets/common-script.js
 ||cgsinc.cl/mcic/web/mediatel_chat.js
@@ -90,7 +91,6 @@
 ||conversationalsdevelopment.nl^$third-party
 ||conversiobot.com^$third-party
 ||craft-talk.com^$third-party
-||crall.io^$third-party
 ||crisp.chat^$~image,third-party
 ||daktela.com^$third-party
 ||directtalk.com.br^$third-party

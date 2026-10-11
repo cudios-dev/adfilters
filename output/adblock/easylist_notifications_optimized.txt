@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Notifications (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
-! Version: 2026-10-04T09:11:48Z
+! Version: 2026-10-11T09:32:57Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 787
+! Rules: 784
 !
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -178,7 +178,6 @@ businessinsider.com,insider.com##.app-button
 businessinsider.com,insider.com##body:style(overflow: auto !important; position: initial !important;)
 canva.com##body:style(overflow: auto !important; position: initial !important;)
 cba24n.com.ar##view-firebase-prompt
-cgtn.com##.openBtn
 chaturbate.com##.RoomSignupPopup
 cheaptickets.com,orbitz.com,travelocity.com,wotif.com##.CustomerNotificationsWrapper
 chess.com##.ready-to-play-banner-component
@@ -199,7 +198,6 @@ deepl.com###callout-subtitle-chromeExtensionPromo
 deepl.com##+js(set-session-storage-item, LMT_browserExtensionPromo.displayed, true)
 deribit.com##+js(set-local-storage-item, appCardSeen, true)
 downace.com##+js(acis, requestPermission)
-duck.ai##[aria-label="Duck.ai works best in our private and free DuckDuckGo app!"]
 duckduckgo.com##.ddg-extension-hide
 duckduckgo.com##.js-atb-banner
 duckduckgo.com##.legacyMobileHomepage_atbBadge__Wau98
@@ -240,7 +238,6 @@ ganganonline.com##.Base_banner__UbMI_
 geeksforgeeks.org###openInApp-modal
 gemini.google.com##.get-app-banner
 genius.com##.android_banner
-gigabaito.com##.app_bottom_banner
 glas-javnosti.rs##.skini
 goodreads.com##+js(set-cookie, blocking_sign_in_interstitial, true)
 google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
@@ -267,10 +264,8 @@ joinhandshake.com,online.rsb.ru#@#.notifications-wrapper
 jp-m.banggood.com##+js(rc, show-app-bar, , stay)
 jpost.com##div[class^="PushNotificationPrompt_"]
 klipy.com##.z-\[60\]
-klook.com##.app-download
 kogan.com###footer-native-banner
 ktoo.org##+js(set-cookie, modalDismissed, 1)
-kurashiru.com###header_app
 lemon8-app.com##.pc-reflow
 levels.fyi##.download-app-promo-module-scss-module__g5Zuta__downloadAppPromoContent
 levels.fyi##.modal-module-scss-module__jIc2SW__overlay
@@ -283,7 +278,6 @@ livemint.com##.echoOpeninApp
 livescore.com##.android
 livescore.com##.ios
 livesportsontv.com##+js(set-local-storage-item, promotion-popup-closed, 1)
-m.aiscore.com###appLink
 m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.mplayer-widescreen-callapp
 m.bilibili.com##.openapp-dialog
@@ -299,6 +293,8 @@ m.hoyolab.com##.guide-download-drawer
 m.iyf.tv##.container:has(> div.download-title)
 m.kaskus.co.id##+js(set-session-storage-item, open_in_browser, 1)
 m.twitch.tv##+js(set-session-storage-item, twilight.custom-smart-banner-dismissed, true)
+m.yelp.*##section:has([data-testid="pitch-link"])
+m.yelp.be,m.yelp.ca,m.yelp.co.jp,m.yelp.co.nz,m.yelp.co.uk,m.yelp.com,m.yelp.com.au,m.yelp.com.br,m.yelp.com.mx,m.yelp.com.tr,m.yelp.com.tw,m.yelp.cz,m.yelp.de,m.yelp.dk,m.yelp.es,m.yelp.fi,m.yelp.fr,m.yelp.ie,m.yelp.it,m.yelp.nl,m.yelp.no,m.yelp.pt,m.yelp.se##[aria-label*="Download the Yelp app"]
 m.yelp.be,m.yelp.ca,m.yelp.co.jp,m.yelp.co.nz,m.yelp.co.uk,m.yelp.com,m.yelp.com.au,m.yelp.com.br,m.yelp.com.mx,m.yelp.com.tr,m.yelp.com.tw,m.yelp.cz,m.yelp.de,m.yelp.dk,m.yelp.es,m.yelp.fi,m.yelp.fr,m.yelp.ie,m.yelp.it,m.yelp.nl,m.yelp.no,m.yelp.pt,m.yelp.se##[data-testid="OpenAppButton"]
 m.yelp.be,m.yelp.ca,m.yelp.co.jp,m.yelp.co.nz,m.yelp.co.uk,m.yelp.com,m.yelp.com.au,m.yelp.com.br,m.yelp.com.mx,m.yelp.com.tr,m.yelp.com.tw,m.yelp.cz,m.yelp.de,m.yelp.dk,m.yelp.es,m.yelp.fi,m.yelp.fr,m.yelp.ie,m.yelp.it,m.yelp.nl,m.yelp.no,m.yelp.pt,m.yelp.se##body,html:style(overflow: auto !important; position: initial !important;)
 mail.google.com###sdppromo
@@ -373,6 +369,7 @@ soundcloud.com##.l-front-mobile-teaser
 sp.nicovideo.jp##div[style="height: 56px;"]:has(> a[href^="https://nicovideo.applink.nicovideo.jp/?link"])
 speedtest.net##.modal-overlay
 speedtest.net##.result-area-ad
+speedtest.net##body:style(overflow: auto !important)
 sports.ndtv.com##body,html:style(overflow: auto !important; position: initial !important;)
 sportskeeda.com##.sidebar-app-download
 sunday-webry.com##.app-read-content
