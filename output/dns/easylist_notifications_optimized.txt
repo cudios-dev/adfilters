@@ -1,7 +1,7 @@
 # Title: EasyList Notifications (Optimized) (DNS/hosts format)
-# Version: 2026-10-11T09:32:57Z
+# Version: 2026-10-18T07:38:20Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 202
+# Domains: 203
 #
 0.0.0.0 actirinius.com
 0.0.0.0 aimtell.com
@@ -157,6 +157,7 @@
 0.0.0.0 pushprofit.ru
 0.0.0.0 pushprospush.com
 0.0.0.0 pushpushgo.com
+0.0.0.0 pushsage.com
 0.0.0.0 pushstack.it
 0.0.0.0 pushtide.com
 0.0.0.0 pushvip.ru
