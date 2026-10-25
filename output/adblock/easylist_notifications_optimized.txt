@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Notifications (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
-! Version: 2026-10-18T07:38:20Z
+! Version: 2026-10-25T07:58:50Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 778
+! Rules: 773
 !
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -228,7 +228,6 @@ foundit.com.ph##+js(set-session-storage-item, isDownloadAppBannerClosed, true)
 foxnews.com##.push-alert-notify
 gadgets360.com###bnotify
 gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.soft-notification-modal_modal__8KcpZ
-ganganonline.com##.Base_banner__UbMI_
 geeksforgeeks.org###openInApp-modal
 gemini.google.com##.get-app-banner
 genius.com##.android_banner
@@ -253,13 +252,13 @@ instagram.com##+js(set-session-storage-item, lodum, 1)
 instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
 instagram.com##._acc8
 izi.travel##.app_message
+johnsoncitypress.com##.web-promo-designer
 joinhandshake.com,online.rsb.ru#@#.notifications-wrapper
 jp-m.banggood.com##+js(rc, show-app-bar, , stay)
 klipy.com##.z-\[60\]
 kogan.com###footer-native-banner
 ktoo.org##+js(set-cookie, modalDismissed, 1)
 lemon8-app.com##.pc-reflow
-levels.fyi##.download-app-promo-module-scss-module__g5Zuta__downloadAppPromoContent
 levels.fyi##.modal-module-scss-module__jIc2SW__overlay
 lightinthebox.com##.top_open_app
 lightnovelworld.com##html:style(overflow: auto !important;)
@@ -293,7 +292,6 @@ mail.google.com###sdppromo
 makemytrip.com##body:style(overflow: unset !important)
 makerworld.com##body:style(overflow: auto !important; position: initial !important;)
 mamanoko.jp###js-actamDownloadModal
-me-qr.com##.modal-apps
 mega.nz#@#.notification-button
 mercari.com###getTheAppFooter
 mobi24.net#@#a[href^="http://www.mobi24.net/"]
@@ -348,7 +346,6 @@ relax-job.com##.js-smartapp-banner
 s.tabelog.com##+js(set-cookie, ignore_language_guide, true)
 safeway.ca#@#.mobile-app-banner
 sammobile.com##+js(set-local-storage-item, request-permission-modal, 1)
-sauna-ikitai.com##.l-headerApp
 search.brave.com###usage-metrics-notice
 shop-apotheke.com##+js(set-session-storage-item, ErxModal, true)
 shufoo.net##+js(rc, is-hidden, body)
@@ -359,7 +356,7 @@ slickdeals.net##body:style(overflow: auto !important; position: initial !importa
 smocca.jp##+js(set, history.state, undefined)
 soundcloud.com##.l-front-mobile-teaser
 soundcloud.com##.mobileApps
-sp.nicovideo.jp##div[style="height: 56px;"]:has(> a[href^="https://nicovideo.applink.nicovideo.jp/?link"])
+sp.live.nicovideo.jp##.ga-ns-app-alert-dialog
 speedtest.net##.modal-overlay
 speedtest.net##.result-area-ad
 speedtest.net##body:style(overflow: auto !important)
@@ -371,6 +368,7 @@ tbsnews.net###___tbspushdiv
 techwalla.com##.component-push-notification
 temu.com##div[style="height:0.66rem"]
 tenor.com##.LanguageBanner
+tenor.com##.UpsellPill
 thehindu.com##.read-in-app-floating-btn
 thehindu.com,thehindubusinessline.com###gsi_overlay
 themonthly.com.au##+js(set-local-storage-item, rn, $remove$)
@@ -379,19 +377,17 @@ threads.com##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)
 threads.net##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)
 tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
 toy-people.com###notification_alert_container
+trip.com##.m-chromePlugin__pop-wrap
 trip.com##.oh-pwa
 trip.com##body:style(overflow: auto !important; position: initial !important;)
 tubitv.com##+js(set-local-storage-item, windows_prompt_shown_v3, 1)
-tumblr.com##.y8Hml
 tunein.com##+js(set-cookie, hideMacDesktopDialog, true)
 tunein.com##+js(set-cookie, navBasedDialogManager, true)
 tvtropes.org##+js(set-cookie, app-announcement-banner-count-guest, 1)
 tvtropes.org##+js(set-cookie, app-announcement-banner-guest, true)
-vinted.*##[data-testid="app-banner-wrapper"]
 vk.com###page_bottom_banners_root
 voicy.jp##v-sp-download
 vrbo.com##+js(rc, has-uitk-sheet, body, stay)
-w3schools.com##.adventure-footer-banner
 waze.com##.wz-downloadbar
 web.quizknock.com###header_iosapp_link
 webnovel.com##.m_down_app_wrap
@@ -404,7 +400,6 @@ www.reddit.com###configured-xpromo-blocking_xpromo_nsfw_blocking
 www.reddit.com##.configured-xpromo-bottom-sheet
 x.com##html:style(overflow: auto !important;)
 yandex.com##.Distribution-Popup
-yhteishyva.fi##a[href="http://go.yhteishyva.fi/app"]
 youtube.com##.ytmPaidContentOverlayHost
 zaim.net##.top-fix
 zeta-ai.io###portal-container.fixed.z-\[70\]
