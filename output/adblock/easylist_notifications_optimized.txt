@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Notifications (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
-! Version: 2026-10-25T07:58:50Z
+! Version: 2026-11-01T09:56:21Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 773
+! Rules: 772
 !
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -140,7 +140,6 @@
 @@||weekend.ee/static/*/push-notifications.chunk.js$~third-party
 adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.com.ar,catalogosofertas.com.br,catalogosofertas.com.co,catalogosofertas.com.ec,catalogosofertas.com.mx,catalogosofertas.com.pe,catalogueoffers.co.uk,catalogueoffers.com.au,flugblattangebote.at,flyerdeals.ca,folderz.nl,folhetospromocionais.com,folletosofertas.es,gazetki.pl,kundeavisogtilbud.no,ofertelecatalog.ro,offertevolantini.it,promocatalogues.fr,promotiez.be,promotions.ae,prospektangebote.de,reklambladerbjudanden.se,tilbudsaviseronline.dk###mobile-app-popup
 adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.com.ar,catalogosofertas.com.br,catalogosofertas.com.co,catalogosofertas.com.ec,catalogosofertas.com.mx,catalogosofertas.com.pe,catalogueoffers.co.uk,catalogueoffers.com.au,flugblattangebote.at,flyerdeals.ca,folderz.nl,folhetospromocionais.com,folletosofertas.es,gazetki.pl,kundeavisogtilbud.no,ofertelecatalog.ro,offertevolantini.it,promocatalogues.fr,promotiez.be,promotions.ae,prospektangebote.de,reklambladerbjudanden.se,tilbudsaviseronline.dk##.js-page-promotion-container
-agoda.com##.redirectToAppBar
 airasia.com##.QRPopUp__QRPopUpWrapper-sc-8gx7le-0
 aliexpress.com,aliexpress.us###header-float-banner
 aljazeera.com##.user-accounts-tooltip.closable
@@ -157,8 +156,6 @@ atptour.com##[href^="https://www.atptour.com/en/apps"]
 audionetwork.com,carlsenfritzoe.no#@##push-container:not(body):not(html)
 audius.co##+js(rc, scrollLock, , stay)
 audius.co##body:style(overflow: scroll !important)
-autoevolution.com###notif_asker_div
-autoevolution.com##body,html:style(height: auto !important; overflow: auto !important)
 axios.com##.mt-6:has(> [href="https://www.axios.com/newsletters"])
 banggood.com##.bottom-app-contain
 behance.net##.PrimaryNav-appLinkContainer-bhx
@@ -188,13 +185,16 @@ copilot.microsoft.com##body,html:style(overflow: auto !important; position: init
 cosmos.so##+js(set, Object.prototype.disablePaginationLimitForLoggedOut, true)
 crealitycloud.com##+js(set-local-storage-item, closeGuideRegisterTime, 1)
 crealitycloud.com##+js(set-local-storage-item, permission_open_push, 1)
+cricbuzz.com##.cbz-leaderboard-banner
 crunchbase.com##+js(set-local-storage-item, entity-limiter-views, $remove$)
 cryptonews.net##.download_the_app
 daadscholarship.com##+js(abort-on-property-write, LaraPush)
+dawn.com###consent-dialog
 deepl.com###callout-subtitle-chromeExtensionPromo
 deepl.com##+js(set-session-storage-item, LMT_browserExtensionPromo.displayed, true)
 deribit.com##+js(set-local-storage-item, appCardSeen, true)
 downace.com##+js(acis, requestPermission)
+duck.ai##[aria-label="Duck.ai works best in our private and free DuckDuckGo app!"]
 duckduckgo.com##.ddg-extension-hide
 duckduckgo.com##.js-atb-banner
 duckduckgo.com##.legacyMobileHomepage_atbBadge__Wau98
@@ -222,8 +222,6 @@ flypgs.com##.app-b
 flypgs.com##.c-pgs-app
 fogaonet.com##+js(set-cookie, fn_cookie_whatsapp_alert, 1)
 food.ndtv.com##+js(set-cookie, ndtvfood_isSubscribed_elex_v1, no)
-fortnitetracker.com##.mobile-app-preview
-fortnitetracker.com##.trn-site-appbar__apps
 foundit.com.ph##+js(set-session-storage-item, isDownloadAppBannerClosed, true)
 foxnews.com##.push-alert-notify
 gadgets360.com###bnotify
@@ -251,15 +249,17 @@ instacart.com##body:style(height: auto !important; overflow: auto !important)
 instagram.com##+js(set-session-storage-item, lodum, 1)
 instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
 instagram.com##._acc8
+investing.com,waifulabs.com##.bottom-0.fixed
 izi.travel##.app_message
+izumi.jp###s_header[style="top: 84px;"]:style(top: 0 !important;)
 johnsoncitypress.com##.web-promo-designer
 joinhandshake.com,online.rsb.ru#@#.notifications-wrapper
 jp-m.banggood.com##+js(rc, show-app-bar, , stay)
 klipy.com##.z-\[60\]
 kogan.com###footer-native-banner
 ktoo.org##+js(set-cookie, modalDismissed, 1)
+leicester.news##.kg-cta-content-app
 lemon8-app.com##.pc-reflow
-levels.fyi##.modal-module-scss-module__jIc2SW__overlay
 lightinthebox.com##.top_open_app
 lightnovelworld.com##html:style(overflow: auto !important;)
 linkedin.com##.overlay
@@ -280,7 +280,6 @@ m.economictimes.com##+js(set-session-storage-item, nudgeStickyBannerHide, true)
 m.economictimes.com##._2YmFf
 m.economictimes.com##._2rMIm
 m.economictimes.com##body,html:style(overflow: auto !important; position: initial !important;)
-m.hoyolab.com##.guide-download-drawer
 m.iyf.tv##.container:has(> div.download-title)
 m.kaskus.co.id##+js(set-session-storage-item, open_in_browser, 1)
 m.twitch.tv##+js(set-session-storage-item, twilight.custom-smart-banner-dismissed, true)
@@ -291,9 +290,9 @@ m.yelp.be,m.yelp.ca,m.yelp.co.jp,m.yelp.co.nz,m.yelp.co.uk,m.yelp.com,m.yelp.com
 mail.google.com###sdppromo
 makemytrip.com##body:style(overflow: unset !important)
 makerworld.com##body:style(overflow: auto !important; position: initial !important;)
-mamanoko.jp###js-actamDownloadModal
 mega.nz#@#.notification-button
 mercari.com###getTheAppFooter
+metar-taf.com##.download-info
 mobi24.net#@#a[href^="http://www.mobi24.net/"]
 mobi24.net#@#a[href^="https://www.mobi24.net/"]
 moneycontrol.com##.get_app_sticky_btn
@@ -315,7 +314,6 @@ noovo.info##+js(set-cookie, pushNotifications_popup_displayed_v2, true)
 onedio.com##+js(set-cookie, o-push-alert, 1)
 onlineradiobox.com##.playmarket
 openstreetmap.org,rescuetime.com#@#.web-notification
-opentable.com##body:style(overflow: auto !important;)
 otvet.mail.ru#@#.js-notifications-button
 patreon.com##+js(aeld, touchmove, preventDefault)
 paypal.com###PPAppDownloadBannerContainer
@@ -347,6 +345,7 @@ s.tabelog.com##+js(set-cookie, ignore_language_guide, true)
 safeway.ca#@#.mobile-app-banner
 sammobile.com##+js(set-local-storage-item, request-permission-modal, 1)
 search.brave.com###usage-metrics-notice
+sfgate.com##.row1:has([aria-label="Get our ad-free app"])
 shop-apotheke.com##+js(set-session-storage-item, ErxModal, true)
 shufoo.net##+js(rc, is-hidden, body)
 sigmalive.com##+js(set-local-storage-item, push-notifications, no)
@@ -354,6 +353,7 @@ similarweb.com##+js(rc, app-banner-parent, body, stay)
 similarweb.com##.app-header:style(top:0 !important)
 slickdeals.net##body:style(overflow: auto !important; position: initial !important;)
 smocca.jp##+js(set, history.state, undefined)
+snkrdunk.com##a.d-block[href="https://snkrdunkapp.page.link/ZwvZ"]
 soundcloud.com##.l-front-mobile-teaser
 soundcloud.com##.mobileApps
 sp.live.nicovideo.jp##.ga-ns-app-alert-dialog
@@ -362,7 +362,6 @@ speedtest.net##.result-area-ad
 speedtest.net##body:style(overflow: auto !important)
 sports.ndtv.com##body,html:style(overflow: auto !important; position: initial !important;)
 sportskeeda.com##.sidebar-app-download
-sunday-webry.com##.app-read-content
 swisscows.com##.home-link-instruction
 tbsnews.net###___tbspushdiv
 techwalla.com##.component-push-notification
@@ -376,9 +375,9 @@ thestar.com##+js(rc, kumulos-background-mask-blur, , stay)
 threads.com##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)
 threads.net##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)
 tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
+tokubai.co.jp###float_web2app_smart_phone_wrapper
 toy-people.com###notification_alert_container
 trip.com##.m-chromePlugin__pop-wrap
-trip.com##.oh-pwa
 trip.com##body:style(overflow: auto !important; position: initial !important;)
 tubitv.com##+js(set-local-storage-item, windows_prompt_shown_v3, 1)
 tunein.com##+js(set-cookie, hideMacDesktopDialog, true)

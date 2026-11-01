@@ -1,7 +1,7 @@
 # Title: EasyList Cookie List (Optimized) (DNS/hosts format)
-# Version: 2026-10-25T07:58:50Z
+# Version: 2026-11-01T09:56:21Z
 # Homepage: https://github.com/cudios-dev/adfilters
-# Domains: 312
+# Domains: 313
 #
 0.0.0.0 9jdq2a.poco.de
 0.0.0.0 acconsento.click
@@ -294,6 +294,7 @@
 0.0.0.0 sourcepoint.jalopnik.com
 0.0.0.0 sourcepoint.theonion.com
 0.0.0.0 sourcepoint.theroot.com
+0.0.0.0 static.gimii.fr
 0.0.0.0 sync-transcend-cdn.com
 0.0.0.0 t.atmng.io
 0.0.0.0 tp.triple.co.il
