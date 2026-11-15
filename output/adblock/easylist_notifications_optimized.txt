@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Notifications (Optimized)
 ! Description: Intersection of AdGuard optimized annoyances and EasyList Notifications.
-! Version: 2026-11-01T09:56:21Z
+! Version: 2026-11-15T10:14:44Z
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/cudios-dev/adfilters
 ! License: MIT
-! Rules: 772
+! Rules: 778
 !
 -push-notification.$domain=~github.com
 -push-notification/$domain=~github.com
@@ -117,6 +117,8 @@
 /wordpress-fire-push-public.js
 /wp-notification-bars-public.js
 1019therock.com,101theeagle.com,1023thebullfm.com,1025kiss.com,1027kord.com,1033thegoat.com,1035kissfmboise.com,1037theloon.com,1037theriver.com,103gbfrocks.com,103kkcn.com,103wjod.com,1043wowcountry.com,1045theteam.com,1051theblock.com,1057thehawk.com,1061evansville.com,1063nowfm.com,1063thebuzz.com,1073kissfmtexas.com,1073popcrush.com,1075thepeak.com,1079ishot.com,107jamz.com,1130thetiger.com,1340thehawk.com,1390granitecitysports.com,1420wbec.com,1440wrok.com,1470kyyw.com,1520theticket.com,560kmon.com,610kona.com,710keel.com,890kdxu.com,925kaar.com,925theranch.com,929nin.com,929thebull.com,929thelake.com,929theticket.com,92moose.fm,943litefm.com,943thepoint.com,945maxcountry.com,949whom.com,94kix.com,953thebear.com,955kmbr.com,95rockfm.com,961theeagle.com,963theblaze.com,965kvki.com,965therock.com,965thewalleye.com,967theeagle.net,969zoofm.com,973espn.com,973kkrc.com,973thedawg.com,975kgkl.com,975now.com,979kickfm.com,97rockonline.com,97x.com,97zokonline.com,981thehawk.com,983thesnake.com,987jack.com,987kissfmsanangelo.com,987thebomb.com,987thegrand.com,995theapple.com,999bigskysports.com,999ktdy.com,999thepoint.com,99wfmk.com,allhitskzmk.com,alternativemissoula.com,antennamag.com,awesome98.com,b100quadcities.com,b1027.com,b105country.com,b921hits.com,b93.net,b985.fm,banana1015.com,bigcat921.com,bigcat953.com,bigcountry969.com,bigfrog104.com,bigstack1039.com,billingsmix.com,bozemanskissfm.com,caspercowboy.com,catcountry1029.com,catcountry1073.com,catcountryutah.com,catfishtuscaloosa.com,classicrock1051.com,classicrock961.com,club937.com,cnynews.com,cool987fm.com,dakotacountry961.com,danburycountry.com,dave1077.com,eagle1023fm.com,eagle933.com,espn960sanangelo.com,espnquadcities.com,espnsiouxfalls.com,espnwesterncolorado.com,foxsports1510.com,foxsportsutahradio.com,fun1043.com,fun107.com,fun947.com,gator995.com,highway989.com,hot1047.com,hot975fm.com,hot991.com,hudsonvalleycountry.com,i95rock.com,i95rocks.com,jackfmcasper.com,juan925fm.com,juanhudsonvalley.com,k2radio.com,k923.fm,k945.com,k96fm.com,k99.com,k99hits.com,katsfm.com,kbat.com,kbulnewstalk.com,kcrr.com,kdat.com,kdhlradio.com,keanradio.com,kekbfm.com,keyj.com,keyw.com,keyzradio.com,kezj.com,kffm.com,kfilradio.com,kfmx.com,kfox95.com,kfyo.com,kgab.com,kgrzmissoula.com,khak.com,khmoradio.com,kickam1530.com,kicks105.com,kidotalkradio.com,kikn.com,kingfm.com,kisscasper.com,kisselpaso.com,kissfm1053.com,kissfm969.com,kissin977.com,kixs.com,kkam.com,kkyr.com,klaq.com,klaw.com,klubtejano.com,kmhk.com,kmmsam.com,knue.com,koel.com,kool1017.com,kool1079.com,kool929fm.com,kool965.com,koolfmabilene.com,kowb1290.com,kpel965.com,kpq.com,kqvt.com,krfofm.com,krforadio.com,krna.com,kroc.com,krocnews.com,krod.com,ksenam.com,ksfa860.com,ksisradio.com,ksub590.com,ktemnews.com,kubcthecanyon.com,kw3.com,kwcdcountry.com,kxkx.com,kxrb.com,kxtl.com,kygl.com,kyssfm.com,lite987.com,litefm955.com,liteonline.com,live959.com,lonestar923.com,lonestar995fm.com,mega993online.com,minnesotasnewcountry.com,mix1043fm.com,mix106radio.com,mix108.com,mix931fm.com,mix941kmxj.com,mix949.com,mix951.com,mix957gr.com,mix979fm.com,montanastatenews.com,mooseradio.com,my1053wjlt.com,myb106.com,mybeachradio.com,mycountry955.com,myjuan1017.com,mykiss1031.com,mykisscountry937.com,mymagicgr.com,mymajic933.com,mymix923.com,myq1075.com,newsradio1310.com,newstalk1280.com,newstalk1290.com,newstalk870.am,newstalk940.com,newstalkkgvo.com,newstalkkit.com,nj1015.com,northlandfan.com,popcrush.com,power1029noco.com,power959.com,power96radio.com,powerboise.com,praise933.com,q1057.com,q1065.fm,q1077.com,q961.com,q985.fm,q985online.com,quickcountry.com,retro1025.com,river967.com,rivergrandrapids.com,rock1041.com,rock967online.com,screencrush.com,shark1053.com,sojo1049.com,sportsradio977.com,squatchrocks.com,star939.com,star981.com,supertalk1270.com,talk1067.com,talk1470.com,talkradio960.com,tasteofcountry.com,theboot.com,thebullamarillo.com,thegame730am.com,thequake1021.com,theriver979.com,therockofrochester.com,thunder981.com,tide1009.com,ultimateclassicrock.com,us103.com,us1033.com,us1049quadcities.com,us105fm.com,wbckfm.com,wbkr.com,wblk.com,wblm.com,wbsm.com,wbxxfm.com,wchram.com,wcrz.com,wcyy.com,wdbqam.com,wdea.am,wfnt.com,wfpg.com,wgna.com,wgrd.com,wibx950.com,witl.com,wjbq.com,wjimam.com,wjon.com,wkdq.com,wkfr.com,wkmi.com,wmmq.com,wnaw.com,wnbf.com,wobm.comm,wokq.com,womiowensboro.com,wour.com,wpdh.com,wpst.com,wrkr.com,wrrv.com,wsbs.com,wsrkfm.com,wtug.com,wupe.com,wyrk.com,wzozfm.com,xlcountry.com,y105fm.com,y105music.com,y95country.com,z100missoula.com,z1073.com,z94.com,zoey1039.com##.widget-branded_app_promo
+17.live##div[data-testid="mobileBlock"]:has(> div > div > button[data-ga-event-label="download_app_msite"])
+17.live##div[data-testid="mobileBlock"]:has(> div > div > button[data-ga-event-label="download_app_msite"]) + div > div > nav:style(top: 0 !important;)
 404media.co##.col-xs-12.col-md-3:has(> .subscribe-form)
 9animetv.to##img[alt="App Download"]
 9gag.com##.use-app
@@ -140,6 +142,7 @@
 @@||weekend.ee/static/*/push-notifications.chunk.js$~third-party
 adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.com.ar,catalogosofertas.com.br,catalogosofertas.com.co,catalogosofertas.com.ec,catalogosofertas.com.mx,catalogosofertas.com.pe,catalogueoffers.co.uk,catalogueoffers.com.au,flugblattangebote.at,flyerdeals.ca,folderz.nl,folhetospromocionais.com,folletosofertas.es,gazetki.pl,kundeavisogtilbud.no,ofertelecatalog.ro,offertevolantini.it,promocatalogues.fr,promotiez.be,promotions.ae,prospektangebote.de,reklambladerbjudanden.se,tilbudsaviseronline.dk###mobile-app-popup
 adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.com.ar,catalogosofertas.com.br,catalogosofertas.com.co,catalogosofertas.com.ec,catalogosofertas.com.mx,catalogosofertas.com.pe,catalogueoffers.co.uk,catalogueoffers.com.au,flugblattangebote.at,flyerdeals.ca,folderz.nl,folhetospromocionais.com,folletosofertas.es,gazetki.pl,kundeavisogtilbud.no,ofertelecatalog.ro,offertevolantini.it,promocatalogues.fr,promotiez.be,promotions.ae,prospektangebote.de,reklambladerbjudanden.se,tilbudsaviseronline.dk##.js-page-promotion-container
+agoda.com##.redirectToAppBar
 airasia.com##.QRPopUp__QRPopUpWrapper-sc-8gx7le-0
 aliexpress.com,aliexpress.us###header-float-banner
 aljazeera.com##.user-accounts-tooltip.closable
@@ -155,7 +158,7 @@ atptour.com##.atp_apps
 atptour.com##[href^="https://www.atptour.com/en/apps"]
 audionetwork.com,carlsenfritzoe.no#@##push-container:not(body):not(html)
 audius.co##+js(rc, scrollLock, , stay)
-audius.co##body:style(overflow: scroll !important)
+autoscout24.it,dailynews24.in,m.calciomercato.com,mygwork.com,newsmaxbalkans.al,newsmaxbalkans.com,newsmaxpolska.pl,prioritypass.com,similarweb.com,spooncast.net,substack.com,whosampled.com##.app-banner
 axios.com##.mt-6:has(> [href="https://www.axios.com/newsletters"])
 banggood.com##.bottom-app-contain
 behance.net##.PrimaryNav-appLinkContainer-bhx
@@ -178,6 +181,7 @@ chess.com##.ready-to-play-banner-component
 cnet.com##.c-globalModal
 cnet.com##body:style(height: auto !important; overflow: auto !important)
 coincodex.com##.download-coincodex-app
+coincodex.com##.get-app-wrapper
 computrabajo.com###pop-up-webpush-background
 computrabajo.com###pop-up-webpush-sub
 consumerreports.org###mtRoundupPaywallPopup
@@ -202,6 +206,8 @@ ebay.at,ebay.co.uk,ebay.com,ebay.com.au,ebay.de,ebay.es,ebay.fr,ebay.it,ebay.nl,
 ebay.com##.pc-dweb
 ebay.com##html:style(overflow: auto !important; position: initial !important;)
 eksisozluk.com##body,html:style(overflow: auto !important; position: initial !important;)
+eltiempo.es##.elt-fb-popup
+emailnator.com##.top-banner
 epark.jp##.header_app_banner
 expedia.at,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.hk,expedia.com.sg,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.it,expedia.nl,expedia.no,expedia.se,hotels.com##body,html:style(overflow: auto !important; position: initial !important;)
 expedia.at,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.hk,expedia.com.sg,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.it,expedia.nl,expedia.no,expedia.se,hotels.com,vrbo.com##.customer-notification-container
@@ -238,6 +244,7 @@ gumtree.com##.image-app-banner
 gumtree.com.au##.app-download-wrapper
 hindustantimes.com##.app__link
 hindustantimes.com##.openAppButtonEcho
+homes.co.jp##.mod-smartAppBanner
 homes.co.jp##aside[aria-label="LIFULL HOME'S 無料アプリでもっと便利に"]
 iclarified.com##.pushmodal
 ifunny.co##body,html:style(overflow: auto !important; position: initial !important;)
@@ -262,8 +269,6 @@ leicester.news##.kg-cta-content-app
 lemon8-app.com##.pc-reflow
 lightinthebox.com##.top_open_app
 lightnovelworld.com##html:style(overflow: auto !important;)
-linkedin.com##.overlay
-linkedin.com##.upsell-bottom
 linkedin.com##body:style(overflow: auto !important; position: initial !important;)
 livemint.com##.echoOpeninApp
 livescore.com##.android
@@ -283,9 +288,6 @@ m.economictimes.com##body,html:style(overflow: auto !important; position: initia
 m.iyf.tv##.container:has(> div.download-title)
 m.kaskus.co.id##+js(set-session-storage-item, open_in_browser, 1)
 m.twitch.tv##+js(set-session-storage-item, twilight.custom-smart-banner-dismissed, true)
-m.yelp.*##section:has([data-testid="pitch-link"])
-m.yelp.be,m.yelp.ca,m.yelp.co.jp,m.yelp.co.nz,m.yelp.co.uk,m.yelp.com,m.yelp.com.au,m.yelp.com.br,m.yelp.com.mx,m.yelp.com.tr,m.yelp.com.tw,m.yelp.cz,m.yelp.de,m.yelp.dk,m.yelp.es,m.yelp.fi,m.yelp.fr,m.yelp.ie,m.yelp.it,m.yelp.nl,m.yelp.no,m.yelp.pt,m.yelp.se##[aria-label*="Download the Yelp app"]
-m.yelp.be,m.yelp.ca,m.yelp.co.jp,m.yelp.co.nz,m.yelp.co.uk,m.yelp.com,m.yelp.com.au,m.yelp.com.br,m.yelp.com.mx,m.yelp.com.tr,m.yelp.com.tw,m.yelp.cz,m.yelp.de,m.yelp.dk,m.yelp.es,m.yelp.fi,m.yelp.fr,m.yelp.ie,m.yelp.it,m.yelp.nl,m.yelp.no,m.yelp.pt,m.yelp.se##[data-testid="OpenAppButton"]
 m.yelp.be,m.yelp.ca,m.yelp.co.jp,m.yelp.co.nz,m.yelp.co.uk,m.yelp.com,m.yelp.com.au,m.yelp.com.br,m.yelp.com.mx,m.yelp.com.tr,m.yelp.com.tw,m.yelp.cz,m.yelp.de,m.yelp.dk,m.yelp.es,m.yelp.fi,m.yelp.fr,m.yelp.ie,m.yelp.it,m.yelp.nl,m.yelp.no,m.yelp.pt,m.yelp.se##body,html:style(overflow: auto !important; position: initial !important;)
 mail.google.com###sdppromo
 makemytrip.com##body:style(overflow: unset !important)
@@ -297,7 +299,6 @@ mobi24.net#@#a[href^="http://www.mobi24.net/"]
 mobi24.net#@#a[href^="https://www.mobi24.net/"]
 moneycontrol.com##.get_app_sticky_btn
 moovitapp.com##.moovit-banner
-motitown.com##.mt-sticky
 msn.com##views-promo-card
 my-best.com##[href="https://mybest.go.link/dW75E"]
 myanimelist.net##.footer-app
@@ -309,6 +310,7 @@ news24.com##.footer__app-links
 newsbreak.com##.bottom-0.fixed
 newsbreak.com##body:style(height: auto !important; overflow: auto !important)
 newsmax.com###SMSbanner
+newsmaxbalkans.al,newsmaxbalkans.com,newsmaxpolska.pl##.app-social-box
 nextdoor.com##body:style(overflow: auto !important; position: initial !important;)
 noovo.info##+js(set-cookie, pushNotifications_popup_displayed_v2, true)
 onedio.com##+js(set-cookie, o-push-alert, 1)
@@ -362,7 +364,9 @@ speedtest.net##.result-area-ad
 speedtest.net##body:style(overflow: auto !important)
 sports.ndtv.com##body,html:style(overflow: auto !important; position: initial !important;)
 sportskeeda.com##.sidebar-app-download
+sunday-webry.com##.app-read-content
 swisscows.com##.home-link-instruction
+szeretlekmagyarorszag.hu##.modal-app-promo
 tbsnews.net###___tbspushdiv
 techwalla.com##.component-push-notification
 temu.com##div[style="height:0.66rem"]
@@ -371,15 +375,19 @@ tenor.com##.UpsellPill
 thehindu.com##.read-in-app-floating-btn
 thehindu.com,thehindubusinessline.com###gsi_overlay
 themonthly.com.au##+js(set-local-storage-item, rn, $remove$)
+thescore.com##div[class^="GetTheApp__fullScreenContainerScrolldown--"]
 thestar.com##+js(rc, kumulos-background-mask-blur, , stay)
 threads.com##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)
 threads.net##+js(set-session-storage-item, barcelona_mobile_upsell_state, 1)
 tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
 tokubai.co.jp###float_web2app_smart_phone_wrapper
+tour.ne.jp###appPopUpBanner
 toy-people.com###notification_alert_container
 trip.com##.m-chromePlugin__pop-wrap
+trip.com##.oh-pwa
 trip.com##body:style(overflow: auto !important; position: initial !important;)
 tubitv.com##+js(set-local-storage-item, windows_prompt_shown_v3, 1)
+tumblr.com##.y8Hml
 tunein.com##+js(set-cookie, hideMacDesktopDialog, true)
 tunein.com##+js(set-cookie, navBasedDialogManager, true)
 tvtropes.org##+js(set-cookie, app-announcement-banner-count-guest, 1)
@@ -395,13 +403,11 @@ windy.com###open-in-app
 wowhead.com##.notifications-dialog
 wunderground.com##+js(rc, enable-sda, body, stay)
 www.google.com##.tCroyc
-www.reddit.com###configured-xpromo-blocking_xpromo_nsfw_blocking
 www.reddit.com##.configured-xpromo-bottom-sheet
 x.com##html:style(overflow: auto !important;)
 yandex.com##.Distribution-Popup
 youtube.com##.ytmPaidContentOverlayHost
 zaim.net##.top-fix
-zeta-ai.io###portal-container.fixed.z-\[70\]
 ziare.com##.modal-backdrop
 ziare.com##.modal__wp
 zillow.com###local-app-upsell

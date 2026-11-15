@@ -1,5 +1,5 @@
 # Title: EasyList Cookie List (Optimized) (DNS/hosts format)
-# Version: 2026-11-01T09:56:21Z
+# Version: 2026-11-15T10:14:44Z
 # Homepage: https://github.com/cudios-dev/adfilters
 # Domains: 313
 #
